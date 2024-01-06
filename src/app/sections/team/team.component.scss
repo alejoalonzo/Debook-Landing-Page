@@ -1,0 +1,115 @@
+@import '../../../styles.scss';
+.team-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 150px 0;
+
+    .team-title{
+        font-weight: 600;
+        font-size: 48px;
+        font-family: $font-sora;
+        letter-spacing: -0.05em;
+    }
+
+    .team-subtitle{
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: -0.03em;
+
+        span{
+            font-weight: 400;
+            font-style: italic;
+        }
+    }
+
+    .team-founders{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 50px;
+
+        &-founder{
+            display: flex;
+            flex-direction: column;
+            margin: 25px;
+
+            &-titleAndImageGroup{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                &-title{
+                    font-size: 20px;
+                    font-family: $font-sora;
+                    letter-spacing: -0.05em;
+                    font-weight: 800;
+                    margin-bottom: 15px;
+                }
+
+                &-img{
+                    margin-bottom: 15px;
+                    img{
+                        width: 255px;
+                        height: 305px;
+                        border-radius: 15px;
+                    };
+
+                }
+            }
+
+            &-name{
+                text-align: left;
+                font-family: $font-sora;
+                font-weight: 400;
+                letter-spacing: -0.05em;
+                font-size: 20px;
+                color: $black
+            }
+
+            &-position{
+                text-align: left;
+                font-family: $font-sora;
+                font-weight: 400;
+                letter-spacing: -0.03em;
+                font-size: 14px;
+                color: $gray
+            }
+
+            &-experience{
+                text-align: left;
+                font-family: $font-sora;
+                font-weight: 400;
+                letter-spacing: -0.03em;
+                font-size: 14px;
+                color: $gray
+            }
+
+            &-social{
+                text-align: left;
+                i{
+                    color: $gray;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .team-message{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        &-text{
+            width: 391px;
+            color: $black;
+            font-size: 14px;
+            letter-spacing: -0.03em;
+            span{
+                font-weight: bold;
+                font-style: italic;
+            }
+        }
+
+    }
+}

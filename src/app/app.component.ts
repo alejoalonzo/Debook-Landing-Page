@@ -9,6 +9,9 @@ import { FounderMessageComponent } from './sections/founder-message/founder-mess
 import { FundsGoToDevComponent } from './sections/funds-go-to-dev/funds-go-to-dev.component';
 import { PanelsComponent } from './sections/panels/panels.component';
 import { FaqsComponent } from './sections/faqs/faqs.component';
+import { TeamComponent } from './sections/team/team.component';
+import { FooterComponent } from './footer/footer.component';
+import { BodyBottomComponent } from './sections/body-bottom/body-bottom.component';
 
 
 @Component({
@@ -24,7 +27,10 @@ import { FaqsComponent } from './sections/faqs/faqs.component';
               FounderMessageComponent,
               FundsGoToDevComponent,
               PanelsComponent,
-              FaqsComponent
+              FaqsComponent,
+              TeamComponent,
+              FooterComponent,
+              BodyBottomComponent
             ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

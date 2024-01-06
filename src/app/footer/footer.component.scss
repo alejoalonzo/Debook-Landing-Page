@@ -1,0 +1,52 @@
+@import '../../styles.scss';
+.footer-container{
+    width: 100%;
+    height: 141px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+    .footer-logoAndSupp{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-left: 165px;
+
+        &-logo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            &-shape{
+                height: 37px;
+                width: 37px;
+            }
+
+            &-text{
+                color: $red;
+                font-family: $font-sora;
+                font-size: 24px;
+                font-weight: bold;
+                margin-left: 5px;
+            }
+        }
+
+        &-support{
+            color: $gray;
+            font-size: 14px;
+            letter-spacing: -0.03em;
+        }
+    }
+
+    .footer-socials{
+        margin-right: 165px;
+        i{
+            margin-left: 20px;
+            color: $gray;
+            cursor: pointer;
+        }
+    }
+
+    }

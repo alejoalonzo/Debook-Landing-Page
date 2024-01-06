@@ -103,7 +103,7 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
 }
 
 .p-accordion .p-accordion-header .p-accordion-header-link {
-    border: 1px solid #e5e7eb;
+    border: 1px solid #FFE2E2;
     color: #6b7280;
     background: white;
     border-radius: 12px;
@@ -111,8 +111,11 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
 
 .p-accordion .p-accordion-content {
     padding: 1.25rem;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #FFE2E2;
     background: white;
     color: #4b5563;
 
+}
+.p-accordion p-accordiontab .p-accordion-tab {
+    margin-bottom: 10px;
 }
