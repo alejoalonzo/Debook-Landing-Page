@@ -1,0 +1,105 @@
+@import '../../../styles.scss';
+
+.oneBookOneCommunity-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    .oneBookOneCommunity-column{
+        margin-top: 100px;
+  
+
+        &-title{
+            font-size: 70px;
+            font-family: $font-sora;
+            font-weight: 700;
+            letter-spacing: -0.05em;
+            margin-top: 75px;
+        }
+        &-subtitle{
+            margin-bottom: 50px;
+        }
+    }
+
+    .oneBookOneCommunity-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1440px;
+        margin: 150px 0;
+
+        &-content{
+            width: 495px;
+            height: 615px;
+            margin-left: 165px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &-title{
+                font-family: $font-sora;
+                font-size: 48px;
+                font-weight: 600;
+                letter-spacing: -0.05em;
+                text-align: start;
+            }
+            &-subtitle{
+                text-align: start;
+            }
+
+            &-privileges{
+                display: flex;
+                flex-direction: column;
+
+                &-row{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: start;
+                    margin-top: 60px;
+
+                    &-image{
+                        img{
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                    &-text{
+                        text-align: start;
+                        padding-left: 15px;
+                        &-title{
+                            font-size: 20px;
+                            letter-spacing: -0.05em;
+                            color: $black;
+                            margin-bottom: 10px;
+                        }
+                        &-p{
+                            font-size: 14px;
+                            letter-spacing: -0.05em;
+                            color: $gray;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+
+        &-image{
+            width: 510px;
+            height: 615px;
+            margin-right: 165px;
+
+            img{
+                border-radius: 25px;
+                border: 1px solid rgb(200, 196, 196);
+            }
+            &-text{
+                font-size: 14px;
+                letter-spacing: -0.05em;
+            }
+        }
+    }
+
+}

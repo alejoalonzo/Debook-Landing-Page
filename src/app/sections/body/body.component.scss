@@ -1,0 +1,13 @@
+.spacer{
+    width: 100%;
+    height: calc(100vh - 85px);
+    background-color: transparent;
+}
+.body-container{
+    width:100%;
+    height: auto;
+    // background-color: white;
+    background: rgb(254,242,242);
+    background: radial-gradient(circle, rgba(254,242,242,1) 0%, rgba(255,255,255,1) 100%);
+      
+}

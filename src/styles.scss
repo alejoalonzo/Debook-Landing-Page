@@ -1,1 +1,89 @@
 /* You can add global styles to this file, and also import other style files */
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Oswald:wght@200;300;500;700&family=Sora:wght@400;600;700&display=swap');
+
+// icons
+@import "primeicons/primeicons.css";
+
+// colors
+$font-sora: 'Sora', sans-serif;
+$red: #FF4444;
+$black: #050401;
+$gray: #6F6F6F;
+$custom-background: rgb(75,40,40);;
+$custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1) 100%);
+
+//------------------------------------------------------------------------------------------
+//general
+*{
+    box-sizing: border-box;
+}
+
+.gradientText1 {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #FC464A, #000000);
+}
+
+.gradientText2 {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #4B2828, #E0696C);
+}
+
+.gradientText3 {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #909090, #E0696C);
+}
+
+.button-black{
+    .p-button{
+        color: #ffffff;
+        background: $black;
+        border: none;
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9rem;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        border-radius: 25px;
+    }
+}
+
+
+// ng-prime
+// These are default styles provided by PrimeNG components that don't fit my needs in this project
+.p-button {
+    color: #ffffff;
+    background: #FF4444;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 25px;
+}
+.p-card{
+    border-radius: 14px;
+    box-shadow: none;
+}
+.p-card .p-card-content {
+    padding:  0;
+}
+.p-card .p-card-body {
+    padding: 0 1.25rem;
+}
+.p-dropdown {
+    border: transparent;
+}
+.p-focus{
+    outline: 0 none;
+    outline-offset: 0px;
+    box-shadow: none  
+}
+
+.p-dropdown .p-dropdown-clear-icon {
+    display: none;
+}
+.p-dropdown.p-dropdown-clearable .p-dropdown-label {
+    padding-right: 0rem;
+}

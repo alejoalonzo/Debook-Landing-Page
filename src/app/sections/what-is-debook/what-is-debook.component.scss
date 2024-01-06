@@ -1,0 +1,98 @@
+@import '../../../styles.scss';
+.what-is-container{
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+    .title-container{
+        flex-direction: column;
+        .what-is-title{
+            font-family: $font-sora;
+            font-weight: 600;
+            font-size: 55px;
+            letter-spacing: -0.05em;
+            margin-top: 75px;
+        }
+        .what-is-subTitle{
+            color: $black;
+            font-size: 14px;
+            text-align: center;
+        }
+
+    }
+
+    .what-is-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        .what-is-content-group-left, .what-is-content-group-right{
+            width: 34%;
+        }
+        .what-is-content-group-left, .what-is-content-group-right{
+            padding-left: 165px;
+            .what-is-content-numberAndtitle{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 180px;
+
+                &-number{
+                    font-size: 96px;
+                    font-family: $font-sora;
+                    font-weight: 800;
+                }
+                &-text{
+                    font-size: 20px;
+                    font-family: $font-sora;
+                    font-weight: 800;
+                    text-align: start;
+                    margin-left: 10px;
+                }
+            }
+            .what-is-content-numberAndtitleSubtitle{
+                font-size: 20px;
+                text-align: start;
+            }
+            .what-is-content-numberAndtitleDescription{
+                font-size: 14px;
+                text-align: start;
+                color: $gray;
+                margin-top: 25px;
+            }
+        }
+
+        .what-is-content-group-right{
+            padding-left: 0!important;
+            padding-right: 120px;
+
+            .what-is-content-numberAndtitle{
+ 
+                width: 210px;
+            }
+        }
+
+        .what-is-logo-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 275px;
+            height: 275px;
+            border-radius: 47px;
+            background-color: white;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+            .what-is-logo{
+                width: 206px;
+                height: 206px;
+            }
+        }
+    }
+
+}
+

@@ -1,0 +1,26 @@
+<div *ngIf="userData">
+    <p-card *ngFor="let user of userData.artists.items.slice(0, numberOfCards)"
+        [style]="{ width: '204px', height: '330px', }">
+        <ng-template pTemplate="header">
+            <div class="header-content">
+                <img class="card-user-image" alt="Card" src="{{ user.data.visuals.avatarImage.sources[0].url }}" />
+                <span class="user-name">{{ user.data.profile.name }}</span>
+                <span class="date">Date 02/02/2024</span>
+            </div>
+            <div class="card-image-container">
+                <img class="card-image" alt="Card" src="assets/images/debookKey.jpg" />
+            </div>
+        </ng-template>
+        <div class="Magickey-info">Magickey Owner 445/3333</div>
+        <p class="card-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae
+            numquam
+            deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse,
+            cupiditate
+            neque
+            quas!
+        </p>
+        <ng-template pTemplate="footer">
+        </ng-template>
+    </p-card>
+</div>
