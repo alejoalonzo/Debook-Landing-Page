@@ -5,6 +5,10 @@ import { NavComponent } from './nav/nav.component';
 import { HeroComponent } from './sections/hero/hero.component';
 import { BodyComponent } from './sections/body/body.component';
 import { WhatIsDebookComponent } from './sections/what-is-debook/what-is-debook.component';
+import { FounderMessageComponent } from './sections/founder-message/founder-message.component';
+import { FundsGoToDevComponent } from './sections/funds-go-to-dev/funds-go-to-dev.component';
+import { PanelsComponent } from './sections/panels/panels.component';
+import { FaqsComponent } from './sections/faqs/faqs.component';
 
 
 @Component({
@@ -16,7 +20,11 @@ import { WhatIsDebookComponent } from './sections/what-is-debook/what-is-debook.
               NavComponent, 
               HeroComponent, 
               BodyComponent, 
-              WhatIsDebookComponent
+              WhatIsDebookComponent,
+              FounderMessageComponent,
+              FundsGoToDevComponent,
+              PanelsComponent,
+              FaqsComponent
             ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

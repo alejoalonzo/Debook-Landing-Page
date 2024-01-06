@@ -1,0 +1,40 @@
+@import '../../../styles.scss';
+
+.panels-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+
+    .panel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        width: 350px;
+        border-radius: 24px;
+        border: 1px solid #FFE8E8;
+        background-color: #FFF7F7;
+        margin: 15px;
+
+        &-title{
+            font-size: 30px;
+            font-weight: 600;
+            font-family: $font-sora;
+            letter-spacing: -0.05em;
+            margin-bottom: 25px;
+        }
+        &-text{
+            font-size: 30px;
+            letter-spacing: -0.03em;
+            font-size: 14px;
+            text-align: center;
+            line-height: 150%;
+            width: 280px;
+        }
+    }
+}

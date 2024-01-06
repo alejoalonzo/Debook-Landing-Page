@@ -50,6 +50,20 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
     }
 }
 
+.button-black-long{
+    .p-button{
+        color: #ffffff;
+        background: $black;
+        border: none;
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9rem;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        border-radius: 25px;
+        width: 300px;
+    }
+}
+
+
 
 // ng-prime
 // These are default styles provided by PrimeNG components that don't fit my needs in this project
@@ -86,4 +100,19 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
 }
 .p-dropdown.p-dropdown-clearable .p-dropdown-label {
     padding-right: 0rem;
+}
+
+.p-accordion .p-accordion-header .p-accordion-header-link {
+    border: 1px solid #e5e7eb;
+    color: #6b7280;
+    background: white;
+    border-radius: 12px;
+}
+
+.p-accordion .p-accordion-content {
+    padding: 1.25rem;
+    border: 1px solid #e5e7eb;
+    background: white;
+    color: #4b5563;
+
 }

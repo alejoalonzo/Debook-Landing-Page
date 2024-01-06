@@ -60,10 +60,15 @@
                 text-align: start;
             }
             .what-is-content-numberAndtitleDescription{
+
                 font-size: 14px;
                 text-align: start;
                 color: $gray;
                 margin-top: 25px;
+
+                span{
+                    color: $red;
+                }
             }
         }
 
