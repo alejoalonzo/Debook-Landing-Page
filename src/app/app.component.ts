@@ -12,6 +12,7 @@ import { FaqsComponent } from './sections/faqs/faqs.component';
 import { TeamComponent } from './sections/team/team.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyBottomComponent } from './sections/body-bottom/body-bottom.component';
+import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 
 
 @Component({
@@ -30,7 +31,8 @@ import { BodyBottomComponent } from './sections/body-bottom/body-bottom.componen
               FaqsComponent,
               TeamComponent,
               FooterComponent,
-              BodyBottomComponent
+              BodyBottomComponent,
+              ProgressBarComponent
             ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

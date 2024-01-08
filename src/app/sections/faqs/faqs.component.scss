@@ -19,3 +19,23 @@
         margin: 75px 0 150px 0;
     }
 }
+
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+    .faqs-container{
+        width: 290px;
+        height: auto;
+        margin: 0 auto;
+    
+        .faqs-title{
+            font-size: 30px;
+        }
+    
+        .faqs-accordion{
+            margin: 50px 0 100px 0;
+        }
+    }
+
+    
+}

@@ -11,3 +11,12 @@
     background: radial-gradient(circle, rgba(254,242,242,1) 0%, rgba(255,255,255,1) 100%);
       
 }
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+    
+    .spacer{
+        height: 870px;
+        background-color: transparent;
+    }
+}

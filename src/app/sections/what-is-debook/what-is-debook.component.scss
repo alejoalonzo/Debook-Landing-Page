@@ -1,4 +1,5 @@
 @import '../../../styles.scss';
+
 .what-is-container{
     width: 100%;
     padding: 70px 0;
@@ -21,6 +22,9 @@
             color: $black;
             font-size: 14px;
             text-align: center;
+            font-family: $font-inter;
+            font-weight: 700;
+
         }
 
     }
@@ -30,6 +34,11 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 50px;
+
+        .what-is-logo-container-mobile{
+            display: none;
+        }
+        
 
         .what-is-content-group-left, .what-is-content-group-right{
             width: 34%;
@@ -53,18 +62,24 @@
                     font-weight: 800;
                     text-align: start;
                     margin-left: 10px;
+                    letter-spacing: -0.05em;
                 }
             }
             .what-is-content-numberAndtitleSubtitle{
                 font-size: 20px;
                 text-align: start;
+                font-family: $font-sora;
+                font-weight: 700;
+                letter-spacing: -0.05em;
             }
             .what-is-content-numberAndtitleDescription{
-
+                font-family: $font-inter;
                 font-size: 14px;
                 text-align: start;
                 color: $gray;
                 margin-top: 25px;
+                letter-spacing: 0.03em;
+                line-height: 22px;
 
                 span{
                     color: $red;
@@ -102,3 +117,110 @@
 
 }
 
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+
+
+    
+    .what-is-container{
+        width: 100%;
+        padding: 0px 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        
+    
+        .title-container{
+            flex-direction: column;
+            .what-is-title{
+                font-size: 30px;
+                margin-top: 30px;
+            }
+            .what-is-subTitle{
+                color: $black;
+                font-size: 14px;
+                text-align: center;
+            }
+    
+        }
+    
+        .what-is-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 50px;
+            padding: 0 15px;
+
+            .what-is-logo-container-mobile{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 160px;
+                height: 160px;
+                border-radius: 27px;
+                background-color: white;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                margin: 0 auto;
+                margin-bottom: 40px;
+    
+                .what-is-logo-mobile{
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+            
+    
+            .what-is-content-group-left, .what-is-content-group-right{
+                width: 100%;
+            }
+            .what-is-content-group-left, .what-is-content-group-right{
+                padding-left: 0px;
+                margin-bottom: 60px;
+                .what-is-content-numberAndtitle{
+                    width: 100%;
+                    padding: 0 50px;
+    
+                    &-number{
+                        font-size: 96px;
+                        font-family: $font-sora;
+                        font-weight: 800;
+                    }
+                    &-text{
+                        text-align: center;
+                    }
+                }
+                .what-is-content-numberAndtitleSubtitle{
+                    font-size: 20px;
+                    text-align: center;
+                    padding: 0 26px;
+                }
+                .what-is-content-numberAndtitleDescription{
+                    text-align: center;
+
+                    span{
+                        color: $red;
+                        font-weight: bold;
+                    }
+                }
+            }
+    
+            .what-is-content-group-right{
+                padding-left: 0!important;
+                padding-right: 0px;
+    
+                .what-is-content-numberAndtitle{
+                    padding: 0 20px;
+                    width: 100%;
+                }
+            }
+    
+            .what-is-logo-container{
+                display: none;
+            }
+        }
+    
+    }
+    
+}

@@ -12,13 +12,20 @@
     padding: 5%;
     span{
         margin: 3%;
-        width: 9%;
-        height: 70%;
+        width: 9.28%;
+        height: 63.98%;
         background-color: #fff;
         border-radius: 10em;
     }
     span:first-child {
-        transform: rotate(25deg) skew(10deg, 0);
+        transform: rotate(17deg) skew(0deg, 0);
         margin-right: 10%;
+        width: 10.08%; 
+        height: 67.26% 
+    }
+
+    span:last-child {
+        width: 7.50%;
+        height:  63.98%; 
     }
 }

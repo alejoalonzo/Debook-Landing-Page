@@ -16,20 +16,62 @@
         font-weight: 600;
         letter-spacing: -0.05em;
         text-align: end;
-        width: 555px;
+        width: 520px;
         line-height: 115%;
         margin-left: 90px;
+        line-height: 80px;
     }
 
     .founder-message-text{
         padding-right: 90px;
-        width: 740px;
+        width: 790px;
         &-p{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             font-size: 15px;
-            letter-spacing: -0.03em;
+            font-weight: 400;
+            font-family: $font-inter;
+            line-height: 22px;
+            span{
+                display: inline-flex;
+                font-weight: bold;
+            }
         }
     }
+}
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+    
+    .founder-message-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(255,236,236);
+        background: radial-gradient(circle, rgba(255,236,236,1) 11%, rgba(255,246,246,1) 100%);
+    
+        .founder-message-title{
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            width: 272px;
+            line-height: 115%;
+            margin: 0px;
+            margin-top: 60px;
+            margin-bottom: 40px;
+        }
+    
+        .founder-message-text{
+            padding: 0px;
+            width: 290px;
+            &-p{
+                font-size: 14px;
+            }
+        }
+    }
+    
 }

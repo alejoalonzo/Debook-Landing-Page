@@ -34,3 +34,49 @@
         }
     }
 }
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+    
+    .funds-go-to-dev-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    
+        .funds-go-to-dev-img{
+            
+            img{
+                height: auto;
+                width: 290px;
+                margin: 0;
+            }
+        }
+        .funds-go-to-dev-content{
+            width: 320px;
+            &-title{
+                font-size: 24px;
+                text-align: center;
+                margin-bottom: 10px;
+                font-weight: 700;
+                padding: 60px 25px;
+            }
+            &-buttons{
+                margin: 0px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                p-button{
+                    margin: 5px;
+                }
+
+                .go-to-Pitchdeck{
+                    display: none;
+                }
+                margin: 5px;
+            }
+        }
+    }
+    
+}
+
+

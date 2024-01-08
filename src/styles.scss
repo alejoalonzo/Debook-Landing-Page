@@ -1,13 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
 // fonts
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Oswald:wght@200;300;500;700&family=Sora:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap');
+$font-sora: 'Sora', sans-serif;
+$font-inter: 'Inter', sans-serif;
 
 // icons
 @import "primeicons/primeicons.css";
 
 // colors
-$font-sora: 'Sora', sans-serif;
 $red: #FF4444;
 $black: #050401;
 $gray: #6F6F6F;
@@ -72,10 +73,16 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
     background: #FF4444;
     border: none;
     padding: 0.75rem 1.25rem;
+    font-family: $font-inter;
     font-size: 0.9rem;
     transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
     border-radius: 25px;
 }
+
+:host ::ng-deep .p-button .p-button-label {
+    font-weight: 300; 
+}
+
 .p-card{
     border-radius: 14px;
     box-shadow: none;
@@ -107,6 +114,7 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
     color: #6b7280;
     background: white;
     border-radius: 12px;
+    font-family: $font-inter;
 }
 
 .p-accordion .p-accordion-content {
@@ -114,8 +122,26 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
     border: 1px solid #FFE2E2;
     background: white;
     color: #4b5563;
+    font-family: $font-inter;
 
 }
 .p-accordion p-accordiontab .p-accordion-tab {
     margin-bottom: 10px;
+}
+
+
+
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+    
+    .p-inputtext {
+        padding: 0.3rem 0.3rem;
+    }
+    .p-dropdown .p-dropdown-trigger {
+        width: 1.5rem;
+    }
+
+
+    
 }

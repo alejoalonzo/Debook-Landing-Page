@@ -74,7 +74,8 @@
                 font-weight: 400;
                 letter-spacing: -0.03em;
                 font-size: 14px;
-                color: $gray
+                color: $gray;
+                margin-top: 8px;
             }
 
             &-experience{
@@ -83,14 +84,16 @@
                 font-weight: 400;
                 letter-spacing: -0.03em;
                 font-size: 14px;
-                color: $gray
+                color: $gray;
+                margin-top: 4px;
             }
 
             &-social{
                 text-align: left;
                 i{
                     color: $gray;
-                    margin-right: 5px;
+                    margin-top: 7px;
+                    margin-right: 15px;
                 }
             }
         }
@@ -101,6 +104,8 @@
         justify-content: center;
         margin-bottom: 50px;
         &-text{
+            font-family: $font-inter;
+            line-height: 22px;
             width: 391px;
             color: $black;
             font-size: 14px;
@@ -112,4 +117,123 @@
         }
 
     }
+}
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+    .team-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 80px 0;
+    
+        .team-title{
+            font-weight: 700;
+            font-size: 30px;
+            padding: 0 20px;
+        }
+    
+        .team-subtitle{
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: -0.03em;
+    
+            span{
+                font-weight: 400;
+                font-style: italic;
+            }
+        }
+    
+        .team-founders{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 50px;
+    
+            &-founder{
+                display: flex;
+                flex-direction: column;
+                margin: 10px;
+    
+                &-titleAndImageGroup{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+    
+                    &-title{
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin-bottom: 15px;
+                        line-height: 20px;
+                    }
+    
+                    &-img{
+                        margin-bottom: 15px;
+                        img{
+                            width: 130px;
+                            height: 155px;
+                            border-radius: 15px;
+                        };
+    
+                    }
+                }
+    
+                &-name{
+                    text-align: left;
+                    font-family: $font-sora;
+                    font-weight: 400;
+                    letter-spacing: -0.05em;
+                    font-size: 20px;
+                    color: $black
+                }
+    
+                &-position{
+                    text-align: left;
+                    font-family: $font-sora;
+                    font-weight: 400;
+                    letter-spacing: -0.03em;
+                    font-size: 14px;
+                    color: $gray
+                }
+    
+                &-experience{
+                    text-align: left;
+                    font-family: $font-sora;
+                    font-weight: 400;
+                    letter-spacing: -0.03em;
+                    font-size: 14px;
+                    color: $gray
+                }
+    
+                &-social{
+                    text-align: left;
+                    i{
+                        color: $gray;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    
+        .team-message{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            padding: 0 25px;
+            &-text{
+                width: 391px;
+                color: $black;
+                font-size: 14px;
+                letter-spacing: -0.03em;
+                span{
+                    font-weight: bold;
+                    font-style: italic;
+                }
+            }
+    
+        }
+    }
+
+    
 }

@@ -31,6 +31,7 @@ p-card{
             color: $gray;
             font-size: 10px;
             bottom: 5px;
+            font-family: $font-inter;
         }
     }
 
@@ -45,19 +46,21 @@ p-card{
         display: flex;
         align-items: center;
         justify-content: center;
-        
-        background-color: $red;
         font-size: 10px;
-        font-family: $font-sora;
-        color: white;
+        font-family: $font-inter;
+        font-weight: 600;
+        color: $red;
         width: auto;
         height: 20px;
         border-radius: 2em;
         text-align: center;
+        letter-spacing: -0.05em;
 
     }
     .card-content{
         font-size: 10px;
+        font-family: $font-inter;
+        font-weight: 500;
         max-height: 3 * (1.2em); 
         overflow: hidden;
         text-overflow: ellipsis;
@@ -66,6 +69,7 @@ p-card{
         -webkit-box-orient: vertical;
         text-align: center;
         padding: 0!important;
+        letter-spacing: -0.03em;
     }
 
 }
