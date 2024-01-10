@@ -106,8 +106,15 @@
             height: 615px;
             margin-right: 165px;
 
-            img{
-                border-radius: 25px;
+            // img{
+            //     border-radius: 25px;
+            //     border: 1px solid rgb(200, 196, 196);
+            // }
+            video{
+                width: 508px;
+                height: 616px;
+                border-radius: 24px;
+                object-fit: cover;
                 border: 1px solid rgb(200, 196, 196);
             }
             &-text{
@@ -128,11 +135,12 @@
         justify-content: center;
         text-align: center;
         flex-direction: column;
+        width: 290px;
+        margin: 0 auto;
     
         .oneBookOneCommunity-column{
             margin-top: 50px;
-      
-    
+            
             &-title{
                 font-size: 30px;
                 margin-top: 25px;
@@ -141,7 +149,11 @@
                 font-size: 14px;
                 margin-bottom: 10px;
                 font-weight: 700;
-                padding: 10px 25px;
+                padding: 0;
+                width: 250px;
+                margin: 0 auto;
+                margin: 25px;
+                margin-bottom: 25px;
             }
         }
     
@@ -149,7 +161,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            width: 320px;
+            width: 290px;
             margin: 50px 0;
     
             &-content{
@@ -163,15 +175,16 @@
                 &-title{
                     font-size: 30px;
                     font-weight: 700;
-                    width: 80%;
-                    padding: 25px 0 25px 15px;
+                    width: 250px;
+                    padding: 0;
                     line-height: 37px;
+                    margin: 50px 0 25px 0;
                 }
                 &-subtitle{
                     text-align: start;
                     font-weight: 500;
                     font-size: 14px;
-                    padding: 0 15px;
+                    padding: 0;
                     line-height: 20px;
                     margin-bottom: 30px;
                 }
@@ -230,6 +243,13 @@
                 img{
                     width: 291px;
                     height: 300px;
+                }
+                video{
+                    width: 291px;
+                    height: 300px;
+                    border-radius: 24px;
+                    object-fit: cover;
+                    border: 1px solid rgb(200, 196, 196);
                 }
                 &-text{
                 }

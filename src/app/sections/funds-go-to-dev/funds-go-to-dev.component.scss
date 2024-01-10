@@ -6,11 +6,14 @@
     align-items: center;
 
     .funds-go-to-dev-img{
-        
+
         img{
             height: 607px;
             width: auto;
             margin: 125px 0 110px 110px;
+        }
+        .button-mobile{
+            display: none;
         }
     }
     .funds-go-to-dev-content{
@@ -44,21 +47,30 @@
         align-items: center;
     
         .funds-go-to-dev-img{
-            
+            display: flex;
+            flex-direction: column;
             img{
                 height: auto;
                 width: 290px;
                 margin: 0;
             }
+            .button-mobile{
+                display: flex;
+                margin-top: 50px;
+            }
         }
         .funds-go-to-dev-content{
             width: 320px;
             &-title{
+                width: 265px;
+                margin: auto;
                 font-size: 24px;
                 text-align: center;
-                margin-bottom: 10px;
                 font-weight: 700;
-                padding: 60px 25px;
+                padding: 0;
+                margin-bottom: 50px;
+                margin-top: 65px;
+
             }
             &-buttons{
                 margin: 0px;
@@ -68,11 +80,11 @@
                 p-button{
                     margin: 5px;
                 }
-
-                .go-to-Pitchdeck{
-                    display: none;
-                }
                 margin: 5px;
+            }
+
+            .hide-buttons{
+                display: none;
             }
         }
     }

@@ -10,5 +10,6 @@ import { CarrouselPrivilegesComponent } from '../../components/carrousel-privile
   styleUrl: './one-book-one-community.component.scss'
 })
 export class OneBookOneCommunityComponent {
+  videoSource: string = '/assets/images/FINAL.mp4';
 
 }

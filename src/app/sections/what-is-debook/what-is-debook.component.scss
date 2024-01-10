@@ -130,6 +130,7 @@
         justify-content: center;
         flex-direction: column;
         text-align: center;
+        background-color: white;
         
     
         .title-container{
@@ -150,10 +151,10 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            margin-top: 50px;
+            margin-top: 40px;
             padding: 0 15px;
 
-            .what-is-logo-container-mobile{
+            /*.what-is-logo-container-mobile{
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -169,7 +170,7 @@
                     width: 120px;
                     height: 120px;
                 }
-            }
+            }*/
             
     
             .what-is-content-group-left, .what-is-content-group-right{
@@ -180,7 +181,8 @@
                 margin-bottom: 60px;
                 .what-is-content-numberAndtitle{
                     width: 100%;
-                    padding: 0 50px;
+                    padding: 0;
+                    justify-content: center;
     
                     &-number{
                         font-size: 96px;
@@ -188,16 +190,23 @@
                         font-weight: 800;
                     }
                     &-text{
+                        width: 116px;
                         text-align: center;
                     }
                 }
                 .what-is-content-numberAndtitleSubtitle{
                     font-size: 20px;
                     text-align: center;
-                    padding: 0 26px;
+                    padding: 0;
+                    width: 208px;
+                    margin: 0 auto;
+                    margin-top: 20px;
                 }
                 .what-is-content-numberAndtitleDescription{
                     text-align: center;
+                    width: 290px;
+                    margin: 0 auto;
+                    margin-top: 20px;
 
                     span{
                         color: $red;
@@ -209,15 +218,29 @@
             .what-is-content-group-right{
                 padding-left: 0!important;
                 padding-right: 0px;
-    
+                margin-top: 50px;
+
                 .what-is-content-numberAndtitle{
-                    padding: 0 20px;
+                    padding: 0;
                     width: 100%;
+
+                    &-text{
+                        width: 137px;
+                    }
                 }
             }
     
             .what-is-logo-container{
-                display: none;
+
+                width: 160px;
+                height: 160px;
+                border-radius: 27px;
+                margin:  0 auto;
+    
+                .what-is-logo{
+                    width: 120px;
+                    height: 120px;
+                }
             }
         }
     

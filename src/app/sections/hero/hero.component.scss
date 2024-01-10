@@ -106,16 +106,18 @@
     .hero-container{
         height: 820px;
         position: absolute;
-        top: 50px;
-        left: calc(50% - 160px);
-        width: 320px;
+        top: 65px;
+        // left: calc(50% - 160px);
+
+        width: 96%;
+        left:auto;
         overflow: hidden;
     
         .hero-content{
             margin-left: 0px;
             width: 625px;
             h1{
-                font-size: 37px;
+                font-size: 30px;
                 font-weight: 700;
                 margin-top: 50px;
                 letter-spacing: -0.05em;
@@ -125,16 +127,21 @@
                 font-size: 24px;
                 font-weight: 600;
                 letter-spacing: -0.05em;
-                margin-top: -30px;
+                width: 200px;
+                margin: 0 auto;
+                margin-top: -20px;
                 text-align: center;
-                padding: 0 35px;
+                padding: 0;
             }
             .subtitle{
                 font-size: 14px;
-                width: 100%;
+                width: 290px;
+                margin: 0 auto;
                 text-align: center;
                 line-height: 1.6;
-                padding: 0 20px;
+                padding: 0;
+                margin-top: 25px;
+                margin-bottom: 25px;
             }
 
             .hero-button{
@@ -146,9 +153,11 @@
             .loadingText{
                 letter-spacing: -0.03em;
                 font-size: 12px;
+                margin: 0 auto;
                 margin-bottom: 5px;
-                margin-top: 40px;
-                padding-left: 15px;
+                margin-top: 50px;
+                padding-left: 5px;
+                width: 290px;
 
             }
             .progressBar{
@@ -168,7 +177,7 @@
                 top: 470px;
                 right: -150px;  
                 transform: rotate(360deg);
-                width: 645px;
+                width: 642px;
             }
             
             .hero-cards2{
