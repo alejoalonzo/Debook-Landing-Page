@@ -102,21 +102,23 @@
 
 
         &-image{
-            width: 510px;
-            height: 615px;
+            width: 506px;
+            height: 616px;
             margin-right: 165px;
 
-            // img{
-            //     border-radius: 25px;
-            //     border: 1px solid rgb(200, 196, 196);
-            // }
-            video{
+            img{
                 width: 508px;
                 height: 616px;
-                border-radius: 24px;
-                object-fit: cover;
+                border-radius: 25px;
                 border: 1px solid rgb(200, 196, 196);
             }
+            // video{
+            //     width: 508px;
+            //     height: 616px;
+            //     border-radius: 24px;
+            //     object-fit: cover;
+            //     border: 1px solid rgb(200, 196, 196);
+            // }
             &-text{
                 font-size: 14px;
                 letter-spacing: -0.05em;
@@ -190,7 +192,9 @@
                 }
 
                 .carrousel-privileges{
-                    display: flex;
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 50px;
                 }
     
                 &-privileges{
@@ -244,13 +248,13 @@
                     width: 291px;
                     height: 300px;
                 }
-                video{
-                    width: 291px;
-                    height: 300px;
-                    border-radius: 24px;
-                    object-fit: cover;
-                    border: 1px solid rgb(200, 196, 196);
-                }
+                // video{
+                //     width: 291px;
+                //     height: 300px;
+                //     border-radius: 24px;
+                //     object-fit: cover;
+                //     border: 1px solid rgb(200, 196, 196);
+                // }
                 &-text{
                 }
             }

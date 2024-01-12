@@ -13,6 +13,8 @@ import { TeamComponent } from './sections/team/team.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyBottomComponent } from './sections/body-bottom/body-bottom.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { CarrouselPrivilegesComponent } from './components/carrousel-privileges/carrousel-privileges.component';
+import { CarrouselWHYBoxComponent } from './components/carrousel-why-box/carrousel-why-box.component';
 
 
 @Component({
@@ -32,7 +34,9 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
               TeamComponent,
               FooterComponent,
               BodyBottomComponent,
-              ProgressBarComponent
+              ProgressBarComponent,
+              CarrouselPrivilegesComponent,
+              CarrouselWHYBoxComponent
             ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

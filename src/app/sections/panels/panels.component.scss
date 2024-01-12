@@ -45,9 +45,21 @@
         }
     }
 }
+.panels-mobile{
+    display: none;
+}
 
 // mobile------------------------------------------------------------
 @media  screen and (max-width: 450px){
+    .panels-container{
+        display: none;
+    }
+    .panels-mobile{
+        display: block;
+        width: 100%;
+    }
+
+    /*
     .panels-container{
         display: flex;
         flex-direction: column;
@@ -90,6 +102,6 @@
                 }
             }
         }
-    }
+    }*/
 
 }
