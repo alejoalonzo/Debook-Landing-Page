@@ -19,6 +19,11 @@
             flex-direction: row;
             align-items: center;
 
+            img{
+                width: 36px;
+                height: 36px;
+            }
+
             &-shape{
                 height: 37px;
                 width: 37px;
@@ -74,15 +79,24 @@
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
+
+
     
                 &-shape{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
                     height: 37px;
                     width: 37px;
+                }
+                img{
+                    width: 20px;
+                    height: 20px;
                 }
     
                 &-text{
                     font-weight: bold;
-                    margin-left: 5px;
+                    margin-left: 0;
                 }
             }
     

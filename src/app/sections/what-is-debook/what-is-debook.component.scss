@@ -19,11 +19,12 @@
             margin-top: 75px;
         }
         .what-is-subTitle{
-            color: $black;
-            font-size: 14px;
-            text-align: center;
-            font-family: $font-inter;
-            font-weight: 700;
+            display: none;
+            // color: $black;
+            // font-size: 14px;
+            // text-align: center;
+            // font-family: $font-inter;
+            // font-weight: 700;
 
         }
 
@@ -136,13 +137,15 @@
         .title-container{
             flex-direction: column;
             .what-is-title{
-                font-size: 30px;
-                margin-top: 30px;
+                font-size: 2.4em;
+                margin-top: 50px;
             }
             .what-is-subTitle{
-                color: $black;
-                font-size: 14px;
-                text-align: center;
+                display: none;
+
+                // color: $black;
+                // font-size: 14px;
+                // text-align: center;
             }
     
         }
@@ -152,7 +155,7 @@
             flex-direction: column;
             justify-content: center;
             margin-top: 40px;
-            padding: 0 15px;
+            padding: 0;
 
             /*.what-is-logo-container-mobile{
                 display: flex;
@@ -185,28 +188,30 @@
                     justify-content: center;
     
                     &-number{
-                        font-size: 96px;
+                        font-size: 8em;
                         font-family: $font-sora;
                         font-weight: 800;
                     }
                     &-text{
-                        width: 116px;
+                        width: 142px;
                         text-align: center;
+                        font-size: 1.5em;
                     }
                 }
                 .what-is-content-numberAndtitleSubtitle{
-                    font-size: 20px;
+                    font-size: 1.5em;
                     text-align: center;
                     padding: 0;
-                    width: 208px;
+                    width: 230px;
                     margin: 0 auto;
                     margin-top: 20px;
                 }
                 .what-is-content-numberAndtitleDescription{
                     text-align: center;
-                    width: 290px;
+                    width: 90%;
                     margin: 0 auto;
                     margin-top: 20px;
+                    font-size: 1em;
 
                     span{
                         color: $red;
@@ -225,8 +230,11 @@
                     width: 100%;
 
                     &-text{
-                        width: 137px;
+                        width: 160px;
                     }
+                }
+                .what-is-content-numberAndtitleSubtitle{
+                    width: 290px;
                 }
             }
     

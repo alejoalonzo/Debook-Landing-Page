@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap');
 $font-sora: 'Sora', sans-serif;
 $font-inter: 'Inter', sans-serif;
+$lineH-P-Mobile: 22px;
 
 // icons
 @import "primeicons/primeicons.css";
@@ -18,6 +19,7 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
 //------------------------------------------------------------------------------------------
 //general
 *{
+    margin-top: 0;
     box-sizing: border-box;
 }
 
@@ -142,4 +144,38 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
     .p-dropdown .p-dropdown-trigger {
         width: 1.5rem;
     }
+
+    .p-button {
+        color: #ffffff;
+        background: #FF4444;
+        border: none;
+        padding: 1.3rem 1.25rem;
+        font-family: $font-inter;
+        font-size: 0.9rem;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        border-radius: 35px;
+    }
+
+    .button-black{
+        .p-button{
+            padding: 1.3rem 1.25rem;
+            border-radius: 35px;
+        }
+    }
+    
+    .button-black-long{
+        .p-button{
+            width: 90%;
+            padding: 1.3rem 1.25rem;
+            border-radius: 35px;
+        }
+    }
+
+    .p-accordion, .p-accordion .p-accordion-content {
+        font-size: 0.9em;
+        font-family: "Inter", sans-serif;
+        line-height: $lineH-P-Mobile;
+    }
+
+
 }

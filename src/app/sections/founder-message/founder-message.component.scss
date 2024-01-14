@@ -25,6 +25,9 @@
     .founder-message-text{
         padding-right: 90px;
         width: 790px;
+        p:first-child{
+            display: block;
+        }
         &-p{
             display: flex;
             flex-direction: column;
@@ -55,10 +58,10 @@
         background: radial-gradient(circle, rgba(255,236,236,1) 11%, rgba(255,246,246,1) 100%);
     
         .founder-message-title{
-            font-size: 30px;
+            font-size: 2.4em;
             font-weight: 700;
             text-align: center;
-            width: 272px;
+            width: 325px;
             line-height: 115%;
             margin: 0px;
             margin-top: 60px;
@@ -67,9 +70,14 @@
     
         .founder-message-text{
             padding: 0px;
-            width: 290px;
+            width: 90%;
+            padding-bottom: 50px;
+            p:first-child{
+                display: block;
+            }
             &-p{
-                font-size: 14px;
+                font-size: 1em;
+                line-height: $lineH-P-Mobile;
             }
         }
     }

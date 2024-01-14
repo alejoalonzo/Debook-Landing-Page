@@ -30,7 +30,7 @@ export class NavComponent implements OnInit{
     ngOnInit() {
         this.cities = [
             { name: 'En', code: 'En' },
-            { name: 'Sp', code: 'Sp' },
+            { name: 'Es', code: 'Es' },
         ];
         this.selectedCity = this.cities.find(city => city.code === 'En');
     }

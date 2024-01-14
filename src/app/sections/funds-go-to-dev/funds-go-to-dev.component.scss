@@ -49,22 +49,25 @@
         .funds-go-to-dev-img{
             display: flex;
             flex-direction: column;
+            width: 100%;
+            
             img{
                 height: auto;
-                width: 290px;
-                margin: 0;
+                width: 90%;
+                margin: 0 auto;
             }
             .button-mobile{
                 display: flex;
+                justify-content: center;
                 margin-top: 50px;
             }
         }
         .funds-go-to-dev-content{
-            width: 320px;
+            width: 100%;
             &-title{
-                width: 265px;
+                width: 325px;
                 margin: auto;
-                font-size: 24px;
+                font-size: 1.8em;
                 text-align: center;
                 font-weight: 700;
                 padding: 0;
