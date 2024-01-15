@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+
 import { NavComponent } from './nav/nav.component';
 import { HeroComponent } from './sections/hero/hero.component';
 import { BodyComponent } from './sections/body/body.component';
@@ -15,6 +16,7 @@ import { BodyBottomComponent } from './sections/body-bottom/body-bottom.componen
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { CarrouselPrivilegesComponent } from './components/carrousel-privileges/carrousel-privileges.component';
 import { CarrouselWHYBoxComponent } from './components/carrousel-why-box/carrousel-why-box.component';
+import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
@@ -23,6 +25,7 @@ import { CarrouselWHYBoxComponent } from './components/carrousel-why-box/carrous
   imports: [
               CommonModule, 
               RouterOutlet, 
+
               NavComponent, 
               HeroComponent, 
               BodyComponent, 
@@ -43,4 +46,15 @@ import { CarrouselWHYBoxComponent } from './components/carrousel-why-box/carrous
 })
 export class AppComponent {
   title = 'debook';
+  // currentLanguage: string;
+
+  constructor(private translate: TranslateService){
+    // translate.setDefaultLang('en');
+    translate.addLangs(['en', 'es']);
+    translate.setDefaultLang('en');
+  }
+  switchLang(lang: string){
+    this.translate.use(lang)
+  }
+
 }

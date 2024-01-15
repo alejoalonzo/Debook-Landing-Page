@@ -1,0 +1,108 @@
+
+{
+    "sections": {
+        "hero": {
+            "title": "3333 DEBOOK MAGICKEYS",
+            "title2": "to unlock the next book thing",
+            "subtitle": "Be part of a passionate community with unlimited benefits by supporting the early stage of DEBOOK!",
+            "loadingText": "2400 out of 3333 available"
+        },
+        "what-is-debook": {
+            "title": "What is DEBOOK",
+            "1-subtitle": "“debook” is the new book format",
+            "1-text":{
+                "start":"",
+                "span":"debook",
+                "end":"empower authors to earn more by turning their book into a community, unfolding a new and enhanced reading experience for everyone!"
+            },
+            "2-title": "Where books come to life",
+            "2-subtitle": "“DEBOOK” is the platform for debooks",
+            "2-text": "is the place to publish debooks, to read, the markeplace to buy and sell, to connect readers with readers and authors, and place to showcase your library to the world!"
+        },
+        "one-book-one-community": {
+            "title": "ONE BOOK ONE COMMUNITY",
+            "subtitle": "Discover our WHAT, HOW and WHY and the 6 Valuations Phases",
+            "The-privileges":{
+                "title":"The privileges of DEBOOK MAGICKEYS",
+                "subtitle":"As DEBOOK grows, your MAGICKEY benefits grow with it. We are committed to rewarding our loyal supporters from day one!",
+                "rows": {
+                    "title1":"Access to every debook",
+                    "sub-title1":"Imagine when 1,000 and 1,000,000 authors publish their book, you'll get access to read +1,000,000 debooks!",
+                    "title2":"Access to the most supportive community",
+                    "sub-title2":"Imagine being part of a changemakers group of people supporting each other, and sharing your insights through videocalls and Q&A with DEBOOK team!",
+                    "title3":"Access to debooks presales,  app updates and the best surprises",
+                    "sub-title3":"Exclusive early access to the biggest debook authors. Embark on a journey of unique surprises, shaping DEBOOK as the future of reading and publishing forever!"
+                }
+            },
+            "image-text": "As a digital asset you can resell your MAGICKEY for the price you choose!"
+        },
+        "founder-message": {
+            "title": "The community any enterpreneur would dream of!",
+            "text":{
+                "p1":{
+                    "bold":"Founder Message:",
+                    "text":"Honestly, this is the deepest reason I'm launching these MAGICKEYS with unique value for a very limited group of people. Building a startup is not easy. It's an up-and-down journey with thousands of challenges and hours of feeling lost and alone. I know it's not sexy to say, but it's the reality. Of course, it's also an adventure with plenty of lessons, celebrations, and new incredible relationships."
+                },
+                "p2":"Who is ready to go through all of that? Since the vision was born in June 2021, here I am. And for how long? Until WE make it happen.",
+                "p3":"I dream of waking up every morning and feeling the support of a passionate, optimistic, and kind community. 3,333 people or less will have the opportunity to live this one-way trip from the inside.",
+                "p4":"If you feel called, join the DEBOOK MAGICKEY community, made up of dreamers who support, motivate, and challenge each other to achieve their wildest dreams. Let's become part of the book history together!"
+            }
+        },
+        "funds-go-to-dev": {
+            "title": "100% OF THE FUNDS GO TO SUCCESSFULLY DEVELOP PHASE 1/6"
+        },
+        "panels": {
+            "1":{
+                "title": "WHY DEBOOK?",
+                "text": {
+                    "regular":"DEBOOK is a platform where",
+                    "bold":"everyone benefits.",
+                    "regular2":"Authors can solve two massive problems: low income and non-existent connection with readers. Readers enhance their",
+                    "bold2":"reading experience,",
+                    "regular3":"and publishers gain a new revenue stream. See the pitchdeck for more details."
+                }
+            },
+            "2":{
+                "title": "WHY TODAY?",
+                "text": {
+                    "regular":"Simply because it is a",
+                    "bold":"one life-time opportunity",
+                    "regular2":"to be part of a revolutionary project since day one. Imagine being part of",
+                    "bold2":"the early community that supported Amazon",
+                    "regular3":"They started selling ebooks early, we start selling debooks early!"
+                }
+            },
+            "3":{
+                "title": "WHY US?",
+                "text": {
+                    "regular":"Co-founders'",
+                    "bold":"stories",
+                    "regular2":"that intertwine tech and books are truly remarkable, not only due to their tenure at tech giants but also for their innovative projects in the book industry, a clear indication of their",
+                    "bold2":"desire to change the status quo for authors, readers and publishers!"
+                }
+            }
+            
+        },
+        "team": {
+            "title": "TEAM BUILDING THE DREAM",
+            "subtitle":{
+                "bold":"See full team on",
+                "regular":"the pitchdeck"
+            },
+            "founders":{
+                "1":{
+                    "title":"MIND BEHIND THE TECH"
+                },
+                "2":{
+                    "title":"MIND BEHIND THE VISON",
+                    "experience":"Entrepreneur since 2014: TFB, SYL & LC"
+                }
+            },
+            "message": {
+                "regular":"Ernest is sharing on Linkedin a weekly docu-series in real time of the journey of",
+                "bold":"Building DEBOOK in Public"
+            }
+        }
+
+    }
+}

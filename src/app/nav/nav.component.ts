@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { DropdownModule } from 'primeng/dropdown';
 import { LogoComponent } from '../components/logo/logo.component';
+
+import { TranslateService } from '@ngx-translate/core';
 
 
 
@@ -23,15 +25,29 @@ interface City {
 })
 export class NavComponent implements OnInit{
 
-    cities: City[] | undefined;
+    @Output() languageChange = new EventEmitter<string>();
 
+    cities: City[] = [];
     selectedCity: City | undefined;
+
+    constructor(private translate: TranslateService) { }
+
+
 
     ngOnInit() {
         this.cities = [
-            { name: 'En', code: 'En' },
-            { name: 'Es', code: 'Es' },
+            { name: 'En', code: 'en' },
+            { name: 'Es', code: 'es' },
         ];
-        this.selectedCity = this.cities.find(city => city.code === 'En');
+
+        
+        const currentLang = this.translate.currentLang;
+        this.selectedCity = this.cities.find(city => city.code === currentLang);
     }
+
+    onLanguageChange() {
+      this.languageChange.emit(this.selectedCity?.code || 'en');
+    }
+
 }
+
