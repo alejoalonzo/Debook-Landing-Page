@@ -1,0 +1,106 @@
+{
+    "sections": {
+        "hero": {
+            "title": "3333 DEBOOK MAGICKEYS",
+            "title2": "para desbloquear el futuro de los libros",
+            "subtitle": "Se parte de una apasionada comunidad y consigue ilimitados beneficios por apoyar la etapa inicial de DEBOOK",
+            "loadingText": "  2400 de 3333 disponibles"
+        },
+        "what-is-debook": {
+            "title": "Qué es DEBOOK",
+            "1-subtitle": "“debook” es el nuevo formato de libros",
+            "1-text":{
+                "start":"Publicar un",
+                "span":"debook",
+                "end":"empodera al autor a generar más ingresos convirtiendo su libro en una comunidad y mejora la experiencia de sus lectores permitiendo que el libro cobre vida!"
+            },
+            "2-title": "Donde los libros cobran vida",
+            "2-subtitle": "“DEBOOK” es la plataforma de debooks",
+            "2-text": "es el lugar para publicar debooks, leer y el marketplace de compra-venta que conecta a lectores y autores. ¡El lugar para mostar tu librería al mundo!"
+        },
+        "one-book-one-community": {
+            "title": "UN LIBRO UNA COMUNIDAD",
+            "subtitle": "Descubre nuestro QUÉ, CÓMO y PORQUÉ y las 6 Fases de Valoración",
+            "The-privileges":{
+                "title":"Privilegios de las DEBOOK MAGICKEYS",
+                "subtitle":"A medida que DEBOOK crece, los beneficios de tu MAGICKEY crecen sin límites.",
+                "rows": {
+                    "title1":"Acceso a todos los debooks",
+                    "sub-title1":"Imagina cuando más de 1000 y más de 1 millón de autores publiquen su libro en formato debook, ¡tendrás acceso a millones de libros, autores y lectores!",
+                    "title2":"Acceso a una comunidad de personas visionarias",
+                    "sub-title2":"Imagina formar parte de un grupo de personas que se impulsan mutuamente y apoyan la visión de DEBOOK, ¡con acceso al equipo para compartir ideas en videollamadas!",
+                    "title3":"Acceso temprano a updates, preventas y sorpresas únicas",
+                    "sub-title3":"Imagina acceder antes que nadie a los lanzamientos de los autores más importantes. Como haber estado desde el día 1 de Spotify o Amazon y recibir sorpresas por tu lealtad"
+                }
+            },
+            "image-text": "Como activo digital puedes tratar de revender tus MAGICKEYS por el precio que elijas"
+        },
+        "founder-message": {
+            "title": "La comunidad que cualquier emprendedor soñaría tener a su alrededor",
+            "text":{
+                "p1":{
+                    "bold":"Mensaje del fundador:",
+                    "text":"Honestamente, esta es la razón más profunda por la que estoy lanzando estas MAGICKEYS con un valor único para un grupo muy limitado de personas. Crear una startup no es fácil. Es un viaje de altibajos con miles de desafíos y momentos de sentirse perdido y solo. Sé que no es sexy decirlo, pero es la realidad. Por supuesto, también es una aventura con muchas lecciones, celebraciones y nuevas relaciones increíbles."
+                },
+                "p2":"¿Quién está listo para pasar por todo eso? Desde que nació la visión en junio de 2021, aquí estoy. ¿Y por cuánto tiempo? Hasta que hagamos de DEBOOK la nueva realidad para las editoriales y para millones de autores de todo el mundo, ¡incluido los best sellers!",
+                "p3":"Sueño con despertarme cada mañana y sentir el apoyo de una comunidad apasionada, optimista y amable que me acompaña a hacer historia en el mundo de los libros.",
+                "p4":"3333 personas o menos tendrán la oportunidad de vivir desde dentro este viaje sin vuelta atrás. Si lo sientes, únete a la comunidad DEBOOK MAGICKEY, formada por soñadores que se apoyan, motivan y desafían mutuamente!"
+            }
+        },
+        "funds-go-to-dev": {
+            "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA BETA APP"
+        },
+        "panels": {
+            "1":{
+                "title": "¿POR QUÉ DEBOOK?",
+                "text": {
+                    "regular":"DEBOOK es una plataforma donde",
+                    "bold":"todos salen ganando.",
+                    "regular2":"Los autores generan más ingresos y conocen a sus lectores. La experiencia de lectura se enriquece y",
+                    "bold2":"las editoriales",
+                    "regular3":"obtienen un nuevo modelo de beneficio."
+                }
+            },
+            "2":{
+                "title": "¿POR QUÉ HOY?",
+                "text": {
+                    "regular":"Ser parte de un proyecto como DEBOOK es como",
+                    "bold":"ser parte de la historia.",
+                    "regular2":"Imagina haber tenido la oportunidad de ser parte de la comunidad temprana de Amazon, que también empezó vendiendo libros.",
+                    "bold2":"",
+                    "regular3":""
+                }
+            },
+            "3":{
+                "title": "¿POR QUÉ NOSOTROS?",
+                "text": {
+                    "regular":"Las historias de los cofundadores son",
+                    "bold":"realmente destacables,",
+                    "regular2":"no solo por su trabajo en gigantes de la tecnología, sino también por sus proyectos innovadores en la industria del libro, una clara señal de su",
+                    "bold2":"deseo de cambiar el status quo."
+                }
+            }
+            
+        },
+        "team": {
+            "title": "EQUIPO CREANDO EL GRAN SUEÑO",
+            "subtitle":{
+                "bold":"Ver equipo completo",
+                "regular":"en el pitchdeck"
+            },
+            "founders":{
+                "1":{
+                    "title":"MENTE DETRÁS DE LA TECH"
+                },
+                "2":{
+                    "title":"MENTE DETRÁS DE LA VISIÓN",
+                    "experience":"Emprendedor desde 2014 TFB, SYL & LC"
+                }
+            },
+            "message": {
+                "regular":"Ernest esta compartiendo semanalmente en Linkedin una docu-serie a tiempo real del proceso de",
+                "bold":"Building DEBOOK in Public"
+            }
+        }
+    }
+}
