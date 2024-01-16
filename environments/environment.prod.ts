@@ -1,8 +1,8 @@
 export const environment ={
 
-    production: false,
+    production: true,
 
-    baseHref: '/',
+    baseHref: '/Debook-Landing-Page/',
 
     randomUsersApiBaseUrl : 'https://spotify23.p.rapidapi.com/search/',
     XRapidAPIhostHeaderName: 'X-RapidAPI-Host',

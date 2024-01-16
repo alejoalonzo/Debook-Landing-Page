@@ -9,9 +9,12 @@ import { HttpClient, HttpClientModule, provideHttpClient  } from '@angular/commo
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { provideAnimations } from '@angular/platform-browser/animations';
+import { environment } from '../../environments/environment';
+
 
 export function HttpLoaderFactory (http: HttpClient){
-  return new TranslateHttpLoader(http)
+  const baseHref = environment.production ? environment.baseHref : '/';
+  return new TranslateHttpLoader(http, `${baseHref}assets/i18n/`)
 }
 
 
