@@ -4,6 +4,7 @@
             "title": "3333 DEBOOK MAGICKEYS",
             "title2": "para desbloquear el futuro de los libros",
             "subtitle": "Se parte de una apasionada comunidad y consigue ilimitados beneficios por apoyar la etapa inicial de DEBOOK",
+            "buyButton": "COMPRAR MAGICKEYS",
             "loadingText": "  2400 de 3333 disponibles"
         },
         "what-is-debook": {
@@ -21,6 +22,7 @@
         "one-book-one-community": {
             "title": "UN LIBRO UNA COMUNIDAD",
             "subtitle": "Descubre nuestro QUÉ, CÓMO y PORQUÉ y las 6 Fases de Valoración",
+            "pitchdeck": "Ir al Pitchdeck",
             "The-privileges":{
                 "title":"Privilegios de las DEBOOK MAGICKEYS",
                 "subtitle":"A medida que DEBOOK crece, los beneficios de tu MAGICKEY crecen sin límites.",
@@ -48,7 +50,9 @@
             }
         },
         "funds-go-to-dev": {
-            "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA BETA APP"
+            "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA BETA APP",
+            "interact": "Interactuar con DEBOOK beta app ",
+            "go-to-pitchdeck": "Go to Pitchdeck"
         },
         "panels": {
             "1":{

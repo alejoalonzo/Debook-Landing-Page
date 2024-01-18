@@ -5,6 +5,7 @@
             "title": "3333 DEBOOK MAGICKEYS",
             "title2": "to unlock the next book thing",
             "subtitle": "Be part of a passionate community with unlimited benefits by supporting the early stage of DEBOOK!",
+            "buyButton": "BUY MAGICKEYS",
             "loadingText": "2400 out of 3333 available"
         },
         "what-is-debook": {
@@ -22,6 +23,7 @@
         "one-book-one-community": {
             "title": "ONE BOOK ONE COMMUNITY",
             "subtitle": "Discover our WHAT, HOW and WHY and the 6 Valuations Phases",
+            "pitchdeck": "Go to Pitchdeck",
             "The-privileges":{
                 "title":"The privileges of DEBOOK MAGICKEYS",
                 "subtitle":"As DEBOOK grows, your MAGICKEY benefits grow with it. We are committed to rewarding our loyal supporters from day one!",
@@ -49,7 +51,9 @@
             }
         },
         "funds-go-to-dev": {
-            "title": "100% OF THE FUNDS GO TO SUCCESSFULLY DEVELOP PHASE 1/6"
+            "title": "100% OF THE FUNDS GO TO SUCCESSFULLY DEVELOP PHASE 1/6",
+            "interact": "Interact with DEBOOK app demo!",
+            "go-to-pitchdeck": "Go to Pitchdeck"
         },
         "panels": {
             "1":{
