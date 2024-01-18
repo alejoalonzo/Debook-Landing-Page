@@ -4,6 +4,7 @@ import { DropdownModule } from 'primeng/dropdown';
 import { LogoComponent } from '../components/logo/logo.component';
 
 import { TranslateService } from '@ngx-translate/core';
+import { SubMenuComponent } from '../components/sub-menu/sub-menu.component';
 
 
 
@@ -18,7 +19,8 @@ interface City {
   imports: [ 
               FormsModule, 
               DropdownModule, 
-              LogoComponent
+              LogoComponent,
+              SubMenuComponent
             ],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.scss'

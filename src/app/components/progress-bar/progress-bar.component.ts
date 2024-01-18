@@ -1,27 +1,29 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { DataSharingService } from '../../services/data-sharing.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-progress-bar',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './progress-bar.component.html',
-  styleUrl: './progress-bar.component.scss'
+  styleUrl: './progress-bar.component.scss',
+  providers: [DataSharingService],
 })
-export class ProgressBarComponent {
+export class ProgressBarComponent implements OnInit{
 
-  totalProductCount = 3333; // Total count of magic keys
-  soldProductCount = 1222; // Count of sold magic keys
+  @Input() isWhiteBackground: boolean = false;
+  @Input() showIcon: boolean = false;
 
-  get soldPercentage(): number {
-    return (this.soldProductCount / this.totalProductCount) * 100;
-  }
+  soldPercentage: number = 0;
 
-  // Function to simulate selling magic key
-  sellMagicKey(count: number) {
-    this.soldProductCount += count;
-    if (this.soldProductCount > this.totalProductCount) {
-      this.soldProductCount = this.totalProductCount;
-    }
+  constructor(private dataSharingService: DataSharingService) {}
+
+  ngOnInit() {
+    this.soldPercentage = this.dataSharingService.getSoldPercentage();
+    this.dataSharingService.soldPercentage$.subscribe(newPercentage => {
+      this.soldPercentage = newPercentage;
+    });
   }
 
 }

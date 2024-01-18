@@ -137,6 +137,10 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
 
 // mobile------------------------------------------------------------
 @media  screen and (max-width: 450px){
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
     
     .p-inputtext {
         padding: 0.3rem 0.3rem;
@@ -149,16 +153,32 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
         color: #ffffff;
         background: #FF4444;
         border: none;
-        padding: 1.3rem 1.25rem;
+        padding: 1.1rem 1.25rem;
         font-family: $font-inter;
+        font-weight: bold;
         font-size: 0.9rem;
         transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
         border-radius: 35px;
     }
 
+    .p-button-fit {
+        .p-button{
+            color: #ffffff;
+            background: #FF4444;
+            border: none;
+            padding: 0.6rem 1.25rem;
+            font-family: $font-inter;
+            font-weight: bold;
+            font-size: 0.8rem;
+            transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+            border-radius: 35px;
+        }
+
+    }
+
     .button-black{
         .p-button{
-            padding: 1.3rem 1.25rem;
+            padding: 1.1rem 1.25rem;
             border-radius: 35px;
         }
     }
@@ -166,7 +186,7 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
     .button-black-long{
         .p-button{
             width: 90%;
-            padding: 1.3rem 1.25rem;
+            padding: 1.1rem 1.25rem;
             border-radius: 35px;
         }
     }

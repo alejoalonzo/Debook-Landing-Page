@@ -1,7 +1,7 @@
 import { Component, Input  } from '@angular/core';
 import { CardModule } from 'primeng/card';
 import { HttpClientModule } from '@angular/common/http';
-import { UsersService } from '../../servises/users.service';
+import { UsersService } from '../../services/users.service';
 import { CommonModule } from '@angular/common';
 
 @Component({

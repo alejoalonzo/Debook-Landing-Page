@@ -8,8 +8,16 @@
             {{"sections.funds-go-to-dev.title" | translate }}
         </div>
         <div class="funds-go-to-dev-content-buttons hide-buttons">
-            <p-button class="button-black-long" label="Interact with DEBOOK app demo!"></p-button>
-            <p-button class="button-black-long" label="Go to Pitchdeck"></p-button>
+            <p-button class="button-black-long">
+                <ng-template pTemplate="label">
+                    {{ 'sections.funds-go-to-dev.interact' | translate }}
+                </ng-template>
+            </p-button>
+            <p-button class="button-black-long">
+                <ng-template pTemplate="label">
+                    {{ 'sections.funds-go-to-dev.go-to-pitchdeck' | translate }}
+                </ng-template>
+            </p-button>
         </div>
     </div>
 

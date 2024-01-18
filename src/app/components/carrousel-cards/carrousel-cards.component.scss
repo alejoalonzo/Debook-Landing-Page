@@ -4,10 +4,11 @@ swiper-container{
 
 @media  screen and (max-width: 450px){
     swiper-container {
-        width: 100%;
+        width: 810px;
         height: 100%;
         background-color: #FFF1F1;
         display: flex;
+        margin: 0 auto;
         
     }
     
@@ -17,13 +18,14 @@ swiper-container{
         justify-content: center;
         align-items: center;
         background-color: #FFF1F1;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
         div{
             width: 250px;
             height: 385px;
             border-radius: 16px;
             background: #FFF;
             color: gray;
+            padding-top: 25px;
         }
     }
 

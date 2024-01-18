@@ -4,13 +4,18 @@
         <h2>{{"sections.hero.title2" | translate }}</h2>
         <p class="subtitle">{{"sections.hero.subtitle" | translate}}</p>
         <div class="hero-button">
-            <p-button class="p-button-long" label="BUY MAGICKEYS"></p-button>
+            <!-- <p-button class="p-button-long" label="BUY MAGICKEYS"></p-button> -->
+            <p-button class="p-button-long">
+                <ng-template pTemplate="label">
+                    {{ 'sections.hero.buyButton' | translate }}
+                </ng-template>
+            </p-button>
         </div>
 
-        <p class="loadingText">{{"sections.hero.loadingText" | translate}}</p>
+        <!-- <p class="loadingText">{{"sections.hero.loadingText" | translate}}</p>
         <div class="progressBar">
-            <app-progress-bar></app-progress-bar>
-        </div>
+            <app-progress-bar [isWhiteBackground]="false" [showIcon]="false"></app-progress-bar>
+        </div> -->
 
     </div>
 

@@ -4,7 +4,11 @@
             translate }}</div>
         <div class="oneBookOneCommunity-column-subtitle">{{"sections.one-book-one-community.subtitle" | translate }}
         </div>
-        <p-button class="button-black" label="Go to Pitchdeck"></p-button>
+        <p-button class="button-black">
+            <ng-template pTemplate="label">
+                {{ 'sections.one-book-one-community.pitchdeck' | translate }}
+            </ng-template>
+        </p-button>
     </div>
     <div class="oneBookOneCommunity-row">
 

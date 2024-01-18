@@ -43,5 +43,9 @@
             <span>{{"sections.team.message.bold" | translate }} </span>
         </div>
     </div>
-    <p-button class="p-button-long" label="BUY MAGICKEYS"></p-button>
+    <p-button class="p-button-long">
+        <ng-template pTemplate="label">
+            {{ 'sections.hero.buyButton' | translate }}
+        </ng-template>
+    </p-button>
 </div>

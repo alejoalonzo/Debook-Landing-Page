@@ -18,6 +18,7 @@ import { CarrouselPrivilegesComponent } from './components/carrousel-privileges/
 import { CarrouselWHYBoxComponent } from './components/carrousel-why-box/carrousel-why-box.component';
 import { TranslateService } from '@ngx-translate/core';
 import { CarrouselCardsComponent } from './components/carrousel-cards/carrousel-cards.component';
+import { SubMenuComponent } from './components/sub-menu/sub-menu.component';
 
 
 @Component({
@@ -41,7 +42,8 @@ import { CarrouselCardsComponent } from './components/carrousel-cards/carrousel-
               ProgressBarComponent,
               CarrouselPrivilegesComponent,
               CarrouselWHYBoxComponent,
-              CarrouselCardsComponent
+              CarrouselCardsComponent,
+              SubMenuComponent
             ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
