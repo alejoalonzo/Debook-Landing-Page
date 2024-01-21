@@ -5,6 +5,7 @@ import { TeamComponent } from '../team/team.component';
 import { FaqsComponent } from '../faqs/faqs.component';
 import { FooterComponent } from '../../footer/footer.component';
 import { SalesProcessComponent } from '../sales-process/sales-process.component';
+import { UnicornMansionComponent } from '../unicorn-mansion/unicorn-mansion.component';
 
 @Component({
   selector: 'app-body-bottom',
@@ -15,7 +16,8 @@ import { SalesProcessComponent } from '../sales-process/sales-process.component'
             TeamComponent,
             FaqsComponent,
             FooterComponent,
-            SalesProcessComponent
+            SalesProcessComponent,
+            UnicornMansionComponent
           ],
   templateUrl: './body-bottom.component.html',
   styleUrl: './body-bottom.component.scss'

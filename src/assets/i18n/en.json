@@ -110,7 +110,56 @@
                 "regular":"Ernest is sharing on Linkedin a weekly docu-series in real time of the journey of",
                 "bold":"Building DEBOOK in Public"
             }
+        },
+        "sales-process": {
+            "title": "",
+            "subtitle": "",
+            "phases":{
+                "soldOut":"",
+                "phase":"",
+                "available":""
+            }
+            
+        },
+        "unicorn-mansion": {
+            "title": "The Unicorn Mansion",
+            "button": "BUY 10 MAGICKEYS",
+            "content": {
+                "_1":{
+                    "title":"Get your Access",
+                    "text":"You need to hold +10 MAGICKEYS"
+                },
+                "_2":{
+                    "title":"Expenses",
+                    "text":"All included except travel  *Rooms for limited to 10"
+                },
+                "_3":{
+                    "title":"Experience",
+                    "text":"Two days real life exclusive meet up with the unicorn holders and the team!"
+                },
+                "_4":{
+                    "title":"Access Raffle",
+                    "text":"A total of 5 accesses raffled   1 MAGICKEY = 1 participation"
+                },
+                "_5":{
+                    "title":"Three Editions",
+                    "text":"Announcing official dates once each phase sells out"
+                },
+                "_6":{
+                    "title":"Topics",
+                    "text":"Fun activities, the future of books, entrepreneurship, investments and networking!"
+                },
+                "_7":{
+                    "title":"Location",
+                    "text":"Secret Mansion in Spain in Barcelona or Madrid"
+                },
+                "_8":{
+                    "title":"Surprise Guests ",
+                    "text":"Great entrepreneurs joining the experience from Ernest network!"
+                }
+            }
         }
+
 
     }
 }
