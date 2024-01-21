@@ -20,7 +20,11 @@
             "2-text": "es el lugar para publicar debooks, leer y el marketplace de compra-venta que conecta a lectores y autores. ¡El lugar para mostar tu librería al mundo!"
         },
         "one-book-one-community": {
-            "title": "UN LIBRO UNA COMUNIDAD",
+            "title":{
+                "1":"UN LIBRO",
+                "2":"UNA COMUNIDAD"
+            },
+            "title-mobile": "UN LIBRO UNA COMUNIDAD",
             "subtitle": "Descubre nuestro QUÉ, CÓMO y PORQUÉ y las 6 Fases de Valoración",
             "pitchdeck": "Ir al Pitchdeck",
             "The-privileges":{
@@ -89,8 +93,8 @@
         "team": {
             "title": "EQUIPO CREANDO EL GRAN SUEÑO",
             "subtitle":{
-                "bold":"Ver equipo completo",
-                "regular":"en el pitchdeck"
+                "bold":"Conoce al equipo completo en el pitchdeck para descubrir su historia con los libros y gigantes tecnológicos.",
+                "regular":""
             },
             "founders":{
                 "1":{
@@ -104,6 +108,54 @@
             "message": {
                 "regular":"Ernest esta compartiendo semanalmente en Linkedin una docu-serie a tiempo real del proceso de",
                 "bold":"Building DEBOOK in Public"
+            }
+        },
+        "sales-process": {
+            "title": "",
+            "subtitle": "",
+            "phases":{
+                "soldOut":"",
+                "phase":"",
+                "available":""
+            }
+            
+        },
+        "unicorn-mansion": {
+            "title": "La Mansión Unicornio",
+            "button": "COMPRAR 10 MAGICKEYS",
+            "content": {
+                "_1":{
+                    "title":"Consigue Acceso",
+                    "text":"Necesitas tener +10 MAGICKEYS"
+                },
+                "_2":{
+                    "title":"Gastos",
+                    "text":"Todo incluido excepto el viaje *Limite 10 habitaciones"
+                },
+                "_3":{
+                    "title":"Experiencia",
+                    "text":"¡Dos días de encuentro en persona con los holders unicornios y el equipo!"
+                },
+                "_4":{
+                    "title":"Sorteo de Accesos",
+                    "text":"Un total de 5 accesos serán sorteados entre los holders 1 magickey = 1 participación"
+                },
+                "_5":{
+                    "title":"Tres Ediciones",
+                    "text":"Anunciaremos las fechas oficiales una vez que se venda cada fase."
+                },
+                "_6":{
+                    "title":"Temas",
+                    "text":"Actividades únicas, el futuro de los libros, marca personal emprendimiento, inversiones y la creación de contenido!"
+                },
+                "_7":{
+                    "title":"Ubicación",
+                    "text":"Mansión Secreta en España. Barcelona o Madrid"
+                },
+                "_8":{
+                    "title":"Invitados Sorpresa ",
+                    "text":"Se unirán a la experiencia grandes emprendedores de los que aprender"
+                }
             }
         }
     }

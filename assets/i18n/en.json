@@ -21,12 +21,16 @@
             "2-text": "is the place to publish debooks, to read, the markeplace to buy and sell, to connect readers with readers and authors, and place to showcase your library to the world!"
         },
         "one-book-one-community": {
-            "title": "ONE BOOK ONE COMMUNITY",
+            "title":{
+                "1":"ONE BOOK",
+                "2":"ONE COMMUNITY"
+            },
+            "title-mobile": "ONE BOOK ONE COMMUNITY",
             "subtitle": "Discover our WHAT, HOW and WHY and the 6 Valuations Phases",
             "pitchdeck": "Go to Pitchdeck",
             "The-privileges":{
                 "title":"The privileges of DEBOOK MAGICKEYS",
-                "subtitle":"As DEBOOK grows, your MAGICKEY benefits grow with it. We are committed to rewarding our loyal supporters from day one!",
+                "subtitle":"As DEBOOK grows, your MAGICKEY benefits grow with it. We will make it the most useful collection in the world.",
                 "rows": {
                     "title1":"Access to every debook",
                     "sub-title1":"Imagine when 1,000 and 1,000,000 authors publish their book, you'll get access to read +1,000,000 debooks!",
@@ -36,7 +40,7 @@
                     "sub-title3":"Exclusive early access to the biggest debook authors. Embark on a journey of unique surprises, shaping DEBOOK as the future of reading and publishing forever!"
                 }
             },
-            "image-text": "As a digital asset you can resell your MAGICKEY for the price you choose!"
+            "image-text": "As a digital asset you can try to resell your MAGICKEY for the price you choose!"
         },
         "founder-message": {
             "title": "The community any enterpreneur would dream of!",
@@ -51,7 +55,7 @@
             }
         },
         "funds-go-to-dev": {
-            "title": "100% OF THE FUNDS GO TO SUCCESSFULLY DEVELOP PHASE 1/6",
+            "title": "100% OF THE FUNDS GO TO SUCCESSFULLY DEVELOP OUR BETA APP",
             "interact": "Interact with DEBOOK app demo!",
             "go-to-pitchdeck": "Go to Pitchdeck"
         },
@@ -90,8 +94,8 @@
         "team": {
             "title": "TEAM BUILDING THE DREAM",
             "subtitle":{
-                "bold":"See full team on",
-                "regular":"the pitchdeck"
+                "bold":"Meet the full team on the pitchdeck to discover their story with books and tech giants",
+                "regular":""
             },
             "founders":{
                 "1":{
@@ -106,7 +110,56 @@
                 "regular":"Ernest is sharing on Linkedin a weekly docu-series in real time of the journey of",
                 "bold":"Building DEBOOK in Public"
             }
+        },
+        "sales-process": {
+            "title": "",
+            "subtitle": "",
+            "phases":{
+                "soldOut":"",
+                "phase":"",
+                "available":""
+            }
+            
+        },
+        "unicorn-mansion": {
+            "title": "The Unicorn Mansion",
+            "button": "BUY 10 MAGICKEYS",
+            "content": {
+                "_1":{
+                    "title":"Get your Access",
+                    "text":"You need to hold +10 MAGICKEYS"
+                },
+                "_2":{
+                    "title":"Expenses",
+                    "text":"All included except travel  *Rooms for limited to 10"
+                },
+                "_3":{
+                    "title":"Experience",
+                    "text":"Two days real life exclusive meet up with the unicorn holders and the team!"
+                },
+                "_4":{
+                    "title":"Access Raffle",
+                    "text":"A total of 5 accesses raffled   1 MAGICKEY = 1 participation"
+                },
+                "_5":{
+                    "title":"Three Editions",
+                    "text":"Announcing official dates once each phase sells out"
+                },
+                "_6":{
+                    "title":"Topics",
+                    "text":"Fun activities, the future of books, entrepreneurship, investments and networking!"
+                },
+                "_7":{
+                    "title":"Location",
+                    "text":"Secret Mansion in Spain in Barcelona or Madrid"
+                },
+                "_8":{
+                    "title":"Surprise Guests ",
+                    "text":"Great entrepreneurs joining the experience from Ernest network!"
+                }
+            }
         }
+
 
     }
 }
