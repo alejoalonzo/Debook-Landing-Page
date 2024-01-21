@@ -1,33 +1,24 @@
-<swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="20" slides-per-view="3"
+<swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="0" slides-per-view="3"
     style="--swiper-pagination-color: #FF4444;">
-    <swiper-slide>
-        <div>1</div>
-    </swiper-slide>
-    <swiper-slide>
-        <div>1</div>
-    </swiper-slide>
-    <swiper-slide>
-        <div>2</div>
-    </swiper-slide>
-    <swiper-slide>
-        <div>3</div>
-    </swiper-slide>
-    <swiper-slide>
-        <div>4</div>
-    </swiper-slide>
-    <swiper-slide>
-        <div>5</div>
-    </swiper-slide>
-    <swiper-slide>
-        <div>6</div>
-    </swiper-slide>
-    <swiper-slide>
-        <div>7</div>
-    </swiper-slide>
-    <swiper-slide>
-        <div>8</div>
-    </swiper-slide>
-    <swiper-slide>
-        <div>9</div>
+    <swiper-slide *ngFor="let user of sampleUsers">
+        <div class="mySwiperIf" *ngIf="user">
+            <p-card [style]="{ width: '250px', height: '385px' }">
+                <div class="mySwiper-header">
+                    <img class="mySwiper-header-image" alt="Card" [src]="user.avatarUrl" />
+                    <div class="mySwiper-header-personalInfo">
+                        <span class="mySwiper-header-personalInfo-name">{{ user.name }}</span>
+                        <span class="mySwiper-header-personalInfo-date">{{ user.date }}</span>
+                    </div>
+                </div>
+                <div class="mySwiper-image-container">
+                    <img class="" alt="Card" src="assets/images/debookKey.jpg" />
+                </div>
+
+                <div class="mySwiper-card-owner">Magickey Owner {{ user.owner }}/3333</div>
+                <p class="mySwiper-card-description">
+                    {{ user.description }}
+                </p>
+            </p-card>
+        </div>
     </swiper-slide>
 </swiper-container>

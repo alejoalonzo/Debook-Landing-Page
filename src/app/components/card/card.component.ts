@@ -1,38 +1,34 @@
-import { Component, Input  } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CardModule } from 'primeng/card';
-import { HttpClientModule } from '@angular/common/http';
-import { UsersService } from '../../services/users.service';
 import { CommonModule } from '@angular/common';
+import { User } from '../../../models/user.model'; 
+import { UsersService } from '../../services/users.service';
 
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [CardModule, HttpClientModule, CommonModule],
+  imports: [CardModule, CommonModule],
   templateUrl: './card.component.html',
-  styleUrl: './card.component.scss',
+  styleUrls: ['./card.component.scss'],
   providers: [UsersService]
 })
-export class CardComponent {
+export class CardComponent implements OnInit {
   @Input() numberOfCards: number = 9;
 
-  userName: string = 'randomUser';
-  userData: any;
+  sampleUsers: User[] = []; 
 
   constructor(private usersService: UsersService) { }
 
   ngOnInit() {
-    this.getUsersList(this.userName);
-    // this.artistName = '';
+    this.getSampleUsersList();
   }
 
-  private getUsersList(userName_: string){
-    const usertName = userName_; 
-    this.usersService.searchUsers(usertName).subscribe(
-      (data: any) => {
-        this.userData = data;
-        // console.log(data); 
+  private getSampleUsersList() {
+    this.usersService.getSampleUsers().subscribe(
+      (users: User[]) => {
+        this.sampleUsers = users;
       }
     );
   }
-
 }
+

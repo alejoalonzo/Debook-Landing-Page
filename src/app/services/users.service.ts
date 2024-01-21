@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { environment } from '../../../environments/environment';
+import { Observable, of } from 'rxjs';
+import { User } from '../../models/user.model';
+import { SAMPLE_USERS } from '../../models/SAMPLE_USERS';
 
 
 @Injectable({
@@ -9,18 +9,10 @@ import { environment } from '../../../environments/environment';
 })
 export class UsersService {
 
-  constructor(private http: HttpClient) { }
-  private apiUrl = environment.randomUsersApiBaseUrl;
+  private sampleUsers: User[] = SAMPLE_USERS;
 
-  searchUsers(userName: string): Observable<any> {
-
-    const params = new HttpParams().set('q', userName);
-
-    const headers = new HttpHeaders({
-      'X-RapidAPI-Key': environment.XRapidAPIkeyHeaderValue,
-      'X-RapidAPI-Host': environment.XRapidAPIhostHeaderValue
-    });
-
-    return this.http.get(this.apiUrl, { headers, params });
+  getSampleUsers(): Observable<User[]> {
+    return of(this.sampleUsers);
   }
+
 }
