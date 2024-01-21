@@ -16,6 +16,7 @@ export class ProgressBarComponent implements OnInit{
   @Input() showIcon: boolean = false;
 
   soldPercentage: number = 0;
+  private salesPhase: number = 1;
 
   constructor(private dataSharingService: DataSharingService) {}
 
@@ -24,6 +25,8 @@ export class ProgressBarComponent implements OnInit{
     this.dataSharingService.soldPercentage$.subscribe(newPercentage => {
       this.soldPercentage = newPercentage;
     });
+    this.salesPhase = this.dataSharingService.getSalesPhase();
+    
   }
 
 }
