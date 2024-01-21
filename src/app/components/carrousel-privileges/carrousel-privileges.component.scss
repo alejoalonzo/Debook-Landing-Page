@@ -2,38 +2,45 @@
 
 swiper-container{
     swiper-slide{
-        width: 100%;
-        .image{
-            display: flex;
-            justify-content: center;
-            margin-top: 25px;
-            img{
-                width: 24%;
-                height: 24%;
+        .cards{
+            width: 90%;
+            margin: auto;
+            height: auto;
+            border-radius: 40px;
+            border: 1px solid #FFC5C6;
+            background: #FFF7F7;
+            padding: 10px;
+            .image{
+                display: flex;
+                justify-content: center;
+                margin-top: 25px;
+                img{
+                    width: 24%;
+                    height: 24%;
+                }
+            }
+            .title{
+                display: flex;
+                justify-content: center;
+                font-size: 1.5em;
+                font-weight: 400;
+                text-align: center;
+                width: 100%;
+                margin: auto;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+            .description{
+                display: flex;
+                justify-content: center;
+                font-size: 1em;
+                text-align: center;
+                width: 100%;
+                margin: auto;
+                margin-bottom: 50px;
+                line-height: $lineH-P-Mobile;
             }
         }
-        .title{
-            display: flex;
-            justify-content: center;
-            font-size: 1.5em;
-            font-weight: 400;
-            text-align: center;
-            width: 100%;
-            margin: auto;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
-        .description{
-            display: flex;
-            justify-content: center;
-            font-size: 1em;
-            text-align: center;
-            width: 100%;
-            margin: auto;
-            margin-bottom: 50px;
-            line-height: $lineH-P-Mobile;
-        }
-        
 
     }
 

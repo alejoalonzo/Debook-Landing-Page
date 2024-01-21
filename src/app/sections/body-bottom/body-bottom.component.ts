@@ -4,6 +4,7 @@ import { PanelsComponent } from '../panels/panels.component';
 import { TeamComponent } from '../team/team.component';
 import { FaqsComponent } from '../faqs/faqs.component';
 import { FooterComponent } from '../../footer/footer.component';
+import { SalesProcessComponent } from '../sales-process/sales-process.component';
 
 @Component({
   selector: 'app-body-bottom',
@@ -13,7 +14,8 @@ import { FooterComponent } from '../../footer/footer.component';
             PanelsComponent,
             TeamComponent,
             FaqsComponent,
-            FooterComponent
+            FooterComponent,
+            SalesProcessComponent
           ],
   templateUrl: './body-bottom.component.html',
   styleUrl: './body-bottom.component.scss'

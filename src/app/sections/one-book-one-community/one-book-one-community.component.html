@@ -1,18 +1,30 @@
 <div class="oneBookOneCommunity-container">
-    <div class="oneBookOneCommunity-column">
-        <div class="oneBookOneCommunity-column-title gradientText2">{{"sections.one-book-one-community.title" |
-            translate }}</div>
-        <div class="oneBookOneCommunity-column-subtitle">{{"sections.one-book-one-community.subtitle" | translate }}
+    <div class="oneBookOneCommunity-titleRow">
+        <div class="oneBookOneCommunity-column">
+            <div class="oneBookOneCommunity-column-title-mobile gradientText2">
+                {{"sections.one-book-one-community.title-mobile" | translate }}</div>
+
+            <div class="oneBookOneCommunity-column-title gradientText2">
+                {{"sections.one-book-one-community.title.1" | translate }} <br>
+                {{"sections.one-book-one-community.title.2" | translate }}</div>
+            <div class="oneBookOneCommunity-column-subtitle">{{"sections.one-book-one-community.subtitle" | translate }}
+            </div>
+            <p-button class="button-black">
+                <ng-template pTemplate="label">
+                    {{ 'sections.one-book-one-community.pitchdeck' | translate }}
+                </ng-template>
+            </p-button>
         </div>
-        <p-button class="button-black">
-            <ng-template pTemplate="label">
-                {{ 'sections.one-book-one-community.pitchdeck' | translate }}
-            </ng-template>
-        </p-button>
+
+        <div class="oneBookOneCommunity-table">
+            <img src="assets/images/table.png" alt="">
+        </div>
     </div>
+
+
+
+
     <div class="oneBookOneCommunity-row">
-
-
         <div class="oneBookOneCommunity-row-content">
             <div class="oneBookOneCommunity-row-content-title">
                 {{"sections.one-book-one-community.The-privileges.title" | translate }}

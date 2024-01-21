@@ -21,12 +21,16 @@
             "2-text": "is the place to publish debooks, to read, the markeplace to buy and sell, to connect readers with readers and authors, and place to showcase your library to the world!"
         },
         "one-book-one-community": {
-            "title": "ONE BOOK ONE COMMUNITY",
+            "title":{
+                "1":"ONE BOOK",
+                "2":"ONE COMMUNITY"
+            },
+            "title-mobile": "ONE BOOK ONE COMMUNITY",
             "subtitle": "Discover our WHAT, HOW and WHY and the 6 Valuations Phases",
             "pitchdeck": "Go to Pitchdeck",
             "The-privileges":{
                 "title":"The privileges of DEBOOK MAGICKEYS",
-                "subtitle":"As DEBOOK grows, your MAGICKEY benefits grow with it. We are committed to rewarding our loyal supporters from day one!",
+                "subtitle":"As DEBOOK grows, your MAGICKEY benefits grow with it. We will make it the most useful collection in the world.",
                 "rows": {
                     "title1":"Access to every debook",
                     "sub-title1":"Imagine when 1,000 and 1,000,000 authors publish their book, you'll get access to read +1,000,000 debooks!",
@@ -36,7 +40,7 @@
                     "sub-title3":"Exclusive early access to the biggest debook authors. Embark on a journey of unique surprises, shaping DEBOOK as the future of reading and publishing forever!"
                 }
             },
-            "image-text": "As a digital asset you can resell your MAGICKEY for the price you choose!"
+            "image-text": "As a digital asset you can try to resell your MAGICKEY for the price you choose!"
         },
         "founder-message": {
             "title": "The community any enterpreneur would dream of!",
@@ -51,7 +55,7 @@
             }
         },
         "funds-go-to-dev": {
-            "title": "100% OF THE FUNDS GO TO SUCCESSFULLY DEVELOP PHASE 1/6",
+            "title": "100% OF THE FUNDS GO TO SUCCESSFULLY DEVELOP OUR BETA APP",
             "interact": "Interact with DEBOOK app demo!",
             "go-to-pitchdeck": "Go to Pitchdeck"
         },
@@ -90,8 +94,8 @@
         "team": {
             "title": "TEAM BUILDING THE DREAM",
             "subtitle":{
-                "bold":"See full team on",
-                "regular":"the pitchdeck"
+                "bold":"Meet the full team on the pitchdeck to discover their story with books and tech giants",
+                "regular":""
             },
             "founders":{
                 "1":{

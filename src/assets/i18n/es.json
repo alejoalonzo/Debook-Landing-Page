@@ -20,7 +20,11 @@
             "2-text": "es el lugar para publicar debooks, leer y el marketplace de compra-venta que conecta a lectores y autores. ¡El lugar para mostar tu librería al mundo!"
         },
         "one-book-one-community": {
-            "title": "UN LIBRO UNA COMUNIDAD",
+            "title":{
+                "1":"UN LIBRO",
+                "2":"UNA COMUNIDAD"
+            },
+            "title-mobile": "UN LIBRO UNA COMUNIDAD",
             "subtitle": "Descubre nuestro QUÉ, CÓMO y PORQUÉ y las 6 Fases de Valoración",
             "pitchdeck": "Ir al Pitchdeck",
             "The-privileges":{
@@ -89,8 +93,8 @@
         "team": {
             "title": "EQUIPO CREANDO EL GRAN SUEÑO",
             "subtitle":{
-                "bold":"Ver equipo completo",
-                "regular":"en el pitchdeck"
+                "bold":"Conoce al equipo completo en el pitchdeck para descubrir su historia con los libros y gigantes tecnológicos.",
+                "regular":""
             },
             "founders":{
                 "1":{
