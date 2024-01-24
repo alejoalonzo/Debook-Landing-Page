@@ -46,6 +46,15 @@
         }
     }
 }
+
+// laptop------------------------------------------------------------
+@media screen and (min-width: 451px) and (max-width: 1536px){
+    .subMenu-container{
+        top: 50px;
+    }
+
+}
+
 // mobile------------------------------------------------------------
 @media  screen and (max-width: 450px){
     .subMenu-container{

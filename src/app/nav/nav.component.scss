@@ -47,6 +47,37 @@
     
 }
 
+// laptop------------------------------------------------------------
+@media screen and (min-width: 451px) and (max-width: 1536px){
+    .nav-container{
+        width: 100%;
+        .nav{
+            height: 50px;
+            .logo{
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+                max-height: 20px;
+                &-shape{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                }
+                &-text{
+                    font-size: 16px;
+                    font-weight: 700; 
+                }
+            }
+        
+            .lang{
+
+            }
+        }
+        
+    }
+
+}
 
 // mobile------------------------------------------------------------
 @media  screen and (max-width: 450px){

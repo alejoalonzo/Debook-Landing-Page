@@ -1,6 +1,6 @@
 <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="0" slides-per-view="3"
     style="--swiper-pagination-color: #FF4444;">
-    <swiper-slide *ngFor="let user of sampleUsers">
+    <swiper-slide *ngFor="let user of sampleUsers.reverse()">
         <div class="mySwiperIf" *ngIf="user">
             <p-card [style]="{ width: '250px', height: '385px' }">
                 <div class="mySwiper-header">

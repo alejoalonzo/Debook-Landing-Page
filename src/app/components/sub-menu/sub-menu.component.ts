@@ -18,11 +18,14 @@ export class SubMenuComponent {
 
   soldProductCount: number = 0;
   totalProductCount: number = 0;
+  availableProduct: number = 0;
 
   constructor(private dataSharingService: DataSharingService) { }
 
   ngOnInit(): void {
       this.soldProductCount = this.dataSharingService.getSoldProductCount();
+      this.availableProduct = this.dataSharingService.getAvailableProductCount();
+
   }
 
 }

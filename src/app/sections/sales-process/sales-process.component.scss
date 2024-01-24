@@ -1,5 +1,19 @@
 @import '../../../styles.scss';
 
+.soldOut{
+    background-color: $black;
+    width: 112px;
+    height: 27px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+
+
 .salesProcess-container{
     display: flex;
     flex-direction: column;
@@ -10,7 +24,7 @@
 
     .salesProcess-title{
         &-top{
-            width: 360px;
+            width: 442px;
             margin: auto;
             text-align: center;
             font-family: $font-sora;
@@ -98,6 +112,8 @@
                 width: 90%;
                 margin: auto;
                 margin-bottom: 50px;
+                font-size: 1.1em;
+
             }
         }
     
@@ -150,4 +166,8 @@
             }
         }
     }
+}
+
+.gray-background {
+    background-color: #F6F6F6!important; 
 }

@@ -1,8 +1,9 @@
 <div class="subMenu-container">
     <div class="subMenu">
         <div class="subMenu-phases">
-            <span class="subMenu-phases-bold">Phase 1/3</span>
-            <span class="subMenu-phases-regular"><span> {{ soldProductCount }}</span> available out of
+            <span class="subMenu-phases-bold">{{"components.subMenu.phase" | translate }} 1/3</span>
+            <span class="subMenu-phases-regular"><span> {{ availableProduct }}</span> {{"components.subMenu.available" |
+                translate }}
                 <span>1111</span></span>
 
         </div>
@@ -12,7 +13,7 @@
             </div>
         </div>
         <div class="subMenu-getMansion">
-            Buy 10 and get acces to <br>The Unicorn Mansion Edition 1</div>
+            {{"components.subMenu.buy10.top" | translate }} <br>The Unicorn Mansion Edition 1</div>
         <div class="subMenu-buy-button">
             <p-button class="p-button-fit">
                 <ng-template pTemplate="label">

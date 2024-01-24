@@ -1,27 +1,48 @@
 <div class="salesProcess-container">
     <div class="salesProcess-title">
         <div class="salesProcess-title-top gradientText1">
-            Sales Process
+            {{"sections.sales-process.title" | translate }}
         </div>
         <div class="salesProcess-title-subtitle">
-            DEBOOK is here to stay forever. We favor a gradual sellout aligned with our steady growth and six-stage
-            valuation strategy.
+            {{"sections.sales-process.subtitle" | translate }} <br> {{"sections.sales-process.subtitle2" | translate }}
         </div>
     </div>
 
     <div class="salesProcess-phases">
         <div class="salesProcess-phases-phase phase_1">
             <div class="salesProcess-phases-phase-icon">
-                <img src="assets/images/LockKeyhole.svg" alt="">
+                <!-- <img src="assets/images/LockKeyhole.svg" alt=""> -->
+                <div class="soldOut">SOLD OUT</div>
             </div>
             <div class="salesProcess-phases-phase-numberPhase">
-                Phase 1
+                {{"sections.sales-process.phases.phase" | translate }} 1
             </div>
             <div class="salesProcess-phases-phase-available">
-                Available 0/1111
+                {{"sections.sales-process.phases.available" | translate }} 0/1111
             </div>
             <div class="salesProcess-phases-phase-price">
                 $333.00
+            </div>
+            <div class="salesProcess-phases-phase-progressBar">
+                <app-progress-bar [isWhiteBackground]="false" [showIcon]="false"></app-progress-bar>
+            </div>
+            <div class="salesProcess-phases-phase-button">
+
+            </div>
+        </div>
+
+        <div class="salesProcess-phases-phase">
+            <div class="salesProcess-phases-phase-icon">
+                <img src="assets/images/LockUnlocked.svg" alt="">
+            </div>
+            <div class="salesProcess-phases-phase-numberPhase">
+                {{"sections.sales-process.phases.phase" | translate }} 2
+            </div>
+            <div class="salesProcess-phases-phase-available">
+                {{"sections.sales-process.phases.available" | translate }} 1111
+            </div>
+            <div class="salesProcess-phases-phase-price">
+                $433.00
             </div>
             <div class="salesProcess-phases-phase-progressBar">
                 <app-progress-bar [isWhiteBackground]="false" [showIcon]="false"></app-progress-bar>
@@ -35,39 +56,18 @@
             </div>
         </div>
 
-        <div class="salesProcess-phases-phase">
-            <div class="salesProcess-phases-phase-icon">
-                <img src="assets/images/LockUnlocked.svg" alt="">
-            </div>
-            <div class="salesProcess-phases-phase-numberPhase">
-                Phase 1
-            </div>
-            <div class="salesProcess-phases-phase-available">
-                Available 0/1111
-            </div>
-            <div class="salesProcess-phases-phase-price">
-                $333.00
-            </div>
-            <div class="salesProcess-phases-phase-progressBar">
-                <app-progress-bar [isWhiteBackground]="false" [showIcon]="false"></app-progress-bar>
-            </div>
-            <div class="salesProcess-phases-phase-button">
-
-            </div>
-        </div>
-
-        <div class="salesProcess-phases-phase">
+        <div class="salesProcess-phases-phase gray-background">
             <div class="salesProcess-phases-phase-icon">
                 <img src="assets/images/LockKeyhole.svg" alt="">
             </div>
             <div class="salesProcess-phases-phase-numberPhase">
-                Phase 1
+                {{"sections.sales-process.phases.phase" | translate }} 3
             </div>
             <div class="salesProcess-phases-phase-available">
-                Available 0/1111
+                {{"sections.sales-process.phases.available" | translate }} 1111
             </div>
             <div class="salesProcess-phases-phase-price">
-                $333.00
+                $533.00
             </div>
             <div class="salesProcess-phases-phase-progressBar">
                 <app-progress-bar [isWhiteBackground]="false" [showIcon]="false"></app-progress-bar>

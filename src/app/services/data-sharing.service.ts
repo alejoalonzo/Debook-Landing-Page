@@ -10,7 +10,7 @@ export class DataSharingService {
   soldPercentage$ = this.soldPercentageSource.asObservable();
 
   private totalProductCount: number = 1111;
-  private soldProductCount: number = 452;
+  private soldProductCount: number = 733;
   private salesPhase: number = 1;
 
   getSoldPercentage(): number {
@@ -20,6 +20,11 @@ export class DataSharingService {
   getSoldProductCount(): number {
 
     return this.soldProductCount;
+  }
+
+  getAvailableProductCount(): number {
+    const availableCount = this.totalProductCount - this.soldProductCount;
+    return availableCount > 0 ? availableCount : 0;
   }
 
   getSalesPhase(): number {
