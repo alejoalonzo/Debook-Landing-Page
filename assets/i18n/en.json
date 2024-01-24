@@ -4,8 +4,8 @@
         "hero": {
             "title": "3333 DEBOOK MAGICKEYS",
             "title2": "to unlock the next book thing",
-            "subtitle": "Be part of a passionate community with unlimited benefits by supporting the early stage of DEBOOK!",
-            "buyButton": "BUY MAGICKEYS",
+            "subtitle": "Be part of a visionaries community and support DEBOOK in its early stages to learn from the challenges faced by its founder and get unlimited benefits",
+            "buyButton": "BUY MAGICKEY",
             "loadingText": "2400 out of 3333 available"
         },
         "what-is-debook": {
@@ -32,26 +32,29 @@
                 "title":"The privileges of DEBOOK MAGICKEYS",
                 "subtitle":"As DEBOOK grows, your MAGICKEY benefits grow with it. We will make it the most useful collection in the world.",
                 "rows": {
-                    "title1":"Access to every debook",
-                    "sub-title1":"Imagine when 1,000 and 1,000,000 authors publish their book, you'll get access to read +1,000,000 debooks!",
-                    "title2":"Access to the most supportive community",
-                    "sub-title2":"Imagine being part of a changemakers group of people supporting each other, and sharing your insights through videocalls and Q&A with DEBOOK team!",
-                    "title3":"Access to debooks presales,  app updates and the best surprises",
-                    "sub-title3":"Exclusive early access to the biggest debook authors. Embark on a journey of unique surprises, shaping DEBOOK as the future of reading and publishing forever!"
+                    "title1":"Potential utility: access to every debook, updates, presales & surprises",
+                    "sub-title1":"This will be our reward if we do the right thing long term. Imagine when +1,000,000 authors publish their book, you'll get access to millions of debooks without buying them!",
+                    "title2":"Monthly call with the founder, be part of the decision making",
+                    "sub-title2":"Learn with the founder and the challenges faced on the process of making debook the new book format forever. Real time lessons with access to the founder network!",
+                    "title3":"Access to  a community of visionaries",
+                    "sub-title3":"Be part of a changemakers group of people supporting each other and sharing their vision and insights to support DEBOOK to become what we all envision!",
+                    "title4":"One raffle entry for 5 accesses  to the unicorn mansion",
+                    "sub-title4":"After every sell out of the three phases we are announcing a new edition of The Unicorn Mansion. One MK, one participation."
                 }
             },
-            "image-text": "As a digital asset you can try to resell your MAGICKEY for the price you choose!"
+            "image-text": "MAGICKEYS are 0 risk as you get access to the product since day one"
         },
         "founder-message": {
             "title": "The community any enterpreneur would dream of!",
             "text":{
                 "p1":{
                     "bold":"Founder Message:",
-                    "text":"Honestly, this is the deepest reason I'm launching these MAGICKEYS with unique value for a very limited group of people. Building a startup is not easy. It's an up-and-down journey with thousands of challenges and hours of feeling lost and alone. I know it's not sexy to say, but it's the reality. Of course, it's also an adventure with plenty of lessons, celebrations, and new incredible relationships."
+                    "text":"Honestly, this is the deepest reason I'm launching these MAGICKEYS with unique value for a very limited group of people. Building a startup is not easy. It's an up-and-down journey with thousands of challenges and hours of feeling lost and alone. I know it's not sexy to say, but it's the reality."
                 },
-                "p2":"Who is ready to go through all of that? Since the vision was born in June 2021, here I am. And for how long? Until WE make it happen.",
-                "p3":"I dream of waking up every morning and feeling the support of a passionate, optimistic, and kind community. 3,333 people or less will have the opportunity to live this one-way trip from the inside.",
-                "p4":"If you feel called, join the DEBOOK MAGICKEY community, made up of dreamers who support, motivate, and challenge each other to achieve their wildest dreams. Let's become part of the book history together!"
+                "p2":"Of course, it's also an adventure with plenty of lessons, celebrations, and new incredible relationships.",
+                "p3":"And this is where I want to get to. I want to share the best that I am going to take away from this process with the people who trust me and the vision of DEBOOK since day one. Share everything I learn through each challenge: technical, communication, team building, security, business structure, legality, motivation,... I want to turn it into knowledge for you. I want to make you part of each challenge and each important decision making process in this long-term journey that I would love to take from the Ernest of 30 to the 40-year-old.",
+                "p4":"I dream of helping you on your personal journey, acting as a bridge in your challenges through my instant lessons based on real-time experience, invaluable community connections and my network of contacts that will grow over time and that I will put at your disposal",
+                "p5":"I dream of waking up every morning and feeling the support of a passionate, optimistic and kind community. 3,333 people or less will have the opportunity to experience this one-way trip from the inside. If you feel called, let's become part of the book history together!"
             }
         },
         "funds-go-to-dev": {
@@ -112,12 +115,13 @@
             }
         },
         "sales-process": {
-            "title": "",
-            "subtitle": "",
+            "title": "Sales Process",
+            "subtitle": "DEBOOK is here to stay forever. We favor a gradual sellout aligned with our steady growth and six-stage valuation strategy. ",
+            "subtitle2": "",
             "phases":{
-                "soldOut":"",
-                "phase":"",
-                "available":""
+                "soldOut":"SOLD OUT",
+                "phase":"Phase",
+                "available":"Available"
             }
             
         },
@@ -156,10 +160,69 @@
                 "_8":{
                     "title":"Surprise Guests ",
                     "text":"Great entrepreneurs joining the experience from Ernest network!"
+                },
+                "_9":{
+                    "title":"Whatsapp Group ",
+                    "text":"Super exclusive group made of unicorns, included the founder."
                 }
+            }
+        },
+        "faqs":{
+            "1":{
+                "header":"Can I earn money with the MAGICKEYS?",
+                "body": {
+                    "p1":"Yes, although it is important to understand the following. The price of the MAGICKEY is defined by the value of the service that you will receive in exchange. Its purpose is not speculative and that is why IT IS IMPOSSIBLE FOR YOU TO LOSE MONEY and it has ABSOLUTELY ZERO RISK since you are immediately receiving the utility for which you are paying: access to the community of visionaries and a monthly video call with the founder. Same as buying an infoproduct but in an NFT version.",
+                    "p2":"With this clear, if over time the MAGICKEYS run out and the project continues to grow as we are going to make it happen, the demand will increase and the new owners will have to repurchase the MAGICKEY from one of the current holders. This means that you can resell your MAGICKEY for the price you are willing to buy it for. Furthermore, as DEBOOK grows over the years, the potential (not guaranteed) utility will begin to make sense and you will be able to access all the books by the authors who will publish on DEBOOK.",
+                    "p3":"Community involvement is crucial to the success of DEBOOK and its possible revaluation."
+                }   
+            },
+            "2":{
+                "header":"How do I receive the MAGICKEY?",
+                "body": {
+                    "p1":"Immediately. If you are not familiar with web3 technology, we 100% recommend making the payment by credit card and making it easy!",
+                    "p2":"If you choose to pay by credit card, you will have your MAGICKEY in your username within the Crossmint platform and you will be able to access it with a simple email.",
+                    "p3":"If you choose crypto payment you will receive your MAGICKEY in your METAMASK wallet."
+                }  
+            },
+            "3":{
+                "header":"How do I access the MAGICKEY utility?",
+                "body": {
+                    "p1":"Once you have purchased your MAGICKEY or MAGICKEYS you will have to access the Discord and from there you will be able to access a channel where only MAGICKEYS owners can interact.",
+                    "p2":"We are studying using another communication platform between us, in the meantime we will use Discord.",
+                    "p3":""
+                } 
+            },
+            "4":{
+                "header":"Are spaces at the Unicorn Mansion limited?",
+                "body": {
+                    "p1":"No. To access one of the three Unicorn editions you need to have 10 MAGICKEYS. If you access the first one, you will be able to come to all three if you are still the owner of 10MK.",
+                    "p2":"You will also have access to a unicorn WhatsApp group.",
+                    "p3":"IMPORTANT: For each MAGICKEY you have a participation in the draw for 1 access to the unicorn mansion. In each edition, 5 accesses will be raffled among MAGICKEY owners who do not have 10MK."
+                } 
+            },
+            "5":{
+                "header":"How can I sell my MAGIC KEY?",
+                "body": {
+                    "p1":"Through the opensea.io marketplace. If you have purchased the MAGICKEY you must send your MAGICKEY to Metamask previously.",
+                    "p2":"Don't worry because from the Discord you have a very simple explanatory video to explain how.",
+                    "p3":"IMPORTANT: The purpose of the MAGICKEY is not speculation. It is impossible to lose money because for the price of access you are buying the community utility and the monthly video call. Because it is an NFT, you can resell it and it gives it the power to be resold if the demand is sufficient at the time you want to sell",
+                    "p4":"Everything that may come later, such as access to all published debooks, access to updates, pre-sales of best-selling authors, and all the surprises that we have in store,... will be the fruit of the success of DEBOOK and is not guaranteed. With this clear, you will surely receive the utility for which you are paying.",
+                    "p5":"For this reason, it is important to remember that community involvement is crucial to the success of DEBOOK!",
+                    "p6":"Can you imagine being part of the community that saw the potential of Spotify before anyone else?"
+                } 
             }
         }
 
 
+    },
+    "components":{
+        "subMenu":  {
+            "phase": "Phase",
+            "available": "available out of",
+            "buy10": {
+                "top":"Buy 10 and get acces to",
+                "bottom":"The Unicorn Mansion Edition 1"
+            }
+        }
     }
 }
