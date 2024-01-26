@@ -16,6 +16,7 @@ export class DataSharingService {
   private totalProductCount: number = 0;
   private soldProductCount: number = 0;
   private salesPhase: number = 1;
+  private phaseLevel: number = 0;
 
   constructor(private http: HttpClient) { }
 
@@ -26,9 +27,15 @@ export class DataSharingService {
       .pipe(
         map(apiData => {
           
-          this.totalProductCount = apiData.maxSupply;
-          this.soldProductCount = apiData.maxAllowlistSupply;
+          this.phaseLevel = apiData.phase;
 
+          this.totalProductCount = apiData.maxAllowlistSupply + apiData.maxPublicSupply
+          // this.totalProductCount = apiData.maxSupply;
+          if (apiData.currentMinted < apiData.maxAllowlistSupply)
+            this.soldProductCount = apiData.maxAllowlistSupply;
+          else
+            this.soldProductCount = apiData.currentMinted;
+          
           this.updateSalesPhase();
 
           return apiData;
@@ -36,9 +43,8 @@ export class DataSharingService {
       );
   }
   
-
-  
   getSoldPercentage(): number {
+    console.log("Sold percentage: ", (this.soldProductCount / this.totalProductCount) * 100)
     return (this.soldProductCount / this.totalProductCount) * 100;
   }
 
@@ -80,13 +86,14 @@ export class DataSharingService {
   }
 
   private updateSalesPhase(): void {
-    if (this.soldProductCount >= 1112 && this.soldProductCount < 2223) {
-      this.salesPhase = 2;
-    } else if (this.soldProductCount >= 2223 && this.soldProductCount < 3334) {
-      this.salesPhase = 3;
-    } else {
-      this.salesPhase = 1;
-    }
+    this.salesPhase = this.phaseLevel + 1;
+    // if (this.soldProductCount >= 1112 && this.soldProductCount < 2223) {
+    //   this.salesPhase = 2;
+    // } else if (this.soldProductCount >= 2223 && this.soldProductCount < 3334) {
+    //   this.salesPhase = 3;
+    // } else {
+    //   this.salesPhase = 1;
+    // }
 
     console.log("phase= " + this.salesPhase);
   }

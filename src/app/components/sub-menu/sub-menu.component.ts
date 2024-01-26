@@ -30,7 +30,7 @@ export class SubMenuComponent {
     // this.soldProductCount = this.dataSharingService.getSoldProductCount();
     // this.availableProduct = this.dataSharingService.getAvailableProductCount();
     
-
+    
     // Subscribe to the Observable to get updates
     this.availableProduct$.subscribe((availableCount: number) => {
       this.availableProduct = availableCount;
