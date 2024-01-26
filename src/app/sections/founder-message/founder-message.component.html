@@ -3,14 +3,24 @@
     <div class="founder-message-text">
         <p class="founder-message-text-p"><span>{{"sections.founder-message.text.p1.bold" | translate }}</span>
             {{"sections.founder-message.text.p1.text" | translate }}</p>
+
         <p class="founder-message-text-p"> {{"sections.founder-message.text.p2" | translate }}
         </p>
-        <p class="founder-message-text-p">
-            {{"sections.founder-message.text.p3" | translate }}
-        </p>
-        <p class="founder-message-text-p">{{"sections.founder-message.text.p4" | translate }}
-        </p>
-        <p class="founder-message-text-p">{{"sections.founder-message.text.p5" | translate }}
-        </p>
+
+        <span #hideText class="hide">
+            <p class="founder-message-text-p">
+                {{"sections.founder-message.text.p3" | translate }}
+            </p>
+            <p class="founder-message-text-p">{{"sections.founder-message.text.p4" | translate }}
+            </p>
+            <p class="founder-message-text-p">{{"sections.founder-message.text.p5" | translate }}
+            </p>
+            <p class="founder-message-text-p">{{"sections.founder-message.text.p6" | translate }}
+            </p>
+
+        </span>
+
+        <button #hideTextButton class="readMore">read more</button>
+
     </div>
 </div>

@@ -11,4 +11,8 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class TeamComponent {
 
+  navigateToLink(): void {
+    const externalLink = 'https://debook-minting-backend.vercel.app/';
+    window.open(externalLink, '_blank');
+  }
 }

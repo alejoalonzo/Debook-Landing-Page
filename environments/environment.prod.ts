@@ -4,10 +4,6 @@ export const environment ={
 
     baseHref: '/Debook-Landing-Page/',
 
-    randomUsersApiBaseUrl : 'https://spotify23.p.rapidapi.com/search/',
-    XRapidAPIhostHeaderName: 'X-RapidAPI-Host',
-    XRapidAPIhostHeaderValue: 'spotify23.p.rapidapi.com',
-    XRapidAPIkeyHeaderName: 'X-RapidAPI-Key',
-    XRapidAPIkeyHeaderValue: '',
+    apiUrl: 'https://datieskca7hlzshr3hgso4vacu0yfscv.lambda-url.us-east-1.on.aws/'
     
 }

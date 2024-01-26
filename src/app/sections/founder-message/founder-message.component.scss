@@ -2,7 +2,7 @@
 
 .founder-message-container{
     width: 100%;
-    height: 510px;
+    height: 580px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,13 +33,32 @@
             flex-direction: column;
             justify-content: space-between;
             font-size: 15px;
-            font-weight: 400;
+            font-weight: 300;
             font-family: $font-inter;
             line-height: 22px;
             span{
                 display: inline-flex;
                 font-weight: bold;
             }
+        }
+
+        .hide{
+            display: none;
+
+        }
+        .show{
+            display: block;
+
+        }
+
+        .readMore{
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: $font-inter;
+            font-weight: bold;
         }
     }
 }

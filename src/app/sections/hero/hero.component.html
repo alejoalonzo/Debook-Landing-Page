@@ -5,7 +5,7 @@
         <p class="subtitle">{{"sections.hero.subtitle" | translate}}</p>
         <div class="hero-button">
             <!-- <p-button class="p-button-long" label="BUY MAGICKEYS"></p-button> -->
-            <p-button class="p-button-long">
+            <p-button class="p-button-long" (click)="navigateToLink()">
                 <ng-template pTemplate="label">
                     {{ 'sections.hero.buyButton' | translate }}
                 </ng-template>

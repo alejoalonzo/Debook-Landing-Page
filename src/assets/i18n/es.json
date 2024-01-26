@@ -3,7 +3,7 @@
         "hero": {
             "title": "3333 DEBOOK MAGICKEYS",
             "title2": "para desbloquear el futuro de los libros",
-            "subtitle": "Se parte de una comunidad de visionarios y apoya la primer etapa de DEBOOK para aprender de los desafíos que enfrenta su fundador y conseguir beneficios ilimitados",
+            "subtitle": "Se parte de una comunidad de visionarios y apoya la primer etapa de DEBOOK para aprender de los desafíos que enfrenta su fundador y consigue beneficios ilimitados",
             "buyButton": "COMPRAR MAGICKEY",
             "loadingText": "  2400 de 3333 disponibles"
         },
@@ -48,17 +48,18 @@
             "text":{
                 "p1":{
                     "bold":"Mensaje del fundador:",
-                    "text":"Honestamente, esta es la razón más profunda por la que estoy lanzando las MAGICKEYS con un valor único para un grupo muy limitado de personas. Construir una startup no es fácil. Es un viaje de altibajos con miles de desafíos y horas en las que te sientes perdido y solo. Sé que no es sexy decirlo, pero es la realidad."
+                    "text":"Honestamente, esta es la razón más profunda por la que estoy lanzando las MAGICKEYS con un valor único para un grupo muy limitado de personas. Construir una startup revolucionaria no es fácil. Es un viaje de altibajos con miles de desafíos y horas de sentirse perdido y solo. Sé que no es sexy decirlo, pero es la realidad."
                 },
                 "p2":"Por supuesto, también es una aventura con muchas lecciones, celebraciones y nuevas relaciones increíbles.",
-                "p3":"Y aquí es donde quiero llegar. Quiero compartir lo mejor que me llevaré de este proceso con las personas que confían en mí y en la visión de DEBOOK desde el primer día. Compartir todo lo que aprendo en cada reto: técnico, comunicación, team building, seguridad, estructura empresarial, legalidad, motivación,... Quiero convertirlo en conocimiento para ti. Quiero hacerte parte de cada desafío y de cada proceso importante de toma de decisiones en este viaje de largo plazo que me encantaría recorrer desde el Ernest de los 30 hasta el de los 40.",
-                "p4":"Sueño con ayudarte en tu viaje personal, hacerte de puente en tus desafíos a través de mis lecciones instantáneas basadas en la experiencia de a tiempo real, las conexiones invaluables de la comunidad y mi red contactos que irá creciendo con el tiempo y que pondré a tu disposición. Sueño con despertarme cada mañana y sentir el apoyo de una comunidad apasionada, optimista y amable. 3.333 personas o menos tendrán la oportunidad de vivir este viaje de ida desde dentro.",
-                "p5":"Si lo sientes, ¡seamos parte de la historia de los libros!"
+                "p3":"Y aquí es donde quiero llegar. Quiero compartir lo mejor que voy a sacar de este proceso con las personas que han confiado en mi y la visión de DEBOOK desde el primer día (la visión nació en abril 2021). Serás una de las personas que más se beneficia del desarrollo porque te lo compartiré todo. Desde mostrarte avances súper privados hasta todo lo que aprendo en cada desafío: técnico, comunicación, creación de equipos, seguridad, estructura empresarial, legalidad, emocional y motivacional. Voy a convertir este proceso en sabiduría para ti. Quiero hacerte parte de cada desafío y cada proceso de toma de decisiones importantes en este viaje de largo plazo que me gustaría emprender desde el Ernest de 30 años hasta el de 40 años.",
+                "p4":"Si bien no puedo garantizar el éxito de nuestros esfuerzos, aspiro a una revolución mundial en la industria de los libros donde los autores podrán vivir de ser autores y la experiencia de lectura se enriquecerá como nunca antes ha sido posible. Puedo prometerte dos cosas: primero, dedicaré mi vida a hacer realidad esta visión, y segundo, daré plena transparencia a la comunidad MAGICKEY, tanto nuestros éxitos como nuestros fracasos. Sigo desarrollando la mentalidad de unicornio para construir el futuro del libro. El próximo Youtube o Spotify de libros que cambia la forma en que las personas leen y publican libros para siempre.",
+                "p5":"Sueño con inspirarte en tu viaje personal y ayudarte con las invaluables conexiones en la comunidad de la MAGICKEY y con mi red de contactos que crecerá con el tiempo y que pondré a tu disposición. Sueño con despertarme cada mañana y sentir el apoyo de una comunidad apasionada, optimista y amable. Hasta 3333 personas tendrán la oportunidad de experimentar este viaje de ida desde dentro.",
+                "p6":"Esta comunidad de visionarios será clave parte del éxito de DEBOOK. Si lo sientes, ¡hagamos historia juntos!"
             }
         },
         "funds-go-to-dev": {
-            "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA BETA APP",
-            "interact": "Interactuar con DEBOOK beta app ",
+            "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA DEMO APP",
+            "interact": "Interactuar con DEBOOK demo app ",
             "go-to-pitchdeck": "Go to Pitchdeck"
         },
         "panels": {
@@ -167,6 +168,7 @@
             }
         },
         "faqs":{
+            "title":"PREGUNTAS MÁS FRECUENTES",
             "1":{
                 "header":"¿Puedo ganar dinero con las MAGICKEYS?",
                 "body": {
@@ -215,7 +217,7 @@
     "components":{
         "subMenu":  {
             "phase": "Fase",
-            "available": "disponible de",
+            "available": "disponibles de",
             "buy10": {
                 "top":"Compra 10 y accede a",
                 "bottom":"The Unicorn Mansion Edition 1"

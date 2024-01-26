@@ -11,5 +11,8 @@ import { CarrouselMansionComponent } from '../../components/carrousel-mansion/ca
   styleUrl: './unicorn-mansion.component.scss'
 })
 export class UnicornMansionComponent {
-
+  navigateToLink(): void {
+    const externalLink = 'https://debook-minting-backend.vercel.app/';
+    window.open(externalLink, '_blank');
+  }
 }

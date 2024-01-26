@@ -21,6 +21,9 @@ export class ProgressBarComponent implements OnInit{
   constructor(private dataSharingService: DataSharingService) {}
 
   ngOnInit() {
+    this.dataSharingService.getApiData().subscribe(data => {
+      console.log('API Data:', data);
+    });
     this.soldPercentage = this.dataSharingService.getSoldPercentage();
     this.dataSharingService.soldPercentage$.subscribe(newPercentage => {
       this.soldPercentage = newPercentage;

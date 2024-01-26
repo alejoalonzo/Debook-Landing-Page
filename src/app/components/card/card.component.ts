@@ -20,6 +20,7 @@ export class CardComponent implements OnInit {
   constructor(private usersService: UsersService) { }
 
   ngOnInit() {
+    
     this.getSampleUsersList();
   }
 

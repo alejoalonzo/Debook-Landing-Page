@@ -1,18 +1,43 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Subject, Observable, map, of  } from 'rxjs';
+import { HttpClient, HttpParams  } from '@angular/common/http';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataSharingService {
+
+  private apiUrl = environment.apiUrl;
   private soldPercentageSource = new Subject<number>();
 
   soldPercentage$ = this.soldPercentageSource.asObservable();
 
-  private totalProductCount: number = 1111;
-  private soldProductCount: number = 733;
+  private totalProductCount: number = 0;
+  private soldProductCount: number = 0;
   private salesPhase: number = 1;
 
+  constructor(private http: HttpClient) { }
+
+
+  getApiData(): Observable<any> {
+    let params = new HttpParams();
+    return this.http.get<any>(this.apiUrl, { params: params })
+      .pipe(
+        map(apiData => {
+          
+          this.totalProductCount = apiData.maxSupply;
+          this.soldProductCount = apiData.maxAllowlistSupply;
+
+          this.updateSalesPhase();
+
+          return apiData;
+        })
+      );
+  }
+  
+
+  
   getSoldPercentage(): number {
     return (this.soldProductCount / this.totalProductCount) * 100;
   }
@@ -22,9 +47,13 @@ export class DataSharingService {
     return this.soldProductCount;
   }
 
-  getAvailableProductCount(): number {
+  // getAvailableProductCount(): number {
+  //   const availableCount = this.totalProductCount - this.soldProductCount;
+  //   return availableCount > 0 ? availableCount : 0;
+  // }
+  getAvailableProductCount(): Observable<number> {
     const availableCount = this.totalProductCount - this.soldProductCount;
-    return availableCount > 0 ? availableCount : 0;
+    return of(availableCount > 0 ? availableCount : 0);
   }
 
   getSalesPhase(): number {

@@ -6,13 +6,17 @@
         <div class="salesProcess-title-subtitle">
             {{"sections.sales-process.subtitle" | translate }} <br> {{"sections.sales-process.subtitle2" | translate }}
         </div>
+        <div class="salesProcess-title-subtitleMobile">
+            {{"sections.sales-process.subtitle" | translate }}. {{"sections.sales-process.subtitle2" | translate }}
+        </div>
     </div>
 
     <div class="salesProcess-phases">
         <div class="salesProcess-phases-phase phase_1">
             <div class="salesProcess-phases-phase-icon">
                 <!-- <img src="assets/images/LockKeyhole.svg" alt=""> -->
-                <div class="soldOut">SOLD OUT</div>
+                <!-- <div class="soldOut">SOLD OUT</div> -->
+                <img src="assets/images/LockUnlocked.svg" alt="">
             </div>
             <div class="salesProcess-phases-phase-numberPhase">
                 {{"sections.sales-process.phases.phase" | translate }} 1
@@ -27,13 +31,18 @@
                 <app-progress-bar [isWhiteBackground]="false" [showIcon]="false"></app-progress-bar>
             </div>
             <div class="salesProcess-phases-phase-button">
-
+                <p-button class="p-button-long" (click)="navigateToLink()">
+                    <ng-template pTemplate="label">
+                        {{ 'sections.hero.buyButton' | translate }}
+                    </ng-template>
+                </p-button>
             </div>
         </div>
 
-        <div class="salesProcess-phases-phase">
+        <div class="salesProcess-phases-phase gray-background phase_2">
             <div class="salesProcess-phases-phase-icon">
-                <img src="assets/images/LockUnlocked.svg" alt="">
+                <!-- <img src="assets/images/LockUnlocked.svg" alt=""> -->
+                <img src="assets/images/LockKeyhole.svg" alt="">
             </div>
             <div class="salesProcess-phases-phase-numberPhase">
                 {{"sections.sales-process.phases.phase" | translate }} 2
@@ -45,18 +54,19 @@
                 $433.00
             </div>
             <div class="salesProcess-phases-phase-progressBar">
-                <app-progress-bar [isWhiteBackground]="false" [showIcon]="false"></app-progress-bar>
+                <div class="bar">
+                </div>
             </div>
-            <div class="salesProcess-phases-phase-button">
+            <!-- <div class="salesProcess-phases-phase-button">
                 <p-button class="p-button-long">
                     <ng-template pTemplate="label">
                         {{ 'sections.hero.buyButton' | translate }}
                     </ng-template>
                 </p-button>
-            </div>
+            </div> -->
         </div>
 
-        <div class="salesProcess-phases-phase gray-background">
+        <div class="salesProcess-phases-phase gray-background phase_3">
             <div class="salesProcess-phases-phase-icon">
                 <img src="assets/images/LockKeyhole.svg" alt="">
             </div>
@@ -70,7 +80,8 @@
                 $533.00
             </div>
             <div class="salesProcess-phases-phase-progressBar">
-                <app-progress-bar [isWhiteBackground]="false" [showIcon]="false"></app-progress-bar>
+                <div class="bar">
+                </div>
             </div>
             <div class="salesProcess-phases-phase-button">
 
