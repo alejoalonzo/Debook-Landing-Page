@@ -11,7 +11,7 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class FundsGoToDevComponent {
   navigateToLink(): void {
-    const externalLink = 'https://www.figma.com/proto/yNBopIX5wlCK5EjJ7LFDHi/Debook---UI-Screens?page-id=396%3A2&type=design&node-id=473-334&viewport=160%2C865%2C0.51&t=m9oLYGfMRdUXL8Kt-1&scaling=scale-down&mode=design';
+    const externalLink = 'https://www.figma.com/proto/cLeWxki0oLVfHyu8t9emhJ/DEBOOK-APP-27-DE-ENERO?page-id=0%3A1&type=design&node-id=0-3980&viewport=-7297%2C10271%2C3.54&t=YYDS9fJwb0XnLB4p-1&scaling=min-zoom&mode=design';
     window.open(externalLink, '_blank');
   }
 }

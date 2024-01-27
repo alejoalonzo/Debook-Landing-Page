@@ -1,7 +1,11 @@
 <div class="funds-go-to-dev-container">
     <div class="funds-go-to-dev-img">
         <img src="assets/images/mobiles.png" alt="">
-        <p-button class="button-black-long button-mobile" label="Interact with DEBOOK app demo!"></p-button>
+        <p-button class="button-black-long button-mobile" (click)="navigateToLink()">
+            <ng-template pTemplate="label">
+                {{ 'sections.funds-go-to-dev.interact' | translate }}
+            </ng-template>
+        </p-button>
     </div>
     <div class="funds-go-to-dev-content">
         <div class="funds-go-to-dev-content-title gradientText2">
