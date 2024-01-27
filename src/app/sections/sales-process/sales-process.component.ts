@@ -3,6 +3,7 @@ import { ProgressBarComponent } from '../../components/progress-bar/progress-bar
 import { ButtonModule } from 'primeng/button';
 import { TranslateModule } from '@ngx-translate/core';
 import { DataSharingService } from '../../services/data-sharing.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-sales-process',
@@ -15,12 +16,20 @@ import { DataSharingService } from '../../services/data-sharing.service';
 export class SalesProcessComponent {
 
   private salesPhase: number = 1;
+  availableProduct$: Observable<number> = new Observable<number>();
+  availableProduct: number = 0;
 
   constructor(private dataSharingService: DataSharingService) {
   }
 
   ngOnInit() {
     this.salesPhase = this.dataSharingService.getSalesPhase();
+
+    this.availableProduct$ = this.dataSharingService.getAvailableCount();
+    this.availableProduct$.subscribe((availableCount: number) => {
+      
+      this.availableProduct = availableCount;
+    });
     
   }
 

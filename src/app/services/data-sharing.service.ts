@@ -29,8 +29,10 @@ export class DataSharingService {
           
           this.phaseLevel = apiData.phase;
 
-          this.totalProductCount = apiData.maxAllowlistSupply + apiData.maxPublicSupply
-          // this.totalProductCount = apiData.maxSupply;
+          // this.totalProductCount = apiData.maxAllowlistSupply + apiData.maxPublicSupply
+
+          this.totalProductCount = apiData.maxAllowlistSupply + apiData.maxPublicSupply;
+
           if (apiData.currentMinted < apiData.maxAllowlistSupply)
             this.soldProductCount = apiData.maxAllowlistSupply;
           else
@@ -61,12 +63,12 @@ export class DataSharingService {
     return this.getApiData()
       .pipe(
         map(apiData => {
-          const totalSupply = apiData.maxSupply || 0;
-          const publicSupply = apiData.maxPublicSupply || 0;
-          const allowlistSupply = apiData.maxAllowlistSupply || 0;
-          const currentMinted = apiData.currentMinted || 0;
+
+          this.totalProductCount = apiData.maxAllowlistSupply + apiData.maxPublicSupply;
+
+          this.soldProductCount = apiData.maxAllowlistSupply;
   
-          const availableCount = totalSupply - currentMinted;
+          const availableCount = this.totalProductCount - this.soldProductCount;
   
           return availableCount > 0 ? availableCount : 0;
         })
