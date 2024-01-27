@@ -29,15 +29,15 @@ export class DataSharingService {
           
           this.phaseLevel = apiData.phase;
 
-          // this.totalProductCount = apiData.maxAllowlistSupply + apiData.maxPublicSupply
-
           this.totalProductCount = apiData.maxAllowlistSupply + apiData.maxPublicSupply;
 
-          if (apiData.currentMinted < apiData.maxAllowlistSupply)
-            this.soldProductCount = apiData.maxAllowlistSupply;
-          else
-            this.soldProductCount = apiData.currentMinted;
-          
+          if (apiData.maxAllowlistSupply + apiData.currentMinted == apiData.maxAllowlistSupply + apiData.maxPublicSupply) {
+            this.soldProductCount = apiData.maxAllowlistSupply + apiData.maxPublicSupply;
+          }
+          else {
+            this.soldProductCount = apiData.maxAllowlistSupply + apiData.currentMinted
+          }
+                    
           this.updateSalesPhase();
 
           return apiData;
@@ -66,7 +66,14 @@ export class DataSharingService {
 
           this.totalProductCount = apiData.maxAllowlistSupply + apiData.maxPublicSupply;
 
-          this.soldProductCount = apiData.maxAllowlistSupply;
+          if (apiData.maxAllowlistSupply + apiData.currentMinted == apiData.maxAllowlistSupply + apiData.maxPublicSupply) {
+            this.soldProductCount = apiData.maxAllowlistSupply + apiData.maxPublicSupply;
+          }
+          else {
+            this.soldProductCount = apiData.maxAllowlistSupply + apiData.currentMinted
+          }
+
+          // this.soldProductCount = apiData.maxAllowlistSupply;
   
           const availableCount = this.totalProductCount - this.soldProductCount;
   
