@@ -52,7 +52,10 @@
                     "text":"Honestly, this is the deepest reason why I'm launching these MAGICKEYS with unique value for a very limited group of people. Building a revolutionary startup is not easy. It's an up-and-down journey with thousands of challenges and hours of feeling lost and alone. I know it's not sexy to say, but it's the reality. "
                 },
                 "p2":"Of course, it's also an adventure with plenty of lessons, celebrations, and new incredible relationships. ",
-                "p3":"And this is where I want to get to. I want to share the best that I am going to take away from this process with the people who trust me and the vision of DEBOOK since day one (The vision was born in April 2021). You will be one of the people who will see the most benefit from the development because I will share everything with you. From showing you super private advances to everything I learn through each challenge: technical, communication, team building, security, business structure, legality, emotional and motivational. I want to turn it into wisdom for you. I want to make you part of each challenge and each important decision making process in this long-term journey that I would love to take from the Ernest of 30 to the 40-year-old. ",
+                "p3":{
+                    "before":"And this is where I want to get to....",
+                    "after":"I want to share the best that I am going to take away from this process with the people who trust me and the vision of DEBOOK since day one (The vision was born in April 2021). You will be one of the people who will see the most benefit from the development because I will share everything with you. From showing you super private advances to everything I learn through each challenge: technical, communication, team building, security, business structure, legality, emotional and motivational. I want to turn it into wisdom for you. I want to make you part of each challenge and each important decision making process in this long-term journey that I would love to take from the Ernest of 30 to the 40-year-old."
+                },
                 "p4":"While I cannot guarantee the success of our efforts, I aspire to a global revolution in the book industry where authors can make a living from being authors and the reading experience will be enriched as never before possible. I can promise you two things: first, I will devote my life to making this vision a reality, and second, I will give full transparency to the MAGICKEY community into our endeavors, both our successes and our shortcomings. I got the unicorn mindset to build the next book thing. The next Youtube or Spotify of books that changes how people read and publish books forever.",
                 "p5":"I dream of inspiring you in your personal journey and help you with the invaluable MAGICKEY community connections and my network of contacts that will grow over time and that I will put at your disposal. I dream of waking up every morning and feeling the support of a passionate, optimistic and kind community. Up to 3,333 people will have the opportunity to experience this one-way trip from the inside.",
                 "p6":"This community of visionaries will be a key part of DEBOOK's success. If you feel called, let's become part of the book history together!"
@@ -213,7 +216,10 @@
                     "p6":"Can you imagine being part of the community that saw the potential of Spotify before anyone else?"
                 } 
             }
-        }
+        },
+        "footer":"Send your questions to"
+
+
 
 
     },
