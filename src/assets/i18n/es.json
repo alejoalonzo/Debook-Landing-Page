@@ -3,7 +3,7 @@
         "hero": {
             "title": "3333 DEBOOK MAGICKEYS",
             "title2": "para desbloquear el futuro de los libros",
-            "subtitle": "Se parte de una comunidad de visionarios y apoya la primer etapa de DEBOOK para aprender de los desafíos que enfrenta su fundador consiguiendo beneficios ilimitados",
+            "subtitle": "Se parte de una comunidad de visionarios apoyando la primera etapa de DEBOOK para aprender de los desafíos que enfrenta su fundador y consigue beneficios ilimitados",
             "buyButton": "COMPRAR MAGICKEY",
             "loadingText": "  2400 de 3333 disponibles"
         },
@@ -41,7 +41,7 @@
                     "sub-title4":"Después de que se agoten las MAGICKEYS en cada una de las tres fases, anunciaremos una nueva edición de La Mansión Unicornio. Una MAGICKEY, una participación."
                 }
             },
-            "image-text": "“Las MAGICKEYS te garantizan acceso inmediato al producto"
+            "image-text": "Las MAGICKEYS te garantizan acceso inmediato al producto"
         },
         "founder-message": {
             "title": "La comunidad que cualquier emprendedor soñaría tener a su alrededor",
@@ -51,7 +51,10 @@
                     "text":"Honestamente, esta es la razón más profunda por la que estoy lanzando las MAGICKEYS con un valor único para un grupo muy limitado de personas. Construir una startup revolucionaria no es fácil. Es un viaje de altibajos con miles de desafíos y horas de sentirse perdido y solo. Sé que no es sexy decirlo, pero es la realidad."
                 },
                 "p2":"Por supuesto, también es una aventura con muchas lecciones, celebraciones y nuevas relaciones increíbles.",
-                "p3":"Y aquí es donde quiero llegar. Quiero compartir lo mejor que voy a sacar de este proceso con las personas que han confiado en mi y la visión de DEBOOK desde el primer día (la visión nació en abril 2021). Serás una de las personas que más se beneficia del desarrollo porque te lo compartiré todo. Desde mostrarte avances súper privados hasta todo lo que aprendo en cada desafío: técnico, comunicación, creación de equipos, seguridad, estructura empresarial, legalidad, emocional y motivacional. Voy a convertir este proceso en sabiduría para ti. Quiero hacerte parte de cada desafío y cada proceso de toma de decisiones importantes en este viaje de largo plazo que me gustaría emprender desde el Ernest de 30 años hasta el de 40 años.",
+                "p3":{
+                    "before":"Y aquí es donde quiero llegar...",
+                    "after":"Quiero compartir lo mejor que voy a sacar de este proceso con las personas que han confiado en mi y la visión de DEBOOK desde el primer día (la visión nació en abril 2021). Serás una de las personas que más se beneficia del desarrollo porque te lo compartiré todo. Desde mostrarte avances súper privados hasta todo lo que aprendo en cada desafío: técnico, comunicación, creación de equipos, seguridad, estructura empresarial, legalidad, emocional y motivacional. Voy a convertir este proceso en sabiduría para ti. Quiero hacerte parte de cada desafío y cada proceso de toma de decisiones importantes en este viaje de largo plazo que me gustaría emprender desde el Ernest de 30 años hasta el de 40 años."
+                },
                 "p4":"Si bien no puedo garantizar el éxito de nuestros esfuerzos, aspiro a una revolución mundial en la industria de los libros donde los autores podrán vivir de ser autores y la experiencia de lectura se enriquecerá como nunca antes ha sido posible. Puedo prometerte dos cosas: primero, dedicaré mi vida a hacer realidad esta visión, y segundo, daré plena transparencia a la comunidad MAGICKEY, tanto nuestros éxitos como nuestros fracasos. Sigo desarrollando la mentalidad de unicornio para construir el futuro del libro. El próximo Youtube o Spotify de libros que cambia la forma en que las personas leen y publican libros para siempre.",
                 "p5":"Sueño con inspirarte en tu viaje personal y ayudarte con las invaluables conexiones en la comunidad de la MAGICKEY y con mi red de contactos que crecerá con el tiempo y que pondré a tu disposición. Sueño con despertarme cada mañana y sentir el apoyo de una comunidad apasionada, optimista y amable. Hasta 3333 personas tendrán la oportunidad de experimentar este viaje de ida desde dentro.",
                 "p6":"Esta comunidad de visionarios será clave parte del éxito de DEBOOK. Si lo sientes, ¡hagamos historia juntos!"
@@ -172,7 +175,7 @@
             "1":{
                 "header":"¿Puedo ganar dinero con las MAGICKEYS?",
                 "body": {
-                    "p1":"Sí, aunque es importante entender lo siguiente. El precio de la MAGICKEY esta definido por el valor del servicio que vas a recibir a cambio. Su propósito no es especulativo y por eso ES IMPOSIBLE QUE PIERDAS DINERO y tiene ABSOLUTAMENTE ZERO RIESGO ya que estas recibiendo inmediatamente la utilidad por la que estas pagando: acceso a la comunidad de visionarios y a una videollamada mensual con el fundador. Igual que comprar un infoproducto pero en versión NFT. ",
+                    "p1":"La respuesta corta es sí. Es importante entender lo siguiente en los términos y condiciones que es necesario aceptar antes de poder comprar una MAGICKEY. El precio de la MAGICKEY esta definido por el valor del servicio que vas a recibir a cambio. Su propósito no es especulativo y por eso ES IMPOSIBLE QUE PIERDAS DINERO y tiene ABSOLUTAMENTE ZERO RIESGO ya que estas recibiendo inmediatamente la utilidad por la que estas pagando: acceso a la comunidad de visionarios y a una videollamada mensual con el fundador. Igual que comprar un infoproducto pero en versión NFT. ",
                     "p2":"Con esto claro, si con el tiempo se agotan las MAGICKEYS y el proyecto sigue creciendo como vamos a hacer que suceda, la demanda aumentará y los nuevos propietarios tendrán que recomprar la MAGICKEY a uno de los poseedores actuales. Esto significa que podrás revender tu MAGICKEY por el precio que estén dispuesto a comprarte. Además, conforme DEBOOK crece con los años la potencial utilidad (no asegurada) empezará a tener sentido y podrás acceder a todos los libros de los autores que publicarán en DEBOOK.",
                     "p3":"La involucración de la comunidad es crucial para el éxito de DEBOOK y su posible revalorización."
                 }   
@@ -212,7 +215,8 @@
                     "p6":"¿te imaginas haber sido parte de la comunidad que vió antes que nadie el potencial de Spotify?"
                 } 
             }
-        }
+        },
+        "footer":"Envía tus preguntas a"
     },
     "components":{
         "subMenu":  {

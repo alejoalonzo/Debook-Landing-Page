@@ -48,7 +48,7 @@ export class NavComponent implements OnInit{
     }
 
     onLanguageChange() {
-      this.languageChange.emit(this.selectedCity?.code || 'en');
+      this.languageChange.emit(this.selectedCity?.code || 'es');
     }
 
 }

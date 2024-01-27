@@ -26,17 +26,13 @@ export class SubMenuComponent {
 
   ngOnInit(): void {
 
-  
-    // this.soldProductCount = this.dataSharingService.getSoldProductCount();
-    // this.availableProduct = this.dataSharingService.getAvailableProductCount();
-    
-    
-    // Subscribe to the Observable to get updates
+    this.availableProduct$ = this.dataSharingService.getAvailableCount();
     this.availableProduct$.subscribe((availableCount: number) => {
+      
       this.availableProduct = availableCount;
-    });
 
-    this.availableProduct$ = this.dataSharingService.getAvailableProductCount();
+      console.log("availableCount: "+availableCount)
+    });
 
   }
 

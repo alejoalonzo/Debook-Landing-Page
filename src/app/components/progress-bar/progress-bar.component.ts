@@ -28,7 +28,7 @@ export class ProgressBarComponent implements OnInit{
     this.dataSharingService.soldPercentage$.subscribe(newPercentage => {
       this.soldPercentage = newPercentage;
     });
-    this.salesPhase = this.dataSharingService.getSalesPhase();
+    // this.salesPhase = this.dataSharingService.getSalesPhase();
     
   }
 

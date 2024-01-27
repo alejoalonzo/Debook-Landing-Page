@@ -33,7 +33,7 @@ export class FounderMessageComponent {
   }
 
   updateButtonText() {
-    const buttonText = this.isTextVisible ? '...Read Less' : 'Read More...';
+    const buttonText = this.isTextVisible ? 'Leer menos' : 'Leer más';
     this.hideTextButtonElementRef.nativeElement.textContent = buttonText;
   }
 

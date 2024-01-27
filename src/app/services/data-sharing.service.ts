@@ -57,9 +57,20 @@ export class DataSharingService {
   //   const availableCount = this.totalProductCount - this.soldProductCount;
   //   return availableCount > 0 ? availableCount : 0;
   // }
-  getAvailableProductCount(): Observable<number> {
-    const availableCount = this.totalProductCount - this.soldProductCount;
-    return of(availableCount > 0 ? availableCount : 0);
+  getAvailableCount(): Observable<number> {
+    return this.getApiData()
+      .pipe(
+        map(apiData => {
+          const totalSupply = apiData.maxSupply || 0;
+          const publicSupply = apiData.maxPublicSupply || 0;
+          const allowlistSupply = apiData.maxAllowlistSupply || 0;
+          const currentMinted = apiData.currentMinted || 0;
+  
+          const availableCount = totalSupply - currentMinted;
+  
+          return availableCount > 0 ? availableCount : 0;
+        })
+      );
   }
 
   getSalesPhase(): number {
