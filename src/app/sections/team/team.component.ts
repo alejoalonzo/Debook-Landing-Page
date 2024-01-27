@@ -12,7 +12,7 @@ import { TranslateModule } from '@ngx-translate/core';
 export class TeamComponent {
 
   navigateToLink(): void {
-    const externalLink = 'https://debook-minting-backend.vercel.app/';
+    const externalLink = 'https://mint.debookmagickey.com/';
     window.open(externalLink, '_blank');
   }
 }

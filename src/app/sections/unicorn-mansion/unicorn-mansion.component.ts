@@ -12,7 +12,7 @@ import { CarrouselMansionComponent } from '../../components/carrousel-mansion/ca
 })
 export class UnicornMansionComponent {
   navigateToLink(): void {
-    const externalLink = 'https://debook-minting-backend.vercel.app/';
+    const externalLink = 'https://mint.debookmagickey.com/';
     window.open(externalLink, '_blank');
   }
 }

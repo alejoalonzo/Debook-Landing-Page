@@ -12,5 +12,8 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class OneBookOneCommunityComponent {
   videoSource: string = '/assets/images/FINAL.mp4';
-
+  navigateToLink(): void {
+    const externalLink = 'https://drive.google.com/drive/u/0/folders/1hbPs_ijfqTc2na_6WVhn-HmeZR5-ybqF';
+    window.open(externalLink, '_blank');
+  }
 }
