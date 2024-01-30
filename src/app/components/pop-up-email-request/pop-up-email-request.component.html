@@ -1,0 +1,27 @@
+<div class="card flex justify-content-center">
+    <p-button (click)="showDialog()" icon="" label="Show Dialog"></p-button>
+    <p-dialog [(visible)]="visible">
+        <ng-template pTemplate="headless">
+            <div class="flex flex-column px-8 py-5 gap-4"
+                style="border-radius: 12px; background-image: radial-gradient(circle at left top, var(--primary-400), var(--primary-700))">
+                <div class="inline-flex flex-column gap-2">
+                    <label for="username" class="text-primary-50 font-semibold">Name</label>
+                    <input pInputText id="username" class="bg-white-alpha-20 border-none p-3 text-primary-50" />
+                </div>
+                <div class="inline-flex flex-column gap-2">
+                    <label for="Email" class="text-primary-50 font-semibold">Email</label>
+                    <input pInputText id="email" class="bg-white-alpha-20 border-none p-3 text-primary-50"
+                        type="email" />
+                </div>
+                <div class="flex align-items-center gap-2">
+                    <p-button label="Sign-In" (click)="closeDialog()" [text]="true"
+                        styleClass="w-full text-primary-50 border-1 border-white-alpha-30 hover:bg-white-alpha-10"
+                        class="w-full"></p-button>
+                    <p-button label="Cancel" (click)="closeDialog()" [text]="true"
+                        styleClass="w-full text-primary-50 border-1 border-white-alpha-30 hover:bg-white-alpha-10"
+                        class="w-full"></p-button>
+                </div>
+            </div>
+        </ng-template>
+    </p-dialog>
+</div>

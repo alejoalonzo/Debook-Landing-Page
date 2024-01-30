@@ -12,14 +12,10 @@
             {{"sections.funds-go-to-dev.title" | translate }}
         </div>
         <div class="funds-go-to-dev-content-buttons hide-buttons">
-            <p-button class="button-black-long" (click)="navigateToLink()">
+            <app-pop-up-email-request [(visible)]="visible"></app-pop-up-email-request>
+            <!-- <p-button class="button-black-long" (click)="navigateToLink()">
                 <ng-template pTemplate="label">
                     {{ 'sections.funds-go-to-dev.interact' | translate }}
-                </ng-template>
-            </p-button>
-            <!-- <p-button class="button-black-long">
-                <ng-template pTemplate="label">
-                    {{ 'sections.funds-go-to-dev.go-to-pitchdeck' | translate }}
                 </ng-template>
             </p-button> -->
         </div>
