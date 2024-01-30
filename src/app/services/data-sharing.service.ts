@@ -1,7 +1,8 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { Subject, Observable, map, of  } from 'rxjs';
-import { HttpClient, HttpParams  } from '@angular/common/http';
+import { HttpClient, HttpParams, HttpClientModule  } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
+import { catchError } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -20,6 +21,7 @@ export class DataSharingService {
 
   constructor(private http: HttpClient) { }
 
+  // http= inject(HttpClient)
 
   getApiData(): Observable<any> {
     let params = new HttpParams();
@@ -38,9 +40,14 @@ export class DataSharingService {
             this.soldProductCount = apiData.maxAllowlistSupply + apiData.currentMinted
           }
                     
-          this.updateSalesPhase();
+          // this.updateSalesPhase();
 
           return apiData;
+        }),
+
+        catchError(error => {
+          console.error('HTTP request error: ', error);
+          throw error;
         })
       );
   }
@@ -55,10 +62,7 @@ export class DataSharingService {
     return this.soldProductCount;
   }
 
-  // getAvailableProductCount(): number {
-  //   const availableCount = this.totalProductCount - this.soldProductCount;
-  //   return availableCount > 0 ? availableCount : 0;
-  // }
+
   getAvailableCount(): Observable<number> {
     return this.getApiData()
       .pipe(
@@ -81,6 +85,11 @@ export class DataSharingService {
         })
       );
   }
+
+
+
+
+  /*
 
   getSalesPhase(): number {
     return this.salesPhase;
@@ -124,5 +133,5 @@ export class DataSharingService {
       this.soldProductCount = 0; 
       this.updateSoldPercentage(0);
     }
-  }
+  }*/
 }

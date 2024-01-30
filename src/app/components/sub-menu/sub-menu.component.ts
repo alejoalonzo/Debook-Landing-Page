@@ -5,12 +5,13 @@ import { Observable } from 'rxjs';
 
 import { ButtonModule } from 'primeng/button';
 import { ProgressBarComponent } from '../progress-bar/progress-bar.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @Component({
   selector: 'app-sub-menu',
   standalone: true,
-  imports: [ButtonModule, TranslateModule, ProgressBarComponent],
+  imports: [ButtonModule, TranslateModule, ProgressBarComponent, HttpClientModule],
   templateUrl: './sub-menu.component.html',
   styleUrl: './sub-menu.component.scss',
   providers: [DataSharingService]

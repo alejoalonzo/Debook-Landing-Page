@@ -23,7 +23,7 @@ export class SalesProcessComponent {
   }
 
   ngOnInit() {
-    this.salesPhase = this.dataSharingService.getSalesPhase();
+    // this.salesPhase = this.dataSharingService.getSalesPhase();
 
     this.availableProduct$ = this.dataSharingService.getAvailableCount();
     this.availableProduct$.subscribe((availableCount: number) => {
