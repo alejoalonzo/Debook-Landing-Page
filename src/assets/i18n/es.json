@@ -226,6 +226,13 @@
                 "top":"Compra 10 y accede a",
                 "bottom":"The Unicorn Mansion Edition 1"
             }
+        },
+        "popup":{
+            "subtitle":{
+                "top":"Profundiza en la experiencia DEBOOK",
+                "bottom":"Comparte tus datos para el acceso reservado"
+            },
+            "button": "Envíalo a mi correo"
         }
     }
 }

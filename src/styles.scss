@@ -136,7 +136,22 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
     color: $red;
 }
 
-
+.p-dialog .p-dialog-footer{
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.p-dialog .p-dialog-header{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.p-dialog {
+     border-radius: 0px; 
+     box-shadow: none; 
+     border: 0 none; 
+}
+.p-dialog-footer{
+    text-align: center;
+}
 
 
 
@@ -190,7 +205,7 @@ $custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1
     
     .button-black-long{
         .p-button{
-            width: 90%;
+            width: 100%;
             padding: 1.1rem 1.25rem;
             border-radius: 35px;
         }

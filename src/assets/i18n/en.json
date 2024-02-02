@@ -231,6 +231,13 @@
                 "top":"Buy 10 and get acces to",
                 "bottom":"The Unicorn Mansion Edition 1"
             }
+        },
+        "popup":{
+            "subtitle":{
+                "top":"Dive deeper into DEBOOK experience",
+                "bottom":"Share your details for early access"
+            },
+            "button": "Send it to my email"
         }
     }
 }

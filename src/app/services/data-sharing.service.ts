@@ -3,6 +3,7 @@ import { Subject, Observable, map, of  } from 'rxjs';
 import { HttpClient, HttpParams, HttpClientModule  } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 import { catchError } from 'rxjs/operators';
+import { User } from '../../models/user';
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +11,7 @@ import { catchError } from 'rxjs/operators';
 export class DataSharingService {
 
   private apiUrl = environment.apiUrl;
+  apiURLusers = environment.apiUrl+'users';
   private soldPercentageSource = new Subject<number>();
 
   soldPercentage$ = this.soldPercentageSource.asObservable();
@@ -21,7 +23,10 @@ export class DataSharingService {
 
   constructor(private http: HttpClient) { }
 
-  // http= inject(HttpClient)
+
+  createUser(userData: User): Observable<User>{
+    return this.http.post<User>(this.apiURLusers, userData);
+  }
 
   getApiData(): Observable<any> {
     let params = new HttpParams();
@@ -134,4 +139,5 @@ export class DataSharingService {
       this.updateSoldPercentage(0);
     }
   }*/
+  
 }

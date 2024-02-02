@@ -1,18 +1,21 @@
 <div class="funds-go-to-dev-container">
     <div class="funds-go-to-dev-img">
         <img src="assets/images/mobiles.png" alt="">
-        <p-button class="button-black-long button-mobile" (click)="navigateToLink()">
+        <div class="button-mobile">
+            <app-pop-up-email-request></app-pop-up-email-request>
+        </div>
+        <!-- <p-button class="button-black-long button-mobile" (click)="navigateToLink()">
             <ng-template pTemplate="label">
                 {{ 'sections.funds-go-to-dev.interact' | translate }}
             </ng-template>
-        </p-button>
+        </p-button> -->
     </div>
     <div class="funds-go-to-dev-content">
         <div class="funds-go-to-dev-content-title gradientText2">
             {{"sections.funds-go-to-dev.title" | translate }}
         </div>
         <div class="funds-go-to-dev-content-buttons hide-buttons">
-            <app-pop-up-email-request [(visible)]="visible"></app-pop-up-email-request>
+            <app-pop-up-email-request></app-pop-up-email-request>
             <!-- <p-button class="button-black-long" (click)="navigateToLink()">
                 <ng-template pTemplate="label">
                     {{ 'sections.funds-go-to-dev.interact' | translate }}

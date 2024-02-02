@@ -1,27 +1,84 @@
-import { Component, Input, Output, EventEmitter  } from '@angular/core';
-import { Button, ButtonModule } from 'primeng/button';
+import { CUSTOM_ELEMENTS_SCHEMA, Component, ViewChild  } from '@angular/core';
+import { CommonModule,  } from '@angular/common';
+import { ButtonModule } from 'primeng/button';
 import { DialogModule } from 'primeng/dialog';
+import { InputTextModule } from 'primeng/inputtext';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { MessageService } from 'primeng/api';
+import { User } from '../../../models/user';
+import { DataSharingService } from '../../services/data-sharing.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-pop-up-email-request',
   standalone: true,
-  imports: [DialogModule, ButtonModule],
+  imports: [
+    DialogModule, 
+    ButtonModule, 
+    InputTextModule, 
+    FormsModule, 
+    CommonModule, 
+    ReactiveFormsModule, 
+    TranslateModule],
   templateUrl: './pop-up-email-request.component.html',
-  styleUrl: './pop-up-email-request.component.scss'
+  styleUrl: './pop-up-email-request.component.scss',
+  providers:[MessageService],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class PopUpEmailRequestComponent {
 
-  @Input() visible: boolean = false;
-  @Output() visibleChange = new EventEmitter<boolean>();
+  @ViewChild('submitButton') submitButton: any;
 
-  showDialog() {
-    this.visible = true;
-    this.visibleChange.emit(this.visible);
+  userForm!: FormGroup;
+  isSubmitted!: boolean;
+  users: User[] =[];
+  visible: boolean = false;
+
+
+  constructor(
+    private formBuilder: FormBuilder,
+    private messageService: MessageService, 
+    private usersService: DataSharingService, 
+  ) {
   }
 
-  closeDialog() {
-    this.visible = false;
-    this.visibleChange.emit(this.visible);
+  ngOnInit(): void {
+    this._initFormUser();
+  }
+
+  showDialog() {
+      this.visible = true;
+  }
+
+  private _initFormUser(){
+    this.userForm = this.formBuilder.group({
+      name:['', Validators.required],
+      email:['', [Validators.required, Validators.email]],
+    })
+  }
+
+  onSubmit(){
+    this.isSubmitted=true;
+    if(this.userForm.invalid){
+      return;
+    }
+    const userFormData: User = {
+      name: this.userForm.controls['name'].value,
+      email: this.userForm.controls['email'].value,
+    }
+    console.log('usersData:', userFormData);
+    this._addUser(userFormData)
+
+    this.submitButton.disabled = true;
+
+  }
+
+  private _addUser(user: User){
+    this.usersService.createUser(user).subscribe((user: User)=>{
+      console.log()
+    });
   }
 
 }
