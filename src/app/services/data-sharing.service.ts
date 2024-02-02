@@ -94,7 +94,7 @@ export class DataSharingService {
 
 
 
-  /*
+  
 
   getSalesPhase(): number {
     return this.salesPhase;
@@ -138,6 +138,6 @@ export class DataSharingService {
       this.soldProductCount = 0; 
       this.updateSoldPercentage(0);
     }
-  }*/
+  }
   
 }

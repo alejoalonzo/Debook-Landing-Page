@@ -1,6 +1,6 @@
 <div class="progress-container">
     <div [ngClass]="{'white-background': isWhiteBackground}" class="bar">
-        <div class="progress" [style.width.%]="soldPercentage">
+        <div class="progress" [style.width.%]="soldPercentage ">
         </div>
     </div>
     <div class="icon" *ngIf="showIcon" [style.left.%]="soldPercentage - 3">
