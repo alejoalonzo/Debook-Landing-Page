@@ -5,8 +5,9 @@ import { routes } from './app.routes';
 import { provideClientHydration } from '@angular/platform-browser';
 
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { HttpClient, HttpClientModule, provideHttpClient  } from '@angular/common/http';
+import { HttpClient, HttpClientModule, provideHttpClient,  } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { importProvidersFrom } from '@angular/core';
 
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { environment } from '../../environments/environment';
@@ -21,19 +22,24 @@ export function HttpLoaderFactory (http: HttpClient){
 export const appConfig: ApplicationConfig = {
 
 
-  providers: [provideRouter(routes), provideClientHydration(), 
-    provideAnimations(),//PrimeNG required, 
-    provideHttpClient(),
+  providers: [
 
-    // internationalization i18n
-    HttpClientModule,
-    TranslateModule.forRoot({
-      defaultLanguage: 'en',
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    }).providers!
+        // internationalization i18n
+        TranslateModule.forRoot({
+          defaultLanguage: 'es',
+          loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+          }
+        }).providers!,
+
+    provideRouter(routes), 
+    provideHttpClient(),
+    // HttpClientModule,
+    // importProvidersFrom(HttpClientModule),
+    provideClientHydration(), 
+    provideAnimations(),//PrimeNG required, 
+    
   ]
 };

@@ -1,4 +1,4 @@
-import { CUSTOM_ELEMENTS_SCHEMA, Component, ViewChild  } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, Component, ViewChild, Input  } from '@angular/core';
 import { CommonModule,  } from '@angular/common';
 import { ButtonModule } from 'primeng/button';
 import { DialogModule } from 'primeng/dialog';
@@ -30,6 +30,7 @@ import { TranslateModule } from '@ngx-translate/core';
 export class PopUpEmailRequestComponent {
 
   @ViewChild('submitButton') submitButton: any;
+  @Input() isDemo: boolean = true;
 
   userForm!: FormGroup;
   isSubmitted!: boolean;
@@ -64,19 +65,23 @@ export class PopUpEmailRequestComponent {
     if(this.userForm.invalid){
       return;
     }
+    const buttonType = this.isDemo ? 'demo' : 'pitch';
     const userFormData: User = {
       name: this.userForm.controls['name'].value,
       email: this.userForm.controls['email'].value,
+      button: buttonType,
     }
     console.log('usersData:', userFormData);
     this._addUser(userFormData)
 
-    this.submitButton.disabled = true;
+    this.userForm.disable();
 
   }
 
+
   private _addUser(user: User){
-    this.usersService.createUser(user).subscribe((user: User)=>{
+    
+    this.usersService.createNewContact(user).subscribe((user: User)=>{
       console.log()
     });
   }

@@ -16,7 +16,7 @@ import { Observable } from 'rxjs';
 export class SalesProcessComponent {
 
   private salesPhase: number = 1;
-  availableProduct$: Observable<number> = new Observable<number>();
+  // availableProduct$: Observable<number> = new Observable<number>();
   availableProduct: number = 0;
 
   constructor(private dataSharingService: DataSharingService) {
@@ -25,11 +25,11 @@ export class SalesProcessComponent {
   ngOnInit() {
     // this.salesPhase = this.dataSharingService.getSalesPhase();
 
-    this.availableProduct$ = this.dataSharingService.getAvailableCount();
-    this.availableProduct$.subscribe((availableCount: number) => {
+    // this.availableProduct$ = this.dataSharingService.getAvailableCount();
+    // this.availableProduct$.subscribe((availableCount: number) => {
       
-      this.availableProduct = availableCount;
-    });
+    //   this.availableProduct = availableCount;
+    // });
     
   }
 
