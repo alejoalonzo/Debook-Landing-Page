@@ -4,7 +4,7 @@ export const environment ={
 
     baseHref: '/',
 
-    apiUrl: 'https://datieskca7hlzshr3hgso4vacu0yfscv.lambda-url.us-east-1.on.aws-WRONG_TO_TEST/',
+    apiUrl: 'https://datieskca7hlzshr3hgso4vacu0yfscv.lambda-url.us-east-1.on.aws/',
     
     apiActiveCampaign:'https://alejandro12w.api-us1.com/api/3/',
 

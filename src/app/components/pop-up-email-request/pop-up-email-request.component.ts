@@ -31,12 +31,16 @@ export class PopUpEmailRequestComponent {
 
   @ViewChild('submitButton') submitButton: any;
   @Input() isDemo: boolean = true;
+  @Input() isSpanish: boolean = true;
+  
+  @Input() set selectedLanguage(lang: string) {
+    this.isSpanish = lang === 'es';
+  }
 
   userForm!: FormGroup;
   isSubmitted!: boolean;
   users: User[] =[];
   visible: boolean = false;
-
 
   constructor(
     private formBuilder: FormBuilder,
@@ -66,10 +70,12 @@ export class PopUpEmailRequestComponent {
       return;
     }
     const buttonType = this.isDemo ? 'demo' : 'pitch';
+    const language = this.isSpanish ? 'es' : 'en';
     const userFormData: User = {
       name: this.userForm.controls['name'].value,
       email: this.userForm.controls['email'].value,
       button: buttonType,
+      language: language,
     }
     console.log('usersData:', userFormData);
     this._addUser(userFormData)

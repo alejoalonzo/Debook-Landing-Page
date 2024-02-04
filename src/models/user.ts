@@ -3,5 +3,6 @@ export class User{
     name?: string;
     email?: string;
     _id?: string;
-    button?: string;  
+    button?: string;
+    language?: string;  
 }

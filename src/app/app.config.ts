@@ -5,7 +5,7 @@ import { routes } from './app.routes';
 import { provideClientHydration } from '@angular/platform-browser';
 
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { HttpClient, HttpClientModule, provideHttpClient,  } from '@angular/common/http';
+import { HttpClient, HttpClientModule, provideHttpClient, withFetch,  } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { importProvidersFrom } from '@angular/core';
 
@@ -13,10 +13,7 @@ import { provideAnimations } from '@angular/platform-browser/animations';
 import { environment } from '../../environments/environment';
 
 
-export function HttpLoaderFactory (http: HttpClient){
-  const baseHref = environment.production ? environment.baseHref : '/';
-  return new TranslateHttpLoader(http, `${baseHref}assets/i18n/`)
-}
+
 
 
 export const appConfig: ApplicationConfig = {
@@ -35,7 +32,7 @@ export const appConfig: ApplicationConfig = {
         }).providers!,
 
     provideRouter(routes), 
-    provideHttpClient(),
+    provideHttpClient(withFetch()),
     // HttpClientModule,
     // importProvidersFrom(HttpClientModule),
     provideClientHydration(), 
@@ -43,3 +40,8 @@ export const appConfig: ApplicationConfig = {
     
   ]
 };
+
+export function HttpLoaderFactory (http: HttpClient){
+  const baseHref = environment.production ? environment.baseHref : '/';
+  return new TranslateHttpLoader(http, `${baseHref}assets/i18n/`)
+}

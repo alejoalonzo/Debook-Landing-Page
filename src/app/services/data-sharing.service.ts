@@ -41,7 +41,7 @@ export class DataSharingService {
     return this.http.post(this.apiUrlActiveCampaign+ 'contacts', options);
   }
 
-  getApiData(): Observable<any>{
+  /*getApiData(): Observable<any>{
     // let params = new HttpParams();
     // console.log(this.apiUrl)
     return this.http.get("https://datieskca7hlzshr3hgso4vacu0yfscv.lambda-url.us-east-1.on.aws/3333333333")
@@ -69,7 +69,12 @@ export class DataSharingService {
       //     throw error;
       //   })
       // );
-  }
+  }*/
+
+  getApiData(): Observable<any>{
+    let headers = new HttpHeaders().set('Content-type', 'application/json');
+    return this.http.get(this.apiUrl,{headers:headers});
+}
   /*
   getSoldPercentage(): number {
     // console.log("Sold percentage: ", (this.soldProductCount / this.totalProductCount) * 100)
