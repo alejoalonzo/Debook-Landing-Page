@@ -2,6 +2,7 @@
 
 if ($_POST) {
     // convert POST variables to local ones
+
     $email  = $_POST['email'];
     $name   = $_POST['name'];
     $button = $_POST['button'];
@@ -16,6 +17,7 @@ if ($_POST) {
 $dataError  = false;
 $buttonEnum =  array("pitch", "demo");
 $header     = '';
+
 
 // validate email
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -63,6 +65,7 @@ curl_setopt_array($curl, [
         "content-type: application/json"
     ],
   ]);
+
 
 // execute the request
 $response = curl_exec($curl);

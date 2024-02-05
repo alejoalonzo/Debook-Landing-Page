@@ -1,8 +1,9 @@
 import { Injectable, inject } from '@angular/core';
 import { Subject, Observable, map, of  } from 'rxjs';
-import { HttpClient, HttpParams, HttpClientModule  } from '@angular/common/http';
+import { HttpClient, HttpParams, HttpClientModule, HttpHeaders  } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 import { catchError } from 'rxjs/operators';
+import { User } from '../../models/user';
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +11,8 @@ import { catchError } from 'rxjs/operators';
 export class DataSharingService {
 
   private apiUrl = environment.apiUrl;
+  private processEmailPhp = environment.processEmailPhp;
+
   private soldPercentageSource = new Subject<number>();
 
   soldPercentage$ = this.soldPercentageSource.asObservable();
@@ -22,6 +25,11 @@ export class DataSharingService {
   constructor(private http: HttpClient) { }
 
   // http= inject(HttpClient)
+
+  createNewContact(productData: User): Observable<any> {
+    
+    return this.http.post(this.processEmailPhp, productData);
+  }
 
   getApiData(): Observable<any> {
     let params = new HttpParams();
@@ -86,11 +94,6 @@ export class DataSharingService {
       );
   }
 
-
-
-
-  /*
-
   getSalesPhase(): number {
     return this.salesPhase;
   }
@@ -133,5 +136,5 @@ export class DataSharingService {
       this.soldProductCount = 0; 
       this.updateSoldPercentage(0);
     }
-  }*/
+  }
 }
