@@ -2,11 +2,17 @@ import { Component } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 import { CarrouselPrivilegesComponent } from '../../components/carrousel-privileges/carrousel-privileges.component';
 import { TranslateModule } from '@ngx-translate/core';
+import { PopUpEmailRequestComponent } from '../../components/pop-up-email-request/pop-up-email-request.component';
 
 @Component({
   selector: 'app-one-book-one-community',
   standalone: true,
-  imports: [ButtonModule, CarrouselPrivilegesComponent, TranslateModule],
+  imports: [
+    ButtonModule, 
+    CarrouselPrivilegesComponent, 
+    TranslateModule, 
+    PopUpEmailRequestComponent
+  ],
   templateUrl: './one-book-one-community.component.html',
   styleUrl: './one-book-one-community.component.scss'
 })
