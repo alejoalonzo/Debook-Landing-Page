@@ -2,20 +2,22 @@
 
 if ($_POST) {
     // convert POST variables to local ones
-    $email = $_POST['email'];
-    $name = $_POST['name'];
+
+    $email  = $_POST['email'];
+    $name   = $_POST['name'];
     $button = $_POST['button'];
 } else {
     // if not $_POST then we are local testing
-    $email = 'test3@email.com';
-    $name = 'john';
+    $email  = 'test3@email.com';
+    $name   = 'john';
     $button = 'pitch';
 }
 
 // set up errors and header
-$dataError = false;
-$buttonEnum = array("pitch", "demo");
-$header = '';
+$dataError  = false;
+$buttonEnum =  array("pitch", "demo");
+$header     = '';
+
 
 // validate email
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -62,7 +64,8 @@ curl_setopt_array($curl, [
         "accept: application/json",
         "content-type: application/json"
     ],
-]);
+  ]);
+
 
 // execute the request
 $response = curl_exec($curl);
