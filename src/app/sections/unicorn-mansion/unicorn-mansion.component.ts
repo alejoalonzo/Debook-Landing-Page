@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 import { TranslateModule } from '@ngx-translate/core';
-import { CarrouselMansionComponent } from '../../components/carrousel-mansion/carrousel-mansion.component';
+import { CarrouselMansionComponent } from '../../components/carrousels/carrousel-mansion/carrousel-mansion.component';
 
 @Component({
   selector: 'app-unicorn-mansion',

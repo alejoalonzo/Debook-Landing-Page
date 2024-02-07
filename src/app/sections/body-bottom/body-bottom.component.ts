@@ -6,6 +6,8 @@ import { FaqsComponent } from '../faqs/faqs.component';
 import { FooterComponent } from '../../footer/footer.component';
 import { SalesProcessComponent } from '../sales-process/sales-process.component';
 import { UnicornMansionComponent } from '../unicorn-mansion/unicorn-mansion.component';
+import { BuildingDebookInPublicComponent } from '../building-debook-in-public/building-debook-in-public.component';
+import { ChallengesMapComponent } from '../challenges-map/challenges-map.component';
 
 @Component({
   selector: 'app-body-bottom',
@@ -17,7 +19,10 @@ import { UnicornMansionComponent } from '../unicorn-mansion/unicorn-mansion.comp
             FaqsComponent,
             FooterComponent,
             SalesProcessComponent,
-            UnicornMansionComponent
+            UnicornMansionComponent,
+            BuildingDebookInPublicComponent,
+            ChallengesMapComponent
+            
           ],
   templateUrl: './body-bottom.component.html',
   styleUrl: './body-bottom.component.scss'

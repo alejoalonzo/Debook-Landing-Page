@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
-import { CarrouselPrivilegesComponent } from '../../components/carrousel-privileges/carrousel-privileges.component';
+import { CarrouselPrivilegesComponent } from '../../components/carrousels/carrousel-privileges/carrousel-privileges.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { PopUpEmailRequestComponent } from '../../components/pop-up-email-request/pop-up-email-request.component';
 

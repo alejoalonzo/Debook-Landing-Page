@@ -98,6 +98,20 @@
             }
             
         },
+        "wholeTeam":{
+            "title":{
+                "top":"DISCOVER OUR",
+                "mid":"REAL TIME",
+                "bottom":"CHALLENGES MAP"
+            },
+            "subtitle":{
+                "top":"Sharing with no filters our mistakes, and achievements to",
+                "bottom":"make you part of our learning process and growth!"
+            },
+            "subtitleMobile":"Sharing with no filters our mistakes, and achievements to make you part of our learning process and growth!",
+            "button":"See challenges map"
+
+        },
         "team": {
             "title": "TEAM BUILDING THE DREAM",
             "subtitle":{
@@ -116,6 +130,27 @@
             "message": {
                 "regular":"Ernest is sharing on Linkedin a weekly docu-series in real time of the journey of",
                 "bold":"Building DEBOOK in Public"
+            }
+        },
+        
+        "buildin-in-public":{
+            "title":{
+                "top":"Building DEBOOK in Public",
+                "bottom":""
+            },
+            "subtitle":{
+                "top":"Ernest is sharing every tuesday on his Linkedin",
+                "bottom":"a real time docu-series of the journey"
+            },
+            "title-mobile":{
+                "top":"Building",
+                "mid":"DEBOOK",
+                "bottom":"in Public"
+            },
+            "subtitle-mobile":{
+                "top":"Ernest is sharing every Tuesday ",
+                "mid":"on his Linkedin a real time",
+                "bottom":"docu-series of the journey"
             }
         },
         "sales-process": {

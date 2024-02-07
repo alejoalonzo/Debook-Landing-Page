@@ -14,10 +14,10 @@ import { TeamComponent } from './sections/team/team.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyBottomComponent } from './sections/body-bottom/body-bottom.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
-import { CarrouselPrivilegesComponent } from './components/carrousel-privileges/carrousel-privileges.component';
-import { CarrouselWHYBoxComponent } from './components/carrousel-why-box/carrousel-why-box.component';
+import { CarrouselPrivilegesComponent } from './components/carrousels/carrousel-privileges/carrousel-privileges.component';
+import { CarrouselWHYBoxComponent } from './components/carrousels/carrousel-why-box/carrousel-why-box.component';
 import { TranslateService } from '@ngx-translate/core';
-import { CarrouselCardsComponent } from './components/carrousel-cards/carrousel-cards.component';
+import { CarrouselCardsComponent } from './components/carrousels/carrousel-cards/carrousel-cards.component';
 import { SubMenuComponent } from './components/sub-menu/sub-menu.component';
 
 
