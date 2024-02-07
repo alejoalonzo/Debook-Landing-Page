@@ -1,0 +1,91 @@
+@import '../../../styles.scss';
+
+.challenges-map-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 881px;
+    height: auto;
+    margin: auto;
+    margin-top: 150px;
+ 
+    .challenges-map-content{
+        display: flex;
+        flex-direction: column;
+
+        &-title{
+            font-family: $font-sora;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -1.7px;
+        }
+        &-subtitle{
+            color: #000;
+            font-family: $font-inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 22px; 
+            letter-spacing: -0.48px;
+            margin: 25px 0;
+        }
+        &-subtitleMobile{
+            display: none;
+        }
+    }
+    .challenges-map-image{
+        width: 50%;
+        height: auto;
+        margin-right: -40px;
+        img{
+            width: 100%;
+            height: auto;
+            
+        }
+    }
+}
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+    .challenges-map-container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 100px;
+
+        .challenges-map-content{
+            width: 90%;
+            margin: auto;
+
+            &-title{
+                font-family: $font-sora;
+                font-size: 2em;
+            }
+            &-subtitle{
+                display: none;
+            }
+            &-subtitleMobile{
+                display: block;
+                font-size: 1em;
+                text-align: start;
+                font-family: $font-inter;
+                line-height: 22px;
+                margin-bottom: 25px;
+            }
+        }
+        .challenges-map-image{
+            width: 100%;
+            height: auto;
+            margin-right: 0px;
+            img{
+                width: 100%;
+                height: auto;
+                margin-top: 50px;
+                
+            }
+        }
+    }
+}

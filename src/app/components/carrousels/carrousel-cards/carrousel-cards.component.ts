@@ -1,8 +1,8 @@
 import { CUSTOM_ELEMENTS_SCHEMA,  Component, OnInit} from '@angular/core';
 import { register } from 'swiper/element/bundle';
-import { CardComponent } from '../card/card.component';
-import { UsersService } from '../../services/users.service';
-import { User } from '../../../models/user.model';
+import { CardComponent } from '../../card/card.component';
+import { UsersService } from '../../../services/users.service';
+import { User } from '../../../../models/user.model';
 import { CommonModule } from '@angular/common';
 register();
 

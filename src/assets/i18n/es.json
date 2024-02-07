@@ -97,6 +97,20 @@
             }
             
         },
+        "wholeTeam":{
+            "title":{
+                "top":"DESCUBRE NUESTRO ",
+                "mid":"CHALLENGES MAP",
+                "bottom":"A TIEMPO REAL"
+            },
+            "subtitle":{
+                "top":"Te compartimos sin filtros nuestros errores y logros para",
+                "bottom":"hacerte parte de nuestros aprendizajes y evolución"
+            },
+            "subtitleMobile":"Te compartimos sin filtros nuestros errores y logros para hacerte parte de nuestros aprendizajes y evolución",
+            "button":"Ver challenges map"
+
+        },
         "team": {
             "title": "EQUIPO CREANDO EL GRAN SUEÑO",
             "subtitle":{
@@ -115,6 +129,26 @@
             "message": {
                 "regular":"Ernest esta compartiendo semanalmente en Linkedin una docu-serie a tiempo real del proceso de",
                 "bold":"Building DEBOOK in Public"
+            }
+        },
+        "buildin-in-public":{
+            "title":{
+                "top":"Building DEBOOK in Public",
+                "bottom":""
+            },
+            "subtitle":{
+                "top":"Ernest está compartiendo cada martes en su Linkedin",
+                "bottom":"una docu-serie a tiempo real del proceso"
+            },
+            "title-mobile":{
+                "top":"Building",
+                "mid":"DEBOOK",
+                "bottom":"in Public"
+            },
+            "subtitle-mobile":{
+                "top":"Ernest está compartiendo cada",
+                "mid":"martes en su Linkedin una docu-",
+                "bottom":"serie a tiempo real del proceso"
             }
         },
         "sales-process": {

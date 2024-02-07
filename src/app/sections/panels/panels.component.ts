@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CarrouselWHYBoxComponent } from '../../components/carrousel-why-box/carrousel-why-box.component';
+import { CarrouselWHYBoxComponent } from '../../components/carrousels/carrousel-why-box/carrousel-why-box.component';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
