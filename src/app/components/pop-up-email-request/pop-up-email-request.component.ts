@@ -59,6 +59,9 @@ export class PopUpEmailRequestComponent {
   showDialog() {
       this.visible = true;
   }
+  closeDialog() {
+    this.visible = false;
+  }
 
   private _initFormUser(){
     this.userForm = this.formBuilder.group({

@@ -20,7 +20,7 @@
             <div class="form">
                 <div class="inputs">
                     <label for="name">Name</label>
-                    <input formControlName="name" id="name" type="text" class="" placeholder="Name and Subname">
+                    <input formControlName="name" id="name" type="text" class="" placeholder="Name and surname">
                     <small *ngIf="userForm.controls['name'].invalid && isSubmitted" class="p-error">Name is
                         required</small>
                 </div>
@@ -36,10 +36,17 @@
             </div>
         </form>
         <ng-template pTemplate="footer">
-            <p-button (click)="visible = false" (click)="onSubmit()" [disabled]="userForm.invalid" pAutoFocus
-                [autofocus]="true">
+            <p-button class="button" (click)="visible = false" (click)="onSubmit()" [disabled]="userForm.invalid"
+                pAutoFocus [autofocus]="true">
                 <ng-template pTemplate="label">
                     {{ 'components.popup.button' | translate }}
+                </ng-template>
+            </p-button>
+            <p-button class="button" (click)="closeDialog()" [text]="true"
+                styleClass="w-full text-primary-50 border-1 border-white-alpha-30 hover:bg-white-alpha-10"
+                class="w-full">
+                <ng-template pTemplate="label">
+                    {{ 'components.popup.buttonCancel' | translate }}
                 </ng-template>
             </p-button>
         </ng-template>
