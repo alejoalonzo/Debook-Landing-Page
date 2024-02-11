@@ -9,7 +9,7 @@
         <div class="challenges-map-content-subtitleMobile"> <br>
             {{ 'sections.wholeTeam.subtitleMobile' | translate }}</div>
         <div class="challenges-map-content-button">
-            <p-button class="button-black">
+            <p-button class="button-black" (click)="navigateToLink()">
                 <ng-template pTemplate="label">
                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none"
                         style="margin-right: 5px;">
@@ -23,6 +23,6 @@
         </div>
     </div>
     <div class="challenges-map-image">
-        <img src="assets/images/wholeTeamEs.png" alt="">
+        <img [src]="imageUrl" alt="">
     </div>
 </div>

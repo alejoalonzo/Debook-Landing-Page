@@ -6,10 +6,10 @@ import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { MessageService } from 'primeng/api';
+import { TranslateModule } from '@ngx-translate/core';
 import { User } from '../../../models/user';
 import { DataSharingService } from '../../services/data-sharing.service';
-import { TranslateModule } from '@ngx-translate/core';
+
 
 @Component({
   selector: 'app-pop-up-email-request',
@@ -24,21 +24,20 @@ import { TranslateModule } from '@ngx-translate/core';
     TranslateModule],
   templateUrl: './pop-up-email-request.component.html',
   styleUrl: './pop-up-email-request.component.scss',
-  providers:[MessageService],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class PopUpEmailRequestComponent {
 
+
   @ViewChild('submitButton') submitButton: any;
   @Input() isDemo: boolean = true;
-  @Input() isSpanish: boolean = true;
 
   @Input() popupButtonText: string = 'sections.funds-go-to-dev.interact';
   @Input() buttonClass: string = 'button-black-long';
   
-  @Input() set selectedLanguage(lang: string) {
-    this.isSpanish = lang === 'es';
-  }
+
+  currentLanguageOnPopoup: string = 'es';
+  isSpanish: boolean = true; 
 
   userForm!: FormGroup;
   isSubmitted!: boolean;
@@ -47,7 +46,6 @@ export class PopUpEmailRequestComponent {
 
   constructor(
     private formBuilder: FormBuilder,
-    private messageService: MessageService, 
     private usersService: DataSharingService, 
   ) {
   }
@@ -72,8 +70,10 @@ export class PopUpEmailRequestComponent {
     if(this.userForm.invalid){
       return;
     }
+    // this.updateLanguage()
     const buttonType = this.isDemo ? 'demo' : 'pitch';
     const language = this.isSpanish ? 'es' : 'en';
+
     const userFormData: User = {
       name: this.userForm.controls['name'].value,
       email: this.userForm.controls['email'].value,
@@ -95,4 +95,14 @@ export class PopUpEmailRequestComponent {
     });
   }
 
+/*
+  updateLanguage() {
+    this.currentLanguageOnPopoup = this.translate.currentLang;
+    if (this.currentLanguageOnPopoup === 'es') {
+      this.isSpanish = true;
+    } else if (this.currentLanguageOnPopoup === 'en') {
+      this.isSpanish = false;
+    
+  }
+}*/
 }

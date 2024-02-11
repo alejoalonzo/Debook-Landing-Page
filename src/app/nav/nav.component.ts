@@ -34,8 +34,6 @@ export class NavComponent implements OnInit{
 
     constructor(private translate: TranslateService) { }
 
-
-
     ngOnInit() {
         this.cities = [
             { name: 'En', code: 'en' },
@@ -44,6 +42,7 @@ export class NavComponent implements OnInit{
 
         
         const currentLang = this.translate.currentLang;
+        // console.log("langcurrentLang:: "+ currentLang)
         this.selectedCity = this.cities.find(city => city.code === currentLang);
     }
 

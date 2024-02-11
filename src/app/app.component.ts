@@ -17,6 +17,7 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
 import { CarrouselPrivilegesComponent } from './components/carrousels/carrousel-privileges/carrousel-privileges.component';
 import { CarrouselWHYBoxComponent } from './components/carrousels/carrousel-why-box/carrousel-why-box.component';
 import { TranslateService } from '@ngx-translate/core';
+import { LanguageService } from './services/language.service';
 import { CarrouselCardsComponent } from './components/carrousels/carrousel-cards/carrousel-cards.component';
 import { SubMenuComponent } from './components/sub-menu/sub-menu.component';
 
@@ -27,7 +28,6 @@ import { SubMenuComponent } from './components/sub-menu/sub-menu.component';
   imports: [
               CommonModule, 
               RouterOutlet, 
-
               NavComponent, 
               HeroComponent, 
               BodyComponent, 
@@ -50,15 +50,19 @@ import { SubMenuComponent } from './components/sub-menu/sub-menu.component';
 })
 export class AppComponent {
   title = 'debook';
-  // currentLanguage: string;
 
-  constructor(private translate: TranslateService){
+  constructor(private translate: TranslateService, private languageService: LanguageService){
+
     // translate.setDefaultLang('en');
     translate.addLangs(['en', 'es']);
     translate.setDefaultLang('es');
+
+    const currentLang = this.languageService.getCurrentLang();
+    translate.use(currentLang);
   }
   switchLang(lang: string){
-    this.translate.use(lang)
+    this.translate.use(lang);
+    this.languageService.setCurrentLang(lang);
   }
 
 }
