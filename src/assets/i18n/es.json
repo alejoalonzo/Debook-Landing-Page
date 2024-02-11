@@ -266,7 +266,8 @@
                 "top":"Profundiza en la experiencia DEBOOK",
                 "bottom":"Comparte tus datos para el acceso reservado"
             },
-            "button": "Envíalo a mi correo"
+            "button": "Envíalo a mi correo",
+            "buttonCancel": "Cancelar"
         }
     }
 }

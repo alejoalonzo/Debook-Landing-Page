@@ -272,7 +272,8 @@
                 "top":"Dive deeper into DEBOOK experience",
                 "bottom":"Share your details for early access"
             },
-            "button": "Send it to my email"
+            "button": "Send it to my email",
+            "buttonCancel": "Cancel"
         }
     }
 }
