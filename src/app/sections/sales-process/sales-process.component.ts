@@ -14,24 +14,17 @@ import { Observable } from 'rxjs';
   providers: [DataSharingService],
 })
 export class SalesProcessComponent {
-
-  private salesPhase: number = 1;
-  availableProduct$: Observable<number> = new Observable<number>();
   availableProduct: number = 0;
 
   constructor(private dataSharingService: DataSharingService) {
   }
 
   ngOnInit() {
-    // this.salesPhase = this.dataSharingService.getSalesPhase();
-
-    this.availableProduct$ = this.dataSharingService.getAvailableCount();
-    this.availableProduct$.subscribe((availableCount: number) => {
-      
-      this.availableProduct = availableCount;
+    this.dataSharingService.getApiData().subscribe(data => {
+      this.availableProduct = data.left;
     });
-    
   }
+  
 
   navigateToLink(): void {
     const externalLink = 'https://mint.debookmagickey.com/';

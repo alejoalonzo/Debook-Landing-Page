@@ -7,8 +7,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './progress-bar.component.html',
-  styleUrl: './progress-bar.component.scss',
-  providers: [DataSharingService],
+  styleUrl: './progress-bar.component.scss'
 })
 export class ProgressBarComponent implements OnInit{
 
@@ -16,20 +15,30 @@ export class ProgressBarComponent implements OnInit{
   @Input() showIcon: boolean = false;
 
   soldPercentage: number = 0;
-  private salesPhase: number = 1;
+  totalProductCount: number = 0;
+  soldProductCount: number = 0;
+
 
   constructor(private dataSharingService: DataSharingService) {}
 
   ngOnInit() {
+    this.getSoldProductCount();
+  }
+
+  getSoldProductCount(){
     this.dataSharingService.getApiData().subscribe(data => {
-      console.log('API Data:', data);
+      this.totalProductCount = data.maxAllowlistSupply + data.maxPublicSupply;
+      if (data.maxAllowlistSupply + data.currentMinted == data.maxAllowlistSupply + data.maxPublicSupply) {
+        this.soldProductCount = data.maxAllowlistSupply + data.maxPublicSupply;
+        this.soldPercentage = (this.soldProductCount / this.totalProductCount) * 100;
+      }
+      else {
+        this.soldProductCount = data.maxAllowlistSupply + data.currentMinted
+        this.soldPercentage = (this.soldProductCount / this.totalProductCount) * 100;
+      }
     });
-    this.soldPercentage = this.dataSharingService.getSoldPercentage();
-    this.dataSharingService.soldPercentage$.subscribe(newPercentage => {
-      this.soldPercentage = newPercentage;
-    });
-    // this.salesPhase = this.dataSharingService.getSalesPhase();
     
   }
 
 }
+
