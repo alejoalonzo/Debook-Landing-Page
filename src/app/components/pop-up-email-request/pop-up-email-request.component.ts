@@ -6,7 +6,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { TranslateModule } from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { User } from '../../../models/user';
 import { DataSharingService } from '../../services/data-sharing.service';
 
@@ -35,9 +35,7 @@ export class PopUpEmailRequestComponent {
   @Input() popupButtonText: string = 'sections.funds-go-to-dev.interact';
   @Input() buttonClass: string = 'button-black-long';
   
-
   currentLanguageOnPopoup: string = 'es';
-  isSpanish: boolean = true; 
 
   userForm!: FormGroup;
   isSubmitted!: boolean;
@@ -47,11 +45,13 @@ export class PopUpEmailRequestComponent {
   constructor(
     private formBuilder: FormBuilder,
     private usersService: DataSharingService, 
+    private translate: TranslateService
   ) {
   }
 
   ngOnInit(): void {
     this._initFormUser();
+    this.getLangToForm();
   }
 
   showDialog() {
@@ -73,9 +73,9 @@ export class PopUpEmailRequestComponent {
     if(this.userForm.invalid){
       return;
     }
-    // this.updateLanguage()
+
     const buttonType = this.isDemo ? 'demo' : 'pitch';
-    const language = this.isSpanish ? 'es' : 'en';
+    const language = this.currentLanguageOnPopoup;
 
     const userFormData: User = {
       name: this.userForm.controls['name'].value,
@@ -98,14 +98,13 @@ export class PopUpEmailRequestComponent {
     });
   }
 
-/*
-  updateLanguage() {
-    this.currentLanguageOnPopoup = this.translate.currentLang;
-    if (this.currentLanguageOnPopoup === 'es') {
-      this.isSpanish = true;
-    } else if (this.currentLanguageOnPopoup === 'en') {
-      this.isSpanish = false;
-    
+  getLangToForm(){
+    this.translate.onLangChange.subscribe(() => {
+      this.currentLanguageOnPopoup = this.translate.currentLang;
+      // console.log("langSus -> "+this.currentLanguageOnPopoup);
+    });
   }
-}*/
+
+
+
 }

@@ -13,38 +13,33 @@ export class ChallengesMapComponent implements OnInit{
 
   currentLanguageOnChallenges: string = '';
   imageUrl: string = 'assets/images/wholeTeamEs.png';
+  externalLinkPath: string = 'https://debook.notion.site/CHALLENGES-MAP-557c82549c6843f39bc8bb1bd9e1a78a?pvs=4';
 
   constructor(private translate: TranslateService) { }
 
   ngOnInit(): void {
-
     // console.log("lang -> "+this.currentLanguageOnChallenges);
 
     this.translate.onLangChange.subscribe(() => {
       this.currentLanguageOnChallenges = this.translate.currentLang;
-      this.updateImageUrl();
+      this.updateImageUrlAndLink();
       // console.log("langSus -> "+this.currentLanguageOnChallenges);
-
     });
   }
 
-  updateImageUrl() {
+  updateImageUrlAndLink() {
     if (this.currentLanguageOnChallenges === 'es') {
       this.imageUrl = 'assets/images/wholeTeamEs.png';
+      this.externalLinkPath = 'https://debook.notion.site/CHALLENGES-MAP-557c82549c6843f39bc8bb1bd9e1a78a?pvs=4';
     } else if (this.currentLanguageOnChallenges === 'en') {
       this.imageUrl = 'assets/images/wholeTeamEn.png';
+      this.externalLinkPath = 'https://debook.notion.site/CHALLENGES-MAP-4d34b87d8f2c40a99e0db68c379509df?pvs=4'; 
     }
   }
 
-  navigateToLink(): void {
-    let externalLink: string;
-    if (this.currentLanguageOnChallenges === 'es') {
-      externalLink = 'https://debook.notion.site/CHALLENGES-MAP-557c82549c6843f39bc8bb1bd9e1a78a?pvs=4';
-      console.log("externalLinkEs -> "+externalLink);
-    } else {
-        externalLink = 'https://debook.notion.site/CHALLENGES-MAP-4d34b87d8f2c40a99e0db68c379509df?pvs=4'; 
-      console.log("externalLinkEn -> "+externalLink);
-    } 
+  navigateToLink(): void { 
+    const externalLink = this.externalLinkPath;
     window.open(externalLink, '_blank');
+
   }
 }
