@@ -8,10 +8,16 @@
     <p-dialog class="container-dialog" [closable]="false" header="Header" [(visible)]="visible" [modal]="true"
         [style]="{ width: '30rem' } " [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }">
         <ng-template pTemplate="header">
+
             <div class=" title-container inline-flex align-items-center justify-content-center gap-2">
                 <span class="title-span font-bold white-space-nowrap">{{ isDemo ? 'DEBOOK DEMO APP' : 'DEBOOK PITCHDECK'
                     }}</span>
             </div>
+
+            <p-button class="button" (click)="closeDialog()" [text]="true"
+                styleClass="w-full text-primary-50 border-1 border-white-alpha-30 hover:bg-white-alpha-10"
+                class="w-full" icon="pi pi-times">
+            </p-button>
         </ng-template>
         <p class="m-0 subtitle">
             {{ 'components.popup.subtitle.top' | translate }} <br> {{ 'components.popup.subtitle.bottom' | translate }}
@@ -42,13 +48,10 @@
                     {{ 'components.popup.button' | translate }}
                 </ng-template>
             </p-button>
-            <p-button class="button" (click)="closeDialog()" [text]="true"
+            <!-- <p-button class="button" (click)="closeDialog()" [text]="true"
                 styleClass="w-full text-primary-50 border-1 border-white-alpha-30 hover:bg-white-alpha-10"
-                class="w-full">
-                <ng-template pTemplate="label">
-                    {{ 'components.popup.buttonCancel' | translate }}
-                </ng-template>
-            </p-button>
+                class="w-full" icon="pi pi-times">
+            </p-button> -->
         </ng-template>
     </p-dialog>
 </div>
