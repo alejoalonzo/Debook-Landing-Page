@@ -33,6 +33,8 @@
         &-subtitleMobile{
             display: none;
         }
+
+
     }
     .challenges-map-image{
         width: 50%;
@@ -42,6 +44,9 @@
             width: 100%;
             height: auto;
             
+        }
+        &-button{
+            display: none;
         }
     }
 }
@@ -75,6 +80,9 @@
                 line-height: 22px;
                 margin-bottom: 25px;
             }
+            &-button{
+                display: none;
+            }
         }
         .challenges-map-image{
             width: 100%;
@@ -83,8 +91,15 @@
             img{
                 width: 100%;
                 height: auto;
-                margin-top: 50px;
+                margin-top: 0px;
                 
+            }
+
+            &-button{
+                display: block;
+                margin: auto;
+                width: 100%;
+                text-align: center;
             }
         }
     }
