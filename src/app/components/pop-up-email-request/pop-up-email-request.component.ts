@@ -2,6 +2,7 @@ import { CUSTOM_ELEMENTS_SCHEMA, Component, ViewChild, Input  } from '@angular/c
 import { CommonModule,  } from '@angular/common';
 import { ButtonModule } from 'primeng/button';
 import { DialogModule } from 'primeng/dialog';
+import { Dialog } from 'primeng/dialog';
 import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -21,7 +22,8 @@ import { DataSharingService } from '../../services/data-sharing.service';
     FormsModule, 
     CommonModule, 
     ReactiveFormsModule, 
-    TranslateModule],
+    TranslateModule,
+    ],
   templateUrl: './pop-up-email-request.component.html',
   styleUrl: './pop-up-email-request.component.scss',
   schemas:[CUSTOM_ELEMENTS_SCHEMA]

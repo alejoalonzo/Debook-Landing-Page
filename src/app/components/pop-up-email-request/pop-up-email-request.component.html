@@ -10,17 +10,27 @@
         <ng-template pTemplate="header">
 
             <div class=" title-container inline-flex align-items-center justify-content-center gap-2">
-                <span class="title-span font-bold white-space-nowrap">{{ isDemo ? 'DEBOOK DEMO APP' : 'DEBOOK PITCHDECK'
-                    }}</span>
+                <span class="title-span font-bold white-space-nowrap">
+                    @if(isDemo){
+                    {{ 'components.popup.title' | translate }}
+                    }@else{
+                    {{ 'components.popup.titlePitchDeck' | translate }}
+                    }
+                </span>
             </div>
 
-            <p-button class="button" (click)="closeDialog()" [text]="true"
-                styleClass="w-full text-primary-50 border-1 border-white-alpha-30 hover:bg-white-alpha-10"
-                class="w-full" icon="pi pi-times">
-            </p-button>
+            <button class="button" (click)="closeDialog()">
+                <i class="pi pi-times" style="font-size: 1rem"></i>
+            </button>
         </ng-template>
         <p class="m-0 subtitle">
+            @if(isDemo){
             {{ 'components.popup.subtitle.top' | translate }} <br> {{ 'components.popup.subtitle.bottom' | translate }}
+            }@else{
+            {{ 'components.popup.subtitlePitchDeck.top' | translate }} <br> {{
+            'components.popup.subtitlePitchDeck.bottom' | translate }}
+            }
+
         </p>
         <form [formGroup]="userForm" class="formContainer">
             <div class="form">
@@ -42,8 +52,8 @@
             </div>
         </form>
         <ng-template pTemplate="footer">
-            <p-button class="button" (click)="visible = false" (click)="onSubmit()" [disabled]="userForm.invalid"
-                pAutoFocus [autofocus]="true">
+            <p-button class="" (click)="visible = false" (click)="onSubmit()" [disabled]="userForm.invalid" pAutoFocus
+                [autofocus]="true">
                 <ng-template pTemplate="label">
                     {{ 'components.popup.button' | translate }}
                 </ng-template>
