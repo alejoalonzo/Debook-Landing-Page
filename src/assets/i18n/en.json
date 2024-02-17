@@ -268,9 +268,15 @@
             }
         },
         "popup":{
+            "title":"DEBOOK DEMO APP",
+            "titlePitchDeck":"PITCHDECK & DEMO APP",
             "subtitle":{
                 "top":"Dive deeper into DEBOOK experience",
                 "bottom":"Share your details for early access"
+            },
+            "subtitlePitchDeck":{
+                "top":"Dive deeper into DEBOOK value proposition",
+                "bottom":"Share your details for reserved access"
             },
             "button": "Send it to my email",
             "buttonCancel": "Cancel"
