@@ -44,6 +44,35 @@
             },
             "image-text": "MAGICKEYS guarantee you immediate access to the product"
         },
+        "is-for-you-if":{
+            "title": "The MAGICKEY is for you if...",
+            "carrousel":{
+                "slide1":{
+                    "title":"You are a disruptive ",
+                    "title-span":"Entrepreneuer",
+                    "title-bottom":"",
+                    "content":"Who want to learn from the challenges in each area of a one in a life time project."
+                },
+                "slide2":{
+                    "title":"You are a disruptive ",
+                    "title-span":"Investor",
+                    "title-bottom":"",
+                    "content":"Who wants to be part of a new way of rising money that will be replicated in the future"
+                },
+                "slide3":{
+                    "title":"You are a disruptive ",
+                    "title-span":"Author",
+                    "title-bottom":"",
+                    "content":"Who thinks that the book industry is obsolete and want to support DEBOOK"
+                },
+                "slide4":{
+                    "title":"You are a disruptive ",
+                    "title-span":"Book lover",
+                    "title-bottom":"",
+                    "content":"Who thinks that books could be more than just reading and want to be part of the change."
+                } 
+            }
+        },
         "founder-message": {
             "title": "The community any enterpreneur would dream of!",
             "text":{

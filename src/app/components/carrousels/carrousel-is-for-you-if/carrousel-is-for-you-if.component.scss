@@ -1,0 +1,51 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 251px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: #F9F9F9;
+
+    .title{
+        color: #000;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 23px; 
+        letter-spacing: -0.6px;
+        margin-bottom: 20px;
+
+        span{
+            color: #FC7C7E;
+        }
+    }
+
+    .text{
+        color: #000;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: -0.6px;
+    }
+}
+.mobile{
+    display: none;
+}
+
+
+@media  screen and (max-width: 450px){
+
+    .card{
+        width: 100%;
+        align-items: start;
+    }
+    .mobile{
+        display: flex;
+    }
+    .noMobile{
+        display: none;
+    }
+}

@@ -1,0 +1,37 @@
+@import '../../../styles.scss';
+.is-for-you-if-container{
+    height:auto;
+    width: 1108px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 100px;
+
+    .is-for-you-if-title{
+        text-align: center;
+        font-family: $font-sora;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -2.1px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+    .is-for-you-if-container{
+        width: 90%;
+
+        .is-for-you-if-title{
+            font-size: 2em;
+            width: 70%;
+        }
+    }
+
+}

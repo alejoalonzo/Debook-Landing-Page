@@ -21,7 +21,8 @@ import { ChallengesMapComponent } from '../challenges-map/challenges-map.compone
             SalesProcessComponent,
             UnicornMansionComponent,
             BuildingDebookInPublicComponent,
-            ChallengesMapComponent
+            ChallengesMapComponent,
+            
             
           ],
   templateUrl: './body-bottom.component.html',
