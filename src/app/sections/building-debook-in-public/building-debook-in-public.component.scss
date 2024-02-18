@@ -7,10 +7,10 @@
     align-items: center;
     justify-content: space-between;
     width: 881px;
-    height: 171px;
+    height: 207px;
     padding: 40px 32px;
     border-radius: 30px;
-    background: #000;
+    background: radial-gradient(circle, #fdf3f3, #fdfdfd);
     margin: auto;
     margin-bottom: 200px;
 
@@ -27,17 +27,15 @@
             font-size: 29px;
             font-weight: 700;
             letter-spacing: -0.87px;
-            background: linear-gradient(90deg, #FC464A 13.17%, rgba(191, 191, 191, 0.92) 86.86%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: $black;
             width: 380px;
+            margin: 10px 0;
         }
         &-titlehide{
             display: none;
         }
         &-subtitle{
-            color: #FFF;
+            color: $black;
             font-family: $font-inter;
             font-size: 16px;
             font-weight: 500;
@@ -50,8 +48,11 @@
     }
 
     .buildingDebookInPublic-videos{
-        width: 371px;
-        height: 134.757px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 313px;
+        height: 156px;
         border-radius: 16px;
         background-color: white;
         img{
@@ -59,6 +60,25 @@
             height: auto;
             border-radius: 16px; 
         }
+    }
+
+    .buildingDebookInPublic-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 110px;
+
+
+        &-button{
+            cursor: pointer;
+            border:none;
+            background-color: transparent;
+        }
+        &-icon{
+            
+            margin: auto;
+        }
+        
     }
 }
 
@@ -73,6 +93,8 @@
         margin: auto;
         margin-bottom: 140px;
         display: block;
+        background: white;
+        border: 1px solid #ffe9e9;
 
         .buildingDebookInPublic-text{
 
@@ -96,7 +118,7 @@
                 font-weight: 700;
                 line-height: 55px; 
                 letter-spacing: -1.05px;
-                background: linear-gradient(90deg, #FC464A 13.17%, rgba(191, 191, 191, 0.92) 86.86%);
+                background: linear-gradient(90deg, #000 43.75%, rgba(191, 191, 191, 0.92) 86.86%);
                 background-clip: text;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -107,7 +129,7 @@
             &-subtitlehide{
                 display: flex;
                 text-align: center;
-                color: #FFF;
+                color: $black;
                 font-family: $font-inter;
                 font-weight: 500;
                 line-height: 28px;
@@ -119,7 +141,27 @@
         }
 
         .buildingDebookInPublic-videos{
-            display: none;
+            width: 100%;
+            margin-top: 25px;
+        }
+
+        .buildingDebookInPublic-links{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: auto;
+            width: 50%;
+            margin: auto;
+            margin-top: 15px;
+
+            &-button{
+                
+            }
+            &-icon{
+                
+
+            }
+            
         }
     }
 }
