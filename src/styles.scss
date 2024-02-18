@@ -1,222 +1,271 @@
 /* You can add global styles to this file, and also import other style files */
 
 // fonts
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;600;700;800&display=swap');
-$font-sora: 'Sora', sans-serif;
-$font-inter: 'Inter', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;600;700;800&display=swap");
+$font-sora: "Sora", sans-serif;
+$font-inter: "Inter", sans-serif;
 $lineH-P-Mobile: 22px;
 
 // icons
 @import "primeicons/primeicons.css";
 
 // colors
-$red: #FF4444;
+$red: #ff4444;
 $black: #050401;
-$gray: #6F6F6F;
-$custom-background: rgb(75,40,40);;
-$custom-gradient: linear-gradient(90deg, rgba(75,40,40,1) 0%, rgba(224,105,108,1) 100%);
+$gray: #6f6f6f;
+$custom-background: rgb(75, 40, 40);
+$custom-gradient: linear-gradient(
+  90deg,
+  rgba(75, 40, 40, 1) 0%,
+  rgba(224, 105, 108, 1) 100%
+);
 
 //------------------------------------------------------------------------------------------
 //general
-*{
-    margin-top: 0;
-    box-sizing: border-box;
+* {
+  margin-top: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.body {
+  font-family: Sora, sans-serif !important;
+  overflow: hidden;
 }
 
 .gradientText1 {
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to right, #FC464A, #000000);
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #fc464a, #000000);
 }
 
 .gradientText2 {
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to right, #4B2828, #E0696C);
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #4b2828, #e0696c);
 }
 
 .gradientText3 {
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to right, #909090, #E0696C);
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #909090, #e0696c);
 }
 
-.button-black{
-    .p-button{
-        color: #ffffff;
-        background: $black;
-        border: none;
-        padding: 0.75rem 1.25rem;
-        font-size: 0.9rem;
-        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
-        border-radius: 25px;
-    }
+.button-black {
+  .p-button {
+    color: #ffffff;
+    background: $black;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+      box-shadow 0.2s;
+    border-radius: 25px;
+  }
 }
 
-.button-black-long{
-    .p-button{
-        color: #ffffff;
-        background: $black;
-        border: none;
-        padding: 0.75rem 1.25rem;
-        font-size: 0.9rem;
-        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
-        border-radius: 25px;
-        width: 310px;
-        display: block;
-    }
+.button-black-long {
+  .p-button {
+    color: #ffffff;
+    background: $black;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+      box-shadow 0.2s;
+    border-radius: 25px;
+    width: 310px;
+    display: block;
+  }
 }
-
-
 
 // ng-prime
 // These are default styles provided by PrimeNG components that don't fit my needs in this project
 .p-button {
-    color: #ffffff;
-    background: #FF4444;
-    border: none;
-    padding: 0.75rem 1.25rem;
-    font-family: $font-inter;
-    font-size: 0.9rem;
-    font-weight: bold;
-    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
-    border-radius: 25px;
+  color: #ffffff;
+  background: #ff4444;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  font-family: $font-inter;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+    box-shadow 0.2s;
+  border-radius: 25px;
 }
 
 :host ::ng-deep .p-button .p-button-label {
-    font-weight: 300; 
+  font-weight: 300;
 }
 
-.p-card{
-    border-radius: 14px;
-    box-shadow: none;
+.p-card {
+  border-radius: 14px;
+  box-shadow: none;
 }
 .p-card .p-card-content {
-    padding:  0;
+  padding: 0;
 }
 .p-card .p-card-body {
-    padding: 0 1.25rem;
+  padding: 0 1.25rem;
 }
 .p-dropdown {
-    border: transparent;
+  border: transparent;
 }
-.p-focus{
-    outline: 0 none;
-    outline-offset: 0px;
-    box-shadow: none  
+.p-focus {
+  outline: 0 none;
+  outline-offset: 0px;
+  box-shadow: none;
 }
 
 .p-dropdown .p-dropdown-clear-icon {
-    display: none;
+  display: none;
 }
 .p-dropdown.p-dropdown-clearable .p-dropdown-label {
-    padding-right: 0rem;
+  padding-right: 0rem;
 }
 
 .p-accordion .p-accordion-header .p-accordion-header-link {
-    border: 1px solid #FFE2E2;
-    color: #6b7280;
-    background: white;
-    border-radius: 12px;
-    font-family: $font-inter;
+  border: 1px solid #ffe2e2;
+  color: #6b7280;
+  background: white;
+  border-radius: 12px;
+  font-family: $font-inter;
 }
 
 .p-accordion .p-accordion-content {
-    padding: 1.25rem;
-    border: 1px solid #FFE2E2;
-    background: white;
-    color: #4b5563;
-    font-family: $font-inter;
-
+  padding: 1.25rem;
+  border: 1px solid #ffe2e2;
+  background: white;
+  color: #4b5563;
+  font-family: $font-inter;
 }
 .p-accordion p-accordiontab .p-accordion-tab {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link{
-    color: $red;
+.p-accordion
+  .p-accordion-header:not(.p-disabled).p-highlight
+  .p-accordion-header-link {
+  color: $red;
 }
 
-.p-dialog .p-dialog-footer{
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+.p-dialog .p-dialog-footer {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
-.p-dialog .p-dialog-header{
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+.p-dialog .p-dialog-header {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
 .p-dialog {
-     border-radius: 0px; 
-     box-shadow: none; 
-     border: 0 none; 
+  border-radius: 0px;
+  box-shadow: none;
+  border: 0 none;
 }
-.p-dialog-footer{
-    text-align: center;
+.p-dialog-footer {
+  text-align: center;
 }
-
-
 
 // mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
-    *{
-        margin: 0;
-        box-sizing: border-box;
-    }
-    
-    .p-inputtext {
-        padding: 0.3rem 0.3rem;
-    }
-    .p-dropdown .p-dropdown-trigger {
-        width: 1.5rem;
-    }
+@media screen and (max-width: 450px) {
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
 
+  .p-inputtext {
+    padding: 0.3rem 0.3rem;
+  }
+  .p-dropdown .p-dropdown-trigger {
+    width: 1.5rem;
+  }
+
+  .p-button {
+    color: #ffffff;
+    background: #ff4444;
+    border: none;
+    padding: 1.1rem 1.25rem;
+    font-family: $font-inter;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+      box-shadow 0.2s;
+    border-radius: 35px;
+  }
+
+  .p-button-fit {
     .p-button {
-        color: #ffffff;
-        background: #FF4444;
-        border: none;
-        padding: 1.1rem 1.25rem;
-        font-family: $font-inter;
-        font-weight: bold;
-        font-size: 0.9rem;
-        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
-        border-radius: 35px;
+      color: #ffffff;
+      background: #ff4444;
+      border: none;
+      padding: 0.6rem 1.25rem;
+      font-family: $font-inter;
+      font-weight: bold;
+      font-size: 0.8rem;
+      transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+        box-shadow 0.2s;
+      border-radius: 35px;
     }
+  }
 
-    .p-button-fit {
-        .p-button{
-            color: #ffffff;
-            background: #FF4444;
-            border: none;
-            padding: 0.6rem 1.25rem;
-            font-family: $font-inter;
-            font-weight: bold;
-            font-size: 0.8rem;
-            transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
-            border-radius: 35px;
-        }
-
+  .button-black {
+    .p-button {
+      padding: 1.1rem 1.25rem;
+      border-radius: 35px;
     }
+  }
 
-    .button-black{
-        .p-button{
-            padding: 1.1rem 1.25rem;
-            border-radius: 35px;
-        }
+  .button-black-long {
+    .p-button {
+      width: 100%;
+      padding: 1.1rem 1.25rem;
+      border-radius: 35px;
     }
-    
-    .button-black-long{
-        .p-button{
-            width: 100%;
-            padding: 1.1rem 1.25rem;
-            border-radius: 35px;
-        }
-    }
+  }
 
-    .p-accordion, .p-accordion .p-accordion-content {
-        font-size: 0.9em;
-        font-family: "Inter", sans-serif;
-        line-height: $lineH-P-Mobile;
-    }
+  .p-accordion,
+  .p-accordion .p-accordion-content {
+    font-size: 0.9em;
+    font-family: "Inter", sans-serif;
+    line-height: $lineH-P-Mobile;
+  }
+}
 
+.bg-faded-red {
+  // background: rgb(255, 236, 236);
+  background: radial-gradient(
+    circle,
+    rgba(255, 236, 236, 1) 11%,
+    rgba(255, 246, 246, 1) 100%
+  );
+}
 
+h2 {
+  font-family: Sora, sans-serif;
+  color: #050401;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-family: Sora, sans-serif;
+  color: #f44;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 36px;
+  letter-spacing: -0.05em;
+}
+
+section {
+  // padding: 48px 0;
+}
+@media screen and (max-width: 992px) {
+  .center-md {
+    display: flex;
+    justify-content: center;
+  }
+  .text-center-md {
+    text-align: center !important;
+  }
 }

@@ -1,117 +1,104 @@
-@import '../../styles.scss';
+@import "../../styles.scss";
 
-.nav-container{
-    position: fixed;
-    top: 0;
-    z-index: 11;
-    background-color: white;
-    width: 1440px;
+.nav-container {
+  position: sticky;
+  // position: fixed;
+  top: 0;
+  z-index: 11;
+  background-color: white;
+  // width: 1440px;
 
-    .nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 80px;
-        align-items: center;
+  .nav {
+    padding: 8px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // height: 80px;
+    align-items: center;
 
-    
-        .logo{
-    
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            max-height: 38px;
-            margin-left: 165px;
-    
-            img{
-                width: 36px;
-                height: 36px;
-            }
-            &-shape{
-                width: 37px;
-                height: 37px;
-                margin-right: 5px;
-            }
-            &-text{
-                color: $red;
-                font-family: $font-sora;
-                font-size: 1.8em;
-                font-weight: 700; 
-            }
-        }
-    
-        .lang{
-            margin-right: 165px;
-        }
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      max-height: 38px;
+
+      img {
+        width: 36px;
+        height: 36px;
+      }
+      &-shape {
+        width: 37px;
+        height: 37px;
+        margin-right: 5px;
+      }
+      &-text {
+        color: $red;
+        font-family: $font-sora;
+        font-size: 1.8em;
+        font-weight: 700;
+      }
     }
-    
+  }
 }
 
 // laptop------------------------------------------------------------
-@media screen and (min-width: 451px) and (max-width: 1536px){
-    .nav-container{
-        width: 100%;
-        .nav{
-            height: 50px;
-            .logo{
-                img{
-                    width: 20px;
-                    height: 20px;
-                }
-                max-height: 20px;
-                &-shape{
-                    width: 20px;
-                    height: 20px;
-                    margin-right: 5px;
-                }
-                &-text{
-                    font-size: 16px;
-                    font-weight: 700; 
-                }
-            }
-        
-            .lang{
+@media screen and (min-width: 451px) and (max-width: 1536px) {
+  .nav-container {
+    width: 100%;
+    .nav {
+      .logo {
+        // img {
+        //   width: 20px;
+        //   height: 20px;
+        // }
+        // max-height: 20px;
+        // &-shape {
+        //   width: 20px;
+        //   height: 20px;
+        //   margin-right: 5px;
+        // }
+        // &-text {
+        //   font-size: 16px;
+        //   font-weight: 700;
+        // }
+      }
 
-            }
-        }
-        
+      .lang {
+      }
     }
-
+  }
 }
 
 // mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
-    
-    .nav-container{
-        width: 100%;
-        .nav{
-            height: 35px;
-            align-items: center;
-        
-            .logo{
-                img{
-                    width: 20px;
-                    height: 20px;
-                }
-                max-height: 20px;
-                margin-left: 15px;
-                &-shape{
-                    width: 20px;
-                    height: 20px;
-                    margin-right: 5px;
-                }
-                &-text{
-                    font-size: 16px;
-                    font-weight: 700; 
-                }
-            }
-        
-            .lang{
-                margin-right: 15px;
-            }
-        }
-        
-    }
+// @media screen and (max-width: 450px) {
+//   .nav-container {
+//     width: 100%;
+//     .nav {
+//       height: 35px;
+//       align-items: center;
 
+//       .logo {
+//         img {
+//           width: 20px;
+//           height: 20px;
+//         }
+//         max-height: 20px;
+//         margin-left: 15px;
+//         &-shape {
+//           width: 20px;
+//           height: 20px;
+//           margin-right: 5px;
+//         }
+//         &-text {
+//           font-size: 16px;
+//           font-weight: 700;
+//         }
+//       }
 
-}
+//       .lang {
+//         margin-right: 15px;
+//       }
+//     }
+//   }
+// }

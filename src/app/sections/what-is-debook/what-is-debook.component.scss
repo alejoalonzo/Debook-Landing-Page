@@ -1,163 +1,157 @@
-@import '../../../styles.scss';
+@import "../../../styles.scss";
 
-.what-is-container{
+.what-is-container {
+  width: 100%;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+  .title-container {
+    flex-direction: column;
+    .what-is-title {
+      font-family: $font-sora;
+      font-weight: 600;
+      font-size: 55px !important;
+      letter-spacing: -0.05em;
+      // margin-top: 75px;
+    }
+    .what-is-subTitle {
+      display: none;
+      // color: $black;
+      // font-size: 14px;
+      // text-align: center;
+      // font-family: $font-inter;
+      // font-weight: 700;
+    }
+  }
+
+  .what-is-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 24px;
+    .what-is-logo-container-mobile {
+      display: none;
+    }
+
+    .what-is-content-group-left,
+    .what-is-content-group-right {
+      width: 34%;
+    }
+    .what-is-content-group-left,
+    .what-is-content-group-right {
+      // padding-left: 165px;
+      .what-is-content-numberAndtitle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 180px;
+
+        &-number {
+          font-size: 96px;
+          font-family: $font-sora;
+          font-weight: 800;
+        }
+        &-text {
+          font-size: 20px;
+          font-family: $font-sora;
+          font-weight: 800;
+          text-align: start;
+          margin-left: 10px;
+          letter-spacing: -0.05em;
+        }
+      }
+      .what-is-content-numberAndtitleSubtitle {
+        font-size: 20px;
+        text-align: start;
+        font-family: $font-sora;
+        font-weight: 700;
+        letter-spacing: -0.05em;
+      }
+      .what-is-content-numberAndtitleDescription {
+        font-family: $font-inter;
+        font-size: 14px;
+        text-align: start;
+        color: $gray;
+        margin-top: 25px;
+        letter-spacing: 0.03em;
+        line-height: 22px;
+
+        span {
+          color: $red;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .what-is-content-group-right {
+      padding-left: 0 !important;
+      // padding-right: 120px;
+
+      .what-is-content-numberAndtitle {
+        width: 210px;
+      }
+    }
+
+    .what-is-logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // width: 275px;
+      // height: 275px;
+      border-radius: 47px;
+      background-color: white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 32px;
+      .what-is-logo {
+        width: 206px;
+        height: 206px;
+      }
+    }
+  }
+}
+
+// @media screen and (max-width: 992px) {
+
+// }
+
+// mobile------------------------------------------------------------
+@media screen and (max-width: 992px) {
+  .what-is-container {
     width: 100%;
-    padding: 70px 0;
+    padding: 0px 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    
-
-    .title-container{
-        flex-direction: column;
-        .what-is-title{
-            font-family: $font-sora;
-            font-weight: 600;
-            font-size: 55px;
-            letter-spacing: -0.05em;
-            margin-top: 75px;
-        }
-        .what-is-subTitle{
-            display: none;
-            // color: $black;
-            // font-size: 14px;
-            // text-align: center;
-            // font-family: $font-inter;
-            // font-weight: 700;
-
-        }
-
-    }
-
-    .what-is-content{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    background-color: white;
+    gap: 0px;
+    .title-container {
+      flex-direction: column;
+      .what-is-title {
+        font-size: 2.4em;
         margin-top: 50px;
+      }
+      .what-is-subTitle {
+        display: none;
 
-        .what-is-logo-container-mobile{
-            display: none;
-        }
-        
-
-        .what-is-content-group-left, .what-is-content-group-right{
-            width: 34%;
-        }
-        .what-is-content-group-left, .what-is-content-group-right{
-            padding-left: 165px;
-            .what-is-content-numberAndtitle{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                width: 180px;
-
-                &-number{
-                    font-size: 96px;
-                    font-family: $font-sora;
-                    font-weight: 800;
-                }
-                &-text{
-                    font-size: 20px;
-                    font-family: $font-sora;
-                    font-weight: 800;
-                    text-align: start;
-                    margin-left: 10px;
-                    letter-spacing: -0.05em;
-                }
-            }
-            .what-is-content-numberAndtitleSubtitle{
-                font-size: 20px;
-                text-align: start;
-                font-family: $font-sora;
-                font-weight: 700;
-                letter-spacing: -0.05em;
-            }
-            .what-is-content-numberAndtitleDescription{
-                font-family: $font-inter;
-                font-size: 14px;
-                text-align: start;
-                color: $gray;
-                margin-top: 25px;
-                letter-spacing: 0.03em;
-                line-height: 22px;
-
-                span{
-                    color: $red;
-                    font-weight: bold;
-                }
-            }
-        }
-
-        .what-is-content-group-right{
-            padding-left: 0!important;
-            padding-right: 120px;
-
-            .what-is-content-numberAndtitle{
- 
-                width: 210px;
-            }
-        }
-
-        .what-is-logo-container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 275px;
-            height: 275px;
-            border-radius: 47px;
-            background-color: white;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
-            .what-is-logo{
-                width: 206px;
-                height: 206px;
-            }
-        }
+        // color: $black;
+        // font-size: 14px;
+        // text-align: center;
+      }
     }
 
-}
+    .what-is-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 0px;
+      padding: 0;
 
-
-// mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
-
-
-    
-    .what-is-container{
-        width: 100%;
-        padding: 0px 0;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        background-color: white;
-        
-    
-        .title-container{
-            flex-direction: column;
-            .what-is-title{
-                font-size: 2.4em;
-                margin-top: 50px;
-            }
-            .what-is-subTitle{
-                display: none;
-
-                // color: $black;
-                // font-size: 14px;
-                // text-align: center;
-            }
-    
-        }
-    
-        .what-is-content{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin-top: 40px;
-            padding: 0;
-
-            /*.what-is-logo-container-mobile{
+      /*.what-is-logo-container-mobile{
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -168,91 +162,89 @@
                 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
                 margin: 0 auto;
                 margin-bottom: 40px;
-    
+
                 .what-is-logo-mobile{
                     width: 120px;
                     height: 120px;
                 }
             }*/
-            
-    
-            .what-is-content-group-left, .what-is-content-group-right{
-                width: 100%;
-            }
-            .what-is-content-group-left, .what-is-content-group-right{
-                padding-left: 0px;
-                margin-bottom: 60px;
-                .what-is-content-numberAndtitle{
-                    width: 100%;
-                    padding: 0;
-                    justify-content: center;
-    
-                    &-number{
-                        font-size: 8em;
-                        font-family: $font-sora;
-                        font-weight: 800;
-                    }
-                    &-text{
-                        width: 142px;
-                        text-align: center;
-                        font-size: 1.5em;
-                    }
-                }
-                .what-is-content-numberAndtitleSubtitle{
-                    font-size: 1.5em;
-                    text-align: center;
-                    padding: 0;
-                    width: 239px;
-                    margin: 0 auto;
-                    margin-top: 20px;
-                }
-                .what-is-content-numberAndtitleDescription{
-                    text-align: center;
-                    width: 90%;
-                    margin: 0 auto;
-                    margin-top: 20px;
-                    font-size: 1em;
-                    letter-spacing: -0.03em;
 
-                    span{
-                        color: $red;
-                        font-weight: bold;
-                    }
-                }
-            }
-    
-            .what-is-content-group-right{
-                padding-left: 0!important;
-                padding-right: 0px;
-                margin-top: 50px;
+      .what-is-content-group-left,
+      .what-is-content-group-right {
+        width: 100%;
+      }
+      .what-is-content-group-left,
+      .what-is-content-group-right {
+        padding-left: 0px;
+        margin-bottom: 60px;
+        .what-is-content-numberAndtitle {
+          width: 100%;
+          padding: 0;
+          justify-content: center;
 
-                .what-is-content-numberAndtitle{
-                    padding: 0;
-                    width: 100%;
-
-                    &-text{
-                        width: 185px;
-                    }
-                }
-                .what-is-content-numberAndtitleSubtitle{
-                    width: 290px;
-                }
-            }
-    
-            .what-is-logo-container{
-
-                width: 160px;
-                height: 160px;
-                border-radius: 27px;
-                margin:  0 auto;
-    
-                .what-is-logo{
-                    width: 120px;
-                    height: 120px;
-                }
-            }
+          &-number {
+            font-size: 8em;
+            font-family: $font-sora;
+            font-weight: 800;
+          }
+          &-text {
+            width: 142px;
+            text-align: center;
+            font-size: 1.5em;
+          }
         }
-    
+        .what-is-content-numberAndtitleSubtitle {
+          font-size: 1.5em;
+          text-align: center;
+          padding: 0;
+          width: 239px;
+          margin: 0 auto;
+          margin-top: 20px;
+        }
+        .what-is-content-numberAndtitleDescription {
+          text-align: center;
+          width: 90%;
+          margin: 0 auto;
+          margin-top: 20px;
+          font-size: 1em;
+          letter-spacing: -0.03em;
+
+          span {
+            color: $red;
+            font-weight: bold;
+          }
+        }
+      }
+
+      .what-is-content-group-right {
+        padding-left: 0 !important;
+        padding-right: 0px;
+        // margin-top: 50px;
+        margin-top: 0px;
+        .what-is-content-numberAndtitle {
+          padding: 0;
+          width: 100%;
+
+          &-text {
+            width: 185px;
+          }
+        }
+        .what-is-content-numberAndtitleSubtitle {
+          width: 290px;
+        }
+      }
+
+      .what-is-logo-container {
+        // width: 160px;
+        // height: 160px;
+        // border-radius: 27px;
+        margin: 0 auto;
+
+        .what-is-logo {
+          width: 120px;
+          height: 120px;
+        }
+      }
     }
-    
+  }
 }

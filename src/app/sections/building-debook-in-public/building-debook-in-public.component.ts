@@ -6,8 +6,6 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [TranslateModule],
   templateUrl: './building-debook-in-public.component.html',
-  styleUrl: './building-debook-in-public.component.scss'
+  styleUrl: './building-debook-in-public.component.scss',
 })
-export class BuildingDebookInPublicComponent {
-
-}
+export class BuildingDebookInPublicComponent {}
