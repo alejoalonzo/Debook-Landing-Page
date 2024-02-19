@@ -37,11 +37,44 @@
                     "sub-title2":"Aprende con el fundador y los desafíos que enfrenta en el proceso de hacer de debook el nuevo formato de libros para siempre. Lecciones a tiempo real y acceso a su red de contactos.",
                     "title3":"Acceso a una comunidad de visionarios",
                     "sub-title3":"Forma parte un grupo de personas de disruptores que se apoyan y comparten su visión y conocimientos para ayudar a DEBOOK a ser una revolución mundial!",
-                    "title4":"Un acceso al sorteo de 5 tickets para La Mansión Unicornio",
-                    "sub-title4":"Después de que se agoten las MAGICKEYS en cada una de las tres fases, anunciaremos una nueva edición de La Mansión Unicornio. Una MAGICKEY, una participación."
+                    "title4":"Entrevista al fundador de DEBOOK para tu comunidad",
+                    "sub-title4":"Esta es tu oportunidad para conceguir una conferencia o entrevista con el fundador de DEBOOK. ¡Abierto a podcats y eventos nuevos y establecidos!",
+                    "title5":"Un acceso al sorteo de 5 tickets para La Mansión Unicornio",
+                    "sub-title5":"Después de que se agoten las MAGICKEYS en cada una de las tres fases, anunciaremos una nueva edición de La Mansión Unicornio. Una MAGICKEY, una participación."
+                   
                 }
             },
             "image-text": "Las MAGICKEYS te garantizan acceso inmediato al producto"
+        },
+        "is-for-you-if":{
+            "title": "La MAGICKEY es para ti si...",
+            "titleMobile": "Las MAGICKEYS no son solo una herramienta, son un símbolo de innovación y son para ti si...",
+            "carrousel":{
+                "slide1":{
+                    "title":"Eres un ",
+                    "title-span":"Emprendedor ",
+                    "title-bottom":"disruptor",
+                    "content":"Y buscas aprender de los desafíos de un proyecto startup único que podría hacer historia"
+                },
+                "slide2":{
+                    "title":"Eres un",
+                    "title-span":"Investor ",
+                    "title-bottom":"disruptor",
+                    "content":"Y te apasiona ser parte de una nueva forma de recaudar capital que podría convertirse en un nuevo estándar"
+                },
+                "slide3":{
+                    "title":"Eres un",
+                    "title-span":"Autor ",
+                    "title-bottom":"disruptor",
+                    "content":"Y crees que los autores merecen más porque la industria del libro esta obsoleta y necesita un cambio"
+                },
+                "slide4":{
+                    "title":"Eres un",
+                    "title-span":"Amante de libros ",
+                    "title-bottom":"disruptor",
+                    "content":"Y consideras que los libros pueden ofrecer más que la simple lectura y quieres ser parte de la revolución"
+                } 
+            }
         },
         "founder-message": {
             "title": "La comunidad que cualquier emprendedor soñaría tener a su alrededor",

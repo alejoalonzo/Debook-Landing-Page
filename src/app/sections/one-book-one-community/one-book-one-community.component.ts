@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
+import { AccordionModule } from 'primeng/accordion';
 import { CarrouselPrivilegesComponent } from '../../components/carrousels/carrousel-privileges/carrousel-privileges.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { PopUpEmailRequestComponent } from '../../components/pop-up-email-request/pop-up-email-request.component';
@@ -8,6 +9,7 @@ import { PopUpEmailRequestComponent } from '../../components/pop-up-email-reques
   selector: 'app-one-book-one-community',
   standalone: true,
   imports: [
+    AccordionModule,
     ButtonModule,
     CarrouselPrivilegesComponent,
     TranslateModule,

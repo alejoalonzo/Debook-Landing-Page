@@ -1,0 +1,54 @@
+@import '../../../styles.scss';
+.is-for-you-if-container{
+    height:auto;
+    width: 1108px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 100px;
+
+    .is-for-you-if-title{
+        text-align: center;
+        font-family: $font-sora;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -2.1px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+.mobile{
+    display: none;
+}
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+    .is-for-you-if-container{
+        width: 90%;
+
+        .is-for-you-if-title{
+            display: none;
+        }
+    }
+    .mobile{
+        display: block;
+        font-size: 2em;
+        width: 80%;
+        text-align: center;
+        font-family: $font-sora;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1.5px;
+        background: linear-gradient(95deg, #000 0.84%, #FFF 115.29%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
