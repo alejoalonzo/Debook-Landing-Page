@@ -26,4 +26,4 @@ jobs:
         with:
           folder: dist/debook/browser
           branch: gh-pages  
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GHA_TOKEN }}
