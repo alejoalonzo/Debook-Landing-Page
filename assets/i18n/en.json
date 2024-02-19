@@ -38,11 +38,43 @@
                     "sub-title2":"Learn with the founder and the challenges faced on the process of making debook the new book format forever. Real time lessons with access to the founder network!",
                     "title3":"Access to  a community of visionaries",
                     "sub-title3":"Be part of a changemakers group of people supporting each other and sharing their vision and insights to support DEBOOK to become what we all envision!",
-                    "title4":"One raffle entry for 5 accesses  to the unicorn mansion",
-                    "sub-title4":"After every sell out of the three phases we are announcing a new edition of The Unicorn Mansion. One MK, one participation."
+                    "title4":"Interview DEBOOK founder for your community",
+                    "sub-title4":"This is your chance to secure a conference or an interview with DEBOOK fonuder for your show. New or stablished podcats and events!",
+                    "title5":"One raffle entry for 5 accesses  to the unicorn mansion",
+                    "sub-title5":"After every sell out of the three phases we are announcing a new edition of The Unicorn Mansion. One MK, one participation."
                 }
             },
             "image-text": "MAGICKEYS guarantee you immediate access to the product"
+        },
+        "is-for-you-if":{
+            "title": "The MAGICKEY is for you if...",
+            "titleMobile": "MAGICKEYS are not just a tool but a symbol of innovation and they are for you if...",
+            "carrousel":{
+                "slide1":{
+                    "title":"You are a disruptive ",
+                    "title-span":"Entrepreneuer",
+                    "title-bottom":"",
+                    "content":"who seeks to learn from the challenges of a once-in-a-lifetime startup project that could be part of history"
+                },
+                "slide2":{
+                    "title":"You are a disruptive ",
+                    "title-span":"Investor",
+                    "title-bottom":"",
+                    "content":"who wants to be part of a new way of raising capital that could become a new standard by future startups"
+                },
+                "slide3":{
+                    "title":"You are a disruptive ",
+                    "title-span":"Author",
+                    "title-bottom":"",
+                    "content":"Who thinks that authors deserve more and the book industry is obsolete and need to change its status quo"
+                },
+                "slide4":{
+                    "title":"You are a disruptive ",
+                    "title-span":"Book lover",
+                    "title-bottom":"",
+                    "content":"Who thinks that books could be more than just reading and want to be part of the book world revolution"
+                } 
+            }
         },
         "founder-message": {
             "title": "The community any enterpreneur would dream of!",
@@ -63,7 +95,7 @@
         },
         "funds-go-to-dev": {
             "title": "100% OF THE FUNDS GO TO SUCCESSFULLY DEVELOP OUR DEMO APP",
-            "interact": "Interact with DEBOOK demo APP! ✨",
+            "interact": "✨ Interact with DEBOOK demo APP!",
             "go-to-pitchdeck": "Go to Pitchdeck"
         },
         "panels": {
@@ -98,6 +130,20 @@
             }
             
         },
+        "wholeTeam":{
+            "title":{
+                "top":"DISCOVER OUR",
+                "mid":"REAL TIME",
+                "bottom":"CHALLENGES MAP"
+            },
+            "subtitle":{
+                "top":"Sharing with no filters our mistakes, and achievements to",
+                "bottom":"make you part of our learning process and growth!"
+            },
+            "subtitleMobile":"Sharing with no filters our mistakes, and achievements to make you part of our learning process and growth!",
+            "button":"See challenges map"
+
+        },
         "team": {
             "title": "TEAM BUILDING THE DREAM",
             "subtitle":{
@@ -116,6 +162,28 @@
             "message": {
                 "regular":"Ernest is sharing on Linkedin a weekly docu-series in real time of the journey of",
                 "bold":"Building DEBOOK in Public"
+            }
+        },
+        
+        "buildin-in-public":{
+            "title":{
+                "top":"Building DEBOOK in Public",
+                "bottom":""
+            },
+            "subtitle":{
+                "top":"Ernest is sharing every Tuesday a real time docu-",
+                "mid":"series of the journey with the mission to be the most",
+                "bottom":"transparent founder of all times since day one!"
+            },
+            "title-mobile":{
+                "top":"Building",
+                "mid":"DEBOOK",
+                "bottom":"in Public"
+            },
+            "subtitle-mobile":{
+                "top":"Ernest is sharing every Tuesday a real time docu-series of the journey with the mission to be the most transparent founder of all times since day one!",
+                "mid":"",
+                "bottom":""
             }
         },
         "sales-process": {
@@ -231,6 +299,20 @@
                 "top":"Buy 10 and get acces to",
                 "bottom":"The Unicorn Mansion Edition 1"
             }
+        },
+        "popup":{
+            "title":"DEBOOK DEMO APP",
+            "titlePitchDeck":"PITCHDECK & DEMO APP",
+            "subtitle":{
+                "top":"Dive deeper into DEBOOK experience",
+                "bottom":"Share your details for early access"
+            },
+            "subtitlePitchDeck":{
+                "top":"Dive deeper into DEBOOK value proposition",
+                "bottom":"Share your details for reserved access"
+            },
+            "button": "Send it to my email",
+            "buttonCancel": "Cancel"
         }
     }
 }
