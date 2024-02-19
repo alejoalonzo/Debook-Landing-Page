@@ -10,7 +10,7 @@
         margin: auto;
         .title-span{
             font-family: $font-sora;
-            font-size: 34px;
+            font-size: 29px;
             font-weight: 700;
             line-height: 42px;
             letter-spacing: -0.02em;
@@ -22,7 +22,7 @@
     .subtitle{
         margin: auto;
         font-family: $font-inter;
-        font-size: 16px;
+        font-size: 13px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: -0.02em;
@@ -71,7 +71,14 @@
 
 
     .button{
-        margin: 0;
+        margin: 0px;
+        background-color: transparent;
+        border: none;
+        color: $gray;
+        cursor: pointer;
+    }
+    .button:hover{
+        color: $red;
     }
 }
 
@@ -83,7 +90,8 @@
         .title-container{
 
             .title-span{
-
+                margin-top: 20px;
+                line-height: 36px;
                 font-size: 28px;
 
             }
@@ -111,7 +119,9 @@
         }
 
         .button{
-            margin: 3px;
+            position: absolute;
+            top: 15px;
+            right: 5px;
         }
     }
 }

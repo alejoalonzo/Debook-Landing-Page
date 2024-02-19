@@ -12,7 +12,7 @@
         >
       </div>
       <div class="subMenu-progressBar">
-        <div class="subMenu-progressBar-customBar">
+        <div class="subMenu-progretMBar-customBar">
           <app-progress-bar
             [isWhiteBackground]="true"
             [showIcon]="true"
@@ -20,15 +20,14 @@
         </div>
       </div>
       <div class="subMenu-getMansion">
-        {{ "components.subMenu.buy10.top" | translate }} <br />The Unicorn
-        Mansion Edition 1
-      </div>
-      <div class="subMenu-buy-button">
-        <p-button class="p-button-fit" (click)="navigateToLink()">
-          <ng-template pTemplate="label">
-            {{ "sections.hero.buyButton" | translate }}
-          </ng-template>
-        </p-button>
+        <!-- {{"components.subMenu.buy10.top" | translate }} <br>The Unicorn Mansion Edition 1</div> -->
+        <div class="subMenu-buy-button">
+          <p-button class="p-button-fit" (click)="navigateToLink()">
+            <ng-template pTemplate="label">
+              {{ "sections.hero.buyButton" | translate }}
+            </ng-template>
+          </p-button>
+        </div>
       </div>
     </div>
   </div>

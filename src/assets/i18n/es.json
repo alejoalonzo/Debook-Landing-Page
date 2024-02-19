@@ -137,8 +137,9 @@
                 "bottom":""
             },
             "subtitle":{
-                "top":"Ernest está compartiendo cada martes en su Linkedin",
-                "bottom":"una docu-serie a tiempo real del proceso"
+                "top":"Ernest esta compartiendo cada Martes una docu-serie",
+                "mid":"a tiempo real del proceso con la misión de ser el",
+                "bottom":"fundador más transparente de todos los tiempos!"
             },
             "title-mobile":{
                 "top":"Building",
@@ -146,9 +147,9 @@
                 "bottom":"in Public"
             },
             "subtitle-mobile":{
-                "top":"Ernest está compartiendo cada",
-                "mid":"martes en su Linkedin una docu-",
-                "bottom":"serie a tiempo real del proceso"
+                "top":"Ernest esta compartiendo cada Martes una docu-serie a tiempo real del proceso con la misión de ser el fundador más transparente de todos los tiempos!",
+                "mid":"",
+                "bottom":""
             }
         },
         "sales-process": {
@@ -262,8 +263,14 @@
             }
         },
         "popup":{
+            "title":"DEBOOK DEMO APP",
+            "titlePitchDeck":"DEMO APP & PITCHDECK",
             "subtitle":{
                 "top":"Profundiza en la experiencia DEBOOK",
+                "bottom":"Comparte tus datos para el acceso reservado"
+            },
+            "subtitlePitchDeck":{
+                "top":"Profundiza en la propuesta de valor de DEBOOK",
                 "bottom":"Comparte tus datos para el acceso reservado"
             },
             "button": "Envíalo a mi correo",

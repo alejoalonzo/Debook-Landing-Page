@@ -139,8 +139,9 @@
                 "bottom":""
             },
             "subtitle":{
-                "top":"Ernest is sharing every tuesday on his Linkedin",
-                "bottom":"a real time docu-series of the journey"
+                "top":"Ernest is sharing every Tuesday a real time docu-",
+                "mid":"series of the journey with the mission to be the most",
+                "bottom":"transparent founder of all times since day one!"
             },
             "title-mobile":{
                 "top":"Building",
@@ -148,9 +149,9 @@
                 "bottom":"in Public"
             },
             "subtitle-mobile":{
-                "top":"Ernest is sharing every Tuesday ",
-                "mid":"on his Linkedin a real time",
-                "bottom":"docu-series of the journey"
+                "top":"Ernest is sharing every Tuesday a real time docu-series of the journey with the mission to be the most transparent founder of all times since day one!",
+                "mid":"",
+                "bottom":""
             }
         },
         "sales-process": {
@@ -268,9 +269,15 @@
             }
         },
         "popup":{
+            "title":"DEBOOK DEMO APP",
+            "titlePitchDeck":"PITCHDECK & DEMO APP",
             "subtitle":{
                 "top":"Dive deeper into DEBOOK experience",
                 "bottom":"Share your details for early access"
+            },
+            "subtitlePitchDeck":{
+                "top":"Dive deeper into DEBOOK value proposition",
+                "bottom":"Share your details for reserved access"
             },
             "button": "Send it to my email",
             "buttonCancel": "Cancel"
