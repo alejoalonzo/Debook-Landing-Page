@@ -14,10 +14,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: start;
+    justify-content: space-between;
+    gap: 32px;
     .oneBookOneCommunity-column {
       margin-top: 100px;
-      width: 695px;
-      margin-left: 165px;
+      // width: 695px;
+      // margin-left: 165px;
       &-title-mobile {
         display: none;
       }
@@ -26,14 +28,15 @@
         font-family: $font-sora;
         font-weight: 700;
         letter-spacing: -0.05em;
-        margin-top: 75px;
+        // margin-top: 75px;
         text-align: start;
       }
       &-subtitle {
         margin-bottom: 50px;
         font-family: $font-inter;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 16px;
+        margin-top: 8px;
         letter-spacing: -0.03em;
         text-align: start;
       }
@@ -42,7 +45,7 @@
       }
     }
     .oneBookOneCommunity-table {
-      margin-top: 175px;
+      // margin-top: 175px;
       img {
         width: 415px;
         height: auto;
@@ -56,13 +59,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1440px;
-    margin: 150px 0 250px 0;
-
+    margin: 150px 0;
+    // width: 1440px;
+    // margin: 150px 0 250px 0;
+    gap: 48px;
     &-content {
-      width: 495px;
-      height: 615px;
-      margin-left: 165px;
+      // width: 495px;
+      // height: 615px;
+      // margin-left: 165px;
+      // max-width: 495px;
+      // max-width: 650px;
+
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -79,7 +86,8 @@
         text-align: start;
         font-size: $font-inter;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 16px;
+        margin-top: 8px;
       }
       .carrousel-privileges {
         display: none;
@@ -128,6 +136,8 @@
           &-text {
             text-align: start;
             padding-left: 15px;
+            font-size: 16px;
+            margin-top: 8px;
             &-title {
               font-size: 20px;
               // letter-spacing: -0.05em;
@@ -136,7 +146,8 @@
               font-family: $font-sora;
             }
             &-p {
-              font-size: 14px;
+              font-size: 16px;
+              margin-top: 8px;
               // letter-spacing: -0.05em;
               color: $gray;
               font-family: $font-inter;
@@ -149,11 +160,14 @@
     }
 
     &-image {
-      width: 508px;
-      height: 614px;
-      margin-right: 165px;
+      flex-grow: 1;
+      width: 1102px;
+      // width: 508px;
+      // height: 614px;
+      // margin-right: 165px;
 
       img {
+        // max-width: 508px;
         width: 100%;
         height: 700px;
         border-radius: 25px;
@@ -168,7 +182,8 @@
       //     border: 1px solid rgb(200, 196, 196);
       // }
       &-text {
-        font-size: 14px;
+        font-size: 16px;
+        margin-top: 8px;
         letter-spacing: -0.05em;
       }
     }
@@ -176,7 +191,7 @@
 }
 
 // mobile------------------------------------------------------------
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 992px) {
   .flex-blockMobile {
     display: block;
     margin-bottom: 30px;
@@ -218,7 +233,7 @@
           margin-bottom: 10px;
           font-weight: 700;
           padding: 0;
-          width: 275px;
+          // width: 275px;
           margin: 0 auto;
           margin-top: 30px;
           margin-bottom: 30px;
@@ -258,15 +273,15 @@
         &-title {
           font-size: 2.4em;
           font-weight: 700;
-          width: 300px;
+          // width: 300px;
           padding: 0;
           line-height: 45px;
           margin: 50px 0 25px 0;
           margin-left: 5%;
         }
         &-subtitle {
-          width: 90%;
-          margin: auto;
+          // width: 90%;
+          // margin: auto;
           text-align: start;
           font-weight: 500;
           font-size: 1em;
