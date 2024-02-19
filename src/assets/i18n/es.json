@@ -45,30 +45,31 @@
         },
         "is-for-you-if":{
             "title": "La MAGICKEY es para ti si...",
+            "titleMobile": "Las MAGICKEYS no son solo una herramienta, son un símbolo de innovación y son para ti si...",
             "carrousel":{
                 "slide1":{
-                    "title":"Eres un",
-                    "title-span":"Emprendedor",
+                    "title":"Eres un ",
+                    "title-span":"Emprendedor ",
                     "title-bottom":"disruptor",
-                    "content":"Who want to learn from the challenges in each area of a one in a life time project."
+                    "content":"Y buscas aprender de los desafíos de un proyecto startup único que podría hacer historia"
                 },
                 "slide2":{
                     "title":"Eres un",
-                    "title-span":"Investor",
+                    "title-span":"Investor ",
                     "title-bottom":"disruptor",
-                    "content":"Who wants to be part of a new way of rising money that will be replicated in the future"
+                    "content":"Y te apasiona ser parte de una nueva forma de recaudar capital que podría convertirse en un nuevo estándar"
                 },
                 "slide3":{
                     "title":"Eres un",
-                    "title-span":"Autor",
+                    "title-span":"Autor ",
                     "title-bottom":"disruptor",
-                    "content":"Who thinks that the book industry is obsolete and want to support DEBOOK"
+                    "content":"Y crees que los autores merecen más porque la industria del libro esta obsoleta y necesita un cambio"
                 },
                 "slide4":{
                     "title":"Eres un",
-                    "title-span":"Amante de libros",
+                    "title-span":"Amante de libros ",
                     "title-bottom":"disruptor",
-                    "content":"Who thinks that books could be more than just reading and want to be part of the change."
+                    "content":"Y consideras que los libros pueden ofrecer más que la simple lectura y quieres ser parte de la revolución"
                 } 
             }
         },
