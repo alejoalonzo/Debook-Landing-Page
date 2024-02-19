@@ -15,8 +15,10 @@ import { importProvidersFrom } from '@angular/core';
 
 
 export function HttpLoaderFactory (http: HttpClient){
-  const baseHref = environment.production ? environment.baseHref : '';
-  return new TranslateHttpLoader(http, `${baseHref}assets/i18n/`)
+  const baseHref = environment.production ? environment.baseHref : '/';
+  // removing baseHref so i18n path is always relative
+  // return new TranslateHttpLoader(http, `${baseHref}assets/i18n/`);
+  return new TranslateHttpLoader(http, `assets/i18n/`);
 }
 
 
