@@ -1,54 +1,51 @@
-@import '../../../../styles.scss';
+@import "../../../../styles.scss";
 
-swiper-container{
-    swiper-slide{
-        .cards{
-            width: 90%;
-            margin: auto;
-            height: 420px;
-            border-radius: 40px;
-            border: 1px solid #FFC5C6;
-            background: #FFF7F7;
-            padding: 10px;
-            .image{
-                display: flex;
-                justify-content: center;
-                margin-top: 25px;
-                img{
-                    width: 24%;
-                    height: 24%;
-                }
-            }
-            .title{
-                display: flex;
-                justify-content: center;
-                font-size: 1.5em;
-                font-weight: 400;
-                text-align: center;
-                width: 100%;
-                margin: auto;
-                margin-top: 25px;
-                margin-bottom: 25px;
-            }
-            .description{
-                display: flex;
-                justify-content: center;
-                font-size: 1em;
-                text-align: center;
-                width: 100%;
-                margin: auto;
-                margin-bottom: 50px;
-                line-height: $lineH-P-Mobile;
-            }
+swiper-container {
+  swiper-slide {
+    .cards {
+      width: 90%;
+      margin: auto;
+      min-height: 420px;
+      border-radius: 40px;
+      border: 1px solid #ffc5c6;
+      background: #fff7f7;
+      padding: 10px;
+      .image {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        img {
+          width: 24%;
+          height: 24%;
         }
-
-        // ._1{
-        //     .image{
-        //         margin-top: 65px;
-        //     }
-        // }
-
+      }
+      .title {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+        font-weight: 400;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      .description {
+        display: flex;
+        justify-content: center;
+        font-size: 1em;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+        line-height: $lineH-P-Mobile;
+      }
     }
 
+    // ._1{
+    //     .image{
+    //         margin-top: 65px;
+    //     }
+    // }
+  }
 }
-

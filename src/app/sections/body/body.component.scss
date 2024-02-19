@@ -55,3 +55,22 @@
     }
   }
 }
+
+.display-mobile {
+  display: none;
+}
+@media screen and (max-width: 580px) {
+  .display-mobile {
+    display: block;
+  }
+}
+
+.key-img {
+  width: 100vw;
+}
+
+.sub-text {
+  width: 300px;
+  padding-bottom: 70px;
+  padding-top: 12px;
+}

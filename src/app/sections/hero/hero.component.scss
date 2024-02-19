@@ -207,3 +207,33 @@
     }
   }
 }
+
+.cardContainer {
+  position: relative;
+  left: 800px;
+  top: -50px;
+
+  .hero-cards {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    transform: rotate(350deg);
+    width: 645px;
+  }
+
+  .hero-cards2 {
+    position: absolute;
+    top: 791px;
+    right: 573px;
+    width: 433px;
+    transform: rotate(350deg);
+  }
+
+  .hero-cards1 {
+    position: absolute;
+    top: 455px;
+    right: 635px;
+    width: 433px;
+    transform: rotate(350deg);
+  }
+}
