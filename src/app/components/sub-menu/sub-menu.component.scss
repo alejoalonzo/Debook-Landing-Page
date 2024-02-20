@@ -59,7 +59,7 @@
   .subMenu-container {
     width: 100%;
     background: linear-gradient(98deg, #000 37.67%, #ff6565 83.01%);
-    padding: 12px 0;
+    padding: 16px 0;
     .subMenu {
       flex-direction: column;
 
@@ -86,7 +86,7 @@
       }
 
       &-getMansion {
-        display: none;
+        // display: none;
       }
     }
   }
