@@ -1,129 +1,163 @@
 <div class="oneBookOneCommunity-container">
-    <div class="oneBookOneCommunity-titleRow">
-        <div class="oneBookOneCommunity-column">
-            <div class="oneBookOneCommunity-column-title-mobile gradientText2">
-                {{"sections.one-book-one-community.title-mobile" | translate }}</div>
+  <div class="oneBookOneCommunity-titleRow">
+    <div class="oneBookOneCommunity-column">
+      <div
+        class="oneBookOneCommunity-column-title-mobile gradientText2 center-md"
+      >
+        {{ "sections.one-book-one-community.title-mobile" | translate }}
+      </div>
 
-            <div class="oneBookOneCommunity-column-title gradientText2">
-                {{"sections.one-book-one-community.title.1" | translate }} <br>
-                {{"sections.one-book-one-community.title.2" | translate }}</div>
-            <div class="oneBookOneCommunity-column-subtitle">{{"sections.one-book-one-community.subtitle" | translate }}
-            </div>
-            <app-pop-up-email-request [isDemo]="false" [popupButtonText]="'sections.one-book-one-community.pitchdeck'"
-                [buttonClass]="'button-black'" class="flex-blockMobile"></app-pop-up-email-request>
-            <!-- <p-button class="button-black" (click)="navigateToLink()">
-                <ng-template pTemplate="label">
-                    {{ 'sections.one-book-one-community.pitchdeck' | translate }}
-                </ng-template>
-            </p-button> -->
-        </div>
-
-        <div class="oneBookOneCommunity-table">
-            <img src="assets/images/table.png" alt="">
-        </div>
+      <div class="oneBookOneCommunity-column-title gradientText2">
+        {{ "sections.one-book-one-community.title.1" | translate }} <br />
+        {{ "sections.one-book-one-community.title.2" | translate }}
+      </div>
+      <div class="oneBookOneCommunity-column-subtitle">
+        {{ "sections.one-book-one-community.subtitle" | translate }}
+      </div>
+      <app-pop-up-email-request
+        [isDemo]="false"
+        [popupButtonText]="'sections.one-book-one-community.pitchdeck'"
+        [buttonClass]="'button-black'"
+        class="flex-blockMobile"
+      ></app-pop-up-email-request>
+      <!-- <p-button class="button-black" (click)="navigateToLink()">
+              <ng-template pTemplate="label">
+                  {{ 'sections.one-book-one-community.pitchdeck' | translate }}
+              </ng-template>
+          </p-button> -->
     </div>
 
-
-
-
-    <div class="oneBookOneCommunity-row">
-        <div class="oneBookOneCommunity-row-content">
-            <div class="oneBookOneCommunity-row-content-title">
-                {{"sections.one-book-one-community.The-privileges.title" | translate }}
-            </div>
-            <div class="oneBookOneCommunity-row-content-subtitle">
-                {{"sections.one-book-one-community.The-privileges.subtitle" | translate }}
-            </div>
-
-
-            <div class="carrousel-privileges">
-                <app-carrousel-privileges></app-carrousel-privileges>
-            </div>
-
-            <div class="preveleges-accordion">
-                <p-accordion [activeIndex]="[]">
-                    <p-accordionTab [selected]="true" iconPos="end">
-                        <ng-template pTemplate="header">
-                            <div class="oneBookOneCommunity-row-content-privileges-row-image">
-                                <img src="assets/images/book1.png" alt="">
-                            </div>
-                            <div class="preveleges-accordion-title">
-                                {{"sections.one-book-one-community.The-privileges.rows.title1" | translate }}
-                            </div>
-
-                        </ng-template>
-                        <div class="preveleges-accordion-text">
-                            {{"sections.one-book-one-community.The-privileges.rows.sub-title1" | translate }}
-                        </div>
-                    </p-accordionTab>
-                    <p-accordionTab iconPos="end">
-                        <ng-template pTemplate="header">
-                            <div class="oneBookOneCommunity-row-content-privileges-row-image">
-                                <img src="assets/images/book2.png" alt="">
-                            </div>
-                            <div class="preveleges-accordion-title">
-                                {{"sections.one-book-one-community.The-privileges.rows.title2" | translate }}</div>
-
-                        </ng-template>
-                        <div class="preveleges-accordion-text">
-                            {{"sections.one-book-one-community.The-privileges.rows.sub-title2" | translate }}
-                        </div>
-                    </p-accordionTab>
-                    <p-accordionTab iconPos="end">
-                        <ng-template pTemplate="header">
-                            <div class="oneBookOneCommunity-row-content-privileges-row-image">
-                                <img src="assets/images/book3.png" alt="">
-                            </div>
-                            <div class="preveleges-accordion-title">
-                                {{"sections.one-book-one-community.The-privileges.rows.title3" | translate }}</div>
-
-                        </ng-template>
-                        <div class="preveleges-accordion-text">
-                            {{"sections.one-book-one-community.The-privileges.rows.sub-title3" | translate }}
-                        </div>
-                    </p-accordionTab>
-                    <p-accordionTab iconPos="end">
-                        <ng-template pTemplate="header">
-                            <div class="oneBookOneCommunity-row-content-privileges-row-image">
-                                <img src="assets/images/privileges4.svg" alt="">
-                            </div>
-                            <div class="preveleges-accordion-title">
-                                {{"sections.one-book-one-community.The-privileges.rows.title4" | translate }}</div>
-
-                        </ng-template>
-                        <div class="preveleges-accordion-text">
-                            {{"sections.one-book-one-community.The-privileges.rows.sub-title4" | translate }}
-                        </div>
-                    </p-accordionTab>
-                    <p-accordionTab iconPos="end">
-                        <ng-template pTemplate="header">
-                            <div class="oneBookOneCommunity-row-content-privileges-row-image">
-                                <img src="assets/images/privileges5.svg" alt="">
-                            </div>
-                            <div class="preveleges-accordion-title">
-                                {{"sections.one-book-one-community.The-privileges.rows.title5" | translate }}</div>
-
-                        </ng-template>
-                        <div class="preveleges-accordion-text">
-                            {{"sections.one-book-one-community.The-privileges.rows.sub-title5" | translate }}
-                        </div>
-                    </p-accordionTab>
-                </p-accordion>
-            </div>
-        </div>
-
-
-
-
-        <div class="oneBookOneCommunity-row-image">
-            <img src="assets/images/ARTWORK_MAGICKEY.gif" alt="">
-            <!-- <video autoplay loop>
-                <source src="assets/images/FINAL.mp4" type="video/mp4">
-                <img src="assets/images/debookKeyLanding.jpg" alt="">
-                Your browser does not support the video element.
-            </video> -->
-            <div class="oneBookOneCommunity-row-image-text gradientText3">{{"sections.one-book-one-community.image-text"
-                | translate }}</div>
-        </div>
+    <div class="oneBookOneCommunity-table">
+      <img src="assets/images/table.png" alt="" />
     </div>
+  </div>
+
+  <div class="oneBookOneCommunity-row">
+    <div class="oneBookOneCommunity-row-content">
+      <div class="oneBookOneCommunity-row-content-title text-center-md">
+        {{ "sections.one-book-one-community.The-privileges.title" | translate }}
+      </div>
+      <div class="oneBookOneCommunity-row-content-subtitle text-center-md">
+        {{
+          "sections.one-book-one-community.The-privileges.subtitle" | translate
+        }}
+      </div>
+
+      <div class="carrousel-privileges">
+        <app-carrousel-privileges></app-carrousel-privileges>
+      </div>
+
+      <div class="preveleges-accordion">
+        <p-accordion [activeIndex]="[]">
+          <p-accordionTab [selected]="true" iconPos="end">
+            <ng-template pTemplate="header">
+              <div class="oneBookOneCommunity-row-content-privileges-row-image">
+                <img src="assets/images/book1.png" alt="" />
+              </div>
+              <div class="preveleges-accordion-title">
+                {{
+                  "sections.one-book-one-community.The-privileges.rows.title1"
+                    | translate
+                }}
+              </div>
+            </ng-template>
+            <div class="preveleges-accordion-text">
+              {{
+                "sections.one-book-one-community.The-privileges.rows.sub-title1"
+                  | translate
+              }}
+            </div>
+          </p-accordionTab>
+          <p-accordionTab iconPos="end">
+            <ng-template pTemplate="header">
+              <div class="oneBookOneCommunity-row-content-privileges-row-image">
+                <img src="assets/images/book2.png" alt="" />
+              </div>
+              <div class="preveleges-accordion-title">
+                {{
+                  "sections.one-book-one-community.The-privileges.rows.title2"
+                    | translate
+                }}
+              </div>
+            </ng-template>
+            <div class="preveleges-accordion-text">
+              {{
+                "sections.one-book-one-community.The-privileges.rows.sub-title2"
+                  | translate
+              }}
+            </div>
+          </p-accordionTab>
+          <p-accordionTab iconPos="end">
+            <ng-template pTemplate="header">
+              <div class="oneBookOneCommunity-row-content-privileges-row-image">
+                <img src="assets/images/book3.png" alt="" />
+              </div>
+              <div class="preveleges-accordion-title">
+                {{
+                  "sections.one-book-one-community.The-privileges.rows.title3"
+                    | translate
+                }}
+              </div>
+            </ng-template>
+            <div class="preveleges-accordion-text">
+              {{
+                "sections.one-book-one-community.The-privileges.rows.sub-title3"
+                  | translate
+              }}
+            </div>
+          </p-accordionTab>
+          <p-accordionTab iconPos="end">
+            <ng-template pTemplate="header">
+              <div class="oneBookOneCommunity-row-content-privileges-row-image">
+                <img src="assets/images/privileges4.svg" alt="" />
+              </div>
+              <div class="preveleges-accordion-title">
+                {{
+                  "sections.one-book-one-community.The-privileges.rows.title4"
+                    | translate
+                }}
+              </div>
+            </ng-template>
+            <div class="preveleges-accordion-text">
+              {{
+                "sections.one-book-one-community.The-privileges.rows.sub-title4"
+                  | translate
+              }}
+            </div>
+          </p-accordionTab>
+          <p-accordionTab iconPos="end">
+            <ng-template pTemplate="header">
+              <div class="oneBookOneCommunity-row-content-privileges-row-image">
+                <img src="assets/images/privileges5.svg" alt="" />
+              </div>
+              <div class="preveleges-accordion-title">
+                {{
+                  "sections.one-book-one-community.The-privileges.rows.title5"
+                    | translate
+                }}
+              </div>
+            </ng-template>
+            <div class="preveleges-accordion-text">
+              {{
+                "sections.one-book-one-community.The-privileges.rows.sub-title5"
+                  | translate
+              }}
+            </div>
+          </p-accordionTab>
+        </p-accordion>
+      </div>
+    </div>
+
+    <div class="oneBookOneCommunity-row-image hide-image">
+      <img src="assets/images/ARTWORK_MAGICKEY.gif" alt="" />
+      <!-- <video autoplay loop>
+              <source src="assets/images/FINAL.mp4" type="video/mp4">
+              <img src="assets/images/debookKeyLanding.jpg" alt="">
+              Your browser does not support the video element.
+          </video> -->
+      <div class="oneBookOneCommunity-row-image-text gradientText3">
+        {{ "sections.one-book-one-community.image-text" | translate }}
+      </div>
+    </div>
+  </div>
 </div>

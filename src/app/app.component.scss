@@ -1,17 +1,85 @@
-
-.container{
-    width: 1440px;
-    margin: 0 auto;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+.main-app {
+  .main-header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+  .top-header {
+    background-color: white;
+  }
+  .container {
+    // width: 1440px;
+    // margin: 0 auto;
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .app-nav {
+  }
 }
 
 // mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
-    
-    .container{
-        width: 100%;
-        margin: 0 auto;
-    }
-    
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.cardContainer {
+  // position: relative;
+  // left: 800px;
+  // top: -50px;
+
+  .hero-cards {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    transform: rotate(350deg);
+    width: 645px;
+  }
+
+  .hero-cards2 {
+    position: absolute;
+    top: 791px;
+    right: 573px;
+    width: 433px;
+    transform: rotate(350deg);
+  }
+
+  .hero-cards1 {
+    position: absolute;
+    top: 455px;
+    right: 635px;
+    width: 433px;
+    transform: rotate(350deg);
+  }
+}
+.hero-container {
+  position: relative;
+  overflow: hidden;
+}
+.hero-card-container {
+  position: absolute;
+  top: 0;
+  right: -0px;
+}
+
+@media screen and (max-width: 1400px) {
+  .hero-card-container {
+    position: absolute;
+    top: 0;
+    right: -200px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .hero-card-container {
+    right: -419px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero-card-container {
+    display: none;
+    right: -419px;
+  }
 }

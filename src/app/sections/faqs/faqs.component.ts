@@ -7,8 +7,6 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [AccordionModule, TranslateModule],
   templateUrl: './faqs.component.html',
-  styleUrl: './faqs.component.scss'
+  styleUrl: './faqs.component.scss',
 })
-export class FaqsComponent {
-
-}
+export class FaqsComponent {}
