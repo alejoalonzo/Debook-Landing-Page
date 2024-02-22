@@ -1,102 +1,106 @@
-@import "../../../styles.scss";
+@import '../../../styles.scss';
 
-.challenges-map-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  // height: auto;
-  // margin: auto;
-  // width: 1011px;
-  height: auto;
-  margin: 150px auto auto;
-  .challenges-map-content {
+.challenges-map-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 881px;
+    height: auto;
+    margin: auto;
+    margin-top: 150px;
+ 
+    .challenges-map-content{
+        display: flex;
+        flex-direction: column;
 
-    &-title {
-      font-family: $font-sora;
-      font-size: 36px;
-      font-weight: 700;
-      line-height: normal;
-      letter-spacing: -1.7px;
+        &-title{
+            font-family: $font-sora;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -1.7px;
+        }
+        &-subtitle{
+            color: #000;
+            font-family: $font-inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 22px; 
+            letter-spacing: -0.48px;
+            margin: 25px 0;
+        }
+        &-subtitleMobile{
+            display: none;
+        }
+
+
     }
-    &-subtitle {
-      color: #000;
-      font-family: $font-inter;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 22px;
-      letter-spacing: -0.48px;
-      margin: 25px 0;
+    .challenges-map-image{
+        width: 50%;
+        height: auto;
+        margin-right: -40px;
+        img{
+            width: 100%;
+            height: auto;
+            
+        }
+        &-button{
+            display: none;
+        }
     }
-    &-subtitleMobile {
-      display: none;
-    }
-  }
-  .challenges-map-image {
-    width: 50%;
-    // height: auto;
-    // margin-right: -40px;
-    img {
-      width: 100%;
-      height: auto;
-    }
-    &-button {
-      display: none;
-    }
-  }
 }
 
 // mobile------------------------------------------------------------
-@media screen and (max-width: 992px) {
-  .challenges-map-container {
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    margin-top: 100px;
-
-    .challenges-map-content {
-      width: 90%;
-      margin: auto;
-
-      &-title {
-        font-family: $font-sora;
-        font-size: 2em;
-      }
-      &-subtitle {
-        display: none;
-      }
-      &-subtitleMobile {
-        display: block;
-        font-size: 1em;
-        text-align: start;
-        font-family: $font-inter;
-        line-height: 22px;
-        margin-bottom: 25px;
-      }
-      &-button {
-        display: none;
-      }
-    }
-    .challenges-map-image {
-      width: 100%;
-      height: auto;
-      margin-right: 0px;
-      img {
+@media  screen and (max-width: 450px){
+    .challenges-map-container{
+        flex-direction: column;
+        justify-content: center;
         width: 100%;
         height: auto;
-        margin-top: 0px;
-      }
-
-      &-button {
-        display: block;
         margin: auto;
-        width: 100%;
-        text-align: center;
-      }
+        margin-top: 100px;
+
+        .challenges-map-content{
+            width: 90%;
+            margin: auto;
+
+            &-title{
+                font-family: $font-sora;
+                font-size: 2em;
+            }
+            &-subtitle{
+                display: none;
+            }
+            &-subtitleMobile{
+                display: block;
+                font-size: 1em;
+                text-align: start;
+                font-family: $font-inter;
+                line-height: 22px;
+                margin-bottom: 25px;
+            }
+            &-button{
+                display: none;
+            }
+        }
+        .challenges-map-image{
+            width: 100%;
+            height: auto;
+            margin-right: 0px;
+            img{
+                width: 100%;
+                height: auto;
+                margin-top: 0px;
+                
+            }
+
+            &-button{
+                display: block;
+                margin: auto;
+                width: 100%;
+                text-align: center;
+            }
+        }
     }
-  }
 }

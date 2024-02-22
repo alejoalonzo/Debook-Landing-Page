@@ -10,19 +10,18 @@ import { PopUpEmailRequestComponent } from '../../components/pop-up-email-reques
   standalone: true,
   imports: [
     AccordionModule,
-    ButtonModule,
-    CarrouselPrivilegesComponent,
-    TranslateModule,
-    PopUpEmailRequestComponent,
+    ButtonModule, 
+    CarrouselPrivilegesComponent, 
+    TranslateModule, 
+    PopUpEmailRequestComponent
   ],
   templateUrl: './one-book-one-community.component.html',
-  styleUrl: './one-book-one-community.component.scss',
+  styleUrl: './one-book-one-community.component.scss'
 })
 export class OneBookOneCommunityComponent {
   videoSource: string = '/assets/images/FINAL.mp4';
   navigateToLink(): void {
-    const externalLink =
-      'https://drive.google.com/drive/u/0/folders/1hbPs_ijfqTc2na_6WVhn-HmeZR5-ybqF';
+    const externalLink = 'https://drive.google.com/drive/u/0/folders/1hbPs_ijfqTc2na_6WVhn-HmeZR5-ybqF';
     window.open(externalLink, '_blank');
   }
 }

@@ -8,7 +8,7 @@ import { CarrouselMansionComponent } from '../../components/carrousels/carrousel
   standalone: true,
   imports: [ButtonModule, TranslateModule, CarrouselMansionComponent],
   templateUrl: './unicorn-mansion.component.html',
-  styleUrl: './unicorn-mansion.component.scss',
+  styleUrl: './unicorn-mansion.component.scss'
 })
 export class UnicornMansionComponent {
   navigateToLink(): void {

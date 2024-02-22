@@ -1,10 +1,11 @@
-export const environment = {
-  production: false,
+export const environment ={
 
-  baseHref: '/',
+    production: false,
 
-  apiUrl:
-    'https://datieskca7hlzshr3hgso4vacu0yfscv.lambda-url.us-east-1.on.aws/',
+    baseHref: '/',
 
-  processEmailPhp: '/processEmail.php',
-};
+    apiUrl: 'https://datieskca7hlzshr3hgso4vacu0yfscv.lambda-url.us-east-1.on.aws/',
+
+    processEmailPhp: '/processEmail.php',
+    
+}

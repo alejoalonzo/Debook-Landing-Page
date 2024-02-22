@@ -6,29 +6,24 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [TranslateModule],
   templateUrl: './founder-message.component.html',
-  styleUrl: './founder-message.component.scss',
+  styleUrl: './founder-message.component.scss'
 })
 export class FounderMessageComponent {
+
   private hideTextElementRef!: ElementRef;
   private hideTextButtonElementRef!: ElementRef;
   private isTextVisible: boolean = false;
 
-  @ViewChild('hideText', { static: true }) set hideText(
-    elementRef: ElementRef
-  ) {
+  @ViewChild('hideText', { static: true }) set hideText(elementRef: ElementRef) {
     this.hideTextElementRef = elementRef;
   }
 
-  @ViewChild('hideTextButton', { static: true }) set hideTextButton(
-    elementRef: ElementRef
-  ) {
+  @ViewChild('hideTextButton', { static: true }) set hideTextButton(elementRef: ElementRef) {
     this.hideTextButtonElementRef = elementRef;
   }
 
   ngAfterViewInit() {
-    this.hideTextButtonElementRef.nativeElement.addEventListener('click', () =>
-      this.toggleText()
-    );
+    this.hideTextButtonElementRef.nativeElement.addEventListener('click', () => this.toggleText());
   }
 
   toggleText() {
@@ -41,4 +36,5 @@ export class FounderMessageComponent {
     const buttonText = this.isTextVisible ? 'Leer menos' : 'Leer más';
     this.hideTextButtonElementRef.nativeElement.textContent = buttonText;
   }
+
 }

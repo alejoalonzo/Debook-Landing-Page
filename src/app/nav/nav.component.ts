@@ -6,6 +6,8 @@ import { LogoComponent } from '../components/logo/logo.component';
 import { TranslateService } from '@ngx-translate/core';
 import { SubMenuComponent } from '../components/sub-menu/sub-menu.component';
 
+
+
 interface City {
   name: string;
   code: string;
@@ -14,30 +16,39 @@ interface City {
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [FormsModule, DropdownModule, LogoComponent, SubMenuComponent],
+  imports: [ 
+              FormsModule, 
+              DropdownModule, 
+              LogoComponent,
+              SubMenuComponent
+            ],
   templateUrl: './nav.component.html',
-  styleUrl: './nav.component.scss',
+  styleUrl: './nav.component.scss'
 })
-export class NavComponent implements OnInit {
-  @Output() languageChange = new EventEmitter<string>();
+export class NavComponent implements OnInit{
 
-  cities: City[] = [];
-  selectedCity: City | undefined;
+    @Output() languageChange = new EventEmitter<string>();
 
-  constructor(private translate: TranslateService) {}
+    cities: City[] = [];
+    selectedCity: City | undefined;
 
-  ngOnInit() {
-    this.cities = [
-      { name: 'En', code: 'en' },
-      { name: 'Es', code: 'es' },
-    ];
+    constructor(private translate: TranslateService) { }
 
-    const currentLang = this.translate.currentLang;
-    // console.log("langcurrentLang:: "+ currentLang)
-    this.selectedCity = this.cities.find((city) => city.code === currentLang);
-  }
+    ngOnInit() {
+        this.cities = [
+            { name: 'En', code: 'en' },
+            { name: 'Es', code: 'es' },
+        ];
 
-  onLanguageChange() {
-    this.languageChange.emit(this.selectedCity?.code || 'es');
-  }
+        
+        const currentLang = this.translate.currentLang;
+        // console.log("langcurrentLang:: "+ currentLang)
+        this.selectedCity = this.cities.find(city => city.code === currentLang);
+    }
+
+    onLanguageChange() {
+      this.languageChange.emit(this.selectedCity?.code || 'es');
+    }
+
 }
+

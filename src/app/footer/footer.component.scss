@@ -1,117 +1,124 @@
-@import "../../styles.scss";
-.footer-container {
-  width: 100%;
-  height: 141px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-
-  .footer-logoAndSupp {
+@import '../../styles.scss';
+.footer-container{
+    width: 100%;
+    height: 141px;
     display: flex;
-    flex-direction: column;
-    text-align: start;
-    // margin-left: 165px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
 
-    &-logo {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+    .footer-logoAndSupp{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-left: 165px;
 
-      img {
-        width: 36px;
-        height: 36px;
-      }
+        &-logo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
 
-      &-shape {
-        height: 37px;
-        width: 37px;
-      }
+            img{
+                width: 36px;
+                height: 36px;
+            }
 
-      &-text {
-        color: $red;
-        font-family: $font-sora;
-        font-size: 24px;
-        font-weight: bold;
-        margin-left: 5px;
-      }
+            &-shape{
+                height: 37px;
+                width: 37px;
+            }
+
+            &-text{
+                color: $red;
+                font-family: $font-sora;
+                font-size: 24px;
+                font-weight: bold;
+                margin-left: 5px;
+            }
+        }
+
+        &-support{
+            a{
+                color: $gray;
+                font-size: 14px;
+                letter-spacing: -0.03em; 
+            }
+            color: $gray;
+            font-size: 14px;
+            letter-spacing: -0.03em;
+        }
     }
 
-    &-support {
-      a {
-        color: $gray;
-        font-size: 14px;
-        letter-spacing: -0.03em;
-      }
-      color: $gray;
-      font-size: 14px;
-      letter-spacing: -0.03em;
+    .footer-socials{
+        margin-right: 165px;
+        i{
+            margin-left: 20px;
+            color: $gray;
+            cursor: pointer;
+        }
     }
-  }
 
-  .footer-socials {
-    // margin-right: 165px;
-    i {
-      margin-left: 20px;
-      color: $gray;
-      cursor: pointer;
-    }
-  }
 }
 
 // mobile------------------------------------------------------------
-@media screen and (max-width: 450px) {
-  .footer-container {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    justify-content: center;
-
-    .footer-logoAndSupp {
-      display: flex;
-      flex-direction: column;
-      text-align: start;
-      margin-left: 0px;
-
-      &-logo {
+@media  screen and (max-width: 450px){
+    
+    .footer-container{
+        width: 100%;
+        height: 150px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
+        background-color: white;
         justify-content: center;
+    
+        .footer-logoAndSupp{
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+            margin-left: 0px;
+    
+            &-logo{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
 
-        &-shape {
-          display: flex;
-          justify-content: start;
-          align-items: center;
-          height: 37px;
-          width: 37px;
-        }
-        img {
-          width: 20px;
-          height: 20px;
-        }
 
-        &-text {
-          font-weight: bold;
-          margin-left: 0;
+    
+                &-shape{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    height: 37px;
+                    width: 37px;
+                }
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+    
+                &-text{
+                    font-weight: bold;
+                    margin-left: 0;
+                }
+            }
+    
+            &-support{
+                letter-spacing: -0.03em;
+            }
         }
-      }
-
-      &-support {
-        letter-spacing: -0.03em;
-      }
+    
+        .footer-socials{
+            margin-right: 0px;
+            margin-top: 10px;
+            i{
+                margin: 5px;
+            }
+        }
+    
     }
-
-    .footer-socials {
-      margin-right: 0px;
-      margin-top: 10px;
-      i {
-        margin: 5px;
-      }
-    }
-  }
+    
+    
 }

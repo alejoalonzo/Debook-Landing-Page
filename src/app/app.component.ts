@@ -20,42 +20,39 @@ import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from './services/language.service';
 import { CarrouselCardsComponent } from './components/carrousels/carrousel-cards/carrousel-cards.component';
 import { SubMenuComponent } from './components/sub-menu/sub-menu.component';
-import { CardComponent } from './components/card/card.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    CommonModule,
-    RouterOutlet,
-    NavComponent,
-    HeroComponent,
-    BodyComponent,
-    WhatIsDebookComponent,
-    FounderMessageComponent,
-    FundsGoToDevComponent,
-    PanelsComponent,
-    FaqsComponent,
-    TeamComponent,
-    FooterComponent,
-    BodyBottomComponent,
-    ProgressBarComponent,
-    CarrouselPrivilegesComponent,
-    CarrouselWHYBoxComponent,
-    CarrouselCardsComponent,
-    SubMenuComponent,
-    CardComponent,
-  ],
+              CommonModule, 
+              RouterOutlet, 
+              NavComponent, 
+              HeroComponent, 
+              BodyComponent, 
+              WhatIsDebookComponent,
+              FounderMessageComponent,
+              FundsGoToDevComponent,
+              PanelsComponent,
+              FaqsComponent,
+              TeamComponent,
+              FooterComponent,
+              BodyBottomComponent,
+              ProgressBarComponent,
+              CarrouselPrivilegesComponent,
+              CarrouselWHYBoxComponent,
+              CarrouselCardsComponent,
+              SubMenuComponent
+            ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'debook';
 
-  constructor(
-    private translate: TranslateService,
-    private languageService: LanguageService
-  ) {
+  constructor(private translate: TranslateService, private languageService: LanguageService){
+
     // translate.setDefaultLang('en');
     translate.addLangs(['en', 'es']);
     translate.setDefaultLang('es');
@@ -63,8 +60,9 @@ export class AppComponent {
     const currentLang = this.languageService.getCurrentLang();
     translate.use(currentLang);
   }
-  switchLang(lang: string) {
+  switchLang(lang: string){
     this.translate.use(lang);
     this.languageService.setCurrentLang(lang);
   }
+
 }

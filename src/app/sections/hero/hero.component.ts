@@ -6,20 +6,23 @@ import { ButtonModule } from 'primeng/button';
 import { ProgressBarComponent } from '../../components/progress-bar/progress-bar.component';
 import { CarrouselCardsComponent } from '../../components/carrousels/carrousel-cards/carrousel-cards.component';
 
+
+
 @Component({
   selector: 'app-hero',
   standalone: true,
   imports: [
-    ButtonModule,
-    CardComponent,
-    ProgressBarComponent,
+    ButtonModule, 
+    CardComponent, 
+    ProgressBarComponent, 
     TranslateModule,
-    CarrouselCardsComponent,
+    CarrouselCardsComponent
   ],
   templateUrl: './hero.component.html',
-  styleUrl: './hero.component.scss',
+  styleUrl: './hero.component.scss'
 })
 export class HeroComponent {
+
   navigateToLink(): void {
     const externalLink = 'https://mint.debookmagickey.com/';
     window.open(externalLink, '_blank');
