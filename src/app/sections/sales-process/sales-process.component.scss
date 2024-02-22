@@ -1,214 +1,224 @@
-@import "../../../styles.scss";
+@import '../../../styles.scss';
 
-.soldOut {
-  background-color: $black;
-  width: 112px;
-  height: 27px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  font-size: 12px;
-}
-
-.salesProcess-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  margin: auto;
-  margin-bottom: 100px;
-
-  .salesProcess-title {
-    &-top {
-      width: 442px;
-      margin: auto;
-      text-align: center;
-      font-family: $font-sora;
-      font-size: 55px;
-      font-weight: 600;
-      letter-spacing: -2.75px;
-      margin-bottom: 20px;
-    }
-    &-subtitle {
-      color: $gray;
-      text-align: center;
-      font-family: $font-inter;
-      font-size: 18px;
-      font-weight: 500;
-      line-height: 28px; /* 155.556% */
-      letter-spacing: -0.54px;
-      margin-bottom: 65px;
-    }
-    &-subtitleMobile {
-      display: none;
-    }
-  }
-
-  .salesProcess-phases {
+.soldOut{
+    background-color: $black;
+    width: 112px;
+    height: 27px;
+    color: white;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-
-    &-phase {
-      width: 410px;
-      height: 384px;
-      border-radius: 20px;
-      border: 1px solid #eee;
-      background: #fff;
-      padding: 42px 26px;
-      margin-right: 23px;
-
-      &-icon {
-        margin-bottom: 10px;
-      }
-
-      &-numberPhase {
-        color: black;
-        font-size: 42px;
-        font-weight: 700;
-        letter-spacing: -2.1px;
-      }
-
-      &-available {
-        color: $red;
-        font-size: 32px;
-        font-weight: 500;
-        letter-spacing: -0.96px;
-      }
-      &-price {
-        color: $black;
-        font-size: 25px;
-        font-weight: 700;
-        letter-spacing: -0.75px;
-        margin-bottom: 21px;
-      }
-
-      &-progressBar {
-        width: 100%;
-        height: 26px;
-        margin-bottom: 10px;
-      }
-    }
-
-    .phase_1 {
-      margin-left: 23px;
-    }
-    // harcode-------------------------------------------
-    .phase_2,
-    .phase_3 {
-      &-progressBar {
-        width: 100%;
-        height: 17px;
-        .bar {
-          width: 100%;
-          height: 100%;
-          background-color: white;
-          border-radius: 33px;
-          border: 1px solid $black;
-          padding: 2px;
-        }
-      }
-    }
-  }
+    align-items: center;
+    border-radius: 20px;
+    font-size: 12px;
 }
 
-@media screen and (max-width: 992px) {
-  .salesProcess-container {
-    .salesProcess-title {
-      &-top {
-        width: 100%;
-        margin-bottom: 20px;
-        font-size: 2.5em;
-        letter-spacing: -1.6px;
-      }
-      &-subtitle {
-        display: none;
-      }
-      &-subtitleMobile {
-        display: block;
-        width: 90%;
-        color: $gray;
-        text-align: center;
-        font-family: $font-inter;
-        font-weight: 500;
-        line-height: 28px; /* 155.556% */
-        letter-spacing: -0.54px;
-        margin: auto;
-        margin-bottom: 50px;
-        font-size: 1.1em;
-      }
+
+
+.salesProcess-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 100px;
+
+    .salesProcess-title{
+        &-top{
+            width: 442px;
+            margin: auto;
+            text-align: center;
+            font-family: $font-sora;
+            font-size: 55px;
+            font-weight: 600;
+            letter-spacing: -2.75px;
+            margin-bottom: 20px;
+        }
+        &-subtitle{
+            color: $gray;
+            text-align: center;
+            font-family: $font-inter;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px; /* 155.556% */
+            letter-spacing: -0.54px;
+            margin-bottom: 65px;
+        }
+        &-subtitleMobile{
+            display: none;
+        }
     }
 
-    .salesProcess-phases {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    .salesProcess-phases{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
 
-      &-phase {
-        width: 90%;
-        margin: auto;
-        height: auto;
-        border-radius: 32px;
-        padding: 20px 24px;
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-bottom: 17px;
-        margin-left: 5%;
+        &-phase{
+            width: 410px;
+            height: 384px;
+            border-radius: 20px;
+            border: 1px solid #EEE;
+            background: #FFF;
+            padding: 42px 26px;
+            margin-right: 23px;
 
-        &-icon {
-          height: 24px;
-          width: 24px;
-          margin-bottom: 10px;
+            &-icon{
+                margin-bottom: 10px;
+            }
+
+            &-numberPhase{
+                color: black;
+                font-size: 42px;
+                font-weight: 700;
+                letter-spacing: -2.1px;
+            }
+
+            &-available{
+                color: $red;
+                font-size: 32px;
+                font-weight: 500;
+                letter-spacing: -0.96px;
+            }
+            &-price{
+                color: $black;
+                font-size: 25px;
+                font-weight: 700;
+                letter-spacing: -0.75px;
+                margin-bottom: 21px;
+            }
+
+            &-progressBar{
+                width: 100%;
+                height: 26px;
+                margin-bottom: 10px;
+            }
         }
 
-        &-numberPhase {
-          font-size: 32px;
-          letter-spacing: -1.6px;
+        .phase_1{
+            margin-left: 23px;
         }
-
-        &-available {
-          font-size: 24px;
-          letter-spacing: -0.72px;
-        }
-        &-price {
-          margin-bottom: 21px;
-          font-size: 24px;
-          letter-spacing: -0.72px;
-        }
-
-        &-progressBar {
-          width: 100%;
-          height: 17px;
-          margin-bottom: 10px;
-        }
-      }
-
-      .phase_1 {
-        margin-left: 5%;
-      }
+                    // harcode-------------------------------------------
+                    .phase_2, .phase_3{
+                        &-progressBar{
+                            width: 100%;
+                            height: 17px;
+                            .bar {
+                                width: 100%;
+                                height: 100%;
+                                background-color: white;
+                                border-radius: 33px;
+                                border: 1px solid $black;
+                                padding: 2px;
+        
+                            }
+        
+                        }
+                    }
     }
-  }
+}
+
+
+@media  screen and (max-width: 450px){
+    .salesProcess-container{
+
+        .salesProcess-title{
+            &-top{
+                width: 100%;
+                margin-bottom: 20px;
+                font-size: 2.5em;
+                letter-spacing: -1.6px;
+            }
+            &-subtitle{
+                display: none;
+
+            }
+            &-subtitleMobile{
+                display: block;
+                width: 90%;
+                color: $gray;
+                text-align: center;
+                font-family: $font-inter;
+                font-weight: 500;
+                line-height: 28px; /* 155.556% */
+                letter-spacing: -0.54px;
+                margin: auto;
+                margin-bottom: 50px;
+                font-size: 1.1em;
+            }
+        }
+    
+        .salesProcess-phases{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    
+            &-phase{
+                width: 90%;
+                margin: auto;
+                height: auto;
+                border-radius: 32px;
+                padding: 20px 24px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 17px;
+                margin-left: 5%;
+    
+                &-icon{
+                    height: 24px;
+                    width: 24px;
+                    margin-bottom: 10px;
+                }
+    
+                &-numberPhase{
+                    font-size: 32px;
+                    letter-spacing: -1.6px;
+                }
+    
+                &-available{
+                    font-size: 24px;
+                    letter-spacing: -0.72px;
+                }
+                &-price{
+                    margin-bottom: 21px;
+                    font-size: 24px;
+                    letter-spacing: -0.72px;
+                }
+    
+                &-progressBar{
+                    width: 100%;
+                    height: 17px;
+                    margin-bottom: 10px;
+                }
+            }
+    
+            .phase_1{
+                margin-left: 5%;
+            }
+
+
+        }
+    }
 }
 
 .gray-background {
-  background-color: #f6f6f6 !important;
+    background-color: #F6F6F6!important; 
 }
 
-// harcode-------------------------------------------
-.phase_2,
-.phase_3 {
-  .salesProcess-phases-phase-progressBar {
-    width: 100%;
-    height: 17px;
-    .bar {
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      border-radius: 33px;
-      border: 1px solid $black;
-      padding: 2px;
-    }
-  }
-}
+            // harcode-------------------------------------------
+            .phase_2, .phase_3{
+                .salesProcess-phases-phase-progressBar{
+                    width: 100%;
+                    height: 17px;
+                    .bar {
+                        width: 100%;
+                        height: 100%;
+                        background-color: white;
+                        border-radius: 33px;
+                        border: 1px solid $black;
+                        padding: 2px;
+
+                    }
+
+                }
+            }
+

@@ -1,243 +1,249 @@
-@import "../../../styles.scss";
-.team-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin: 80px 0;
-
-  .team-title {
-    font-weight: 600;
-    font-size: 48px;
-    font-family: $font-sora;
-    letter-spacing: -0.05em;
-  }
-
-  .team-subtitle {
-    font-weight: bold;
-    font-size: 18px;
-    letter-spacing: -0.03em;
-
-    span {
-      font-weight: 400;
-      font-style: italic;
-    }
-  }
-
-  .team-founders {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 50px;
-
-    &-founder {
-      display: flex;
-      flex-direction: column;
-      margin: 25px;
-
-      &-titleAndImageGroup {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        &-title {
-          font-size: 20px;
-          font-family: $font-sora;
-          letter-spacing: -0.05em;
-          font-weight: 800;
-          margin-bottom: 15px;
-        }
-
-        &-img {
-          margin-bottom: 15px;
-          img {
-            width: 255px;
-            height: 305px;
-            border-radius: 15px;
-          }
-        }
-      }
-
-      &-name {
-        text-align: left;
-        font-family: $font-sora;
-        font-weight: 400;
-        letter-spacing: -0.05em;
-        font-size: 20px;
-        color: $black;
-      }
-
-      &-position {
-        text-align: left;
-        font-family: $font-sora;
-        font-weight: 400;
-        letter-spacing: -0.03em;
-        font-size: 14px;
-        color: $gray;
-        margin-top: 8px;
-      }
-
-      &-experience {
-        text-align: left;
-        font-family: $font-sora;
-        font-weight: 400;
-        letter-spacing: -0.03em;
-        font-size: 14px;
-        color: $gray;
-        margin-top: 4px;
-      }
-
-      &-social {
-        text-align: left;
-        i {
-          color: $gray;
-          margin-top: 7px;
-          margin-right: 15px;
-        }
-      }
-    }
-  }
-
-  .team-message {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    &-text {
-      font-family: $font-inter;
-      line-height: 22px;
-      width: 391px;
-      color: $black;
-      font-size: 14px;
-      letter-spacing: -0.03em;
-      span {
-        font-weight: bold;
-        font-style: italic;
-      }
-    }
-  }
-}
-
-// mobile------------------------------------------------------------
-@media screen and (max-width: 992px) {
-  .team-container {
+@import '../../../styles.scss';
+.team-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 80px 0;
 
-    .team-title {
-      font-weight: 700;
-      font-size: 2.4em;
-      padding: 0;
+    .team-title{
+        font-weight: 600;
+        font-size: 48px;
+        font-family: $font-sora;
+        letter-spacing: -0.05em;
     }
 
-    .team-subtitle {
-      font-weight: 500;
-      font-size: 14px;
-      letter-spacing: -0.03em;
+    .team-subtitle{
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: -0.03em;
 
-      span {
-        font-weight: 400;
-        font-style: italic;
-      }
+        span{
+            font-weight: 400;
+            font-style: italic;
+        }
     }
 
-    .team-founders {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      margin: 50px 0;
-      width: 100%;
+    .team-founders{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 50px;
 
-      &-founder {
+        &-founder{
+            display: flex;
+            flex-direction: column;
+            margin: 25px;
+
+            &-titleAndImageGroup{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                &-title{
+                    font-size: 20px;
+                    font-family: $font-sora;
+                    letter-spacing: -0.05em;
+                    font-weight: 800;
+                    margin-bottom: 15px;
+                }
+
+                &-img{
+                    margin-bottom: 15px;
+                    img{
+                        width: 255px;
+                        height: 305px;
+                        border-radius: 15px;
+                    };
+
+                }
+            }
+
+            &-name{
+                text-align: left;
+                font-family: $font-sora;
+                font-weight: 400;
+                letter-spacing: -0.05em;
+                font-size: 20px;
+                color: $black
+            }
+
+            &-position{
+                text-align: left;
+                font-family: $font-sora;
+                font-weight: 400;
+                letter-spacing: -0.03em;
+                font-size: 14px;
+                color: $gray;
+                margin-top: 8px;
+            }
+
+            &-experience{
+                text-align: left;
+                font-family: $font-sora;
+                font-weight: 400;
+                letter-spacing: -0.03em;
+                font-size: 14px;
+                color: $gray;
+                margin-top: 4px;
+            }
+
+            &-social{
+                text-align: left;
+                i{
+                    color: $gray;
+                    margin-top: 7px;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+
+    .team-message{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        &-text{
+            font-family: $font-inter;
+            line-height: 22px;
+            width: 391px;
+            color: $black;
+            font-size: 14px;
+            letter-spacing: -0.03em;
+            span{
+                font-weight: bold;
+                font-style: italic;
+            }
+        }
+
+    }
+}
+
+// mobile------------------------------------------------------------
+@media  screen and (max-width: 450px){
+    .team-container{
         display: flex;
         flex-direction: column;
-        margin: 10px 0;
-        width: 47%;
-
-        &-titleAndImageGroup {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-
-          &-title {
-            font-size: 1.1em;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    
+        .team-title{
             font-weight: 700;
-            margin-bottom: 15px;
-            line-height: 20px;
-          }
-
-          &-img {
-            margin-bottom: 15px;
-            img {
-              width: 100%;
-              height: 100%;
-              border-radius: 15px;
+            font-size: 2.4em;
+            padding: 0;
+        }
+    
+        .team-subtitle{
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: -0.03em;
+    
+            span{
+                font-weight: 400;
+                font-style: italic;
             }
-          }
+        }
+    
+        .team-founders{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 50px 0;
+            width: 100%;
+    
+            &-founder{
+                display: flex;
+                flex-direction: column;
+                margin: 10px 0;
+                width: 47%;
+    
+                &-titleAndImageGroup{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+    
+                    &-title{
+                        font-size: 1.1em;
+                        font-weight: 700;
+                        margin-bottom: 15px;
+                        line-height: 20px;
+                    }
+    
+                    &-img{
+                        margin-bottom: 15px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 15px;
+                        };
+    
+                    }
+                }
+    
+                &-name{
+                    text-align: left;
+                    font-family: $font-sora;
+                    font-weight: 400;
+                    letter-spacing: -0.05em;
+                    font-size: 1em;
+                    color: $black
+                }
+    
+                &-position{
+                    text-align: left;
+                    font-family: $font-sora;
+                    font-weight: 400;
+                    letter-spacing: -0.03em;
+                    font-size: 0.9em;
+                    color: $gray
+                }
+    
+                &-experience{
+                    text-align: left;
+                    font-family: $font-sora;
+                    font-weight: 400;
+                    letter-spacing: -0.03em;
+                    font-size: 0.9em;
+                    color: $gray
+                }
+    
+                &-social{
+                    text-align: left;
+                    i{
+                        color: $gray;
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    
+        .team-message{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            padding: 0;
+            &-text{
+                width: 100%;
+                color: $black;
+                font-size: 1em;
+                letter-spacing: -0.03em;
+                line-height: $lineH-P-Mobile;
+                span{
+                    font-weight: bold;
+                    font-style: italic;
+                }
+            }
+    
         }
 
-        &-name {
-          text-align: left;
-          font-family: $font-sora;
-          font-weight: 400;
-          letter-spacing: -0.05em;
-          font-size: 1em;
-          color: $black;
+        .p-button-long{
+            display: none;
         }
-
-        &-position {
-          text-align: left;
-          font-family: $font-sora;
-          font-weight: 400;
-          letter-spacing: -0.03em;
-          font-size: 0.9em;
-          color: $gray;
-        }
-
-        &-experience {
-          text-align: left;
-          font-family: $font-sora;
-          font-weight: 400;
-          letter-spacing: -0.03em;
-          font-size: 0.9em;
-          color: $gray;
-        }
-
-        &-social {
-          text-align: left;
-          i {
-            color: $gray;
-            margin-right: 15px;
-          }
-        }
-      }
     }
 
-    .team-message {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 50px;
-      padding: 0;
-      &-text {
-        width: 100%;
-        color: $black;
-        font-size: 1em;
-        letter-spacing: -0.03em;
-        line-height: $lineH-P-Mobile;
-        span {
-          font-weight: bold;
-          font-style: italic;
-        }
-      }
-    }
-
-    .p-button-long {
-      display: none;
-    }
-  }
+    
 }

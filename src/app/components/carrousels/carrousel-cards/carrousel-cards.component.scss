@@ -1,102 +1,110 @@
-@import "../../../../styles.scss";
 
-swiper-container {
-  display: none;
+@import '../../../../styles.scss';
+
+swiper-container{
+    display: none;
 }
 
-@media screen and (max-width: 992px) {
-  .mySwiper {
-    width: 810px;
-    height: 100%;
-    background-color: #fff1f1;
-    display: flex;
-    margin: 0 auto;
 
-    swiper-slide {
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #fff1f1;
-      margin-bottom: 100px;
+@media  screen and (max-width: 450px){
+    .mySwiper {
+        width: 810px;
+        height: 100%;
+        background-color: #FFF1F1;
+        display: flex;
+        margin: 0 auto;
 
-      .mySwiperIf {
-        width: 250px;
-        height: 380px;
-        border-radius: 16px;
-        background: #fff;
-        color: gray;
-        padding: 20px;
-        z-index: 1;
-        p-card {
-          .mySwiper-header {
+        swiper-slide {
+            text-align: center;
             display: flex;
-            flex-direction: row;
-            width: 100%;
+            justify-content: center;
             align-items: center;
-            margin-bottom: 10px;
+            background-color: #FFF1F1;
+            margin-bottom: 100px;
 
-            img {
-              width: 40px;
-              height: 40px;
-              border-radius: 50%;
-            }
+            .mySwiperIf{
+                width: 250px;
+                height: 380px;
+                border-radius: 16px;
+                background: #FFF;
+                color: gray;
+                padding: 20px;
+                z-index: 1;
+                p-card{
+                    .mySwiper-header{
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        align-items: center;
+                        margin-bottom: 10px;
 
-            &-personalInfo {
-              display: flex;
-              flex-direction: column;
-              justify-content: start;
-              text-align: start;
-              margin-left: 10px;
-              &-name {
-                color: $black;
-                font-family: $font-sora;
-                font-size: 1.1em;
-                font-weight: 600;
-                letter-spacing: -0.05em;
-              }
-              &-date {
-                color: $gray;
-                font-family: $font-inter;
-                font-size: 0.8em;
-                font-weight: 500;
-                letter-spacing: -0.03em;
-              }
-            }
-          }
+                        img{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%; 
+                        }
 
-          .mySwiper-image-container {
-            img {
-              width: 100%;
-              height: auto;
-            }
-          }
-          .mySwiper-card-owner {
-            font-family: $font-inter;
-            font-size: 0.8em;
-            font-weight: 600;
-            color: $red;
-            width: auto;
-            text-align: center;
-            letter-spacing: -0.05em;
-            margin: 10px 0;
-          }
-          .mySwiper-card-description {
-            font-size: 0.8em;
-            font-family: $font-inter;
-            font-weight: 500;
-            max-height: 4 * (1.2em);
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 4;
-            -webkit-box-orient: vertical;
-            text-align: center;
-            padding: 0 !important;
-            letter-spacing: -0.03em;
-          }
+                        &-personalInfo{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: start;
+                            text-align: start;
+                            margin-left: 10px;
+                            &-name{
+                                color: $black;
+                                font-family: $font-sora;
+                                font-size: 1.1em;
+                                font-weight: 600;
+                                letter-spacing: -0.05em;
+                            }
+                            &-date{
+                                color: $gray;
+                                font-family: $font-inter;
+                                font-size: 0.8em;
+                                font-weight: 500;
+                                letter-spacing: -0.03em;
+                            }
+
+                        }
+                    }
+                
+                    .mySwiper-image-container {
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                
+                    }
+                    .mySwiper-card-owner{
+                        font-family: $font-inter;
+                        font-size: 0.8em; 
+                        font-weight: 600;
+                        color: $red;
+                        width: auto;
+                        text-align: center;
+                        letter-spacing: -0.05em;
+                        margin: 10px 0;
+                
+                    }
+                    .mySwiper-card-description{
+                        font-size: 0.8em; 
+                        font-family: $font-inter;
+                        font-weight: 500;
+                        max-height: 4 * (1.2em); 
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 4; 
+                        -webkit-box-orient: vertical;
+                        text-align: center;
+                        padding: 0!important;
+                        letter-spacing: -0.03em;
+                    }              
+                }
+            }    
         }
-      }
-    }
-  }
+    }   
 }
+
+
+

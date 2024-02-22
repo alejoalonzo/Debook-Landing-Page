@@ -1,40 +1,24 @@
-<swiper-container
-  class="mySwiper"
-  pagination="true"
-  pagination-clickable="true"
-  space-between="0"
-  slides-per-view="3"
-  style="--swiper-pagination-color: #ff4444"
->
-  <swiper-slide *ngFor="let user of sampleUsers.reverse()">
-    <div class="mySwiperIf" *ngIf="user">
-      <p-card [style]="{ width: '250px', height: '385px' }">
-        <div class="mySwiper-header">
-          <img
-            class="mySwiper-header-image"
-            alt="Card"
-            [src]="user.avatarUrl"
-          />
-          <div class="mySwiper-header-personalInfo">
-            <span class="mySwiper-header-personalInfo-name">{{
-              user.name
-            }}</span>
-            <span class="mySwiper-header-personalInfo-date">{{
-              user.date
-            }}</span>
-          </div>
-        </div>
-        <div class="mySwiper-image-container">
-          <img class="" alt="Card" src="assets/images/debookKey.jpg" />
-        </div>
+<swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="0" slides-per-view="3"
+    style="--swiper-pagination-color: #FF4444;">
+    <swiper-slide *ngFor="let user of sampleUsers.reverse()">
+        <div class="mySwiperIf" *ngIf="user">
+            <p-card [style]="{ width: '250px', height: '385px' }">
+                <div class="mySwiper-header">
+                    <img class="mySwiper-header-image" alt="Card" [src]="user.avatarUrl" />
+                    <div class="mySwiper-header-personalInfo">
+                        <span class="mySwiper-header-personalInfo-name">{{ user.name }}</span>
+                        <span class="mySwiper-header-personalInfo-date">{{ user.date }}</span>
+                    </div>
+                </div>
+                <div class="mySwiper-image-container">
+                    <img class="" alt="Card" src="assets/images/debookKey.jpg" />
+                </div>
 
-        <div class="mySwiper-card-owner">
-          PROPIETARIO(A) {{ user.owner }}/3333
+                <div class="mySwiper-card-owner">PROPIETARIO(A) {{ user.owner }}/3333</div>
+                <p class="mySwiper-card-description">
+                    {{ user.description }}
+                </p>
+            </p-card>
         </div>
-        <p class="mySwiper-card-description">
-          {{ user.description }}
-        </p>
-      </p-card>
-    </div>
-  </swiper-slide>
+    </swiper-slide>
 </swiper-container>

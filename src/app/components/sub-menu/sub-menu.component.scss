@@ -1,93 +1,103 @@
-.subMenu-container {
-  background: linear-gradient(90deg, #000 19.27%, #ff6565 45.16%, #000 83.19%);
-  z-index: 9;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
-  padding: 24px 0;
-  .container {
-    .subMenu {
-      display: flex;
-      align-items: center;
-      gap: 32px;
-      justify-content: space-between;
-      // height: 100%;
-      // width: 100%;
+.subMenu-container{
+    width: 1440px;
+    height: 77px;
+    position: fixed;
+    top: 80px;
+    background: linear-gradient(90deg, #000 19.27%, #FF6565 45.16%, #000 83.19%);
+    z-index: 9;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
 
-      &-phases {
-        // margin-left: 107px;
-        color: #fff;
-        font-size: 20px;
-        font-weight: 400;
-        // letter-spacing: -0.6px;
+    .subMenu{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
 
-        &-bold {
-          color: #fff;
-          font-size: 20px;
-          font-weight: 700;
-          letter-spacing: -0.6px;
+        &-phases{
+            margin-left: 0px;
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: -0.6px;
+
+            &-bold{
+                color: #FFF;
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: -0.6px;
+    
+            }
         }
-      }
-      &-progressBar {
-        flex-grow: 1;
-        &-customBar {
-          height: 9px;
-          // height: 7px;
-          // width: 90vw;
-          // width: 350px;
-        }
-      }
+        &-progressBar{
+            margin: 0 39px;
+            &-customBar{
+                height: 9px;
+                width: 544px;
+            }
 
-      &-getMansion {
-        color: #fff;
-        font-size: 12px;
-        font-weight: 500;
-        letter-spacing: -0.36px;
-        // width: 190px;
-      }
+        }
+
+        &-getMansion{
+            color: #FFF;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: -0.36px;
+            width: auto;
+        }
     }
-  }
 }
 
 // laptop------------------------------------------------------------
-@media screen and (min-width: 451px) and (max-width: 1536px) {
-  // .subMenu-container {
-  //   top: 50px;
-  // }
+@media screen and (min-width: 451px) and (max-width: 1536px){
+    .subMenu-container{
+        top: 50px;
+    }
+
 }
 
 // mobile------------------------------------------------------------
-@media screen and (max-width: 992px) {
-  .subMenu-container {
-    width: 100%;
-    background: linear-gradient(98deg, #000 37.67%, #ff6565 83.01%);
-    padding: 16px 0;
-    .subMenu {
-      flex-direction: column;
-
-      &-phases {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 0px;
-        font-size: 0.9em;
-        font-weight: 400;
-        letter-spacing: -0.6px;
+@media  screen and (max-width: 450px){
+    .subMenu-container{
         width: 100%;
+        height: 140px;
+        background: linear-gradient(98deg, #000 37.67%, #FF6565 83.01%);
+        top: 35px;
+        .subMenu{
+            flex-direction: column;
+            width: 90%;
+            margin: auto;
+            justify-content: space-between;
+            padding: 15px 0;
 
-        &-bold {
-          font-size: 1.2em;
-          width: 50%;
-        }
-      }
-      &-progressBar {
-        margin: 0;
-        &-customBar {
-          height: 7px;
-          width: 90vw;
-        }
-      }
+            &-phases{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 0px;
+                font-size: 0.9em;
+                font-weight: 400;
+                letter-spacing: -0.6px;
+                width: 100%;
 
-      &-getMansion {
-        // display: none;
-      }
+    
+                &-bold{
+                    font-size: 1.2em;
+                    width: 50%;
+                }
+            }
+            &-progressBar{
+                margin: 0;
+                &-customBar{
+                    height: 7px;
+                    width: 90vw;
+                }
+    
+            }
+    
+            &-getMansion{
+                display: flex;
+            }
+        }
     }
-  }
 }

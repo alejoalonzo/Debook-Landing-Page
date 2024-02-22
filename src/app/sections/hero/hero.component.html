@@ -1,34 +1,36 @@
 <div class="hero-container">
-  <div class="hero-content center">
-    <div>
-      <h1>{{ "sections.hero.title" | translate }}</h1>
-      <h2>{{ "sections.hero.title2" | translate }}</h2>
-      <p class="subtitle">{{ "sections.hero.subtitle" | translate }}</p>
-      <div class="hero-button">
-        <!-- <p-button class="p-button-long" label="BUY MAGICKEYS"></p-button> -->
-        <p-button class="p-button-long" (click)="navigateToLink()">
-          <ng-template pTemplate="label">
-            {{ "sections.hero.buyButton" | translate }}
-          </ng-template>
-        </p-button>
-      </div>
-    </div>
+    <div class="hero-content">
+        <h1>{{"sections.hero.title" | translate }}</h1>
+        <h2>{{"sections.hero.title2" | translate }}</h2>
+        <p class="subtitle">{{"sections.hero.subtitle" | translate}}</p>
+        <div class="hero-button">
+            <!-- <p-button class="p-button-long" label="BUY MAGICKEYS"></p-button> -->
+            <p-button class="p-button-long" (click)="navigateToLink()">
+                <ng-template pTemplate="label">
+                    {{ 'sections.hero.buyButton' | translate }}
+                </ng-template>
+            </p-button>
+        </div>
 
-    <!-- <p class="loadingText">{{"sections.hero.loadingText" | translate}}</p>
+        <!-- <p class="loadingText">{{"sections.hero.loadingText" | translate}}</p>
         <div class="progressBar">
             <app-progress-bar [isWhiteBackground]="false" [showIcon]="false"></app-progress-bar>
         </div> -->
-  </div>
 
-  <!-- <div class="cardContainer">
-    <div class="hero-cards">
-      <div class=""><app-card [numberOfCards]="9"></app-card></div>
     </div>
-    <div class="hero-cards2">
-      <div class=""><app-card [numberOfCards]="2"></app-card></div>
+
+
+    <div class="cardContainer">
+        <div class="hero-cards">
+            <div class=""><app-card [numberOfCards]="9"></app-card></div>
+        </div>
+        <div class="hero-cards2">
+            <div class=""><app-card [numberOfCards]="2"></app-card></div>
+        </div>
+        <div class="hero-cards1">
+            <div class=""><app-card [numberOfCards]="1"></app-card></div>
+        </div>
+
     </div>
-    <div class="hero-cards1">
-      <div class=""><app-card [numberOfCards]="1"></app-card></div>
-    </div>
-  </div> -->
+
 </div>
