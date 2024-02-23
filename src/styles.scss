@@ -134,7 +134,7 @@ $custom-gradient: linear-gradient(
 
 .p-accordion .p-accordion-content {
   padding: 1.25rem;
-  border: 1px solid #ffe2e2;
+  border: 0px solid #ffe2e2;
   background: white;
   color: #4b5563;
   font-family: $font-inter;
@@ -275,4 +275,8 @@ section {
     padding: 0 !important;
     margin-bottom: 0;
   }
+}
+
+a {
+  text-decoration: none;
 }
