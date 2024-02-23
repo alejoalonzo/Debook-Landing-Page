@@ -13,7 +13,8 @@
     .what-is-title {
       font-family: $font-sora;
       font-weight: 600;
-      font-size: 55px !important;
+      // font-size: 55px !important;
+      font-size: 2em;
       letter-spacing: -0.05em;
       // margin-top: 75px;
     }
@@ -235,6 +236,7 @@
       }
 
       .what-is-logo-container {
+        padding: 20px;
         // width: 160px;
         // height: 160px;
         // border-radius: 27px;
