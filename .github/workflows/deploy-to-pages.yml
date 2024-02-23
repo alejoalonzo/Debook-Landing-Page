@@ -1,4 +1,4 @@
-name: Auto Deploy to GitHub Pages
+name: Auto Deploy to Staging
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
 
       - name: Build Angular app to prod
         working-directory: ./
-        run: npm install && npm run build:pages
+        run: npm install && npm run build:staging
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
