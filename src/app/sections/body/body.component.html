@@ -1,13 +1,30 @@
-<div class="spacer"></div>
+<!-- <div class="spacer"></div> -->
 <div class="body-container">
-    <div class="carrousel-cards-container">
-        <div class="carrousel-cards-container-child">
-            <app-carrousel-cards></app-carrousel-cards>
-
-        </div>
+  <div class="carrousel-cards-container">
+    <div class="carrousel-cards-container-child">
+      <app-carrousel-cards></app-carrousel-cards>
     </div>
-    <div class="carrousel-cards-spacer"></div>
-    <app-what-is-debook></app-what-is-debook>
+  </div>
+  <div class="carrousel-cards-spacer"></div>
+  <div class="container"><app-what-is-debook></app-what-is-debook></div>
+
+  <div class="container">
     <app-one-book-one-community></app-one-book-one-community>
-    <app-magic-key-is-for-you-if></app-magic-key-is-for-you-if>
+  </div>
+  <div class="display-mobile">
+    <div class="oneBookOneCommunity-row-image">
+      <img src="assets/images/ARTWORK_MAGICKEY.gif" alt="" class="key-img" />
+      <!-- <video autoplay loop>
+            <source src="assets/images/FINAL.mp4" type="video/mp4">
+            <img src="assets/images/debookKeyLanding.jpg" alt="">
+            Your browser does not support the video element.
+        </video> -->
+      <div class="gradientText3 center">
+        <div class="sub-text m-auto text-center">
+          {{ "sections.one-book-one-community.image-text" | translate }}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+<app-magic-key-is-for-you-if></app-magic-key-is-for-you-if>

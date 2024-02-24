@@ -1,67 +1,180 @@
-<div class="card flex justify-content-center">
-    <p-button (click)="showDialog()" [class]="buttonClass">
+<div class="">
+  <p-button (click)="showDialog()" [class]="buttonClass">
+    <ng-template pTemplate="label">
+      {{ popupButtonText | translate }}
+    </ng-template>
+  </p-button>
+  <p-dialog
+    class="container-dialog"
+    [closable]="false"
+    header="Header"
+    [(visible)]="visible"
+    [modal]="true"
+    [style]="{ width: '30rem' }"
+    [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }"
+  >
+    <ng-template pTemplate="header">
+      <div
+        class="title-container inline-flex align-items-center justify-content-center gap-2"
+      >
+        <span class="title-span font-bold white-space-nowrap">{{
+          isDemo ? "DEBOOK DEMO APP" : "DEBOOK PITCHDECK"
+        }}</span>
+      </div>
+    </ng-template>
+    <p class="m-0 subtitle">
+      {{ "components.popup.subtitle.top" | translate }} <br />
+      {{ "components.popup.subtitle.bottom" | translate }}
+    </p>
+    <form [formGroup]="userForm" class="formContainer">
+      <div class="form">
+        <div class="inputs">
+          <label for="name">Name</label>
+          <input
+            formControlName="name"
+            id="name"
+            type="text"
+            class=""
+            placeholder="Name and surname"
+          />
+          <small
+            *ngIf="userForm.controls['name'].invalid && isSubmitted"
+            class="p-error"
+            >Name is required</small
+          >
+        </div>
+
+        <div class="inputs">
+          <label for="email">E-mail</label>
+          <input
+            formControlName="email"
+            id="email"
+            type="text"
+            class=""
+            placeholder="example@gmail.com"
+          />
+          <small
+            *ngIf="userForm.controls['email'].invalid && isSubmitted"
+            class="p-error"
+          >
+            <span *ngIf="userForm.controls['email'].errors?.['required']"
+              >Email is required</span
+            >
+            <span *ngIf="userForm.controls['email'].errors?.['email']"
+              >Email is invalid</span
+            >
+          </small>
+        </div>
+      </div>
+    </form>
+    <ng-template pTemplate="footer">
+      <p-button
+        class="button"
+        (click)="visible = false"
+        (click)="onSubmit()"
+        [disabled]="userForm.invalid"
+        pAutoFocus
+        [autofocus]="true"
+      >
         <ng-template pTemplate="label">
-            {{ popupButtonText | translate }}
+          {{ "components.popup.button" | translate }}
         </ng-template>
-
-    </p-button>
-    <p-dialog class="container-dialog" [closable]="false" header="Header" [(visible)]="visible" [modal]="true"
-        [style]="{ width: '30rem' } " [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }">
+      </p-button>
+      <p-dialog
+        class="container-dialog"
+        [closable]="false"
+        header="Header"
+        [(visible)]="visible"
+        [modal]="true"
+        [style]="{ width: '30rem' }"
+        [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }"
+      >
         <ng-template pTemplate="header">
+          <div
+            class="title-container inline-flex align-items-center justify-content-center gap-2"
+          >
+            <span class="title-span font-bold white-space-nowrap">
+              @if(isDemo){
+              {{ "components.popup.title" | translate }}
+              }@else{
+              {{ "components.popup.titlePitchDeck" | translate }}
+              }
+            </span>
+          </div>
 
-            <div class=" title-container inline-flex align-items-center justify-content-center gap-2">
-                <span class="title-span font-bold white-space-nowrap">
-                    @if(isDemo){
-                    {{ 'components.popup.title' | translate }}
-                    }@else{
-                    {{ 'components.popup.titlePitchDeck' | translate }}
-                    }
-                </span>
-            </div>
-
-            <button class="button" (click)="closeDialog()">
-                <i class="pi pi-times" style="font-size: 1rem"></i>
-            </button>
+          <button class="button" (click)="closeDialog()">
+            <i class="pi pi-times" style="font-size: 1rem"></i>
+          </button>
         </ng-template>
         <p class="m-0 subtitle">
-            @if(isDemo){
-            {{ 'components.popup.subtitle.top' | translate }} <br> {{ 'components.popup.subtitle.bottom' | translate }}
-            }@else{
-            {{ 'components.popup.subtitlePitchDeck.top' | translate }} <br> {{
-            'components.popup.subtitlePitchDeck.bottom' | translate }}
-            }
-
+          @if(isDemo){
+          {{ "components.popup.subtitle.top" | translate }} <br />
+          {{ "components.popup.subtitle.bottom" | translate }}
+          }@else{
+          {{ "components.popup.subtitlePitchDeck.top" | translate }} <br />
+          {{ "components.popup.subtitlePitchDeck.bottom" | translate }}
+          }
         </p>
         <form [formGroup]="userForm" class="formContainer">
-            <div class="form">
-                <div class="inputs">
-                    <label for="name">Name</label>
-                    <input formControlName="name" id="name" type="text" class="" placeholder="Name and surname">
-                    <small *ngIf="userForm.controls['name'].invalid && isSubmitted" class="p-error">Name is
-                        required</small>
-                </div>
-
-                <div class="inputs">
-                    <label for="email">E-mail</label>
-                    <input formControlName="email" id="email" type="text" class="" placeholder="example@gmail.com">
-                    <small *ngIf="userForm.controls['email'].invalid && isSubmitted" class="p-error">
-                        <span *ngIf="userForm.controls['email'].errors?.['required']">Email is required</span>
-                        <span *ngIf="userForm.controls['email'].errors?.['email']">Email is invalid</span>
-                    </small>
-                </div>
+          <div class="form">
+            <div class="inputs">
+              <label for="name">Name</label>
+              <input
+                formControlName="name"
+                id="name"
+                type="text"
+                class=""
+                placeholder="Name and surname"
+              />
+              <small
+                *ngIf="userForm.controls['name'].invalid && isSubmitted"
+                class="p-error"
+                >Name is required</small
+              >
             </div>
+
+            <div class="inputs">
+              <label for="email">E-mail</label>
+              <input
+                formControlName="email"
+                id="email"
+                type="text"
+                class=""
+                placeholder="example@gmail.com"
+              />
+              <small
+                *ngIf="userForm.controls['email'].invalid && isSubmitted"
+                class="p-error"
+              >
+                <span *ngIf="userForm.controls['email'].errors?.['required']"
+                  >Email is required</span
+                >
+                <span *ngIf="userForm.controls['email'].errors?.['email']"
+                  >Email is invalid</span
+                >
+              </small>
+            </div>
+          </div>
         </form>
         <ng-template pTemplate="footer">
-            <p-button class="" (click)="visible = false" (click)="onSubmit()" [disabled]="userForm.invalid" pAutoFocus
-                [autofocus]="true">
-                <ng-template pTemplate="label">
-                    {{ 'components.popup.button' | translate }}
-                </ng-template>
-            </p-button>
-            <!-- <p-button class="button" (click)="closeDialog()" [text]="true"
+          <p-button
+            class=""
+            (click)="visible = false"
+            (click)="onSubmit()"
+            [disabled]="userForm.invalid"
+            pAutoFocus
+            [autofocus]="true"
+          >
+            <ng-template pTemplate="label">
+              {{ "components.popup.button" | translate }}
+            </ng-template>
+          </p-button>
+          <!-- <p-button class="button" (click)="closeDialog()" [text]="true"
                 styleClass="w-full text-primary-50 border-1 border-white-alpha-30 hover:bg-white-alpha-10"
                 class="w-full" icon="pi pi-times">
             </p-button> -->
         </ng-template>
-    </p-dialog>
+      </p-dialog>
+    </ng-template></p-dialog
+  >
 </div>

@@ -1,15 +1,26 @@
 <div class="nav-container">
+  <div class="">
     <div class="nav">
-        <div class="logo">
-            <div class="logo-shape"><img src="assets/images/logoWO-Bg.svg" alt=""></div>
-            <div class="logo-text">DEBOOK</div>
+      <div class="logo">
+        <div class="logo-shape">
+          <img src="assets/images/logoWO-Bg.svg" alt="" />
         </div>
-        <div class="lang flex justify-content-center">
-            <i class="pi pi-globe" style="font-size: 1rem"></i>
+        <div class="logo-text">DEBOOK</div>
+      </div>
+      <div class="lang flex justify-content-center">
+        <i class="pi pi-globe" style="font-size: 1rem"></i>
 
-            <p-dropdown [options]="cities" [(ngModel)]="selectedCity" optionLabel="name" [showClear]="true"
-                (onChange)="onLanguageChange()" placeholder="Es">
-            </p-dropdown>
-        </div>
+        <p-dropdown
+          [options]="cities"
+          [(ngModel)]="selectedCity"
+          optionLabel="name"
+          [showClear]="true"
+          (onChange)="onLanguageChange()"
+          placeholder="Es"
+        >
+        </p-dropdown>
+      </div>
     </div>
+    <!-- <div class="sub-menu"><app-sub-menu></app-sub-menu></div> -->
+  </div>
 </div>

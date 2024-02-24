@@ -16,15 +16,13 @@ import { Observable } from 'rxjs';
 export class SalesProcessComponent {
   availableProduct: number = 0;
 
-  constructor(private dataSharingService: DataSharingService) {
-  }
+  constructor(private dataSharingService: DataSharingService) {}
 
   ngOnInit() {
-    this.dataSharingService.getApiData().subscribe(data => {
+    this.dataSharingService.getApiData().subscribe((data) => {
       this.availableProduct = data.left;
     });
   }
-  
 
   navigateToLink(): void {
     const externalLink = 'https://mint.debookmagickey.com/';
