@@ -1,41 +1,38 @@
-@import '../../../styles.scss';
-.faqs-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 730px;
+@import "../../../styles.scss";
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 730px;
+  height: auto;
+  margin: 0 auto;
+
+  .faqs-title {
+    font-size: 36px;
+    font-family: $font-sora;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+
+  .faqs-accordion {
+    margin: 75px 0 150px 0;
+  }
+}
+
+// mobile------------------------------------------------------------
+@media screen and (max-width: 992px) {
+  .faqs-container {
+    width: 90%;
     height: auto;
     margin: 0 auto;
 
-    .faqs-title{
-        font-size: 36px;
-        font-family: $font-sora;
-        font-weight: 600;
-        letter-spacing: -0.05em;
-        text-align: center;
+    .faqs-title {
+      font-size: 2.4em;
     }
 
-    .faqs-accordion{
-        margin: 75px 0 150px 0;
+    .faqs-accordion {
+      margin: 50px 0 100px 0;
     }
-}
-
-
-// mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
-    .faqs-container{
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    
-        .faqs-title{
-            font-size: 2.4em;
-        }
-    
-        .faqs-accordion{
-            margin: 50px 0 100px 0;
-        }
-    }
-
-    
+  }
 }

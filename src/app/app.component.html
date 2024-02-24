@@ -1,9 +1,35 @@
-<div class="container">
-  <app-nav (languageChange)="switchLang($event)"></app-nav>
-  <app-sub-menu></app-sub-menu>
-  <app-hero></app-hero>
-  <app-body></app-body>
-  <app-founder-message></app-founder-message>
-  <app-body-bottom></app-body-bottom>
+<div class="main-app">
+  <div class="main-header">
+    <div class="top-header">
+      <div class="container">
+        <app-nav (languageChange)="switchLang($event)"></app-nav>
+      </div>
+    </div>
+    <div class="sub-header"><app-sub-menu></app-sub-menu></div>
+  </div>
+  <div class="bg-faded-red hero-container">
+    <div class="container"><app-hero></app-hero></div>
+    <div class="hero-card-container">
+      <div class="cardContainer">
+        <div class="hero-cards">
+          <div class=""><app-card [numberOfCards]="9"></app-card></div>
+        </div>
+        <div class="hero-cards2">
+          <div class=""><app-card [numberOfCards]="2"></app-card></div>
+        </div>
+        <div class="hero-cards1">
+          <div class=""><app-card [numberOfCards]="1"></app-card></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section style="background-color: #fffbfb"><app-body></app-body></section>
+  <div class="bg-faded-red">
+    <div class="container">
+      <app-founder-message></app-founder-message>
+    </div>
+  </div>
+  <section><app-body-bottom></app-body-bottom></section>
+
   <router-outlet></router-outlet>
 </div>

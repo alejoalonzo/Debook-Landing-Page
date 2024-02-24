@@ -1,4 +1,4 @@
-import { CUSTOM_ELEMENTS_SCHEMA,  Component, OnInit } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, Component, OnInit } from '@angular/core';
 import { register } from 'swiper/element/bundle';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
@@ -11,32 +11,26 @@ register();
   imports: [TranslateModule],
   templateUrl: './carrousel-is-for-you-if.component.html',
   styleUrl: './carrousel-is-for-you-if.component.scss',
-  schemas:[CUSTOM_ELEMENTS_SCHEMA]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class CarrouselIsForYouIfComponent implements OnInit{
-
+export class CarrouselIsForYouIfComponent implements OnInit {
   currentLanguageOnCarrouselIsForYou: string = 'es';
-  isEn: boolean= false;
+  isEn: boolean = false;
 
-
-  constructor(
-    private translate: TranslateService
-  ) {
-  }
+  constructor(private translate: TranslateService) {}
 
   ngOnInit(): void {
-      this.getLangToCarrousel()
+    this.getLangToCarrousel();
   }
 
-  getLangToCarrousel(){
+  getLangToCarrousel() {
     this.translate.onLangChange.subscribe(() => {
       this.currentLanguageOnCarrouselIsForYou = this.translate.currentLang;
-      if(this.currentLanguageOnCarrouselIsForYou==='es'){
-        this.isEn=false
-      }else{
-        this.isEn=true
+      if (this.currentLanguageOnCarrouselIsForYou === 'es') {
+        this.isEn = false;
+      } else {
+        this.isEn = true;
       }
     });
   }
-
 }
