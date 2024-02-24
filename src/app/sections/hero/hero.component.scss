@@ -1,179 +1,179 @@
-@import '../../../styles.scss';
+@import "../../../styles.scss";
 
-.hero-container{
-    width: 100%;
-    height: calc(100vh - 80px);
-    background-color: #FFF1F1;
-    display: flex;
-    flex-direction: row;
+.hero-container {
+  width: 100%;
+  // height: calc(100vh - 80px);
+  height: 90vh;
+  // background-color: #fff1f1;
+  display: flex;
+  flex-direction: row;
+  padding: 24px 0;
+  // position: absolute;
+  // top: 87px;
+  // left: calc(50% - 720px);
+  // width: 1440px;
+  // height: 965px;
+  // margin-left: 9em;
+  overflow: hidden;
+  .hero-content {
+    // margin-left: 165px;
+    width: 675px;
+    margin: auto 0;
 
-
-    position: absolute;
-    top: 87px;
-    left: calc(50% - 720px);
-    width: 1440px;
-    // height: 965px;
-    overflow: hidden;
-
-    .hero-content{
-        margin-left: 165px;
-        width: 675px;
-        h1{
-            font-family: $font-sora;
-            color: $red;
-            font-size: 48px;
-            font-weight: 700;
-            margin-top: 200px;
-            letter-spacing: -0.05em;
-        }
-        h2{
-            font-family: $font-sora;
-            color: $black;
-            font-size: 36px;
-            font-weight: 600;
-            letter-spacing: -0.05em;
-            margin-top: -40px;
-        }
-        .subtitle{
-            font-family: $font-inter;
-            color: $gray;
-            font-weight: 400;
-            font-size: 18px;
-            width: 80%;
-            line-height: 28px;
-            margin-bottom: 50px;
-        }
-
-        .hero-button{
-            width: 100%;
-            display: flex;
-            justify-content: start;
-        }
-
-
-        .loadingText{
-            color: $black;
-            margin: 45px 0 5px 5px ;
-            font-family: $font-sora;
-            font-weight: 600;
-        }
-        .progressBar{
-            width: 455px;
-            height: 26px;
-        }
+    h1 {
+      // font-family: $font-sora;
+      // color: $red;
+      font-size: 48px;
+      // font-weight: 700;
+      // // margin-top: 200px;
+      // letter-spacing: -0.05em;
+      margin-bottom: 0px;
+    }
+    h2 {
+      font-family: $font-sora;
+      color: $black;
+      font-size: 36px;
+      font-weight: 600;
+      letter-spacing: -0.05em;
+    }
+    .subtitle {
+      font-family: $font-inter;
+      color: $gray;
+      font-weight: 400;
+      font-size: 18px;
+      width: 80%;
+      line-height: 28px;
+      margin-bottom: 50px;
     }
 
-    .cardContainer{
-        position: relative;
-        left: 800px;
-        top:-50px;
-
-        .hero-cards{
-            position: absolute;
-            top: 20px;
-            right: 0px;  
-            transform: rotate(350deg);
-            width: 645px;
-        
-        }
-        
-        .hero-cards2{
-            position: absolute;
-            top: 791px;
-            right: 573px;
-            width: 433px;
-            transform: rotate(350deg);
-
-        }
-
-        .hero-cards1{
-            position: absolute;
-            top: 455px;
-            right: 635px;
-            width: 433px;
-            transform: rotate(350deg);
-
-        }
+    .hero-button {
+      width: 100%;
+      display: flex;
+      justify-content: start;
     }
 
+    .loadingText {
+      color: $black;
+      margin: 45px 0 5px 5px;
+      font-family: $font-sora;
+      font-weight: 600;
+    }
+    .progressBar {
+      width: 455px;
+      height: 26px;
+    }
+  }
+
+  .cardContainer {
+    position: relative;
+    left: 800px;
+    top: -50px;
+
+    .hero-cards {
+      position: absolute;
+      top: 20px;
+      right: -119px;
+      transform: rotate(350deg);
+      width: 645px;
+    }
+
+    .hero-cards2 {
+      position: absolute;
+      top: 791px;
+      right: 573px;
+      width: 433px;
+      transform: rotate(350deg);
+    }
+
+    .hero-cards1 {
+      position: absolute;
+      top: 455px;
+      right: 635px;
+      width: 433px;
+      transform: rotate(350deg);
+    }
+  }
 }
 
-
 // mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
-    
+@media screen and (max-width: 1110px) {
+  .hero-container {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero-container {
+    position: static;
+    // top: 50px;
+    height: 100%;
+    margin-left: 0;
+    // left: calc(50% - 160px);
+    // height: 670px;
+    width: 100%;
+    left: auto;
+    overflow: hidden;
 
-    .hero-container{
-        position: absolute;
-        top: 50px;
-        // left: calc(50% - 160px);
-        height: 670px;
+    .hero-content {
+      margin-left: 0px;
+      margin: 0;
+      // width: 625px;
+      h1 {
+        width: 90%;
+        font-size: 2.4em;
+        font-weight: 700;
+        margin: auto;
+        margin-top: 0;
+        letter-spacing: -0.05em;
+        text-align: center;
+      }
+      h2 {
+        font-size: 2em;
+        font-weight: 600;
+        letter-spacing: -0.05em;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 0px;
+        text-align: center;
+        padding: 0;
+      }
+      .subtitle {
+        font-size: 1.1em;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.6;
+        padding: 0;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        letter-spacing: -0.03em;
+        font-weight: 300;
+      }
+
+      .hero-button {
         width: 100%;
-        left:auto;
-        overflow: hidden;
-    
-        .hero-content{
-            margin-left: 0px;
-            width: 625px;
-            h1{
-                width: 90%;
-                font-size: 2.4em;
-                font-weight: 700;
-                margin: auto;
-                margin-top: 160px;
-                letter-spacing: -0.05em;
-                text-align: center;
-            }
-            h2{
-                font-size: 2em;
-                font-weight: 600;
-                letter-spacing: -0.05em;
-                width: 80%;
-                margin: 0 auto;
-                margin-top: 0px;
-                text-align: center;
-                padding: 0;
-            }
-            .subtitle{
-                font-size: 1.1em;
-                width: 90%;
-                margin: 0 auto;
-                text-align: center;
-                line-height: 1.6;
-                padding: 0;
-                margin-top: 30px;
-                margin-bottom: 35px;
-                letter-spacing: -0.03em;
-                font-weight: 300;
-            }
+        display: flex;
+        justify-content: center;
+      }
 
-            .hero-button{
-                width: 100%;
-                display: flex;
-                justify-content: center;
-            }
-    
-            .loadingText{
-                letter-spacing: -0.03em;
-                font-size: 1em;
-                margin: 0 auto;
-                margin-bottom: 5px;
-                margin-top: 50px;
-                padding-left: 5px;
-                width: 90%;
+      .loadingText {
+        letter-spacing: -0.03em;
+        font-size: 1em;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        margin-top: 50px;
+        padding-left: 5px;
+        width: 90%;
+      }
+      .progressBar {
+        width: 90%;
+        height: 18px;
+        margin: 0 auto;
+      }
+    }
 
-            }
-            .progressBar{
-                width: 90%;
-                height: 18px;
-                margin: 0 auto;
-            }
-        }
-    
-        .cardContainer{
-
-            display: none;
-            /*
+    .cardContainer {
+      display: none;
+      /*
             position: relative;
             left: 0px;
             top: 0px;
@@ -181,11 +181,11 @@
             .hero-cards{
                 position: absolute;
                 top: 470px;
-                right: -150px;  
+                right: -150px;
                 transform: rotate(360deg);
                 width: 642px;
             }
-            
+
             .hero-cards2{
                 // position: absolute;
                 // top: 91px;
@@ -193,9 +193,9 @@
                 // width: 33px;
                 // transform: rotate(350deg);
                 display: none;
-    
+
             }
-    
+
             .hero-cards1{
                 // position: absolute;
                 // top: 455px;
@@ -204,10 +204,36 @@
                 // transform: rotate(350deg);
                 display: none;
             }*/
-            
-        }
-    
     }
-    
-    
+  }
+}
+
+.cardContainer {
+  position: relative;
+  left: 800px;
+  top: -50px;
+
+  .hero-cards {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    transform: rotate(350deg);
+    width: 645px;
+  }
+
+  .hero-cards2 {
+    position: absolute;
+    top: 791px;
+    right: 573px;
+    width: 433px;
+    transform: rotate(350deg);
+  }
+
+  .hero-cards1 {
+    position: absolute;
+    top: 455px;
+    right: 635px;
+    width: 433px;
+    transform: rotate(350deg);
+  }
 }

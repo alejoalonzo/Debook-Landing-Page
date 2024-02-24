@@ -1,60 +1,75 @@
 <div class="faqs-container">
-    <div class="faqs-title gradientText2">{{"sections.faqs.title" | translate }}</div>
-    <div class="faqs-accordion">
-        <p-accordion [activeIndex]="0">
-            <p-accordionTab [selected]="true" iconPos="end">
-                <ng-template pTemplate="header">
-                    {{"sections.faqs.1.header" | translate }}
-                </ng-template>
-                <p>
-                    {{"sections.faqs.1.body.p1" | translate }} <br> <br>
-                    {{"sections.faqs.1.body.p2" | translate }} <br> <br>
-                    {{"sections.faqs.1.body.p3" | translate }}
-                </p>
-            </p-accordionTab>
-            <p-accordionTab iconPos="end">
-                <ng-template pTemplate="header">
-                    {{"sections.faqs.2.header" | translate }}
-                </ng-template>
-                <p>
-                    {{"sections.faqs.2.body.p1" | translate }} <br> <br>
-                    {{"sections.faqs.2.body.p2" | translate }} <br> <br>
-                    {{"sections.faqs.2.body.p3" | translate }}
-                </p>
-            </p-accordionTab>
-            <p-accordionTab iconPos="end">
-                <ng-template pTemplate="header">
-                    {{"sections.faqs.3.header" | translate }}
-                </ng-template>
-                <p>
-                    {{"sections.faqs.3.body.p1" | translate }} <br> <br>
-                    {{"sections.faqs.3.body.p2" | translate }} <br> <br>
-                    {{"sections.faqs.3.body.p3" | translate }}
-                </p>
-            </p-accordionTab>
-            <p-accordionTab iconPos="end">
-                <ng-template pTemplate="header">
-                    {{"sections.faqs.4.header" | translate }}
-                </ng-template>
-                <p>
-                    {{"sections.faqs.4.body.p1" | translate }} <br> <br>
-                    {{"sections.faqs.4.body.p2" | translate }} <br> <br>
-                    {{"sections.faqs.4.body.p3" | translate }}
-                </p>
-            </p-accordionTab>
-            <p-accordionTab iconPos="end">
-                <ng-template pTemplate="header">
-                    {{"sections.faqs.5.header" | translate }}
-                </ng-template>
-                <p>
-                    {{"sections.faqs.5.body.p1" | translate }} <br> <br>
-                    {{"sections.faqs.5.body.p2" | translate }} <br> <br>
-                    {{"sections.faqs.5.body.p3" | translate }} <br> <br>
-                    {{"sections.faqs.5.body.p4" | translate }} <br> <br>
-                    {{"sections.faqs.5.body.p5" | translate }} <br> <br>
-                    {{"sections.faqs.5.body.p6" | translate }}
-                </p>
-            </p-accordionTab>
-        </p-accordion>
-    </div>
+  <div class="faqs-title gradientText2">
+    {{ "sections.faqs.title" | translate }}
+  </div>
+  <div class="faqs-accordion">
+    <p-accordion [activeIndex]="0">
+      <p-accordionTab [selected]="true" iconPos="end">
+        <ng-template pTemplate="header">
+          {{ "sections.faqs.1.header" | translate }}
+        </ng-template>
+        <p>
+          {{ "sections.faqs.1.body.p1" | translate }} <br />
+          <br />
+          {{ "sections.faqs.1.body.p2" | translate }} <br />
+          <br />
+          {{ "sections.faqs.1.body.p3" | translate }}
+        </p>
+      </p-accordionTab>
+      <p-accordionTab iconPos="end">
+        <ng-template pTemplate="header">
+          {{ "sections.faqs.2.header" | translate }}
+        </ng-template>
+        <p>
+          {{ "sections.faqs.2.body.p1" | translate }} <br />
+          <br />
+          {{ "sections.faqs.2.body.p2" | translate }} <br />
+          <br />
+          {{ "sections.faqs.2.body.p3" | translate }}
+        </p>
+      </p-accordionTab>
+      <p-accordionTab iconPos="end">
+        <ng-template pTemplate="header">
+          {{ "sections.faqs.3.header" | translate }}
+        </ng-template>
+        <p>
+          {{ "sections.faqs.3.body.p1" | translate }} <br />
+          <br />
+          {{ "sections.faqs.3.body.p2" | translate }} <br />
+          <br />
+          {{ "sections.faqs.3.body.p3" | translate }}
+        </p>
+      </p-accordionTab>
+      <p-accordionTab iconPos="end">
+        <ng-template pTemplate="header">
+          {{ "sections.faqs.4.header" | translate }}
+        </ng-template>
+        <p>
+          {{ "sections.faqs.4.body.p1" | translate }} <br />
+          <br />
+          {{ "sections.faqs.4.body.p2" | translate }} <br />
+          <br />
+          {{ "sections.faqs.4.body.p3" | translate }}
+        </p>
+      </p-accordionTab>
+      <p-accordionTab iconPos="end">
+        <ng-template pTemplate="header">
+          {{ "sections.faqs.5.header" | translate }}
+        </ng-template>
+        <p>
+          {{ "sections.faqs.5.body.p1" | translate }} <br />
+          <br />
+          {{ "sections.faqs.5.body.p2" | translate }} <br />
+          <br />
+          {{ "sections.faqs.5.body.p3" | translate }} <br />
+          <br />
+          {{ "sections.faqs.5.body.p4" | translate }} <br />
+          <br />
+          {{ "sections.faqs.5.body.p5" | translate }} <br />
+          <br />
+          {{ "sections.faqs.5.body.p6" | translate }}
+        </p>
+      </p-accordionTab>
+    </p-accordion>
+  </div>
 </div>

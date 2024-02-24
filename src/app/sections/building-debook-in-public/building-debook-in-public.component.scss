@@ -1,167 +1,161 @@
-@import '../../../styles.scss';
+@import "../../../styles.scss";
 
+.buildingDebookInPublic-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 881px;
+  height: 207px;
+  padding: 40px 32px;
+  border-radius: 30px;
+  background: radial-gradient(circle, #fdf3f3, #fdfdfd);
+  margin: auto;
+  margin-bottom: 200px;
 
-.buildingDebookInPublic-container{
+  .buildingDebookInPublic-text {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    &-iconVideo {
+      display: none;
+    }
+
+    &-title {
+      font-family: $font-sora;
+      font-size: 29px;
+      font-weight: 700;
+      letter-spacing: -0.87px;
+      color: $black;
+      width: 380px;
+      margin: 10px 0;
+    }
+    &-titlehide {
+      display: none;
+    }
+    &-subtitle {
+      color: $black;
+      font-family: $font-inter;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: -0.48px;
+    }
+    &-subtitlehide {
+      display: none;
+    }
+  }
+
+  .buildingDebookInPublic-videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 313px;
+    height: 156px;
+    border-radius: 16px;
+    background-color: white;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+    }
+  }
+
+  .buildingDebookInPublic-links {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    width: 881px;
-    height: 207px;
-    padding: 40px 32px;
-    border-radius: 30px;
-    background: radial-gradient(circle, #fdf3f3, #fdfdfd);
-    margin: auto;
-    margin-bottom: 200px;
+    height: 110px;
 
-    .buildingDebookInPublic-text{
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-        &-iconVideo{
-            display: none;
-        }
-
-        &-title{
-            font-family: $font-sora;
-            font-size: 29px;
-            font-weight: 700;
-            letter-spacing: -0.87px;
-            color: $black;
-            width: 380px;
-            margin: 10px 0;
-        }
-        &-titlehide{
-            display: none;
-        }
-        &-subtitle{
-            color: $black;
-            font-family: $font-inter;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 22px; 
-            letter-spacing: -0.48px;
-        }
-        &-subtitlehide{
-            display: none;
-        }
+    &-button {
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
     }
-
-    .buildingDebookInPublic-videos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 313px;
-        height: 156px;
-        border-radius: 16px;
-        background-color: white;
-        img{
-            width: 100%;
-            height: auto;
-            border-radius: 16px; 
-        }
+    &-icon {
+      margin: auto;
     }
-
-    .buildingDebookInPublic-links{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 110px;
-
-
-        &-button{
-            cursor: pointer;
-            border:none;
-            background-color: transparent;
-        }
-        &-icon{
-            
-            margin: auto;
-        }
-        
-    }
+  }
 }
 
-
 // mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
+@media screen and (max-width: 850px) {
+  .buildingDebookInPublic-container {
+    border-radius: 30px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 140px;
+    display: block;
+    background: white;
+    border: 1px solid #ffe9e9;
 
-    .buildingDebookInPublic-container{
-        border-radius: 30px;
-        width: 90%;
-        height: auto;
+    .buildingDebookInPublic-text {
+      &-iconVideo {
+        display: flex;
         margin: auto;
-        margin-bottom: 140px;
-        display: block;
-        background: white;
-        border: 1px solid #ffe9e9;
+        width: 70px;
+        height: auto;
+        margin-bottom: 30px;
+      }
 
-        .buildingDebookInPublic-text{
-
-            &-iconVideo{
-                display: flex;
-                margin: auto;
-                width: 70px;
-                height: auto;
-                margin-bottom: 30px;
-            }
-
-            &-title{
-                display: none;
-            }
-            &-titlehide{
-                display: flex;
-                text-align: center;
-                font-family: $font-sora;
-                margin: auto;
-                font-size: 3.5em;
-                font-weight: 700;
-                line-height: 55px; 
-                letter-spacing: -1.05px;
-                background: linear-gradient(90deg, #000 43.75%, rgba(191, 191, 191, 0.92) 86.86%);
-                background-clip: text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
-            &-subtitle{
-                display: none;
-            }
-            &-subtitlehide{
-                display: flex;
-                text-align: center;
-                color: $black;
-                font-family: $font-inter;
-                font-weight: 500;
-                line-height: 28px;
-                letter-spacing: -0.54px;
-                margin: auto;
-                margin-top: 20px;
-                font-size: 1.1em;
-            }
-        }
-
-        .buildingDebookInPublic-videos{
-            width: 100%;
-            margin-top: 25px;
-        }
-
-        .buildingDebookInPublic-links{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            height: auto;
-            width: 50%;
-            margin: auto;
-            margin-top: 15px;
-
-            &-button{
-                
-            }
-            &-icon{
-                
-
-            }
-            
-        }
+      &-title {
+        display: none;
+      }
+      &-titlehide {
+        display: flex;
+        text-align: center;
+        font-family: $font-sora;
+        margin: auto;
+        font-size: 3.5em;
+        font-weight: 700;
+        line-height: 55px;
+        letter-spacing: -1.05px;
+        background: linear-gradient(
+          90deg,
+          #000 43.75%,
+          rgba(191, 191, 191, 0.92) 86.86%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      &-subtitle {
+        display: none;
+      }
+      &-subtitlehide {
+        display: flex;
+        text-align: center;
+        color: $black;
+        font-family: $font-inter;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: -0.54px;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 1.1em;
+      }
     }
+
+    .buildingDebookInPublic-videos {
+      width: 100%;
+      margin-top: 25px;
+      height: 100%;
+    }
+
+    .buildingDebookInPublic-links {
+      display: flex;
+      flex-direction: row;
+      // justify-content: space-between;
+      height: auto;
+      width: 50%;
+      margin: auto;
+      margin-top: 15px;
+      gap: 24px;
+      &-button {
+      }
+      &-icon {
+      }
+    }
+  }
 }

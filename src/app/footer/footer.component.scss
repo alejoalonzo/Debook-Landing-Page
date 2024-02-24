@@ -1,124 +1,117 @@
-@import '../../styles.scss';
-.footer-container{
-    width: 100%;
-    height: 141px;
+@import "../../styles.scss";
+.footer-container {
+  width: 100%;
+  height: 141px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+
+  .footer-logoAndSupp {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
+    flex-direction: column;
+    text-align: start;
+    // margin-left: 165px;
 
-    .footer-logoAndSupp{
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-        margin-left: 165px;
+    &-logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
 
-        &-logo{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+      img {
+        width: 36px;
+        height: 36px;
+      }
 
-            img{
-                width: 36px;
-                height: 36px;
-            }
+      &-shape {
+        height: 37px;
+        width: 37px;
+      }
 
-            &-shape{
-                height: 37px;
-                width: 37px;
-            }
-
-            &-text{
-                color: $red;
-                font-family: $font-sora;
-                font-size: 24px;
-                font-weight: bold;
-                margin-left: 5px;
-            }
-        }
-
-        &-support{
-            a{
-                color: $gray;
-                font-size: 14px;
-                letter-spacing: -0.03em; 
-            }
-            color: $gray;
-            font-size: 14px;
-            letter-spacing: -0.03em;
-        }
+      &-text {
+        color: $red;
+        font-family: $font-sora;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 5px;
+      }
     }
 
-    .footer-socials{
-        margin-right: 165px;
-        i{
-            margin-left: 20px;
-            color: $gray;
-            cursor: pointer;
-        }
+    &-support {
+      a {
+        color: $gray;
+        font-size: 14px;
+        letter-spacing: -0.03em;
+      }
+      color: $gray;
+      font-size: 14px;
+      letter-spacing: -0.03em;
     }
+  }
 
+  .footer-socials {
+    // margin-right: 165px;
+    i {
+      margin-left: 20px;
+      color: $gray;
+      cursor: pointer;
+    }
+  }
 }
 
 // mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
-    
-    .footer-container{
-        width: 100%;
-        height: 150px;
+@media screen and (max-width: 450px) {
+  .footer-container {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+
+    .footer-logoAndSupp {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      margin-left: 0px;
+
+      &-logo {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        background-color: white;
         justify-content: center;
-    
-        .footer-logoAndSupp{
-            display: flex;
-            flex-direction: column;
-            text-align: start;
-            margin-left: 0px;
-    
-            &-logo{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
 
+        &-shape {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          height: 37px;
+          width: 37px;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
 
-    
-                &-shape{
-                    display: flex;
-                    justify-content: start;
-                    align-items: center;
-                    height: 37px;
-                    width: 37px;
-                }
-                img{
-                    width: 20px;
-                    height: 20px;
-                }
-    
-                &-text{
-                    font-weight: bold;
-                    margin-left: 0;
-                }
-            }
-    
-            &-support{
-                letter-spacing: -0.03em;
-            }
+        &-text {
+          font-weight: bold;
+          margin-left: 0;
         }
-    
-        .footer-socials{
-            margin-right: 0px;
-            margin-top: 10px;
-            i{
-                margin: 5px;
-            }
-        }
-    
+      }
+
+      &-support {
+        letter-spacing: -0.03em;
+      }
     }
-    
-    
+
+    .footer-socials {
+      margin-right: 0px;
+      margin-top: 10px;
+      i {
+        margin: 5px;
+      }
+    }
+  }
 }

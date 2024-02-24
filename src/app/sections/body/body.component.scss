@@ -1,53 +1,76 @@
-.spacer{
-    width: 100%;
-    height: calc(100vh - 85px);
-    background-color: transparent;
+.spacer {
+  width: 100%;
+  height: calc(100vh - 85px);
+  background: radial-gradient(
+    circle,
+    rgb(254, 242, 242) 0%,
+    rgb(255, 255, 255) 100%
+  );
 }
-.body-container{
-    width:100%;
-    height: auto;
-    // background-color: white;
-    background: rgb(254,242,242);
-    background: radial-gradient(circle, rgba(254,242,242,1) 0%, rgba(255,255,255,1) 100%);
-    .carrousel-cards-container{
-        display: none;
-    }
-    .carrousel-cards-spacer{
-        display: none;
-    }
+.body-container {
+  width: 100%;
+  height: auto;
+  // background-color: white;
+  .carrousel-cards-container {
+    display: none;
+  }
+  .carrousel-cards-spacer {
+    display: none;
+  }
 }
 
 // mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
-    
-    .spacer{
-        height: 670px;
-        background-color: transparent;
+@media screen and (max-width: 992px) {
+  .spacer {
+    height: 670px;
+    background-color: transparent;
+  }
+
+  .body-container {
+    background: rgb(254, 242, 242);
+    background: radial-gradient(
+      circle,
+      rgba(254, 242, 242, 1) 0%,
+      rgba(255, 255, 255, 1) 50%
+    );
+
+    .carrousel-cards-container {
+      background: #fff0f1;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+
+      &-child {
+        &-spacer {
+        }
+      }
     }
 
-    .body-container{
-        background: rgb(254,242,242);
-        background: radial-gradient(circle, rgba(254,242,242,1) 0%, rgba(255,255,255,1) 50%);
-
-        .carrousel-cards-container{
-            display: flex;
-            justify-content: center;
-            overflow: hidden;
-
-            &-child{
-                
-                &-spacer{
-
-                } 
-            }
-
-        }
-
-        .carrousel-cards-spacer{
-            display: block;
-            background: rgb(254,242,242);
-            width: 100%;
-            height: 20px;
-        }
+    .carrousel-cards-spacer {
+      display: block;
+      // background: rgb(254, 242, 242);
+      background: #fff0f1;
+      width: 100%;
+      height: 20px;
     }
+  }
+}
+
+.display-mobile {
+  display: none;
+}
+@media screen and (max-width: 580px) {
+  .display-mobile {
+    display: block;
+  }
+}
+
+.key-img {
+  width: 100vw;
+}
+
+.sub-text {
+  width: 300px;
+  padding-bottom: 70px;
+  padding-top: 12px;
 }

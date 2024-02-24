@@ -1,44 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Building the next book thing | DEBOOK</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/debookFavicon.png"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <title>Building the next book thing | DEBOOK</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="assets/images/debookFavicon.png">
+    <meta name="description" content="From books to ebooks to debooks" />
 
-  <meta name="description" content="From books to ebooks to debooks">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.debookmagickey.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Debook" />
+    <meta property="og:description" content="From books to ebooks to debooks" />
+    <meta property="og:image" content="assets/images/debook-social.jfif" />
 
-  <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://www.debookmagickey.com/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Debook">
-  <meta property="og:description" content="From books to ebooks to debooks">
-  <meta property="og:image" content="assets/images/debook-social.jfif">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="debookmagickey.com" />
+    <meta property="twitter:url" content="https://www.debookmagickey.com/" />
+    <meta name="twitter:title" content="Debook" />
+    <meta
+      name="twitter:description"
+      content="From books to ebooks to debooks"
+    />
+    <meta name="twitter:image" content="assets/images/debook-social.jfif" />
+  </head>
 
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="debookmagickey.com">
-  <meta property="twitter:url" content="https://www.debookmagickey.com/">
-  <meta name="twitter:title" content="Debook">
-  <meta name="twitter:description" content="From books to ebooks to debooks">
-  <meta name="twitter:image" content="assets/images/debook-social.jfif">
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-CPH8WF99GL"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-</head>
+    gtag("config", "G-CPH8WF99GL");
+  </script>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPH8WF99GL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'G-CPH8WF99GL');
-</script>
-
-<body>
-  <app-root></app-root>
-</body>
-
+  <body>
+    <app-root></app-root>
+  </body>
 </html>

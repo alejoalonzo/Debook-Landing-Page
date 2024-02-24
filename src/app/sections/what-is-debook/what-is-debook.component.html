@@ -1,48 +1,57 @@
 <div class="what-is-container">
-    <div class="title-container">
-        <div class="what-is-title gradientText1">{{"sections.what-is-debook.title" | translate }}</div>
-        <div class="what-is-subTitle">First things first</div>
+  <div class="title-container">
+    <div class="what-is-title gradientText1">
+      {{ "sections.what-is-debook.title" | translate }}
     </div>
-    <div class="what-is-content">
-
-        <!-- <div class="what-is-logo-container-mobile">
+    <div class="what-is-subTitle">First things first</div>
+  </div>
+  <div class="what-is-content">
+    <!-- <div class="what-is-logo-container-mobile">
             <div class="what-is-logo-mobile">
                 <app-logo></app-logo>
             </div>
 
         </div> -->
 
-        <div class="what-is-content-group-left">
-            <div class="what-is-content-numberAndtitle">
-                <div class="what-is-content-numberAndtitle-number gradientText2">1</div>
-                <div class="what-is-content-numberAndtitle-text gradientText2">From books
-                    to ebooks
-                    to debooks</div>
-            </div>
-            <div class="what-is-content-numberAndtitleSubtitle">{{"sections.what-is-debook.1-subtitle" | translate }}
-            </div>
-            <div class="what-is-content-numberAndtitleDescription">{{"sections.what-is-debook.1-text.start" | translate
-                }}“<span>{{"sections.what-is-debook.1-text.span" | translate }}</span>”
-                {{"sections.what-is-debook.1-text.end" | translate }}</div>
+    <div class="what-is-content-group-left">
+      <div class="what-is-content-numberAndtitle">
+        <div class="what-is-content-numberAndtitle-number gradientText2">1</div>
+        <div class="what-is-content-numberAndtitle-text gradientText2">
+          From books to ebooks to debooks
         </div>
-
-        <div class="what-is-logo-container">
-            <div class="what-is-logo">
-                <app-logo></app-logo>
-            </div>
-
-        </div>
-
-        <div class="what-is-content-group-right">
-            <div class="what-is-content-numberAndtitle">
-                <div class="what-is-content-numberAndtitle-number gradientText2">2</div>
-                <div class="what-is-content-numberAndtitle-text gradientText2">{{"sections.what-is-debook.2-title" |
-                    translate }}</div>
-            </div>
-            <div class="what-is-content-numberAndtitleSubtitle">{{"sections.what-is-debook.2-subtitle" | translate }}
-            </div>
-            <div class="what-is-content-numberAndtitleDescription"><span>DEBOOK.APP</span>
-                {{"sections.what-is-debook.2-text" | translate }}</div>
-        </div>
+      </div>
+      <div class="what-is-content-numberAndtitleSubtitle">
+        {{ "sections.what-is-debook.1-subtitle" | translate }}
+      </div>
+      <div class="what-is-content-numberAndtitleDescription">
+        {{ "sections.what-is-debook.1-text.start" | translate }}“<span>{{
+          "sections.what-is-debook.1-text.span" | translate
+        }}</span
+        >” {{ "sections.what-is-debook.1-text.end" | translate }}
+      </div>
     </div>
+
+    <div class="what-is-logo-container">
+      <div class="what-is-logo">
+        <!-- <img src="assets/images/logoWO-Bg.svg" style="width: 100%" /> -->
+        <app-logo></app-logo>
+      </div>
+    </div>
+
+    <div class="what-is-content-group-right">
+      <div class="what-is-content-numberAndtitle">
+        <div class="what-is-content-numberAndtitle-number gradientText2">2</div>
+        <div class="what-is-content-numberAndtitle-text gradientText2">
+          {{ "sections.what-is-debook.2-title" | translate }}
+        </div>
+      </div>
+      <div class="what-is-content-numberAndtitleSubtitle">
+        {{ "sections.what-is-debook.2-subtitle" | translate }}
+      </div>
+      <div class="what-is-content-numberAndtitleDescription">
+        <span>DEBOOK.APP</span>
+        {{ "sections.what-is-debook.2-text" | translate }}
+      </div>
+    </div>
+  </div>
 </div>
