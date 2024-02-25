@@ -1,0 +1,36 @@
+name: Auto Deploy to Live
+
+on:
+  push:
+    branches:
+      - live
+
+jobs:
+  web-deploy:
+
+    name: Deploy Anuglar
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkoug@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 20
+
+    - name: Build Angular app to prod
+      working-directory: ./
+      run: npm install && npm run build
+
+    - name: FTP Files to Ionic
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ secrets.IONOS_FTP_SERVER }}
+        username: ${{ secrets.IONOS_FTP_USER }}
+        password: ${{ secrets.IONOS_FTP_PASS }}
+        local-dir: ./dist/
+        server-dir: /
+        # to remove older JS files with hashed names (main-[hash].js)
+        dangerous-clean-slate: true
