@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/carrousels/carrousel-mansion/carrousel-mansion.component.scss"],
+  "sourcesContent": ["swiper-container{\n    \n    swiper-slide{\n        margin-bottom: 25px;\n        .card{\n            width: 100%;\n            height: auto;\n            border-radius: 40px;\n            background: #F9F9F9;\n            padding: 40px;\n\n            .title{\n                color: #000;\n                font-size: 26px;\n                font-weight: 700;\n                line-height: 23px; \n                letter-spacing: -0.05em;\n                margin-bottom: 15px;\n            }\n            .text{\n                color: #000;\n                font-size: 22px;\n                font-weight: 400;\n                line-height: 23px;\n                letter-spacing: -0.03em;\n            }\n        }\n    }\n}"],
+  "mappings": ";AAEI,iBAAA;AACI,iBAAA;;AACA,iBAAA,aAAA,CAAA;AACI,SAAA;AACA,UAAA;AACA,iBAAA;AACA,cAAA;AACA,WAAA;;AAEA,iBAAA,aAAA,CAPJ,KAOI,CAAA;AACI,SAAA;AACA,aAAA;AACA,eAAA;AACA,eAAA;AACA,kBAAA;AACA,iBAAA;;AAEJ,iBAAA,aAAA,CAfJ,KAeI,CAAA;AACI,SAAA;AACA,aAAA;AACA,eAAA;AACA,eAAA;AACA,kBAAA;;",
+  "names": []
+}

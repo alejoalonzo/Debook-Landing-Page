@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/sections/body-bottom/body-bottom.component.scss"],
+  "sourcesContent": [".body-bottom-container{\n    width:100%;\n    height: auto;\n\n    background-image: radial-gradient(circle at bottom, #fee1e2 3%, white, white);}"],
+  "mappings": ";AAAA,CAAA;AACI,SAAA;AACA,UAAA;AAEA;IAAA;MAAA,OAAA,GAAA,MAAA;MAAA,QAAA,EAAA;MAAA,KAAA;MAAA;;",
+  "names": []
+}
