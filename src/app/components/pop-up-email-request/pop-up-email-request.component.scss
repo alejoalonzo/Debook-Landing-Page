@@ -1,127 +1,109 @@
-@import '../../../styles.scss';
+@import "../../../styles.scss";
 
-.container-dialog{
-    
+.container-dialog {
+  .title-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    .title-span {
+      font-family: $font-sora;
+      font-size: 29px;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: -0.02em;
+      text-align: center;
+      color: $red;
+    }
+  }
 
-    .title-container{
+  .subtitle {
+    margin: auto;
+    font-family: $font-inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #8f9bba;
+  }
+  .formContainer {
+    margin-top: 20px;
+    .form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: auto;
+      width: 60%;
+      .inputs {
+        margin-top: 10px;
         display: flex;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-        .title-span{
-            font-family: $font-sora;
-            font-size: 29px;
-            font-weight: 700;
-            line-height: 42px;
-            letter-spacing: -0.02em;
-            text-align: center;
-            color: $red;
+        justify-content: start;
+        flex-direction: column;
+
+        label {
+          color: #000 !important;
+          width: 100%;
+          font-size: 12px;
+          padding-left: 5px;
+          text-align: left;
         }
-    }
-
-    .subtitle{
-        margin: auto;
-        font-family: $font-inter;
-        font-size: 13px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: -0.02em;
-        text-align: center;
-        color: #8F9BBA;
-
-    }
-    .formContainer{
-        margin-top: 20px;
-        .form{
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            margin: auto;
-            width: 60%;
-            .inputs{
-                margin-top: 10px;
-                display: flex;
-                justify-content: start;
-                flex-direction: column;
-
-                label{
-                    color: #000!important;
-                    width: 100%;
-                    font-size:12px;
-                    padding-left: 5px;
-                    text-align: left;
-                }
-                input{
-                    background-color: #f4f7fe;
-                    width: 100%;
-                    border: none;
-                    padding: 10px 0 10px 5px;
-                    border-radius: 10px;
-                }
-                input::placeholder {
-                    color: #8F9BBA;
-                    padding-left: 10px;
-                    font-size:12px;
-                }
-    
-            }
+        input {
+          background-color: #f4f7fe;
+          width: 100%;
+          border: none;
+          padding: 10px 0 10px 5px;
+          border-radius: 10px;
         }
-    
+        input::placeholder {
+          color: #8f9bba;
+          padding-left: 10px;
+          font-size: 12px;
+        }
+      }
     }
+  }
 
-
-    .button{
-        margin: 0px;
-        background-color: transparent;
-        border: none;
-        color: $gray;
-        cursor: pointer;
-    }
-    .button:hover{
-        color: $red;
-    }
+  .button {
+    margin: 0px;
+    background-color: transparent;
+    border: none;
+    color: $gray;
+    cursor: pointer;
+  }
+  .button:hover {
+    color: $red;
+  }
 }
 
 // mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
-    .container-dialog{
-    
-
-        .title-container{
-
-            .title-span{
-                margin-top: 20px;
-                line-height: 36px;
-                font-size: 28px;
-
-            }
-        }
-
-        .formContainer{
-
-            .form{
-
-                width: 75%;
-                .inputs{
-
-                    label{
-                    }
-                    input{
-
-                        padding: 20px 0 20px 5px;
-
-                    }
-
-        
-                }
-            }
-        
-        }
-
-        .button{
-            position: absolute;
-            top: 15px;
-            right: 5px;
-        }
+@media screen and (max-width: 450px) {
+  .container-dialog {
+    .title-container {
+      .title-span {
+        margin-top: 20px;
+        line-height: 36px;
+        font-size: 28px;
+      }
     }
+
+    .formContainer {
+      .form {
+        width: 75%;
+        .inputs {
+          label {
+          }
+          input {
+            padding: 20px 0 20px 5px;
+          }
+        }
+      }
+    }
+
+    .button {
+      position: absolute;
+      top: 15px;
+      right: 5px;
+    }
+  }
 }
