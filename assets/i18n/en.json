@@ -47,7 +47,7 @@
             "image-text": "MAGICKEYS guarantee you immediate access to the product"
         },
         "is-for-you-if":{
-            "title": "The MAGICKEY is for you if...",
+            "title": "MAGICKEYS are not just a tool but a symbol of innovation and they are for you if...",
             "titleMobile": "MAGICKEYS are not just a tool but a symbol of innovation and they are for you if...",
             "carrousel":{
                 "slide1":{
@@ -73,7 +73,13 @@
                     "title-span":"Book lover",
                     "title-bottom":"",
                     "content":"Who thinks that books could be more than just reading and want to be part of the book world revolution"
-                } 
+                },
+                "slide5":{
+                    "title":"You are a disruptive ",
+                    "title-span":"Startup Founder",
+                    "title-bottom":"",
+                    "content":"Who wants to connect with a community of founders who are also leading their legacy."
+                }
             }
         },
         "founder-message": {
