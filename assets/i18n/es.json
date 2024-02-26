@@ -82,7 +82,7 @@
             }
         },
         "founder-message": {
-            "title": "La comunidad que cualquier emprendedor soñaría tener a su alrededor",
+            "title": "La comunidad que cualquier emprendedor soñaría tener a su alrededor, ¡únete al sueño y hagamos historia juntos!",
             "text":{
                 "p1":{
                     "bold":"Mensaje del fundador:",
@@ -101,7 +101,11 @@
         "funds-go-to-dev": {
             "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA DEMO APP",
             "interact": "✨ Interactua con DEBOOK APP demo",
-            "go-to-pitchdeck": "Go to Pitchdeck"
+            "go-to-pitchdeck": "Go to Pitchdeck",
+            "bottom":{
+                "title":"DEBOOK no acepta inversiones",
+                "subtitle":"Comunidad primero, inversores después. Si en un futuro te gustaría poder ser de los primeros inversores hazte con tu MAGICKEY, 🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del pitch deck."
+            }
         },
         "panels": {
             "1":{
