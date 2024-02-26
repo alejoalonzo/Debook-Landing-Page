@@ -4,13 +4,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 125px;
 
   .funds-go-to-dev-img {
     img {
-      height: 607px;
-      width: auto;
-      // margin: 125px 0 110px 110px;
-      margin-top: 125px;
+      height: auto;
+      width: 100%;
+      border-radius: 15px;
     }
     .button-mobile {
       display: none;
@@ -37,13 +37,38 @@
     }
   }
 }
-
+.funds-go-to-dev-bottom{
+  margin: 150px 0 ;
+  &-title{
+    text-align: center;
+    font-family: $font-sora;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px; 
+    margin-bottom: 5px;
+    letter-spacing: -1.35px;
+    background: linear-gradient(90deg, #000 43.75%, rgba(191, 191, 191, 0.92) 86.86%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &-subtitle{
+    color: #000;
+    text-align: center;
+    font-family: $font-inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px; 
+    letter-spacing: -0.42px;
+  }
+}
 // mobile------------------------------------------------------------
 @media screen and (max-width: 992px) {
   .funds-go-to-dev-container {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    margin-top: 50px;
 
     .funds-go-to-dev-img {
       display: flex;
@@ -87,6 +112,33 @@
       .hide-buttons {
         display: none;
       }
+    }
+  }
+
+  .funds-go-to-dev-bottom{
+    margin: 50px 0 ;
+    &-title{
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 36px; 
+      width: 80%; 
+      margin: auto;
+      margin-bottom: 5px;
+    
+      letter-spacing: -1.35px;
+      background: linear-gradient(90deg, #000 43.75%, rgba(191, 191, 191, 0.92) 86.86%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    &-subtitle{
+      color: #000;
+      text-align: center;
+      font-family: $font-inter;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 22px; 
+      letter-spacing: -0.42px;
     }
   }
 }
