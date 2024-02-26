@@ -10,7 +10,7 @@ import { UsersService } from '../../services/users.service';
   imports: [CardModule, CommonModule],
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
-  providers: [UsersService]
+  // providers: [UsersService]
 })
 export class CardComponent implements OnInit {
   @Input() numberOfCards: number = 9;

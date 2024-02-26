@@ -47,7 +47,7 @@
             "image-text": "Las MAGICKEYS te garantizan acceso inmediato al producto"
         },
         "is-for-you-if":{
-            "title": "La MAGICKEY es para ti si...",
+            "title": "Las MAGICKEYS no son solo una herramienta, son un símbolo de innovación y son para ti si...",
             "titleMobile": "Las MAGICKEYS no son solo una herramienta, son un símbolo de innovación y son para ti si...",
             "carrousel":{
                 "slide1":{
@@ -73,7 +73,13 @@
                     "title-span":"Amante de libros ",
                     "title-bottom":"disruptor",
                     "content":"Y consideras que los libros pueden ofrecer más que la simple lectura y quieres ser parte de la revolución"
-                } 
+                },
+                "slide5":{
+                    "title":"Eres un",
+                    "title-span":"Startup Founder ",
+                    "title-bottom":"disruptor",
+                    "content":"Y quieres conectar con una comunidad de fundadores que también están liderando su legado"
+                }
             }
         },
         "founder-message": {

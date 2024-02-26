@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { Observable, BehaviorSubject } from 'rxjs';
 import { User } from '../../models/user.model';
 import { SAMPLE_USERS } from '../../models/SAMPLE_USERS';
 import { SAMPLE_USERS_EN } from '../../models/SAMPLE_USERS';
@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
   providedIn: 'root'
 })
 export class UsersService {
-  private sampleUsers: User[] = [];
+  private sampleUsers: BehaviorSubject<User[]> = new BehaviorSubject<User[]>([]);
 
   constructor(private translate: TranslateService) {
     this.translate.onLangChange.subscribe(() => {
@@ -20,10 +20,15 @@ export class UsersService {
 
   private updateSampleUsers(): void {
     const lang = this.translate.currentLang;
-    this.sampleUsers = lang === 'es' ? SAMPLE_USERS : SAMPLE_USERS_EN;
+    if (lang === 'es') {
+      this.sampleUsers.next(SAMPLE_USERS);
+    }
+    if (lang === 'en') {
+      this.sampleUsers.next(SAMPLE_USERS_EN);
+    }
   }
 
   getSampleUsers(): Observable<User[]> {
-    return of(this.sampleUsers);
+    return this.sampleUsers.asObservable();
   }
 }
