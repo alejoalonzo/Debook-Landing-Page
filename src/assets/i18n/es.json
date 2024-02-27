@@ -25,7 +25,7 @@
                 "2":"UNA COMUNIDAD"
             },
             "title-mobile": "UN LIBRO UNA COMUNIDAD",
-            "subtitle": "Descubre nuestro QUÉ, CÓMO y PORQUÉ y nuestros próximos tres pasos",
+            "subtitle": "Descúbre nuestro modelo de negocio y PORQUÉ, DÓNDE, CÓMO, QUÉ y CON QUIÉN",
             "pitchdeck": "Ir al Pitchdeck",
             "The-privileges":{
                 "title":"Privilegios de las DEBOOK MAGICKEYS",
@@ -41,7 +41,6 @@
                     "sub-title4":"Esta es tu oportunidad para conceguir una conferencia o entrevista con el fundador de DEBOOK. ¡Abierto a podcats y eventos nuevos y establecidos!",
                     "title5":"Un acceso al sorteo de 5 tickets para La Mansión Unicornio",
                     "sub-title5":"Después de que se agoten las MAGICKEYS en cada una de las tres fases, anunciaremos una nueva edición de La Mansión Unicornio. Una MAGICKEY, una participación."
-                   
                 }
             },
             "image-text": "Las MAGICKEYS te garantizan acceso inmediato al producto"
@@ -83,7 +82,7 @@
             }
         },
         "founder-message": {
-            "title": "La comunidad que cualquier emprendedor soñaría tener a su alrededor",
+            "title": "La comunidad que cualquier emprendedor soñaría tener a su alrededor, ¡únete al sueño y hagamos historia juntos!",
             "text":{
                 "p1":{
                     "bold":"Mensaje del fundador:",
@@ -102,7 +101,11 @@
         "funds-go-to-dev": {
             "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA DEMO APP",
             "interact": "✨ Interactua con DEBOOK APP demo",
-            "go-to-pitchdeck": "Go to Pitchdeck"
+            "go-to-pitchdeck": "Go to Pitchdeck",
+            "bottom":{
+                "title":"DEBOOK no acepta inversiones",
+                "subtitle":"Comunidad primero, inversores después. Si en un futuro te gustaría poder ser de los primeros inversores hazte con tu MAGICKEY, 🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del pitch deck."
+            }
         },
         "panels": {
             "1":{
