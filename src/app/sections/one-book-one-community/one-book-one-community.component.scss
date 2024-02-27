@@ -3,10 +3,10 @@
 .flex-blockMobile {
   display: flex;
 }
-.hide{
-  display: none
+.hide {
+  display: none;
 }
-.display{
+.display {
   display: flex;
 }
 .oneBookOneCommunity-container {
@@ -203,10 +203,10 @@
     margin-bottom: 30px;
   }
 
-  .hide{
+  .hide {
     display: block;
   }
-  .display{
+  .display {
     display: none;
   }
 
@@ -265,10 +265,9 @@
         margin-top: 0px;
         width: 100%;
         img {
-
           width: 100%;
-          margin-top: 80px;
-          margin-bottom: 60px;        
+          // margin-top: 80px;
+          margin-bottom: 60px;
         }
       }
     }
@@ -294,7 +293,7 @@
           // width: 300px;
           padding: 0;
           line-height: 45px;
-          margin: 50px 0 25px 0;
+          margin: 0px 0 25px 0;
           // margin-left: 5%;
         }
         &-subtitle {
@@ -306,7 +305,7 @@
           padding: 0;
           line-height: $lineH-P-Mobile;
 
-          margin-bottom: 100px;
+          margin-bottom: 80px;
         }
 
         .carrousel-privileges {
