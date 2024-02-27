@@ -59,12 +59,13 @@
     margin-top: 100px;
 
     .challenges-map-content {
-      width: 90%;
+      width: 97%;
       margin: auto;
 
       &-title {
         font-family: $font-sora;
         font-size: 2em;
+        margin-bottom: 0;
       }
       &-subtitle {
         display: none;
@@ -75,7 +76,7 @@
         text-align: start;
         font-family: $font-inter;
         line-height: 22px;
-        margin-bottom: 25px;
+        margin-bottom: 24px;
       }
       &-button {
         display: none;
