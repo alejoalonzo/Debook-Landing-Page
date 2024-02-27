@@ -3,10 +3,10 @@
 .flex-blockMobile {
   display: flex;
 }
-.hide{
-  display: none
+.hide {
+  display: none;
 }
-.display{
+.display {
   display: flex;
 }
 .oneBookOneCommunity-container {
@@ -203,10 +203,10 @@
     margin-bottom: 30px;
   }
 
-  .hide{
+  .hide {
     display: block;
   }
-  .display{
+  .display {
     display: none;
   }
 
@@ -235,6 +235,7 @@
           font-family: $font-sora;
           font-weight: 700;
           letter-spacing: -0.05em;
+          line-height: 46px;
           text-align: center;
         }
 
@@ -246,7 +247,7 @@
           margin-bottom: 10px;
           font-weight: 700;
           padding: 0;
-          // width: 275px;
+          width: 275px;
           margin: 0 auto;
           margin-top: 30px;
           margin-bottom: 30px;
@@ -264,9 +265,9 @@
         margin-top: 0px;
         width: 100%;
         img {
-          width: 90%;
-          margin-top: 0px;
-          margin-bottom: 60px;        
+          width: 100%;
+          // margin-top: 80px;
+          margin-bottom: 60px;
         }
       }
     }
@@ -276,7 +277,7 @@
       justify-content: space-between;
       width: 100%;
       margin: 50px 0;
-
+      // margin-left: 5%;
       &-content {
         width: 100%;
         height: auto;
@@ -288,11 +289,12 @@
         &-title {
           font-size: 2.4em;
           font-weight: 700;
+
           // width: 300px;
           padding: 0;
           line-height: 45px;
-          margin: 50px 0 25px 0;
-          margin-left: 5%;
+          margin: 0px 0 25px 0;
+          // margin-left: 5%;
         }
         &-subtitle {
           // width: 90%;
@@ -302,7 +304,8 @@
           font-size: 1em;
           padding: 0;
           line-height: $lineH-P-Mobile;
-          margin-bottom: 50px;
+
+          margin-bottom: 80px;
         }
 
         .carrousel-privileges {
