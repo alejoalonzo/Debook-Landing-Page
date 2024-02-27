@@ -10,7 +10,7 @@
 .body-container {
   width: 100%;
   height: auto;
-  // background-color: white;
+  background-color: white;
   .carrousel-cards-container {
     display: none;
   }
@@ -27,12 +27,12 @@
   }
 
   .body-container {
-    background: rgb(254, 242, 242);
-    background: radial-gradient(
-      circle,
-      rgba(254, 242, 242, 1) 0%,
-      rgba(255, 255, 255, 1) 50%
-    );
+    // background: rgb(254, 242, 242);
+    // background: radial-gradient(
+    //   circle,
+    //   rgba(254, 242, 242, 1) 0%,
+    //   rgba(255, 255, 255, 1) 50%
+    // );
 
     .carrousel-cards-container {
       background: #fff0f1;
