@@ -21,7 +21,7 @@
 
         &-bold {
           color: #fff;
-          font-size: 20px;
+          font-size: 18px;
           font-weight: 700;
           letter-spacing: -0.6px;
         }
@@ -62,7 +62,7 @@
     padding: 12px 0;
     .subMenu {
       flex-direction: column;
-      gap: 24px !important;
+      gap: 22px !important;
       &-phases {
         display: flex;
         justify-content: space-between;
