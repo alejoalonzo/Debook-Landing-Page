@@ -1,5 +1,4 @@
-@import '../../../styles.scss';
-
+@import "../../../styles.scss";
 
 .progress-container {
   position: relative;
@@ -21,24 +20,24 @@
   border-radius: 33px;
   background: $custom-background;
   background: $custom-gradient;
-  transition: width 0.3s ease; 
+  transition: width 0.3s ease;
 }
 
 .icon {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  img {
     width: 60px;
     height: 60px;
-    img{
-      width: 60px;
-      height: 60px;
-      margin-top: 20px;
-    }
+    margin-top: 20px;
+  }
 }
 
 .white-background {
-  background-color: transparent;  
+  background-color: transparent;
   padding: 0;
   border: 1px solid white;
 }
@@ -48,21 +47,17 @@
 }
 
 // mobile------------------------------------------------------------
-@media  screen and (max-width: 450px){
-
+@media screen and (max-width: 450px) {
   .icon {
     position: absolute;
     bottom: 0;
     right: 0;
     width: 50px;
     height: 50px;
-    img{
+    img {
       width: 42px;
       height: 42px;
-      margin-top: 21px;
+      margin-top: 22px;
     }
+  }
 }
-}
-
-
-
