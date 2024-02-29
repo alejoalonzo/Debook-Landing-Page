@@ -1,322 +1,319 @@
 {
-    "sections": {
-        "hero": {
-            "title": "3333 DEBOOK MAGICKEYS",
-            "title2": "para desbloquear el futuro de los libros",
-            "subtitle": "Se parte de una comunidad de visionarios apoyando la primera etapa de DEBOOK para aprender de los desafíos que enfrenta su fundador y consigue beneficios ilimitados",
-            "buyButton": "COMPRAR MAGICKEY",
-            "loadingText": "  2400 de 3333 disponibles"
-        },
-        "what-is-debook": {
-            "title": "Qué es DEBOOK",
-            "1-subtitle": "“debook” es el nuevo formato de libros",
-            "1-text":{
-                "start":"Publicar un",
-                "span":"debook",
-                "end":"empodera al autor a generar más ingresos convirtiendo su libro en una comunidad y mejora la experiencia de sus lectores permitiendo que el libro cobre vida!"
-            },
-            "2-title": "Donde los libros cobran vida",
-            "2-subtitle": "“DEBOOK” es la plataforma de debooks",
-            "2-text": "es el lugar para publicar debooks, leer y el marketplace de compra-venta que conecta a lectores y autores. ¡El lugar para mostar tu librería al mundo!"
-        },
-        "one-book-one-community": {
-            "title":{
-                "1":"UN LIBRO",
-                "2":"UNA COMUNIDAD"
-            },
-            "title-mobile": "UN LIBRO UNA COMUNIDAD",
-            "subtitle": "Descúbre nuestro modelo de negocio y PORQUÉ, DÓNDE, CÓMO, QUÉ y CON QUIÉN",
-            "pitchdeck": "Ir al Pitchdeck",
-            "The-privileges":{
-                "title":"Privilegios de las DEBOOK MAGICKEYS",
-                "subtitle":"A medida que DEBOOK crece, los beneficios de tu MAGICKEY crecen sin límites.",
-                "rows": {
-                    "title1":"Utilidad potencial: acceso a todos los debooks, updates, preventas y sorpresas",
-                    "sub-title1":"Ésta será nuestra recompensa si hacemos lo correcto a largo plazo. Cuando +1.000.000 de autores publiquen su debook, tendrás acceso a millones de libros sin comprarlos.",
-                    "title2":"Llamada al mes con el fundador y ser parte de la toma de decisiones",
-                    "sub-title2":"Aprende con el fundador y los desafíos que enfrenta en el proceso de hacer de debook el nuevo formato de libros para siempre. Lecciones a tiempo real y acceso a su red de contactos.",
-                    "title3":"Acceso a una comunidad de visionarios",
-                    "sub-title3":"Forma parte un grupo de personas de disruptores que se apoyan y comparten su visión y conocimientos para ayudar a DEBOOK a ser una revolución mundial!",
-                    "title4":"Entrevista al fundador de DEBOOK para tu comunidad",
-                    "sub-title4":"Esta es tu oportunidad para conceguir una conferencia o entrevista con el fundador de DEBOOK. ¡Abierto a podcats y eventos nuevos y establecidos!",
-                    "title5":"Un acceso al sorteo de 5 tickets para La Mansión Unicornio",
-                    "sub-title5":"Después de que se agoten las MAGICKEYS en cada una de las tres fases, anunciaremos una nueva edición de La Mansión Unicornio. Una MAGICKEY, una participación."
-                }
-            },
-            "image-text": "Las MAGICKEYS te garantizan acceso inmediato al producto"
-        },
-        "is-for-you-if":{
-            "title": "Las MAGICKEYS no son solo una herramienta, son un símbolo de innovación y son para ti si...",
-            "titleMobile": "Las MAGICKEYS no son solo una herramienta, son un símbolo de innovación y son para ti si...",
-            "carrousel":{
-                "slide1":{
-                    "title":"Eres un ",
-                    "title-span":"Emprendedor ",
-                    "title-bottom":"disruptor",
-                    "content":"Y buscas aprender de los desafíos de un proyecto startup único que podría hacer historia"
-                },
-                "slide2":{
-                    "title":"Eres un",
-                    "title-span":"Investor ",
-                    "title-bottom":"disruptor",
-                    "content":"Y te apasiona ser parte de una nueva forma de recaudar capital que podría convertirse en un nuevo estándar"
-                },
-                "slide3":{
-                    "title":"Eres un",
-                    "title-span":"Autor ",
-                    "title-bottom":"disruptor",
-                    "content":"Y crees que los autores merecen más porque la industria del libro esta obsoleta y necesita un cambio"
-                },
-                "slide4":{
-                    "title":"Eres un",
-                    "title-span":"Amante de libros ",
-                    "title-bottom":"disruptor",
-                    "content":"Y consideras que los libros pueden ofrecer más que la simple lectura y quieres ser parte de la revolución"
-                },
-                "slide5":{
-                    "title":"Eres un",
-                    "title-span":"Startup Founder ",
-                    "title-bottom":"disruptor",
-                    "content":"Y quieres conectar con una comunidad de fundadores que también están liderando su legado"
-                }
-            }
-        },
-        "founder-message": {
-            "title": "La comunidad que cualquier emprendedor soñaría tener a su alrededor, ¡únete al sueño y hagamos historia juntos!",
-            "text":{
-                "p1":{
-                    "bold":"Mensaje del fundador:",
-                    "text":"Honestamente, esta es la razón más profunda por la que estoy lanzando las MAGICKEYS con un valor único para un grupo muy limitado de personas. Construir una startup revolucionaria no es fácil. Es un viaje de altibajos con miles de desafíos y horas de sentirse perdido y solo. Sé que no es sexy decirlo, pero es la realidad."
-                },
-                "p2":"Por supuesto, también es una aventura con muchas lecciones, celebraciones y nuevas relaciones increíbles.",
-                "p3":{
-                    "before":"Y aquí es donde quiero llegar...",
-                    "after":"Quiero compartir lo mejor que voy a sacar de este proceso con las personas que han confiado en mi y la visión de DEBOOK desde el primer día (la visión nació en abril 2021). Serás una de las personas que más se beneficia del desarrollo porque te lo compartiré todo. Desde mostrarte avances súper privados hasta todo lo que aprendo en cada desafío: técnico, comunicación, creación de equipos, seguridad, estructura empresarial, legalidad, emocional y motivacional. Voy a convertir este proceso en sabiduría para ti. Quiero hacerte parte de cada desafío y cada proceso de toma de decisiones importantes en este viaje de largo plazo que me gustaría emprender desde el Ernest de 30 años hasta el de 40 años."
-                },
-                "p4":"Si bien no puedo garantizar el éxito de nuestros esfuerzos, aspiro a una revolución mundial en la industria de los libros donde los autores podrán vivir de ser autores y la experiencia de lectura se enriquecerá como nunca antes ha sido posible. Puedo prometerte dos cosas: primero, dedicaré mi vida a hacer realidad esta visión, y segundo, daré plena transparencia a la comunidad MAGICKEY, tanto nuestros éxitos como nuestros fracasos. Sigo desarrollando la mentalidad de unicornio para construir el futuro del libro. El próximo Youtube o Spotify de libros que cambia la forma en que las personas leen y publican libros para siempre.",
-                "p5":"Sueño con inspirarte en tu viaje personal y ayudarte con las invaluables conexiones en la comunidad de la MAGICKEY y con mi red de contactos que crecerá con el tiempo y que pondré a tu disposición. Sueño con despertarme cada mañana y sentir el apoyo de una comunidad apasionada, optimista y amable. Hasta 3333 personas tendrán la oportunidad de experimentar este viaje de ida desde dentro.",
-                "p6":"Esta comunidad de visionarios será clave parte del éxito de DEBOOK. Si lo sientes, ¡hagamos historia juntos!"
-            }
-        },
-        "funds-go-to-dev": {
-            "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA DEMO APP",
-            "interact": "✨ Interactua con DEBOOK APP demo",
-            "go-to-pitchdeck": "Go to Pitchdeck",
-            "bottom":{
-                "title":"DEBOOK no acepta inversiones",
-                "subtitle":"Comunidad primero, inversores después. Si en un futuro te gustaría poder ser de los primeros inversores hazte con tu MAGICKEY, 🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del pitch deck."
-            }
-        },
-        "panels": {
-            "1":{
-                "title": "¿POR QUÉ DEBOOK?",
-                "text": {
-                    "regular":"DEBOOK es una plataforma donde",
-                    "bold":"todos salen ganando.",
-                    "regular2":"Los autores generan más ingresos y conocen a sus lectores. La experiencia de lectura se enriquece y",
-                    "bold2":"las editoriales",
-                    "regular3":"obtienen un nuevo modelo de beneficio."
-                }
-            },
-            "2":{
-                "title": "¿POR QUÉ HOY?",
-                "text": {
-                    "regular":"Ser parte de un proyecto como DEBOOK es como",
-                    "bold":"ser parte de la historia.",
-                    "regular2":"Imagina haber tenido la oportunidad de ser parte de la comunidad temprana de Amazon, que también empezó vendiendo libros.",
-                    "bold2":"",
-                    "regular3":""
-                }
-            },
-            "3":{
-                "title": "¿POR QUÉ NOSOTROS?",
-                "text": {
-                    "regular":"Las historias de los cofundadores son",
-                    "bold":"realmente destacables,",
-                    "regular2":"no solo por su trabajo en gigantes de la tecnología, sino también por sus proyectos innovadores en la industria del libro, una clara señal de su",
-                    "bold2":"deseo de cambiar el status quo."
-                }
-            }
-            
-        },
-        "wholeTeam":{
-            "title":{
-                "top":"DESCUBRE NUESTRO ",
-                "mid":"CHALLENGES MAP",
-                "bottom":"A TIEMPO REAL"
-            },
-            "subtitle":{
-                "top":"Te compartimos sin filtros nuestros errores y logros para",
-                "bottom":"hacerte parte de nuestros aprendizajes y evolución"
-            },
-            "subtitleMobile":"Te compartimos sin filtros nuestros errores y logros para hacerte parte de nuestros aprendizajes y evolución",
-            "button":"Ver challenges map"
-
-        },
-        "team": {
-            "title": "EQUIPO CREANDO EL GRAN SUEÑO",
-            "subtitle":{
-                "bold":"Conoce al equipo completo en el pitchdeck para descubrir su historia con los libros y gigantes tecnológicos.",
-                "regular":""
-            },
-            "founders":{
-                "1":{
-                    "title":"MENTE DETRÁS DE LA TECH"
-                },
-                "2":{
-                    "title":"MENTE DETRÁS DE LA VISIÓN",
-                    "experience":"Emprendedor desde 2014 TFB, SYL & LC"
-                }
-            },
-            "message": {
-                "regular":"Ernest esta compartiendo semanalmente en Linkedin una docu-serie a tiempo real del proceso de",
-                "bold":"Building DEBOOK in Public"
-            }
-        },
-        "buildin-in-public":{
-            "title":{
-                "top":"Building DEBOOK in Public",
-                "bottom":""
-            },
-            "subtitle":{
-                "top":"Ernest esta compartiendo cada Martes una docu-serie",
-                "mid":"a tiempo real del proceso con la misión de ser el",
-                "bottom":"fundador más transparente de todos los tiempos!"
-            },
-            "title-mobile":{
-                "top":"Building",
-                "mid":"DEBOOK",
-                "bottom":"in Public"
-            },
-            "subtitle-mobile":{
-                "top":"Ernest esta compartiendo cada Martes una docu-serie a tiempo real del proceso con la misión de ser el fundador más transparente de todos los tiempos!",
-                "mid":"",
-                "bottom":""
-            }
-        },
-        "sales-process": {
-            "title": "Proceso de venta",
-            "subtitle": "DEBOOK ha llegado para quedarse para siempre",
-            "subtitle2": "Estamos a favor de un soldout gradual alineado con nuestro crecimiento y la estrategia de las seis etapas de valoración.",
-            "phases":{
-                "soldOut":"SOLD OUT",
-                "phase":"Fase",
-                "available":"Disponible"
-            }
-            
-        },
-        "unicorn-mansion": {
-            "title": "La Mansión Unicornio",
-            "button": "COMPRAR 10 MAGICKEYS",
-            "content": {
-                "_1":{
-                    "title":"Consigue Acceso",
-                    "text":"Necesitas tener +10 MAGICKEYS"
-                },
-                "_2":{
-                    "title":"Gastos",
-                    "text":"Todo incluido excepto el viaje *Limite 10 habitaciones"
-                },
-                "_3":{
-                    "title":"Experiencia",
-                    "text":"¡Dos días de encuentro en persona con los holders unicornios y el equipo!"
-                },
-                "_4":{
-                    "title":"Sorteo de Accesos",
-                    "text":"Un total de 5 accesos serán sorteados entre los holders 1 magickey = 1 participación"
-                },
-                "_5":{
-                    "title":"Tres Ediciones",
-                    "text":"Anunciaremos las fechas oficiales una vez que se venda cada fase."
-                },
-                "_6":{
-                    "title":"Temas",
-                    "text":"Actividades únicas, el futuro de los libros, marca personal emprendimiento, inversiones y la creación de contenido!"
-                },
-                "_7":{
-                    "title":"Ubicación",
-                    "text":"Mansión Secreta en España. Barcelona o Madrid"
-                },
-                "_8":{
-                    "title":"Invitados Sorpresa ",
-                    "text":"Se unirán a la experiencia grandes emprendedores de los que aprender"
-                },
-                "_9":{
-                    "title":"Whatsapp Group ",
-                    "text":"Grupo super exclusivo compuesto por unicornios, incluido el founder."
-                }
-            }
-        },
-        "faqs":{
-            "title":"PREGUNTAS MÁS FRECUENTES",
-            "1":{
-                "header":"¿Puedo ganar dinero con las MAGICKEYS?",
-                "body": {
-                    "p1":"La respuesta corta es sí. Es importante entender lo siguiente en los términos y condiciones que es necesario aceptar antes de poder comprar una MAGICKEY. El precio de la MAGICKEY esta definido por el valor del servicio que vas a recibir a cambio. Su propósito no es especulativo y por eso ES IMPOSIBLE QUE PIERDAS DINERO y tiene ABSOLUTAMENTE ZERO RIESGO ya que estas recibiendo inmediatamente la utilidad por la que estas pagando: acceso a la comunidad de visionarios y a una videollamada mensual con el fundador. Igual que comprar un infoproducto pero en versión NFT. ",
-                    "p2":"Con esto claro, si con el tiempo se agotan las MAGICKEYS y el proyecto sigue creciendo como vamos a hacer que suceda, la demanda aumentará y los nuevos propietarios tendrán que recomprar la MAGICKEY a uno de los poseedores actuales. Esto significa que podrás revender tu MAGICKEY por el precio que estén dispuesto a comprarte. Además, conforme DEBOOK crece con los años la potencial utilidad (no asegurada) empezará a tener sentido y podrás acceder a todos los libros de los autores que publicarán en DEBOOK.",
-                    "p3":"La involucración de la comunidad es crucial para el éxito de DEBOOK y su posible revalorización."
-                }   
-            },
-            "2":{
-                "header":"¿Cuándo me llega la MAGICKEY?",
-                "body": {
-                    "p1":"Inmediatamente. Sino estas familiarizado con la tecnología web3 te recomendamos 100% realizar el pago en tarjeta de crédito y hacerlo fácil! ",
-                    "p2":"Si eliges el pago en tarjeta de crédito tendrás tu MAGICKEY en tu usuario dentro de la plataforma Crossmint y podrás acceder a ella con un simple correo electrónico. ",
-                    "p3":"Si eliges el pago cripto recibirás tu MAGICKEY en tu billetera de METAMASK."
-                }  
-            },
-            "3":{
-                "header":"¿Cómo accedo a la utilidad de la MAGICKEY?",
-                "body": {
-                    "p1":"Una vez hayas comprado tu MAGICKEY o MAGICKEYS tendrás que acceder al Discord y desde ahí podrás acceder a un canal donde solamente los propietarios de MAGICKEYS podemos interactuar.",
-                    "p2":"Estamos estudiando usar otra plataforma de comunicación entre nosotros, mientras tanto usaremos Discord.",
-                    "p3":""
-                } 
-            },
-            "4":{
-                "header":"¿Las plazas de la Mansión Unicornio son limitadas?",
-                "body": {
-                    "p1":"No. Para acceder a una de las tres ediciones Unicornio necesitas tener 10 MAGICKEYS. Si accedes a la primera, podrás venir a las tres si sigues siendo propietario de 10MK.  ",
-                    "p2":"También tendrás acceso a un grupo de Whatsapp de unicornios.",
-                    "p3":"IMPORTANTE: Por cada MAGICKEY tienes una participación al sorteo de 1 acceso a la mansión unicornio. En cada edición se sortearán 5 accesos entre los propietarios de MAGICKEYS que no tienen 10MK."
-                } 
-            },
-            "5":{
-                "header":"¿Cómo puedo revender mi MAGICKEY?",
-                "body": {
-                    "p1":"A través del marketplace opensea.io. En el caso de haber comprado la MAGICKEY deberás enviarte tu MAGICKEY a Metamask previamente.",
-                    "p2":"No te preocupes porque desde el Discord tienes un vídeo explicativo muy sencillo para explicarte cómo.",
-                    "p3":"IMPORTANTE: El propósito de la MAGICKEY no es la especulación. Es imposible perder dinero porque por el precio de acceso estás comprando la utilidad de la comunidad y la videollamada mensual. Gracias a que es un NFT puedes revenderlo y le otorga el poder de ser revendido si la demada es suficiente en el momento que deseas vender. ",
-                    "p4":"Todo los que pueda venir después como el acceso a todos los debooks publicados, el acceso a las actualizaciones, preventas de autores best seller, y todas las sorpresas que tenemos prepardas,... será el fruto del éxito de DEBOOK y no esta asegurado. Con esto claro, recibirás de forma asegurada la utilidad por la que estás pagando. ",
-                    "p5":"Por ese motivo, es importante recordar que la involucración de la comunidad es crucial para el éxito de DEBOOK!",
-                    "p6":"¿te imaginas haber sido parte de la comunidad que vió antes que nadie el potencial de Spotify?"
-                } 
-            }
-        },
-        "footer":"Envía tus preguntas a"
+  "sections": {
+    "hero": {
+      "title": "3333 DEBOOK MAGICKEYS",
+      "title2": "para desbloquear el futuro de los libros",
+      "subtitle": "Se parte de una comunidad de visionarios apoyando la primera etapa de DEBOOK para aprender de los desafíos que enfrenta su fundador y consigue beneficios ilimitados",
+      "buyButton": "COMPRAR MAGICKEY",
+      "loadingText": "  2400 de 3333 disponibles"
     },
-    "components":{
-        "subMenu":  {
-            "phase": "Fase",
-            "available": "disponibles de",
-            "buy10": {
-                "top":"Compra 10 y accede a",
-                "bottom":"The Unicorn Mansion Edition 1"
-            }
-        },
-        "popup":{
-            "title":"DEBOOK DEMO APP",
-            "titlePitchDeck":"DEMO APP & PITCHDECK",
-            "subtitle":{
-                "top":"Profundiza en la experiencia DEBOOK",
-                "bottom":"Comparte tus datos para el acceso reservado"
-            },
-            "subtitlePitchDeck":{
-                "top":"Profundiza en la propuesta de valor de DEBOOK",
-                "bottom":"Comparte tus datos para el acceso reservado"
-            },
-            "button": "Envíalo a mi correo",
-            "buttonCancel": "Cancelar"
+    "what-is-debook": {
+      "title": "Qué es DEBOOK",
+      "1-subtitle": "“debook” es el nuevo formato de libros",
+      "1-text": {
+        "start": "Publicar un",
+        "span": "debook",
+        "end": "1empodera al autor a generar más ingresos convirtiendo su libro en una comunidad y mejora la experiencia de sus lectores permitiendo que el libro cobre vida!"
+      },
+      "2-title": "Donde los libros cobran vida",
+      "2-subtitle": "“DEBOOK” es la plataforma de debooks",
+      "2-text": "es el lugar para publicar debooks, leer y el marketplace de compra-venta que conecta a lectores y autores. ¡El lugar para mostar tu librería al mundo!"
+    },
+    "one-book-one-community": {
+      "title": {
+        "1": "UN LIBRO",
+        "2": "UNA COMUNIDAD"
+      },
+      "title-mobile": "UN LIBRO UNA COMUNIDAD",
+      "subtitle": "Descúbre nuestro modelo de negocio y PORQUÉ, DÓNDE, CÓMO, QUÉ y CON QUIÉN",
+      "pitchdeck": "Ir al Pitchdeck",
+      "The-privileges": {
+        "title": "Privilegios de las DEBOOK MAGICKEYS",
+        "subtitle": "A medida que DEBOOK crece, los beneficios de tu MAGICKEY crecen sin límites.",
+        "rows": {
+          "title1": "Utilidad potencial: acceso a todos los debooks, updates, preventas y sorpresas",
+          "sub-title1": "Ésta será nuestra recompensa si hacemos lo correcto a largo plazo. Cuando +1.000.000 de autores publiquen su debook, tendrás acceso a millones de libros sin comprarlos.",
+          "title2": "Llamada al mes con el fundador y ser parte de la toma de decisiones",
+          "sub-title2": "Aprende con el fundador y los desafíos que enfrenta en el proceso de hacer de debook el nuevo formato de libros para siempre. Lecciones a tiempo real y acceso a su red de contactos.",
+          "title3": "Acceso a una comunidad de visionarios",
+          "sub-title3": "Forma parte un grupo de personas de disruptores que se apoyan y comparten su visión y conocimientos para ayudar a DEBOOK a ser una revolución mundial!",
+          "title4": "Entrevista al fundador de DEBOOK para tu comunidad",
+          "sub-title4": "Esta es tu oportunidad para conceguir una conferencia o entrevista con el fundador de DEBOOK. ¡Abierto a podcats y eventos nuevos y establecidos!",
+          "title5": "Un acceso al sorteo de 5 tickets para La Mansión Unicornio",
+          "sub-title5": "Después de que se agoten las MAGICKEYS en cada una de las tres fases, anunciaremos una nueva edición de La Mansión Unicornio. Una MAGICKEY, una participación."
         }
+      },
+      "image-text": "Las MAGICKEYS te garantizan acceso inmediato al producto"
+    },
+    "is-for-you-if": {
+      "title": "Las MAGICKEYS no son solo una herramienta, son un símbolo de innovación y son para ti si...",
+      "titleMobile": "Las MAGICKEYS no son solo una herramienta, son un símbolo de innovación y son para ti si...",
+      "carrousel": {
+        "slide1": {
+          "title": "Eres un ",
+          "title-span": "Emprendedor ",
+          "title-bottom": "disruptor",
+          "content": "Y buscas aprender de los desafíos de un proyecto startup único que podría hacer historia"
+        },
+        "slide2": {
+          "title": "Eres un",
+          "title-span": "Investor ",
+          "title-bottom": "disruptor",
+          "content": "Y te apasiona ser parte de una nueva forma de recaudar capital que podría convertirse en un nuevo estándar"
+        },
+        "slide3": {
+          "title": "Eres un",
+          "title-span": "Autor ",
+          "title-bottom": "disruptor",
+          "content": "Y crees que los autores merecen más porque la industria del libro esta obsoleta y necesita un cambio"
+        },
+        "slide4": {
+          "title": "Eres un",
+          "title-span": "Amante de libros ",
+          "title-bottom": "disruptor",
+          "content": "Y consideras que los libros pueden ofrecer más que la simple lectura y quieres ser parte de la revolución"
+        },
+        "slide5": {
+          "title": "Eres un",
+          "title-span": "Startup Founder ",
+          "title-bottom": "disruptor",
+          "content": "Y quieres conectar con una comunidad de fundadores que también están liderando su legado"
+        }
+      }
+    },
+    "founder-message": {
+      "title": "La comunidad que cualquier emprendedor soñaría tener a su alrededor, ¡únete al sueño y hagamos historia juntos!",
+      "text": {
+        "p1": {
+          "bold": "Mensaje del fundador:",
+          "text": "Honestamente, esta es la razón más profunda por la que estoy lanzando las MAGICKEYS con un valor único para un grupo muy limitado de personas. Construir una startup revolucionaria no es fácil. Es un viaje de altibajos con miles de desafíos y horas de sentirse perdido y solo. Sé que no es sexy decirlo, pero es la realidad."
+        },
+        "p2": "Por supuesto, también es una aventura con muchas lecciones, celebraciones y nuevas relaciones increíbles.",
+        "p3": {
+          "before": "Y aquí es donde quiero llegar...",
+          "after": "Quiero compartir lo mejor que voy a sacar de este proceso con las personas que han confiado en mi y la visión de DEBOOK desde el primer día (la visión nació en abril 2021). Serás una de las personas que más se beneficia del desarrollo porque te lo compartiré todo. Desde mostrarte avances súper privados hasta todo lo que aprendo en cada desafío: técnico, comunicación, creación de equipos, seguridad, estructura empresarial, legalidad, emocional y motivacional. Voy a convertir este proceso en sabiduría para ti. Quiero hacerte parte de cada desafío y cada proceso de toma de decisiones importantes en este viaje de largo plazo que me gustaría emprender desde el Ernest de 30 años hasta el de 40 años."
+        },
+        "p4": "Si bien no puedo garantizar el éxito de nuestros esfuerzos, aspiro a una revolución mundial en la industria de los libros donde los autores podrán vivir de ser autores y la experiencia de lectura se enriquecerá como nunca antes ha sido posible. Puedo prometerte dos cosas: primero, dedicaré mi vida a hacer realidad esta visión, y segundo, daré plena transparencia a la comunidad MAGICKEY, tanto nuestros éxitos como nuestros fracasos. Sigo desarrollando la mentalidad de unicornio para construir el futuro del libro. El próximo Youtube o Spotify de libros que cambia la forma en que las personas leen y publican libros para siempre.",
+        "p5": "Sueño con inspirarte en tu viaje personal y ayudarte con las invaluables conexiones en la comunidad de la MAGICKEY y con mi red de contactos que crecerá con el tiempo y que pondré a tu disposición. Sueño con despertarme cada mañana y sentir el apoyo de una comunidad apasionada, optimista y amable. Hasta 3333 personas tendrán la oportunidad de experimentar este viaje de ida desde dentro.",
+        "p6": "Esta comunidad de visionarios será clave parte del éxito de DEBOOK. Si lo sientes, ¡hagamos historia juntos!"
+      }
+    },
+    "funds-go-to-dev": {
+      "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA DEMO APP",
+      "interact": "✨ Interactua con DEBOOK APP demo",
+      "go-to-pitchdeck": "Go to Pitchdeck",
+      "bottom": {
+        "title": "DEBOOK no acepta inversiones",
+        "subtitle": "Comunidad primero, inversores después. Si en un futuro te gustaría poder ser de los primeros inversores hazte con tu MAGICKEY, 🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del pitch deck."
+      }
+    },
+    "panels": {
+      "1": {
+        "title": "¿POR QUÉ DEBOOK?",
+        "text": {
+          "regular": "DEBOOK es una plataforma donde",
+          "bold": "todos salen ganando.",
+          "regular2": "Los autores generan más ingresos y conocen a sus lectores. La experiencia de lectura se enriquece y",
+          "bold2": "las editoriales",
+          "regular3": "obtienen un nuevo modelo de beneficio."
+        }
+      },
+      "2": {
+        "title": "¿POR QUÉ HOY?",
+        "text": {
+          "regular": "Ser parte de un proyecto como DEBOOK es como",
+          "bold": "ser parte de la historia.",
+          "regular2": "Imagina haber tenido la oportunidad de ser parte de la comunidad temprana de Amazon, que también empezó vendiendo libros.",
+          "bold2": "",
+          "regular3": ""
+        }
+      },
+      "3": {
+        "title": "¿POR QUÉ NOSOTROS?",
+        "text": {
+          "regular": "Las historias de los cofundadores son",
+          "bold": "realmente destacables,",
+          "regular2": "no solo por su trabajo en gigantes de la tecnología, sino también por sus proyectos innovadores en la industria del libro, una clara señal de su",
+          "bold2": "deseo de cambiar el status quo."
+        }
+      }
+    },
+    "wholeTeam": {
+      "title": {
+        "top": "DESCUBRE NUESTRO ",
+        "mid": "CHALLENGES MAP",
+        "bottom": "A TIEMPO REAL"
+      },
+      "subtitle": {
+        "top": "Te compartimos sin filtros nuestros errores y logros para",
+        "bottom": "hacerte parte de nuestros aprendizajes y evolución"
+      },
+      "subtitleMobile": "Te compartimos sin filtros nuestros errores y logros para hacerte parte de nuestros aprendizajes y evolución",
+      "button": "Ver challenges map"
+    },
+    "team": {
+      "title": "EQUIPO CREANDO EL GRAN SUEÑO",
+      "subtitle": {
+        "bold": "Conoce al equipo completo en el pitchdeck para descubrir su historia con los libros y gigantes tecnológicos.",
+        "regular": ""
+      },
+      "founders": {
+        "1": {
+          "title": "MENTE DETRÁS DE LA TECH"
+        },
+        "2": {
+          "title": "MENTE DETRÁS DE LA VISIÓN",
+          "experience": "Emprendedor desde 2014 TFB, SYL & LC"
+        }
+      },
+      "message": {
+        "regular": "Ernest esta compartiendo semanalmente en Linkedin una docu-serie a tiempo real del proceso de",
+        "bold": "Building DEBOOK in Public"
+      }
+    },
+    "buildin-in-public": {
+      "title": {
+        "top": "Building DEBOOK in Public",
+        "bottom": ""
+      },
+      "subtitle": {
+        "top": "Ernest esta compartiendo cada Martes una docu-serie",
+        "mid": "a tiempo real del proceso con la misión de ser el",
+        "bottom": "fundador más transparente de todos los tiempos!"
+      },
+      "title-mobile": {
+        "top": "Building",
+        "mid": "DEBOOK",
+        "bottom": "in Public"
+      },
+      "subtitle-mobile": {
+        "top": "Ernest esta compartiendo cada Martes una docu-serie a tiempo real del proceso con la misión de ser el fundador más transparente de todos los tiempos!",
+        "mid": "",
+        "bottom": ""
+      }
+    },
+    "sales-process": {
+      "title": "Proceso de venta",
+      "subtitle": "DEBOOK ha llegado para quedarse para siempre",
+      "subtitle2": "Estamos a favor de un soldout gradual alineado con nuestro crecimiento y la estrategia de las seis etapas de valoración.",
+      "phases": {
+        "soldOut": "SOLD OUT",
+        "phase": "Fase",
+        "available": "DisponibleS"
+      }
+    },
+    "unicorn-mansion": {
+      "title": "La Mansión Unicornio",
+      "button": "COMPRAR 10 MAGICKEYS",
+      "content": {
+        "_1": {
+          "title": "Consigue Acceso",
+          "text": "Necesitas tener +10 MAGICKEYS"
+        },
+        "_2": {
+          "title": "Gastos",
+          "text": "Todo incluido excepto el viaje *Limite 10 habitaciones"
+        },
+        "_3": {
+          "title": "Experiencia",
+          "text": "¡Dos días de encuentro en persona con los holders unicornios y el equipo!"
+        },
+        "_4": {
+          "title": "Sorteo de Accesos",
+          "text": "Un total de 5 accesos serán sorteados entre los holders 1 magickey = 1 participación"
+        },
+        "_5": {
+          "title": "Tres Ediciones",
+          "text": "Anunciaremos las fechas oficiales una vez que se venda cada fase."
+        },
+        "_6": {
+          "title": "Temas",
+          "text": "Actividades únicas, el futuro de los libros, marca personal emprendimiento, inversiones y la creación de contenido!"
+        },
+        "_7": {
+          "title": "Ubicación",
+          "text": "Mansión Secreta en España. Barcelona o Madrid"
+        },
+        "_8": {
+          "title": "Invitados Sorpresa ",
+          "text": "Se unirán a la experiencia grandes emprendedores de los que aprender"
+        },
+        "_9": {
+          "title": "Whatsapp Group ",
+          "text": "Grupo super exclusivo compuesto por unicornios, incluido el founder."
+        }
+      }
+    },
+    "faqs": {
+      "title": "PREGUNTAS MÁS FRECUENTES",
+      "1": {
+        "header": "¿Puedo ganar dinero con las MAGICKEYS?",
+        "body": {
+          "p1": "La respuesta corta es sí. Es importante entender lo siguiente en los términos y condiciones que es necesario aceptar antes de poder comprar una MAGICKEY. El precio de la MAGICKEY esta definido por el valor del servicio que vas a recibir a cambio. Su propósito no es especulativo y por eso ES IMPOSIBLE QUE PIERDAS DINERO y tiene ABSOLUTAMENTE ZERO RIESGO ya que estas recibiendo inmediatamente la utilidad por la que estas pagando: acceso a la comunidad de visionarios y a una videollamada mensual con el fundador. Igual que comprar un infoproducto pero en versión NFT. ",
+          "p2": "Con esto claro, si con el tiempo se agotan las MAGICKEYS y el proyecto sigue creciendo como vamos a hacer que suceda, la demanda aumentará y los nuevos propietarios tendrán que recomprar la MAGICKEY a uno de los poseedores actuales. Esto significa que podrás revender tu MAGICKEY por el precio que estén dispuesto a comprarte. Además, conforme DEBOOK crece con los años la potencial utilidad (no asegurada) empezará a tener sentido y podrás acceder a todos los libros de los autores que publicarán en DEBOOK.",
+          "p3": "La involucración de la comunidad es crucial para el éxito de DEBOOK y su posible revalorización."
+        }
+      },
+      "2": {
+        "header": "¿Cuándo me llega la MAGICKEY?",
+        "body": {
+          "p1": "Inmediatamente. Sino estas familiarizado con la tecnología web3 te recomendamos 100% realizar el pago en tarjeta de crédito y hacerlo fácil! ",
+          "p2": "Si eliges el pago en tarjeta de crédito tendrás tu MAGICKEY en tu usuario dentro de la plataforma Crossmint y podrás acceder a ella con un simple correo electrónico. ",
+          "p3": "Si eliges el pago cripto recibirás tu MAGICKEY en tu billetera de METAMASK."
+        }
+      },
+      "3": {
+        "header": "¿Cómo accedo a la utilidad de la MAGICKEY?",
+        "body": {
+          "p1": "Una vez hayas comprado tu MAGICKEY o MAGICKEYS tendrás que acceder al Discord y desde ahí podrás acceder a un canal donde solamente los propietarios de MAGICKEYS podemos interactuar.",
+          "p2": "Estamos estudiando usar otra plataforma de comunicación entre nosotros, mientras tanto usaremos Discord.",
+          "p3": ""
+        }
+      },
+      "4": {
+        "header": "¿Las plazas de la Mansión Unicornio son limitadas?",
+        "body": {
+          "p1": "No. Para acceder a una de las tres ediciones Unicornio necesitas tener 10 MAGICKEYS. Si accedes a la primera, podrás venir a las tres si sigues siendo propietario de 10MK.  ",
+          "p2": "También tendrás acceso a un grupo de Whatsapp de unicornios.",
+          "p3": "IMPORTANTE: Por cada MAGICKEY tienes una participación al sorteo de 1 acceso a la mansión unicornio. En cada edición se sortearán 5 accesos entre los propietarios de MAGICKEYS que no tienen 10MK."
+        }
+      },
+      "5": {
+        "header": "¿Cómo puedo revender mi MAGICKEY?",
+        "body": {
+          "p1": "A través del marketplace opensea.io. En el caso de haber comprado la MAGICKEY deberás enviarte tu MAGICKEY a Metamask previamente.",
+          "p2": "No te preocupes porque desde el Discord tienes un vídeo explicativo muy sencillo para explicarte cómo.",
+          "p3": "IMPORTANTE: El propósito de la MAGICKEY no es la especulación. Es imposible perder dinero porque por el precio de acceso estás comprando la utilidad de la comunidad y la videollamada mensual. Gracias a que es un NFT puedes revenderlo y le otorga el poder de ser revendido si la demada es suficiente en el momento que deseas vender. ",
+          "p4": "Todo los que pueda venir después como el acceso a todos los debooks publicados, el acceso a las actualizaciones, preventas de autores best seller, y todas las sorpresas que tenemos prepardas,... será el fruto del éxito de DEBOOK y no esta asegurado. Con esto claro, recibirás de forma asegurada la utilidad por la que estás pagando. ",
+          "p5": "Por ese motivo, es importante recordar que la involucración de la comunidad es crucial para el éxito de DEBOOK!",
+          "p6": "¿te imaginas haber sido parte de la comunidad que vió antes que nadie el potencial de Spotify?"
+        }
+      }
+    },
+    "footer": "Envía tus preguntas a"
+  },
+  "components": {
+    "subMenu": {
+      "phase": "Fase",
+      "available": "disponibles de",
+      "buy10": {
+        "top": "Compra 10 y accede a",
+        "bottom": "The Unicorn Mansion Edition 1"
+      }
+    },
+    "popup": {
+      "title": "DEBOOK DEMO APP",
+      "titlePitchDeck": "DEMO APP & PITCHDECK",
+      "subtitle": {
+        "top": "Profundiza en la experiencia DEBOOK",
+        "bottom": "Comparte tus datos para el acceso reservado"
+      },
+      "subtitlePitchDeck": {
+        "top": "Profundiza en la propuesta de valor de DEBOOK",
+        "bottom": "Comparte tus datos para el acceso reservado"
+      },
+      "button": "Envíalo a mi correo",
+      "buttonCancel": "Cancelar"
     }
+  }
 }
