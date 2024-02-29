@@ -3,17 +3,18 @@
   flex-direction: row;
   gap: 24px;
   justify-content: center;
+  flex-wrap: wrap;
   .card {
     display: flex;
     flex-direction: column;
     // width: 270px;
-    height: 251px;
-    padding: 32px;
-    justify-content: center;
+    // height: 100%;
+    padding: 24px;
+    // justify-content: center;
     align-items: center;
     border-radius: 40px;
     background: #f9f9f9;
-
+    width: 211px;
     .title {
       color: #000;
       font-size: 19px;
@@ -43,9 +44,9 @@
     display: flex;
     flex-direction: column;
     // width: 270px;
-    height: 251px;
+    // height: 251px;
     // text-align: center;
-    padding: 40px;
+    padding: 32px;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
@@ -118,6 +119,23 @@
   .card {
     width: 100%;
     align-items: start;
+  }
+  .mobile {
+    display: flex;
+  }
+  .noMobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carrousel-is-for-you-if {
+    display: none;
+  }
+  .card {
+    width: 100%;
+    align-items: start;
+    height: 251px;
   }
   .mobile {
     display: flex;
