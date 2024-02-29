@@ -3,13 +3,14 @@
 .challenges-map-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   // height: auto;
   // margin: auto;
   // width: 1011px;
   height: auto;
   margin: 150px auto auto;
+  gap: 48px;
   .challenges-map-content {
     display: flex;
     flex-direction: column;
@@ -35,11 +36,11 @@
     }
   }
   .challenges-map-image {
-    width: 50%;
+    // width: 50%;
     // height: auto;
     // margin-right: -40px;
     img {
-      width: 100%;
+      width: 491px;
       height: auto;
     }
     &-button {
@@ -57,7 +58,7 @@
     height: auto;
     margin: auto;
     margin-top: 100px;
-
+    gap: 24px;
     .challenges-map-content {
       width: 97%;
       margin: auto;

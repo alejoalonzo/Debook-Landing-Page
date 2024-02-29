@@ -9,7 +9,7 @@
   // width: 1440px;
 
   .nav {
-    padding: 8px 0;
+    padding: 0px 0;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -24,7 +24,7 @@
       max-height: 38px;
 
       img {
-        width: 36px;
+        width: 30px;
         height: 36px;
       }
       &-shape {
@@ -35,7 +35,7 @@
       &-text {
         color: $red;
         font-family: $font-sora;
-        font-size: 1.8em;
+        font-size: 1.2em;
         font-weight: 700;
       }
     }

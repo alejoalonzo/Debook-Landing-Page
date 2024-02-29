@@ -5,15 +5,15 @@ swiper-container {
     width: 100%;
     margin-top: 50px;
     height: 100%;
-
+    padding-bottom: 25px;
     .cards {
       width: calc(100% - 50px);
-      height: 364px;
+      height: 384px;
       border-radius: 40px;
       border: 1px solid #ffe8e8;
       background: var(--Light-Pink, #fff7f7);
       margin: 25px;
-      margin-bottom: 35px;
+      margin-bottom: -25px;
 
       .image {
         display: flex;

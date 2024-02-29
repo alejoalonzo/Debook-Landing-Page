@@ -61,7 +61,7 @@ swiper-container {
         border-radius: 40px;
         border: 1px solid #ffc5c6;
         background: #fff7f7;
-        padding: 10px;
+        padding: 14px;
         .image {
           display: flex;
           justify-content: center;
@@ -93,13 +93,17 @@ swiper-container {
           // margin-bottom: 50px;
           line-height: $lineH-P-Mobile;
         }
+        &._3 {
+          .title {
+            max-width: 265px;
+          }
+        }
+        &._4 {
+          .title {
+            max-width: 310px;
+          }
+        }
       }
-
-      // ._1{
-      //     .image{
-      //         margin-top: 65px;
-      //     }
-      // }
     }
   }
 }
