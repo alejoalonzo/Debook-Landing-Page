@@ -1,11 +1,5 @@
 <div class="container">
   <div class="funds-go-to-dev-container">
-    <div class="funds-go-to-dev-img">
-      <img src="assets/images/videosLinkeInImage.jpg" alt="" />
-      <!-- <div class="button-mobile">
-        <app-pop-up-email-request [isDemo]="true"></app-pop-up-email-request>
-      </div> -->
-    </div>
     <div class="funds-go-to-dev-content">
       <div class="funds-go-to-dev-content-title gradientText2">
         {{ "sections.funds-go-to-dev.title" | translate }}
@@ -14,13 +8,36 @@
         <app-pop-up-email-request [isDemo]="true"></app-pop-up-email-request>
       </div> -->
     </div>
+    <div class="funds-go-to-dev-img">
+      <div class="home-video">
+        <div class="home-video-video">
+          <iframe src="https://www.youtube.com/embed/qsWhItK_n7o?si=ix0-0UaMR1nelMYx&rel=0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <!-- <div class="button-mobile">
+        <app-pop-up-email-request [isDemo]="true"></app-pop-up-email-request>
+      </div> -->
+    </div>
+
   </div>
   <div class="funds-go-to-dev-bottom">
+    <div class="funds-go-to-dev-bottom-titleMobile">
+      {{ "sections.funds-go-to-dev.bottom.titleMobile.top" | translate }} <br>
+      {{ "sections.funds-go-to-dev.bottom.titleMobile.bottom" | translate }}
+    </div>
     <div class="funds-go-to-dev-bottom-title">
       {{ "sections.funds-go-to-dev.bottom.title" | translate }}
     </div>
+    <div class="funds-go-to-dev-bottom-subtitleMobile">
+      {{ "sections.funds-go-to-dev.bottom.subtitleMobile" | translate }}
+    </div>
     <div class="funds-go-to-dev-bottom-subtitle">
-      {{ "sections.funds-go-to-dev.bottom.subtitle" | translate }}
+      {{ "sections.funds-go-to-dev.bottom.subtitle.top" | translate }} <br>
+      {{ "sections.funds-go-to-dev.bottom.subtitle.mid" | translate }} <br>
+      {{ "sections.funds-go-to-dev.bottom.subtitle.bottom" | translate }}
     </div>
   </div>
 </div>

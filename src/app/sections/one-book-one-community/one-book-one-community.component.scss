@@ -231,7 +231,7 @@
         margin-left: 0;
         &-title-mobile {
           display: flex;
-          font-size: 2.4em;
+          font-size: 2.1em;
           margin-top: 30px;
           font-family: $font-sora;
           font-weight: 700;
@@ -362,13 +362,20 @@
 
   .oneBookOneCommunity-container {
     .oneBookOneCommunity-titleRow {
+
+      .oneBookOneCommunity-column {
+        width: 90%;
+        &-subtitle {
+          margin-bottom: 10px;
+        }
+      }
       .oneBookOneCommunity-table {
         margin-top: 0px;
         width: 100%;
         img {
           width: 100%;
           // margin-top: 80px;
-          margin-bottom: 60px;
+          margin-bottom: 20px;
         }
       }
     }
