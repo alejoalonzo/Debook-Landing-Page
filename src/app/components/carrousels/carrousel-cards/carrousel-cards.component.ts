@@ -24,7 +24,7 @@ register();
 export class CarrouselCardsComponent implements OnInit{
 
   sampleUsers: User[] = []; 
-  
+  swiper: Swiper | undefined;
   @ViewChild('swiperContainer') swiperContainer?: Element;
 
   constructor(private usersService: UsersService, private translate: TranslateService) {}
@@ -36,6 +36,12 @@ export class CarrouselCardsComponent implements OnInit{
     });
   }
 
+  ngOnDestroy() {
+    if (this.swiper) {
+      this.swiper.destroy(true, true);
+    }
+  }
+
 
   private getSampleUsersList() {
     this.usersService.getSampleUsers().subscribe(
@@ -45,5 +51,4 @@ export class CarrouselCardsComponent implements OnInit{
       }
     );
   }
-
 }

@@ -83,7 +83,10 @@
             }
         },
         "founder-message": {
-            "title": "The community  any entrepreneur would dream of, join the dream and let’s make history together",
+            "title": {
+                "top":"The community  any entrepreneur would dream of, join the dream and let’s make history together",
+                "bottom":""
+            },
             "text":{
                 "p1":{
                     "bold":"Founder Message:",
@@ -105,7 +108,16 @@
             "go-to-pitchdeck": "Go to Pitchdeck",
             "bottom":{
                 "title":"DEBOOK is not accepting investments",
-                "subtitle":" Community first, investors later. If in the future you would like to be one of the first investors, get your MAGICKEY. 🗝✨They unlock surprise doors. OH! And fill the form on the pitch deck."
+                "titleMobile":{
+                    "top":"DEBOOK",
+                    "bottom":"is not accepting investments"
+                },
+                "subtitleMobile":" Community first, investors later. If in the future you would like to be one of the first investors, get your MAGICKEY. 🗝✨They unlock surprise doors. OH! And fill the form on the pitch deck.",
+                "subtitle":{
+                    "top" : "Community first, investors later.",
+                    "mid" : "If in the future you would like to be one of the first investors, get your MAGICKEY.",
+                    "bottom" : "🗝✨They unlock surprise doors. OH! And fill the form on the pitch deck."
+                }
             }
         },
         "panels": {

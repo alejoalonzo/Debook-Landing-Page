@@ -38,7 +38,7 @@
           "title3": "Acceso a una comunidad de visionarios",
           "sub-title3": "Forma parte un grupo de personas de disruptores que se apoyan y comparten su visión y conocimientos para ayudar a DEBOOK a ser una revolución mundial!",
           "title4": "Entrevista al fundador de DEBOOK para tu comunidad",
-          "sub-title4": "Esta es tu oportunidad para conceguir una conferencia o entrevista con el fundador de DEBOOK. ¡Abierto a podcats y eventos nuevos y establecidos!",
+          "sub-title4": "Esta es tu oportunidad para conseguir una conferencia o entrevista con el fundador de DEBOOK. ¡Abierto a podcats y eventos nuevos y establecidos!",
           "title5": "Un acceso al sorteo de 5 tickets para La Mansión Unicornio",
           "sub-title5": "Después de que se agoten las MAGICKEYS en cada una de las tres fases, anunciaremos una nueva edición de La Mansión Unicornio. Una MAGICKEY, una participación."
         }
@@ -82,7 +82,10 @@
       }
     },
     "founder-message": {
-      "title": "La comunidad que cualquier emprendedor soñaría tener a su alrededor, ¡únete al sueño y hagamos historia juntos!",
+      "title": {
+        "top":"La comunidad que cualquier emprendedor soñaría tener a su alrededor,",
+        "bottom":"¡únete al sueño y hagamos historia juntos!"
+    },
       "text": {
         "p1": {
           "bold": "Mensaje del fundador:",
@@ -104,7 +107,16 @@
       "go-to-pitchdeck": "Go to Pitchdeck",
       "bottom": {
         "title": "DEBOOK no acepta inversiones",
-        "subtitle": "Comunidad primero, inversores después. Si en un futuro te gustaría poder ser de los primeros inversores hazte con tu MAGICKEY, 🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del pitch deck."
+        "titleMobile":{
+          "top":"DEBOOK",
+          "bottom":"no acepta inversiones"
+      },
+        "subtitleMobile":" Comunidad primero, inversores después. Si en un futuro te gustaría poder ser de los primeros inversores hazte con tu MAGICKEY, 🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del pitch deck.",
+        "subtitle":{
+            "top" : "Comunidad primero, inversores después.",
+            "mid" : "Si en un futuro te gustaría poder ser de los primeros inversores hazte con tu MAGICKEY,",
+            "bottom" : "🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del pitch deck."
+        }
       }
     },
     "panels": {
