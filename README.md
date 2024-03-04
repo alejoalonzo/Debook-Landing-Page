@@ -1,5 +1,14 @@
 # Debook
 
+## Development
+
+Please read the follow documentation on how to work with this repo:
+- [Development Process](https://debook.atlassian.net/wiki/spaces/DE/pages/65781/Development+Process?atlOrigin=eyJpIjoiZmEwYjJmZjEzNDc4NDQ5Y2EwZTAxNjU4OGQ3Zjk0YWQiLCJwIjoiaiJ9)
+- [Deployment](https://debook.atlassian.net/wiki/spaces/DE/pages/65794/Deployment?atlOrigin=eyJpIjoiMjg5MjU0YmZmMzJjNGNiMWJjMmI4YmIyYjUyMTc3NDQiLCJwIjoiaiJ9)
+- [GitHub Usage and Strategy](https://debook.atlassian.net/wiki/spaces/DE/pages/65804/GitHub+Usage+and+Strategy?atlOrigin=eyJpIjoiNTE0NGIzYTU5Y2E5NGMwMzg2MjAzMzRhNWQyMjQ5MWEiLCJwIjoiaiJ9)
+
+## Angular
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
 
 ## Development server
