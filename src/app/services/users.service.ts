@@ -19,13 +19,21 @@ export class UsersService {
   }
 
   private updateSampleUsers(): void {
+    this.sampleUsers.next(SAMPLE_USERS_EN);
+
+    //-------------------------------WIP---------------------------------
+    //for now the cards work only in English
+    //-------------------------------------------------------------------
+
+    
+    /*
     const lang = this.translate.currentLang;
     if (lang === 'es') {
       this.sampleUsers.next(SAMPLE_USERS);
     }
     if (lang === 'en') {
       this.sampleUsers.next(SAMPLE_USERS_EN);
-    }
+    }*/
   }
 
   getSampleUsers(): Observable<User[]> {
