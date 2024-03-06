@@ -236,7 +236,7 @@
           font-family: $font-sora;
           font-weight: 700;
           letter-spacing: -0.05em;
-          line-height: 46px;
+          line-height: 42px;
           text-align: center;
         }
 
@@ -362,6 +362,12 @@
 
   .oneBookOneCommunity-container {
     .oneBookOneCommunity-titleRow {
+      .oneBookOneCommunity-column {
+        width: 90%;
+        &-subtitle {
+          margin-bottom: 10px;
+        }
+      }
       .oneBookOneCommunity-table {
         margin-top: 0px;
         width: 100%;
