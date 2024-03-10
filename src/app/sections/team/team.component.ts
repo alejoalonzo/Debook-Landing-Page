@@ -14,4 +14,11 @@ export class TeamComponent {
     const externalLink = 'https://mint.debookmagickey.com/';
     window.open(externalLink, '_blank');
   }
+  jumpTo(section: any){
+    document.getElementById(section)?.scrollIntoView({behavior: 'smooth'})
+  }
+  navigateToSection(): void {
+    const sectionId = 'oneBookOneCommunity'; 
+    this.jumpTo(sectionId);
+  }
 }
