@@ -73,7 +73,7 @@
     line-height: 30px;
     letter-spacing: -0.42px;
   }
-  button {
+ button{
     border: none;
     background-color: transparent;
     color: $red;
@@ -81,10 +81,10 @@
     font-family: $font-inter;
     font-weight: 500;
   }
-  button:hover {
+  button:hover{
     color: $gray;
   }
-  &-subtitleMobile {
+  &-subtitleMobile{
     display: none;
   }
 }
