@@ -32,12 +32,15 @@
       {{ "sections.funds-go-to-dev.bottom.title" | translate }}
     </div>
     <div class="funds-go-to-dev-bottom-subtitleMobile">
-      {{ "sections.funds-go-to-dev.bottom.subtitleMobile" | translate }}
+      <span>
+        {{ "sections.funds-go-to-dev.bottom.subtitleMobile" | translate }} <button (click)="navigateToSection()">pitch
+          deck</button></span>
     </div>
     <div class="funds-go-to-dev-bottom-subtitle">
       {{ "sections.funds-go-to-dev.bottom.subtitle.top" | translate }} <br>
       {{ "sections.funds-go-to-dev.bottom.subtitle.mid" | translate }} <br>
-      {{ "sections.funds-go-to-dev.bottom.subtitle.bottom" | translate }}
+      {{ "sections.funds-go-to-dev.bottom.subtitle.bottom" | translate }} <button (click)="navigateToSection()">pitch
+        deck</button>
     </div>
   </div>
 </div>

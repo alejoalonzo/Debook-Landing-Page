@@ -29,7 +29,7 @@
             "subtitle": "Discover our business model and our WHY,  WHERE, HOW, WHAT AND WHOM",
             "pitchdeck": "Go to Pitchdeck",
             "The-privileges":{
-                "title":"The privileges of DEBOOK MAGICKEYS",
+                "title":"5 Benefits of DEBOOK MAGICKEYS",
                 "subtitle":"As DEBOOK grows, your MAGICKEY benefits grow with it. We will make it the most useful collection in the world.",
                 "rows": {
                     "title1":"Potential utility: access to every debook, updates, presales & surprises",
@@ -103,7 +103,7 @@
             }
         },
         "funds-go-to-dev": {
-            "title": "100% OF THE FUNDS GO TO SUCCESSFULLY DEVELOP OUR DEMO APP",
+            "title": "100% OF THE FUNDS GO TO SUCCESSFULLY DEVELOP OUR SUPER DEMO",
             "interact": "✨ Interact with DEBOOK demo APP!",
             "go-to-pitchdeck": "Go to Pitchdeck",
             "bottom":{
@@ -112,11 +112,11 @@
                     "top":"DEBOOK",
                     "bottom":"is not accepting investments"
                 },
-                "subtitleMobile":" Community first, investors later. If in the future you would like to be one of the first investors, get your MAGICKEY. 🗝✨They unlock surprise doors. OH! And fill the form on the pitch deck.",
+                "subtitleMobile":" Community first, investors later. If in the future you would like to be one of the first investors, get your MAGICKEY. 🗝✨They unlock surprise doors. OH! And fill the form on the ",
                 "subtitle":{
                     "top" : "Community first, investors later.",
                     "mid" : "If in the future you would like to be one of the first investors, get your MAGICKEY.",
-                    "bottom" : "🗝✨They unlock surprise doors. OH! And fill the form on the pitch deck."
+                    "bottom" : "🗝✨They unlock surprise doors. OH! And fill the form on the "
                 }
             }
         },
@@ -144,7 +144,7 @@
             "3":{
                 "title": "WHY US?",
                 "text": {
-                    "regular":"Co-founders'",
+                    "regular":"Team's",
                     "bold":"stories",
                     "regular2":"that intertwine tech and books are truly remarkable, not only due to their tenure at tech giants but also for their innovative projects in the book industry, a clear indication of their",
                     "bold2":"desire to change the status quo for authors, readers and publishers!"
@@ -174,11 +174,19 @@
             },
             "founders":{
                 "1":{
-                    "title":"MIND BEHIND THE TECH"
+                    "title":"MIND BEHIND THE BUSINESS",
+                    "name":"Must be alive"
                 },
                 "2":{
                     "title":"MIND BEHIND THE VISON",
                     "experience":"Entrepreneur since 2014: TFB, SYL & LC"
+                },
+                "3":{
+                    "title":"MIND BEHIND THE TECH"
+                },
+                "4":{
+                    "title":"MINDS BEHIND  DESIGN & CODE",
+                    "experience":"See the full team and their stories on the "
                 }
             },
             "message": {
@@ -324,7 +332,7 @@
         },
         "popup":{
             "title":"DEBOOK DEMO APP",
-            "titlePitchDeck":"PITCHDECK & DEMO APP",
+            "titlePitchDeck":"DEBOOK PITCHDECK",
             "subtitle":{
                 "top":"Dive deeper into DEBOOK experience",
                 "bottom":"Share your details for early access"

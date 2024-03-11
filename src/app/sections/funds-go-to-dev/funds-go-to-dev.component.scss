@@ -73,6 +73,17 @@
     line-height: 30px;
     letter-spacing: -0.42px;
   }
+  button {
+    border: none;
+    background-color: transparent;
+    color: $red;
+    text-decoration: underline;
+    font-family: $font-inter;
+    font-weight: 500;
+  }
+  button:hover {
+    color: $gray;
+  }
   &-subtitleMobile {
     display: none;
   }
