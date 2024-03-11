@@ -28,7 +28,7 @@
       "subtitle": "Descúbre nuestro modelo de negocio y PORQUÉ, DÓNDE, CÓMO, QUÉ y CON QUIÉN",
       "pitchdeck": "Ir al Pitchdeck",
       "The-privileges": {
-        "title": "Privilegios de las DEBOOK MAGICKEYS",
+        "title": "5 Beneficios de las DEBOOK MAGICKEYS",
         "subtitle": "A medida que DEBOOK crece, los beneficios de tu MAGICKEY crecen sin límites.",
         "rows": {
           "title1": "Utilidad potencial: acceso a todos los debooks, updates, preventas y sorpresas",
@@ -102,7 +102,7 @@
       }
     },
     "funds-go-to-dev": {
-      "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA DEMO APP",
+      "title": "100% DE LOS FONDOS VAN  DESTINADOS  A  DESARROLLAR CON ÉXITO  LA SUPER DEMO",
       "interact": "✨ Interactua con DEBOOK APP demo",
       "go-to-pitchdeck": "Go to Pitchdeck",
       "bottom": {
@@ -111,11 +111,11 @@
           "top":"DEBOOK",
           "bottom":"no acepta inversiones"
       },
-        "subtitleMobile":" Comunidad primero, inversores después. Si en un futuro te gustaría poder ser de los primeros inversores hazte con tu MAGICKEY, 🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del pitch deck.",
+        "subtitleMobile":" Comunidad primero, inversores después. Si en un futuro te gustaría poder ser de los primeros inversores hazte con tu MAGICKEY, 🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del ",
         "subtitle":{
             "top" : "Comunidad primero, inversores después.",
             "mid" : "Si en un futuro te gustaría poder ser de los primeros inversores hazte con tu MAGICKEY,",
-            "bottom" : "🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del pitch deck."
+            "bottom" : "🗝✨abren puertas sorpresa. ¡AH! Y rellena el formulario del "
         }
       }
     },
@@ -143,7 +143,7 @@
       "3": {
         "title": "¿POR QUÉ NOSOTROS?",
         "text": {
-          "regular": "Las historias de los cofundadores son",
+          "regular": "Las historias del equipo son",
           "bold": "realmente destacables,",
           "regular2": "no solo por su trabajo en gigantes de la tecnología, sino también por sus proyectos innovadores en la industria del libro, una clara señal de su",
           "bold2": "deseo de cambiar el status quo."
@@ -170,12 +170,20 @@
         "regular": ""
       },
       "founders": {
-        "1": {
-          "title": "MENTE DETRÁS DE LA TECH"
+        "1":{
+          "title":"MENTE DETRÁS DEL BUSINESS",
+          "name":"Debe estar vivo"
         },
         "2": {
           "title": "MENTE DETRÁS DE LA VISIÓN",
           "experience": "Emprendedor desde 2014 TFB, SYL & LC"
+        },
+        "3":{
+            "title":"MENTE DETRÁS DE LA TECH"
+        },
+        "4":{
+            "title":"MENTES DETRÁS DE  DESIGN & CODE",
+            "experience":"Ver el team completo y sus historias en  "
         }
       },
       "message": {
@@ -315,7 +323,7 @@
     },
     "popup": {
       "title": "DEBOOK DEMO APP",
-      "titlePitchDeck": "DEMO APP & PITCHDECK",
+      "titlePitchDeck": "DEBOOK PITCHDECK",
       "subtitle": {
         "top": "Profundiza en la experiencia DEBOOK",
         "bottom": "Comparte tus datos para el acceso reservado"
