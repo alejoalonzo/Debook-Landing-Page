@@ -260,6 +260,10 @@ h1 {
 section {
   // padding: 48px 0;
 }
+.center {
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 992px) {
   .center-md {
     display: flex;
