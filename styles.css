@@ -19359,6 +19359,10 @@ h1 {
   margin-bottom: 36px;
   letter-spacing: -0.05em;
 }
+.center {
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 992px) {
   .center-md {
     display: flex;
