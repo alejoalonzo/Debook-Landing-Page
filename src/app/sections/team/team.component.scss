@@ -47,7 +47,7 @@
           font-family: $font-sora;
           letter-spacing: -0.05em;
           font-weight: 800;
-          width: 255px;
+          max-width: 230px;
           margin: auto;
           margin-bottom: 15px;
         }
@@ -70,7 +70,6 @@
             border-radius: 15px;
           }
         }
-
       }
 
       &-name {
@@ -102,7 +101,7 @@
         margin-top: 4px;
         width: 255px;
       }
-      button{
+      button {
         border: none;
         background-color: transparent;
         color: $red;
@@ -111,7 +110,7 @@
         font-weight: 400;
         padding: 0;
       }
-      button:hover{
+      button:hover {
         color: $gray;
       }
 
@@ -179,7 +178,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin: 20px 0 ;
+      margin: 20px 0;
       width: 100%;
 
       &-founder {
