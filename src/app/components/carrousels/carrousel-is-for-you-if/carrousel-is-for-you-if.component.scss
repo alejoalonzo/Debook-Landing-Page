@@ -10,7 +10,7 @@
     flex-direction: column;
     // width: 270px;
     // height: 100%;
-    padding: 24px;
+    padding: 32px;
     // justify-content: center;
     // align-items: center;
     border-radius: 40px;
@@ -27,6 +27,7 @@
 
       span {
         color: #fc7c7e;
+        font-size: 21px;
       }
     }
 
@@ -34,9 +35,10 @@
       color: #000;
       font-size: 19px;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 200;
       line-height: 23px;
       letter-spacing: -0.6px;
+      // font-family: "Satoshi", sans-serif;
     }
   }
 }
