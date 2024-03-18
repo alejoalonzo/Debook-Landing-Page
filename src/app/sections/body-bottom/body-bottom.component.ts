@@ -8,6 +8,7 @@ import { SalesProcessComponent } from '../sales-process/sales-process.component'
 import { UnicornMansionComponent } from '../unicorn-mansion/unicorn-mansion.component';
 import { BuildingDebookInPublicComponent } from '../building-debook-in-public/building-debook-in-public.component';
 import { ChallengesMapComponent } from '../challenges-map/challenges-map.component';
+import { CreatingMagicalStoriesComponent } from '../creating-magical-stories/creating-magical-stories.component';
 
 @Component({
   selector: 'app-body-bottom',
@@ -22,7 +23,7 @@ import { ChallengesMapComponent } from '../challenges-map/challenges-map.compone
             UnicornMansionComponent,
             BuildingDebookInPublicComponent,
             ChallengesMapComponent,
-            
+            CreatingMagicalStoriesComponent
             
           ],
   templateUrl: './body-bottom.component.html',
