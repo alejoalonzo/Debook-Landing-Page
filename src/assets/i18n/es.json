@@ -268,6 +268,10 @@
         }
       }
     },
+    "creatingMagicalStories":{
+      "title":"CREANDO HISTORIAS MAGICAS",
+      "text":"El 5,55% de los fondos generados se donará para crear historias mágicas con personas que lo necesiten.Sigue las historias en:"
+    },
     "faqs": {
       "title": "PREGUNTAS MÁS FRECUENTES",
       "1": {
