@@ -344,6 +344,13 @@
       },
       "button": "Envíalo a mi correo",
       "buttonCancel": "Cancelar"
+    },
+    "menu":{
+      "item1":"Qué es DEBOOK",
+      "item2":"Beneficios de las MAGICKEYS",
+      "item3":"Precio de las MAGICKEYS",
+      "item4":"Dream team",
+      "item5":"Challenge Map"
     }
   }
 }
