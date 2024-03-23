@@ -334,6 +334,13 @@
       },
       "button": "Send it to my email",
       "buttonCancel": "Cancel"
+    },
+    "menu":{
+      "item1":"What is DEBOOK",
+      "item2":"Magickeys Benefits",
+      "item3":"Magickeys Prices",
+      "item4":"Dream team",
+      "item5":"Challenge Map"
     }
   }
 }

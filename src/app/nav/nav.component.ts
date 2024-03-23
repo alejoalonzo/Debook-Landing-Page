@@ -5,6 +5,7 @@ import { LogoComponent } from '../components/logo/logo.component';
 
 import { TranslateService } from '@ngx-translate/core';
 import { SubMenuComponent } from '../components/sub-menu/sub-menu.component';
+import { MenuComponent } from '../components/menu/menu.component';
 
 interface City {
   name: string;
@@ -14,7 +15,13 @@ interface City {
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [FormsModule, DropdownModule, LogoComponent, SubMenuComponent],
+  imports: [
+    FormsModule, 
+    DropdownModule, 
+    LogoComponent, 
+    SubMenuComponent,
+    MenuComponent
+  ],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.scss',
 })
