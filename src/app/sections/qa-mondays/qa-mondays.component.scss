@@ -10,7 +10,7 @@
     border: 1px solid #FFE7E7;
     background: #FFFAFA;
     margin: auto;
-    padding: 35px 50px;
+    padding: 35px 35px;
     margin-bottom: 100px;
 
     .QAmondays-title{
@@ -30,7 +30,7 @@
         &-text{
             color: #000;
             font-family: $font-sora;
-            font-size: 22px;
+            font-size: 1.6em;
             font-weight: 700;
             line-height: 21px; 
             letter-spacing: -0.6px;
@@ -50,7 +50,7 @@
     .QAmondays-p{
         color: #9A9A9A;
         font-family: $font-inter;
-        font-size: 14px;
+        font-size: 1em;
         font-weight: 500;
         line-height: 19px;
         letter-spacing: -0.42px;
