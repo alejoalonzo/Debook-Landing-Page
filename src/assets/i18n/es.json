@@ -212,6 +212,10 @@
         "bottom": ""
       }
     },
+    "qa-mondays":{
+      "date": "Semanal",
+      "p": "Ernest estará LIVE en su Linkedin para responder tus preguntas!"
+    },
     "sales-process": {
       "title": "Proceso de venta",
       "subtitle": "DEBOOK ha llegado para quedarse para siempre",

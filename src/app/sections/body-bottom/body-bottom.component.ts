@@ -9,6 +9,8 @@ import { UnicornMansionComponent } from '../unicorn-mansion/unicorn-mansion.comp
 import { BuildingDebookInPublicComponent } from '../building-debook-in-public/building-debook-in-public.component';
 import { ChallengesMapComponent } from '../challenges-map/challenges-map.component';
 import { CreatingMagicalStoriesComponent } from '../creating-magical-stories/creating-magical-stories.component';
+import { QAMondaysComponent } from '../qa-mondays/qa-mondays.component';
+
 
 @Component({
   selector: 'app-body-bottom',
@@ -23,7 +25,9 @@ import { CreatingMagicalStoriesComponent } from '../creating-magical-stories/cre
             UnicornMansionComponent,
             BuildingDebookInPublicComponent,
             ChallengesMapComponent,
-            CreatingMagicalStoriesComponent
+            CreatingMagicalStoriesComponent,
+            QAMondaysComponent
+
             
           ],
   templateUrl: './body-bottom.component.html',
