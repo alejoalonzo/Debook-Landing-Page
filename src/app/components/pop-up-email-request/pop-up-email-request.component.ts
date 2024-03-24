@@ -45,6 +45,7 @@ export class PopUpEmailRequestComponent {
   isSubmitted!: boolean;
   users: User[] = [];
   visible: boolean = false;
+  confirmVisible: boolean = false;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -62,6 +63,12 @@ export class PopUpEmailRequestComponent {
   }
   closeDialog() {
     this.visible = false;
+  }
+  closeDialogConfirm(){
+    this.confirmVisible = false;
+  }
+  showConfirmationDialog() {
+    this.confirmVisible = true;
   }
 
   private _initFormUser() {
@@ -90,6 +97,7 @@ export class PopUpEmailRequestComponent {
     this._addUser(userFormData);
 
     this.userForm.disable();
+    this.showConfirmationDialog();
   }
 
   private _addUser(user: User) {
