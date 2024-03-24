@@ -70383,17 +70383,17 @@ function PopUpEmailRequestComponent_ng_template_4_Conditional_3_Template(rf, ctx
 }
 function PopUpEmailRequestComponent_ng_template_4_Template(rf, ctx) {
   if (rf & 1) {
-    const _r10 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "div", 15)(1, "span", 16);
+    const _r12 = \u0275\u0275getCurrentView();
+    \u0275\u0275elementStart(0, "div", 16)(1, "span", 17);
     \u0275\u0275template(2, PopUpEmailRequestComponent_ng_template_4_Conditional_2_Template, 2, 3)(3, PopUpEmailRequestComponent_ng_template_4_Conditional_3_Template, 2, 3);
     \u0275\u0275elementEnd()();
-    \u0275\u0275elementStart(4, "button", 17);
+    \u0275\u0275elementStart(4, "button", 18);
     \u0275\u0275listener("click", function PopUpEmailRequestComponent_ng_template_4_Template_button_click_4_listener() {
-      \u0275\u0275restoreView(_r10);
-      const ctx_r9 = \u0275\u0275nextContext();
-      return \u0275\u0275resetView(ctx_r9.closeDialog());
+      \u0275\u0275restoreView(_r12);
+      const ctx_r11 = \u0275\u0275nextContext();
+      return \u0275\u0275resetView(ctx_r11.closeDialog());
     });
-    \u0275\u0275element(5, "i", 18);
+    \u0275\u0275element(5, "i", 19);
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
@@ -70432,7 +70432,7 @@ function PopUpEmailRequestComponent_Conditional_7_Template(rf, ctx) {
 }
 function PopUpEmailRequestComponent_small_14_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "small", 19);
+    \u0275\u0275elementStart(0, "small", 20);
     \u0275\u0275text(1, "Name is required");
     \u0275\u0275elementEnd();
   }
@@ -70453,8 +70453,8 @@ function PopUpEmailRequestComponent_small_19_span_2_Template(rf, ctx) {
 }
 function PopUpEmailRequestComponent_small_19_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "small", 19);
-    \u0275\u0275template(1, PopUpEmailRequestComponent_small_19_span_1_Template, 2, 0, "span", 20)(2, PopUpEmailRequestComponent_small_19_span_2_Template, 2, 0, "span", 20);
+    \u0275\u0275elementStart(0, "small", 20);
+    \u0275\u0275template(1, PopUpEmailRequestComponent_small_19_span_1_Template, 2, 0, "span", 21)(2, PopUpEmailRequestComponent_small_19_span_2_Template, 2, 0, "span", 21);
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
@@ -70476,16 +70476,16 @@ function PopUpEmailRequestComponent_ng_template_20_ng_template_1_Template(rf, ct
 }
 function PopUpEmailRequestComponent_ng_template_20_Template(rf, ctx) {
   if (rf & 1) {
-    const _r15 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "p-button", 21);
+    const _r17 = \u0275\u0275getCurrentView();
+    \u0275\u0275elementStart(0, "p-button", 22);
     \u0275\u0275listener("click", function PopUpEmailRequestComponent_ng_template_20_Template_p_button_click_0_listener() {
-      \u0275\u0275restoreView(_r15);
-      const ctx_r14 = \u0275\u0275nextContext();
-      return \u0275\u0275resetView(ctx_r14.visible = false);
-    })("click", function PopUpEmailRequestComponent_ng_template_20_Template_p_button_click_0_listener() {
-      \u0275\u0275restoreView(_r15);
+      \u0275\u0275restoreView(_r17);
       const ctx_r16 = \u0275\u0275nextContext();
-      return \u0275\u0275resetView(ctx_r16.onSubmit());
+      return \u0275\u0275resetView(ctx_r16.visible = false);
+    })("click", function PopUpEmailRequestComponent_ng_template_20_Template_p_button_click_0_listener() {
+      \u0275\u0275restoreView(_r17);
+      const ctx_r18 = \u0275\u0275nextContext();
+      return \u0275\u0275resetView(ctx_r18.onSubmit());
     });
     \u0275\u0275template(1, PopUpEmailRequestComponent_ng_template_20_ng_template_1_Template, 2, 3, "ng-template", 2);
     \u0275\u0275elementEnd();
@@ -70493,6 +70493,56 @@ function PopUpEmailRequestComponent_ng_template_20_Template(rf, ctx) {
   if (rf & 2) {
     const ctx_r6 = \u0275\u0275nextContext();
     \u0275\u0275property("disabled", ctx_r6.userForm.invalid)("autofocus", true);
+  }
+}
+function PopUpEmailRequestComponent_ng_template_22_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r20 = \u0275\u0275getCurrentView();
+    \u0275\u0275elementStart(0, "div", 16)(1, "span", 17);
+    \u0275\u0275text(2);
+    \u0275\u0275pipe(3, "translate");
+    \u0275\u0275elementEnd()();
+    \u0275\u0275elementStart(4, "button", 18);
+    \u0275\u0275listener("click", function PopUpEmailRequestComponent_ng_template_22_Template_button_click_4_listener() {
+      \u0275\u0275restoreView(_r20);
+      const ctx_r19 = \u0275\u0275nextContext();
+      return \u0275\u0275resetView(ctx_r19.closeDialogConfirm());
+    });
+    \u0275\u0275element(5, "i", 19);
+    \u0275\u0275elementEnd();
+  }
+  if (rf & 2) {
+    \u0275\u0275advance(2);
+    \u0275\u0275textInterpolate1(" ", \u0275\u0275pipeBind1(3, 1, "components.popup.titlePitchDeck"), " ");
+  }
+}
+function PopUpEmailRequestComponent_ng_template_29_ng_template_1_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275text(0);
+    \u0275\u0275pipe(1, "translate");
+  }
+  if (rf & 2) {
+    \u0275\u0275textInterpolate1(" ", \u0275\u0275pipeBind1(1, 1, "components.confirm.button"), " ");
+  }
+}
+function PopUpEmailRequestComponent_ng_template_29_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r23 = \u0275\u0275getCurrentView();
+    \u0275\u0275elementStart(0, "p-button", 23);
+    \u0275\u0275listener("click", function PopUpEmailRequestComponent_ng_template_29_Template_p_button_click_0_listener() {
+      \u0275\u0275restoreView(_r23);
+      const ctx_r22 = \u0275\u0275nextContext();
+      return \u0275\u0275resetView(ctx_r22.visible = false);
+    })("click", function PopUpEmailRequestComponent_ng_template_29_Template_p_button_click_0_listener() {
+      \u0275\u0275restoreView(_r23);
+      const ctx_r24 = \u0275\u0275nextContext();
+      return \u0275\u0275resetView(ctx_r24.closeDialogConfirm());
+    });
+    \u0275\u0275template(1, PopUpEmailRequestComponent_ng_template_29_ng_template_1_Template, 2, 3, "ng-template", 2);
+    \u0275\u0275elementEnd();
+  }
+  if (rf & 2) {
+    \u0275\u0275property("autofocus", true);
   }
 }
 var _c19 = () => ({ width: "30rem" });
@@ -70508,6 +70558,7 @@ var _PopUpEmailRequestComponent = class _PopUpEmailRequestComponent {
     this.currentLanguageOnPopoup = "es";
     this.users = [];
     this.visible = false;
+    this.confirmVisible = false;
   }
   ngOnInit() {
     this._initFormUser();
@@ -70518,6 +70569,12 @@ var _PopUpEmailRequestComponent = class _PopUpEmailRequestComponent {
   }
   closeDialog() {
     this.visible = false;
+  }
+  closeDialogConfirm() {
+    this.confirmVisible = false;
+  }
+  showConfirmationDialog() {
+    this.confirmVisible = true;
   }
   _initFormUser() {
     this.userForm = this.formBuilder.group({
@@ -70541,6 +70598,7 @@ var _PopUpEmailRequestComponent = class _PopUpEmailRequestComponent {
     console.log("usersData:", userFormData);
     this._addUser(userFormData);
     this.userForm.disable();
+    this.showConfirmationDialog();
   }
   _addUser(user) {
     this.usersService.createNewContact(user).subscribe((user2) => {
@@ -70564,7 +70622,7 @@ _PopUpEmailRequestComponent.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineCompon
     let _t;
     \u0275\u0275queryRefresh(_t = \u0275\u0275loadQuery()) && (ctx.submitButton = _t.first);
   }
-}, inputs: { isDemo: "isDemo", popupButtonText: "popupButtonText", buttonClass: "buttonClass" }, standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 21, vars: 15, consts: [[1, ""], [3, "click"], ["pTemplate", "label"], ["header", "Header", 1, "container-dialog", 3, "closable", "visible", "modal", "draggable", "breakpoints", "visibleChange"], ["pTemplate", "header"], [1, "m-0", "subtitle"], [1, "formContainer", 3, "formGroup"], [1, "form"], [1, "inputs"], ["for", "name"], ["formControlName", "name", "id", "name", "type", "text", "placeholder", "Name and surname", 1, ""], ["class", "p-error", 4, "ngIf"], ["for", "email"], ["formControlName", "email", "id", "email", "type", "text", "placeholder", "example@gmail.com", 1, ""], ["pTemplate", "footer"], [1, "title-container", "inline-flex", "align-items-center", "justify-content-center", "gap-2"], [1, "title-span", "font-bold", "white-space-nowrap"], [1, "button", 3, "click"], [1, "pi", "pi-times", 2, "font-size", "1rem"], [1, "p-error"], [4, "ngIf"], ["pAutoFocus", "", 1, "", 3, "disabled", "autofocus", "click"]], template: function PopUpEmailRequestComponent_Template(rf, ctx) {
+}, inputs: { isDemo: "isDemo", popupButtonText: "popupButtonText", buttonClass: "buttonClass" }, standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 30, vars: 30, consts: [[1, ""], [3, "click"], ["pTemplate", "label"], ["header", "Header", 1, "container-dialog", 3, "closable", "visible", "modal", "draggable", "breakpoints", "visibleChange"], ["pTemplate", "header"], [1, "m-0", "subtitle"], [1, "formContainer", 3, "formGroup"], [1, "form"], [1, "inputs"], ["for", "name"], ["formControlName", "name", "id", "name", "type", "text", "placeholder", "Name and surname", 1, ""], ["class", "p-error", 4, "ngIf"], ["for", "email"], ["formControlName", "email", "id", "email", "type", "text", "placeholder", "example@gmail.com", 1, ""], ["pTemplate", "footer"], ["header", "Confirm", 1, "container-dialog", 3, "closable", "visible", "modal", "draggable", "breakpoints", "visibleChange"], [1, "title-container", "inline-flex", "align-items-center", "justify-content-center", "gap-2"], [1, "title-span", "font-bold", "white-space-nowrap"], [1, "button", 3, "click"], [1, "pi", "pi-times", 2, "font-size", "1rem"], [1, "p-error"], [4, "ngIf"], ["pAutoFocus", "", 1, "", 3, "disabled", "autofocus", "click"], ["pAutoFocus", "", 1, "", 3, "autofocus", "click"]], template: function PopUpEmailRequestComponent_Template(rf, ctx) {
   if (rf & 1) {
     \u0275\u0275elementStart(0, "div", 0)(1, "p-button", 1);
     \u0275\u0275listener("click", function PopUpEmailRequestComponent_Template_p_button_click_1_listener() {
@@ -70594,16 +70652,31 @@ _PopUpEmailRequestComponent.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineCompon
     \u0275\u0275template(19, PopUpEmailRequestComponent_small_19_Template, 3, 2, "small", 11);
     \u0275\u0275elementEnd()()();
     \u0275\u0275template(20, PopUpEmailRequestComponent_ng_template_20_Template, 2, 2, "ng-template", 14);
+    \u0275\u0275elementEnd();
+    \u0275\u0275elementStart(21, "p-dialog", 15);
+    \u0275\u0275twoWayListener("visibleChange", function PopUpEmailRequestComponent_Template_p_dialog_visibleChange_21_listener($event) {
+      \u0275\u0275twoWayBindingSet(ctx.confirmVisible, $event) || (ctx.confirmVisible = $event);
+      return $event;
+    });
+    \u0275\u0275template(22, PopUpEmailRequestComponent_ng_template_22_Template, 6, 3, "ng-template", 4);
+    \u0275\u0275elementStart(23, "p", 5);
+    \u0275\u0275text(24);
+    \u0275\u0275pipe(25, "translate");
+    \u0275\u0275element(26, "br");
+    \u0275\u0275text(27);
+    \u0275\u0275pipe(28, "translate");
+    \u0275\u0275elementEnd();
+    \u0275\u0275template(29, PopUpEmailRequestComponent_ng_template_29_Template, 2, 1, "ng-template", 14);
     \u0275\u0275elementEnd()();
   }
   if (rf & 2) {
     \u0275\u0275advance();
     \u0275\u0275classMap(ctx.buttonClass);
     \u0275\u0275advance(2);
-    \u0275\u0275styleMap(\u0275\u0275pureFunction0(13, _c19));
+    \u0275\u0275styleMap(\u0275\u0275pureFunction0(26, _c19));
     \u0275\u0275property("closable", false);
     \u0275\u0275twoWayProperty("visible", ctx.visible);
-    \u0275\u0275property("modal", true)("draggable", false)("breakpoints", \u0275\u0275pureFunction0(14, _c26));
+    \u0275\u0275property("modal", true)("draggable", false)("breakpoints", \u0275\u0275pureFunction0(27, _c26));
     \u0275\u0275advance(3);
     \u0275\u0275conditional(6, ctx.isDemo ? 6 : 7);
     \u0275\u0275advance(2);
@@ -70612,6 +70685,15 @@ _PopUpEmailRequestComponent.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineCompon
     \u0275\u0275property("ngIf", ctx.userForm.controls["name"].invalid && ctx.isSubmitted);
     \u0275\u0275advance(5);
     \u0275\u0275property("ngIf", ctx.userForm.controls["email"].invalid && ctx.isSubmitted);
+    \u0275\u0275advance(2);
+    \u0275\u0275styleMap(\u0275\u0275pureFunction0(28, _c19));
+    \u0275\u0275property("closable", false);
+    \u0275\u0275twoWayProperty("visible", ctx.confirmVisible);
+    \u0275\u0275property("modal", true)("draggable", false)("breakpoints", \u0275\u0275pureFunction0(29, _c26));
+    \u0275\u0275advance(3);
+    \u0275\u0275textInterpolate1(" ", \u0275\u0275pipeBind1(25, 22, "components.confirm.text.top"), " ");
+    \u0275\u0275advance(3);
+    \u0275\u0275textInterpolate1(" ", \u0275\u0275pipeBind1(28, 24, "components.confirm.text.bottom"), " ");
   }
 }, dependencies: [
   DialogModule,

@@ -346,6 +346,14 @@
       "button": "Send it to my email",
       "buttonCancel": "Cancel"
     },
+
+    "confirm":{
+      "text":{
+        "top":"Refresh your inbox in 5 minutes, your email might be there soon.",
+        "bottom":"In the meantime, keep exploring the 3333 MAGICKEYS to unlock the next book thing!"
+      },
+      "button":"Okay, Let's make history!"
+    },
     "menu":{
       "item1":"What is DEBOOK",
       "item2":"Magickeys Benefits",
