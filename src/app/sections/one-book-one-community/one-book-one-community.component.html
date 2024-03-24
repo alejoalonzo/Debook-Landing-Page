@@ -23,7 +23,7 @@
   </div>
   <app-pop-up-email-request [isDemo]="false" [popupButtonText]="'sections.one-book-one-community.pitchdeck'"
     [buttonClass]="'button-black'" class="flex-blockMobile display"></app-pop-up-email-request>
-  <div class="oneBookOneCommunity-row">
+  <div class="oneBookOneCommunity-row" id="5benefits">
     <div class="oneBookOneCommunity-row-content">
       <div class="oneBookOneCommunity-row-content-title">
         {{ "sections.one-book-one-community.The-privileges.title" | translate }}
@@ -131,6 +131,26 @@
             <div class="preveleges-accordion-text">
               {{
               "sections.one-book-one-community.The-privileges.rows.sub-title5"
+              | translate
+              }}
+            </div>
+          </p-accordionTab>
+
+          <p-accordionTab iconPos="end">
+            <ng-template pTemplate="header">
+              <div class="oneBookOneCommunity-row-content-privileges-row-image">
+                <img src="assets/images/privileges5.svg" alt="" />
+              </div>
+              <div class="preveleges-accordion-title">
+                {{
+                "sections.one-book-one-community.The-privileges.rows.title6"
+                | translate
+                }}
+              </div>
+            </ng-template>
+            <div class="preveleges-accordion-text">
+              {{
+              "sections.one-book-one-community.The-privileges.rows.sub-title6"
               | translate
               }}
             </div>

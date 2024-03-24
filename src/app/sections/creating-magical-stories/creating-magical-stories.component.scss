@@ -1,0 +1,83 @@
+@import '../../../styles.scss';
+
+.creatingMagicalStories-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 881px;
+    height: 207px;
+    margin: auto;
+    margin-bottom: 200px;
+    border-radius: 30px;
+    background: linear-gradient(175deg, #F44 -1.74%, #000 96.21%);
+
+    .creatingMagicalStories-title{
+        text-align: center;
+        font-family: $font-sora;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px; 
+        letter-spacing: -1.05px;
+        background: linear-gradient(81deg, #FFF 20.31%, rgba(214, 214, 214, 0.92) 81.82%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        max-width: 50%;
+        padding: 0 5%;
+    }
+
+    .creatingMagicalStories-text{
+        max-width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 5%;
+        &-p{
+            color: #FFF;
+            text-align: center;
+            font-family: $font-sora;
+            font-size: 1em;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; 
+            letter-spacing: -0.42px;
+            margin-bottom: 10px;
+        }
+        &-icon{
+            cursor: pointer;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+// mobile------------------------------------------------------------
+@media screen and (max-width: 850px){
+    .creatingMagicalStories-container{
+        width: 90%;
+        height: 400px;
+        background: linear-gradient(179deg, #FF7272 -12.62%, #000 143.48%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        .creatingMagicalStories-title{
+            max-width: 80%;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+    
+        .creatingMagicalStories-text{
+            max-width: 90%;
+            padding: 0;
+            &-p{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
