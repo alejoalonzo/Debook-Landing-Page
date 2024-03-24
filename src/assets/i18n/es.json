@@ -345,6 +345,14 @@
       "button": "Envíalo a mi correo",
       "buttonCancel": "Cancelar"
     },
+
+    "confirm": {
+      "text":{
+        "top":"Actualiza tu correo en 5 minutos, ¡recibirás el mail pronto!",
+        "bottom":"Mientras tanto, sigue explorando las 3333 MAGICKEYS para desbloquear el futuro de los libros"
+      },
+      "button":"Hecho, ¡hagamos historia!"
+    },
     "menu":{
       "item1":"Qué es DEBOOK",
       "item2":"Beneficios de las MAGICKEYS",
