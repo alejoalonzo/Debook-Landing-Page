@@ -9,12 +9,18 @@
           <div class="logo-text">DEBOOK</div>
         </a>
       </div>
-      <div class="lang flex justify-content-center">
+      <div class="lang flex justify-content-center langAndMenu">
         <i class="pi pi-globe" style="font-size: 1rem"></i>
 
-        <p-dropdown [options]="cities" [(ngModel)]="selectedCity" optionLabel="name" [showClear]="true"
-          (onChange)="onLanguageChange()" placeholder="Es">
-        </p-dropdown>
+        <div class="langAndMenu-items">
+          <p-dropdown [options]="cities" [(ngModel)]="selectedCity" optionLabel="name" [showClear]="true"
+            (onChange)="onLanguageChange()" placeholder="Es">
+          </p-dropdown>
+          <div>
+            <app-menu></app-menu>
+          </div>
+        </div>
+
       </div>
     </div>
     <!-- <div class="sub-menu"><app-sub-menu></app-sub-menu></div> -->

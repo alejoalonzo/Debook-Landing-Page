@@ -28,7 +28,7 @@
       "subtitle": "Discover our business model and our WHY,  WHERE, HOW, WHAT AND WHOM",
       "pitchdeck": "Go to Pitchdeck",
       "The-privileges": {
-        "title": "5 Benefits of DEBOOK MAGICKEYS",
+        "title": "6 Benefits of DEBOOK MAGICKEYS",
         "subtitle": "As DEBOOK grows, your MAGICKEY benefits grow with it. We will make it the most useful collection in the world.",
         "rows": {
           "title1": "Potential utility: access to every debook, updates, presales & surprises",
@@ -39,11 +39,14 @@
           "sub-title3": "Be part of a changemakers group of people supporting each other and sharing their vision and insights to support DEBOOK to become what we all envision!",
           "title4": "Interview DEBOOK founder for your community",
           "sub-title4": "This is your chance to secure a conference or an interview with DEBOOK fonuder for your show. New or stablished podcats and events!",
-          "title5": "One raffle entry for 5 accesses  to the unicorn mansion",
-          "sub-title5": "After every sell out of the three phases we are announcing a new edition of The Unicorn Mansion. One MK, one participation."
+          "title5": "Access to “Soldout Fest”",
+          "sub-title5": "Once all 3333 MAGICKEYS are sold out, we'll be announcing a huge one-day event exclusively for owners. Get ready for an unforgettable experience.",
+          "title6": "One raffle entry for 5 accesses  to the unicorn mansion",
+          "sub-title6": "After every sell out of the three phases we are announcing a new edition of The Unicorn Mansion. One MK, one participation."
+          
         }
       },
-      "image-text": "MAGICKEYS guarantee you immediate access to the product"
+      "image-text": "We are grateful for your trust so even if you resell your MAGICKEY you’ll keep the benefits forever"
     },
     "is-for-you-if": {
       "title": "MAGICKEYS are not just a tool but a symbol of innovation and they are for you if...",
@@ -212,6 +215,10 @@
         "bottom": ""
       }
     },
+    "qa-mondays":{
+      "date": "Weekly",
+      "p": "Ernest will be LIVE on his Linkedin to answer all of your questions!"
+    },
     "sales-process": {
       "title": "Sales Process",
       "subtitle": "DEBOOK is here to stay forever. We favor a gradual sellout aligned with our steady growth and six-stage valuation strategy. ",
@@ -263,6 +270,10 @@
           "text": "Super exclusive group made of unicorns, included the founder."
         }
       }
+    },
+    "creatingMagicalStories":{
+      "title":"CREATING  MAGICAL STORIES",
+      "text":" 5.55% from the funds generated will be donated to create magical stories for people in need. Follow the stories on:"
     },
     "faqs": {
       "title": "FREQUENTLY ASKED QUESTIONS",
@@ -334,6 +345,21 @@
       },
       "button": "Send it to my email",
       "buttonCancel": "Cancel"
+    },
+
+    "confirm":{
+      "text":{
+        "top":"Refresh your inbox in 5 minutes, your email might be there soon.",
+        "bottom":"In the meantime, keep exploring the 3333 MAGICKEYS to unlock the next book thing!"
+      },
+      "button":"Okay, Let's make history!"
+    },
+    "menu":{
+      "item1":"What is DEBOOK",
+      "item2":"Magickeys Benefits",
+      "item3":"Magickeys Prices",
+      "item4":"Dream team",
+      "item5":"Challenge Map"
     }
   }
 }

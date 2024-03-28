@@ -28,7 +28,7 @@
       "subtitle": "Descúbre nuestro modelo de negocio y PORQUÉ, DÓNDE, CÓMO, QUÉ y CON QUIÉN",
       "pitchdeck": "Ir al Pitchdeck",
       "The-privileges": {
-        "title": "5 Beneficios de las DEBOOK MAGICKEYS",
+        "title": "6 Beneficios de las DEBOOK MAGICKEYS",
         "subtitle": "A medida que DEBOOK crece, los beneficios de tu MAGICKEY crecen sin límites.",
         "rows": {
           "title1": "Utilidad potencial: acceso a todos los debooks, updates, preventas y sorpresas",
@@ -39,11 +39,13 @@
           "sub-title3": "Forma parte un grupo de personas de disruptores que se apoyan y comparten su visión y conocimientos para ayudar a DEBOOK a ser una revolución mundial!",
           "title4": "Entrevista al fundador de DEBOOK para tu comunidad",
           "sub-title4": "Esta es tu oportunidad para conseguir una conferencia o entrevista con el fundador de DEBOOK. ¡Abierto a podcats y eventos nuevos y establecidos!",
-          "title5": "Un acceso al sorteo de 5 tickets para La Mansión Unicornio",
-          "sub-title5": "Después de que se agoten las MAGICKEYS en cada una de las tres fases, anunciaremos una nueva edición de La Mansión Unicornio. Una MAGICKEY, una participación."
+          "title5": "Acceso al “Festival Soldout”",
+          "sub-title5": "Una vez que se agoten las 3333 MAGICKEYS, anunciaremos un gran evento de un día exclusivo para propietarios. Prepárate para una experiencia inolvidable.",
+          "title6": "Un acceso al sorteo de 5 tickets para La Mansión Unicornio",
+          "sub-title6": "Después de que se agoten las MAGICKEYS en cada una de las tres fases, anunciaremos una nueva edición de La Mansión Unicornio. Una MAGICKEY, una participación."
         }
       },
-      "image-text": "Las MAGICKEYS te garantizan acceso inmediato al producto"
+      "image-text": "Agradecemos mucho tu confianza, y por eso, aunque revendas tu MAGICKEY mantendrás los beneficios para siempre"
     },
     "is-for-you-if": {
       "title": "Las MAGICKEYS no son solo una herramienta, son un símbolo de innovación y son para ti si...",
@@ -212,6 +214,10 @@
         "bottom": ""
       }
     },
+    "qa-mondays":{
+      "date": "Semanal",
+      "p": "Ernest estará LIVE en su Linkedin para responder tus preguntas!"
+    },
     "sales-process": {
       "title": "Proceso de venta",
       "subtitle": "DEBOOK ha llegado para quedarse para siempre",
@@ -263,6 +269,10 @@
           "text": "Grupo super exclusivo compuesto por unicornios, incluido el founder."
         }
       }
+    },
+    "creatingMagicalStories":{
+      "title":"CREANDO HISTORIAS MAGICAS",
+      "text":"El 5,55% de los fondos generados se donará para crear historias mágicas con personas que lo necesiten.Sigue las historias en:"
     },
     "faqs": {
       "title": "PREGUNTAS MÁS FRECUENTES",
@@ -334,6 +344,21 @@
       },
       "button": "Envíalo a mi correo",
       "buttonCancel": "Cancelar"
+    },
+
+    "confirm": {
+      "text":{
+        "top":"Actualiza tu correo en 5 minutos, ¡recibirás el mail pronto!",
+        "bottom":"Mientras tanto, sigue explorando las 3333 MAGICKEYS para desbloquear el futuro de los libros"
+      },
+      "button":"Hecho, ¡hagamos historia!"
+    },
+    "menu":{
+      "item1":"Qué es DEBOOK",
+      "item2":"Beneficios de las MAGICKEYS",
+      "item3":"Precio de las MAGICKEYS",
+      "item4":"Dream team",
+      "item5":"Challenge Map"
     }
   }
 }
