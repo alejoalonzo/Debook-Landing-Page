@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { QAMondaysComponent } from '../qa-mondays/qa-mondays.component';
 
 @Component({
   selector: 'app-building-debook-in-public',
   standalone: true,
-  imports: [TranslateModule],
+  imports: [TranslateModule, QAMondaysComponent],
   templateUrl: './building-debook-in-public.component.html',
   styleUrl: './building-debook-in-public.component.scss',
 })

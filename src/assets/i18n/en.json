@@ -213,7 +213,12 @@
         "top": "Ernest is sharing every Tuesday a real time docu-series of the journey with the mission to be the most transparent founder of all times since day one!",
         "mid": "",
         "bottom": ""
+      },
+      "WEEKLY-Q&A-LIVE":{
+        "top":"Also, Ernest is doing a ",
+        "bottom":" to answer all of your questions on Linkedin!"
       }
+
     },
     "qa-mondays":{
       "date": "Weekly",

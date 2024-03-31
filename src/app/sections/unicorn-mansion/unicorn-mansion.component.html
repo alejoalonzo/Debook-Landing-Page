@@ -7,11 +7,11 @@
       {{ "sections.unicorn-mansion.title" | translate }}
     </div>
     <div class="unicorn-mansion-title-button">
-      <p-button class="button-black" (click)="navigateToLink()">
+      <!-- <p-button class="button-black" (click)="navigateToLink()">
         <ng-template pTemplate="label">
           {{ "sections.unicorn-mansion.button" | translate }}
         </ng-template>
-      </p-button>
+      </p-button> -->
     </div>
   </div>
 
@@ -100,4 +100,10 @@
   <div class="unicorn-mansion-carrousel">
     <app-carrousel-mansion></app-carrousel-mansion>
   </div>
+
+  <p-button class="button-black" (click)="navigateToLink()">
+    <ng-template pTemplate="label">
+      {{ "sections.unicorn-mansion.button" | translate }}
+    </ng-template>
+  </p-button>
 </div>
