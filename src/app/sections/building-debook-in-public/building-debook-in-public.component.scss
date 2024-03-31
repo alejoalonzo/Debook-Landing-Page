@@ -2,70 +2,102 @@
 
 .buildingDebookInPublic-container {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   width: 881px;
-  height: 207px;
+  height: auto;
   padding: 40px 32px;
   border-radius: 30px;
   background: radial-gradient(circle, #fdf3f3, #fdfdfd);
   margin: auto;
   margin-bottom: 50px;
 
-  .buildingDebookInPublic-text {
+  .buildingDebookInPublic-textAndVideos{
     display: flex;
-    flex-direction: column;
-    text-align: start;
-    &-iconVideo {
-      display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .buildingDebookInPublic-textAndVideos-text {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      &-iconVideo {
+        display: none;
+      }
+  
+      &-title {
+        font-family: $font-sora;
+        font-size: 29px;
+        font-weight: 700;
+        letter-spacing: -0.87px;
+        color: $black;
+        width: 380px;
+        margin: 10px 0;
+      }
+      &-titlehide {
+        display: none;
+      }
+      &-subtitle {
+        color: #9A9A9A;
+        font-family: $font-inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: -0.48px;
+      }
+      &-subtitlehide {
+        display: none;
+      }
     }
-
-    &-title {
-      font-family: $font-sora;
-      font-size: 29px;
-      font-weight: 700;
-      letter-spacing: -0.87px;
-      color: $black;
-      width: 380px;
-      margin: 10px 0;
-    }
-    &-titlehide {
-      display: none;
-    }
-    &-subtitle {
-      color: $black;
-      font-family: $font-inter;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 22px;
-      letter-spacing: -0.48px;
-    }
-    &-subtitlehide {
-      display: none;
-    }
-  }
-
-  .buildingDebookInPublic-videos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 313px;
-    height: 156px;
-    border-radius: 16px;
-    background-color: white;
-    img {
-      width: 100%;
-      height: auto;
+    .buildingDebookInPublic-textAndVideos-videos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 313px;
+      height: 156px;
       border-radius: 16px;
+      background-color: white;
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+      }
     }
   }
+
+  .buildingDebookInPublic-textBottom{
+    margin: auto;
+    margin-top: 50px;
+    font-family: $font-sora;
+    width: fit-content;
+    font-size: 1.15em;
+    font-weight: 500;
+    line-height: 22px; 
+    letter-spacing: -0.54px;
+    background: linear-gradient(90deg, #F44 0.33%, #000 104%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    .bold{
+      background: linear-gradient(90deg, #000 0.33%, #000 104%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: -0.54px;
+    }
+  }
+
 
   .buildingDebookInPublic-links {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 110px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 
     &-button {
       cursor: pointer;
@@ -74,6 +106,10 @@
     }
     &-icon {
       margin: auto;
+      align-items: center;
+    }
+    .Linkedin{
+      margin-top: 8px;
     }
   }
 }
@@ -90,57 +126,76 @@
     background: white;
     border: 1px solid #ffe9e9;
 
-    .buildingDebookInPublic-text {
-      &-iconVideo {
-        display: flex;
-        margin: auto;
-        width: 70px;
-        height: auto;
-        margin-bottom: 30px;
+    .buildingDebookInPublic-textAndVideos{
+
+      display: flex;
+      flex-direction: column;
+
+      .buildingDebookInPublic-textAndVideos-text {
+        &-iconVideo {
+          display: flex;
+          margin: auto;
+          width: 70px;
+          height: auto;
+          margin-bottom: 30px;
+        }
+  
+        &-title {
+          display: none;
+        }
+        &-titlehide {
+          display: flex;
+          text-align: center;
+          font-family: $font-sora;
+          margin: auto;
+          font-size: 3.5em;
+          font-weight: 700;
+          line-height: 55px;
+          letter-spacing: -1.05px;
+          background: linear-gradient(
+            90deg,
+            #000 43.75%,
+            rgba(191, 191, 191, 0.92) 86.86%
+          );
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        &-subtitle {
+          display: none;
+        }
+        &-subtitlehide {
+          display: flex;
+          text-align: center;
+          color: $black;
+          font-family: $font-inter;
+          font-weight: 500;
+          line-height: 28px;
+          letter-spacing: -0.54px;
+          margin: auto;
+          margin-top: 20px;
+          font-size: 1.1em;
+        }
+      }
+  
+      .buildingDebookInPublic-textAndVideos-videos {
+        width: 100%;
+        margin-top: 25px;
+        height: 100%;
       }
 
-      &-title {
-        display: none;
-      }
-      &-titlehide {
-        display: flex;
-        text-align: center;
-        font-family: $font-sora;
-        margin: auto;
-        font-size: 3.5em;
-        font-weight: 700;
-        line-height: 55px;
-        letter-spacing: -1.05px;
-        background: linear-gradient(
-          90deg,
-          #000 43.75%,
-          rgba(191, 191, 191, 0.92) 86.86%
-        );
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-      &-subtitle {
-        display: none;
-      }
-      &-subtitlehide {
-        display: flex;
-        text-align: center;
-        color: $black;
-        font-family: $font-inter;
-        font-weight: 500;
-        line-height: 28px;
-        letter-spacing: -0.54px;
-        margin: auto;
-        margin-top: 20px;
-        font-size: 1.1em;
-      }
     }
 
-    .buildingDebookInPublic-videos {
-      width: 100%;
-      margin-top: 25px;
-      height: 100%;
+
+    .buildingDebookInPublic-textBottom{
+      margin: auto;
+      margin-top: 50px;
+      text-align: center;
+      font-size: 1.5em;
+      line-height: 1.2em;
+      .bold{
+        font-size: 1em;
+      }
     }
 
     .buildingDebookInPublic-links {
