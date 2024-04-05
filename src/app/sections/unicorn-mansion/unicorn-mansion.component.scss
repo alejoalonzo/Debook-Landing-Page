@@ -97,6 +97,11 @@
   .unicorn-mansion-carrousel {
     display: none;
   }
+
+  p-button{
+    margin: auto;
+    margin-top: 100px;
+  }
 }
 
 // mobile------------------------------------------------------------
@@ -127,8 +132,14 @@
       display: block;
       width: 90%;
       margin: auto;
-      margin-top: 70px;
-      margin-bottom: 70px;
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+
+    p-button{
+      margin: auto;
+      margin-top: 0px;
+      margin-bottom: 100px;
     }
   }
 }
